@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<intro>
+    <text key="Hint" text="小心敌方的载具，他们通常很强大。"/>
+    <text key="Hint" text="敌军雷达塔会干扰方圆100米以内的我方无线电信号"/> 
+    <text key="Hint" text="建筑物的耐久度很高，最好用TNT来破坏"/>
+    <text key="Hint" text="如果你有足够的资源点（RP），记得呼叫支援！"/>
+    <text key="Hint" text="当背包太重了会影响准度，此时购买精神支柱吧！"/> 
+    <text key="Hint" text="掩体是你最好的伙伴，时刻要注意寻找掩体"/>
+    <text key="Hint" text="飞扑躲开手榴弹可以救你一命"/>
+    <text key="Hint" text="比起射杀敌人，用匕首刺死敌人可以得到更多经验"/> 
+    <text key="Hint" text="偷袭敌军基地是一个打破僵局的好方法"/>
+    <text key="Hint" text="从侧面攻打敌军基地是一个打破僵局的好方法"/>  
+    <text key="Hint" text="要占领基地，需要处于地图上标识的虚线区域内"/>
+    <text key="Hint" text="占领基地需要在当前区域有三分之二的我方部队人数才会开始倒计时"/> 
+    <text key="Hint" text="当火力不够的时候，选择重武器吧！"/> 
+    <text key="Hint" text="汽水瓶的作用半径很大但不会致死"/>
+    <text key="Hint" text="虽然载具强大，但是破坏载具可以获得高额奖励"/>
+    <text key="Hint" text="想使用其他阵营的武器？空投一个补给车吧！"/>
+    <text key="Hint" text="心情不好的时候，就开着载具兜兜风吧~"/> 
+    <text key="Hint" text="如果玩得不开心，不妨加入QQ群747797095"/> 
+    <text key="Hint" text="正面突破还是潜入？请灵活选择方式攻占据点吧！"/> 
+    <text key="Hint" text="点射可以减小子弹散布？不，火力全开！"/> 
+    <text key="Hint" text="报告敌方车辆（指针移至车辆上）是一种获得RP的简单方法"/> 
+    <text key="Hint" text="去军械库卖掉战利品会不枉此行"/> 
+    <text key="Hint" text="请打开背景音乐与加载音乐鉴赏MOD"/> 
+    <text key="Hint" text="海军迷彩能让你很难被AI发现"/> 
+    <text key="Hint" text="一些重型武器会降低你的移动速度"/>
+    <text key="Hint" text="尽管指挥官下了攻击命令，你还是可以做你自己想做的事，因为你是一只NEKO~"/> 
+    <text key="Hint" text="只有穿着防弹背心倒地的士兵才可以用医疗包救活"/>
+    <text key="Hint" text="如果你受伤了又得不到救助，你可以按住近战键来强制自杀"/>  
+	<text key="Hint" text="打不过摆烂是被允许的，但是挂机是不被允许的----AmeMliky"/>	
+</intro>

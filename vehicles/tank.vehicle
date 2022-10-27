@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="vehicle_base.vehicle" name="Toy tanks" key="tank.vehicle" respawn_time="100" time_to_live_unsteerable="95" map_view_atlas_index="5" minimum_fill_requirement="1.0" max_character_collision_speed_on_normal="8.0">
+	<tag name="metal_heavy" />
+	<tag name="tank" />
+	<tag name="heavy_combat" />
+	<tag name="any_tank" />
+   
+	<tire_set offset="1.8 0.0 +3" radius="0.52" />
+	<tire_set offset="1.8 0.0 -3" radius="0.52" />
+
+	<control 
+	max_speed="15.0" 
+	acceleration="12.0" 
+	max_reverse_speed="12.0" 
+	min_health_to_steer="3.5" 
+	max_rotation="0.0" 
+	max_water_depth="3" 
+	steer_smoothening="0.98" 
+	tracked="1" 
+	gears="1" 
+	max_limiter_speed="6.0"/>
+
+	<physics 
+	max_health="38.0" 
+	blast_damage_threshold="0.35" 
+	TODO_blast_damage_threshold="0.23" 
+	mass="200.0" 
+	broken_mass="10"
+    remove_collision_threshold="0.2"	
+	extent="5 0.0 7" 
+	offset="0 0.0 0" 
+	top_offset="0 3.0 0" 
+	collision_model_pos="0 1.2 0" 
+	collision_model_extent="4.0 3.0 8.0" 
+	visual_offset="0 0.6 0.0" /> 
+
+	
+	
+	<modifier class="blast_range" value="-0.5" />
+	<!-- one weapon per turret so that only one soldier controls the turret orientation -->
+	<!-- similarly, a controllable turret can only exist if it has a weapon -->
+	<!-- turrets may have sub-turrets, which may have more weapons, in the future -->
+	<turret offset="0 3.7 0.0" weapon_key="tank_cannon.weapon" weapon_offset="0.0 -1.1 3.8" weapon_recoil="0.2" max_rotation_step="0.00015" />
+	<turret offset="0 3.1 0.0" weapon_key="tank_mg.weapon" weapon_offset="0.0 +0.2 1.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00035" />
+
+	<visual class="chassis" mesh_filename="tank_body.mesh" texture_filename="tank.png" max_tilt="0.06" />
+	<visual class="chassis" key="broken" mesh_filename="tank_broken.mesh" texture_filename="tank_broken.png" />
+	<visual class="turret" key="broken" mesh_filename="tank_turret_broken.mesh" texture_filename="tank_broken.png" />  
+	<visual class="turret" turret_index="0" mesh_filename="tank_turret.mesh" texture_filename="tank.png" />
+	<visual class="turret" turret_index="1" mesh_filename="tank_mg.mesh" texture_filename="tank.png" />
+
+	<visual class="track" mesh_filename="tank_track.mesh" offset="-1.6 0.5 0.2" >
+		<part texture_filename="tank.png" />
+		<part texture_filename="tank_track.png" texture_animation="translate" tire_binding="0" />
+		<part texture_filename="tank_wheel.png" texture_animation="rotate" tire_binding="0" />
+	</visual>
+
+	<visual class="track" mesh_filename="tank_track.mesh" offset="+1.6 0.5 0.2" >
+		<part texture_filename="tank.png" />
+		<part texture_filename="tank_track.png" texture_animation="translate" tire_binding="1" />
+		<part texture_filename="tank_wheel.png" texture_animation="rotate" tire_binding="1" />
+	</visual>
+
+	<character_slot type="driver" position="1.5 0.5 2" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-1.5 0.7 2" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+		<turret index="0" />
+	</character_slot>
+
+	<character_slot type="gunner" enter_position="0 0.5 -4.5" seat_position="0 1.8 0" rotation="0" exit_rotation="1.57" hiding="0" animation_key="tank mg still" marker_offset="0 1.0 0">
+		<turret index="1" />
+	</character_slot>
+
+	<!-- sound handling -->
+	<rev_sound filename="ambient_alert_daytime.wav" low_pitch="1.0" high_pitch="1.0" low_rev="0.0" high_rev="1.0"  pitch_variety="0.0" volume="0.7" />
+	
+
+	
+	<sound key="ignition" filename="blhx_yinqin.wav"  pitch_variety="0.0" volume="1.0" />
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
+	<sound key="cleanup" filename="vehicle_explosion_1.wav" />    
+
+	<sound key="turret_rotation" filename="turret_rotation1.wav" volume="0.8" />
+	<sound key="turret_rotation" filename="turret_rotation2.wav" volume="0.8"/>
+  
+	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
+	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
+  
+	<effect event_key="health" value="3.0" ref="SmallSmokeVehicle" offset="0.0 2.4 -3.3" />
+  <effect event_key="health" value="0.6" ref="SmallSmokeVehicle" offset="0.0 2.4 -3.3" />
+  <effect event_key="health" value="0.6" ref="BrokenSparkle" post_processing="0" offset="0.0 1.8 -3.3" />    
+  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 2.4 -3.1" />
+  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.8 2.5 -3.1" />  
+  <effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 3.2 0.5" />  
+  <effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.6 3.0 -0.2" />    
+  <effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 2.4 -3.1" />
+        <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
+        <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" />  
+   
+
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.1000" />
+	</event>
+
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="200.0" />
+	</event>
+
+	<event key="destroy_rp_reward">
+		<trigger class="destroy" />
+		<result class="reward" rp="800.0" />
+	</event>
+    
+	
+
+  
+  
+</vehicle>

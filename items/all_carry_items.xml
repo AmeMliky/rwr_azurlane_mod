@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	<carry_item file="blhx_pangci.carry_item" /> 
+    <carry_item file="cd.carry_item" /> 
+	<carry_item file="costume_underpants.carry_item"/>     
+	<!-- 可装备胖次-->
+	<!--carry_item file="lottery.carry_item" /彩票-->    
+	<carry_item file="god_vest.carry_item" />
+	<carry_item file="blhxmod.xml" />
+
+</carry_items>
+

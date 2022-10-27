@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	 
+	<!--  blhx 2022/3/23-->
+	
+	<model filename="metam_fjfz.xml">
+		<requirement class="weapon" slot="0" key="metaw_fjfz_ju_1.weapon"/>
+	</model>
+	
+	<model filename="meta_fl.xml">
+		<requirement class="weapon" slot="0" key="meta_hm_hz_1.weapon"/>
+	</model>
+	
+	
+	<model filename="metam_hailunna.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_hailunna.weapon"/>
+	</model>
+	
+	<model filename="metam_canglong.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_canglong.weapon"/>
+	</model>
+	
+	
+	
+</models>

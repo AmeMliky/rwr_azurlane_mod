@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="meta_call_1" key="meta_hd.call"
+	initiation_comment1="Request meta-hd rocket support"
+	initiation_comment2="Armor-piercing rocket X 8"
+	acknowledge_time="0.5"
+	acknowledge_comment="Copy, target in sight"
+	launch_comment="rockets out."
+    notify_metagame="1">
+
+	<round
+	instances="4"
+	instance_class="grenade"
+	instance_key="bf109.projectile" 
+	instance_spread="5 0 5" 
+	common_spread="0 0 0" 
+	launch_time="3.0"
+	spawn_time="5.0">
+	<sound class="launch" fileref="hd.wav"  pitch_variety="0.0" volume="1.0" />
+	
+	</round>
+
+	<round
+	instances="4"
+	instance_class="grenade"
+	instance_key="bf109.projectile" 
+	instance_spread="5 0 5" 
+	common_spread="0 0 0" 
+	launch_time="3.0"
+	spawn_time="5.0">
+
+	
+	</round>
+	
+	<hud_icon filename="call_hd.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.4" />
+	<inventory encumbrance="0.0" price="168.0" />
+	
+</call>

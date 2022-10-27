@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectiles>
+  <projectile file="blhxw_4_baozhu.projectile" />
+  <projectile file="blhxw_4_bzhayao.projectile" />
+  <projectile file="blhxw_4_tnt.projectile" />
+  <projectile file="blhxw_4_ywxk.projectile" />
+  <projectile file="blhxw_flare.projectile" />
+  
+  <projectile file="blhxw_4_ywxk_1.projectile" />
+  
+  <projectile file="blhxw_dq_mdt.projectile" />
+  <projectile file="blhxw_dq_zdt.projectile" />
+  <projectile file="blhxw_zjd.projectile" />
+  <!-- 2022/3/29-->
+  <projectile file="blhxw_hjt_1_z23.projectile" />
+  <projectile file="blhxw_bpd_1.projectile" />
+
+  <projectile file="duli_dt.projectile" />
+  <projectile file="dl_dym.projectile" />
+  
+  <projectile file="pjp_pt.projectile" />
+  <projectile file="pjp_pt_1.projectile" />
+  <projectile file="blhxw_hjt_2.projectile" />
+  <projectile file="bq.projectile" />
+  <projectile file="bq_1.projectile" />
+  <projectile file="610mm_yl.projectile" />
+  <projectile file="meta_hm_zdt.projectile" />
+  <projectile file="meta_hm_mdt.projectile" />
+  <projectile file="blhxw_longxidan.projectile" />
+  <projectile file="dujiaoshou_dt.projectile" />
+  <projectile file="cjmdt_1.projectile" />
+  <projectile file="cjmdt_2.projectile" />
+  <projectile file="bullet.projectile" />
+  <projectile file="rpg_dt_1.projectile" />
+  <projectile file="rpg_dt_2.projectile" />
+  <projectile file="blhxw_yl_dt.projectile" />
+  
+  <projectile file="metaw_fy_dt.projectile" />
+  <projectile file="metaw_boss_fushang_dt.projectile" />
+  <projectile file="meta_canglong_dt.projectile" />
+  <projectile file="u1206_dt.projectile" />
+  
+  <projectile file="qbu10_dbj10.projectile" />
+  <projectile file="qbu10_type_89_apeib.projectile" />
+  
+  <projectile file="sr_hm_0_mdt.projectile" />
+  <projectile file="sr_hm_0_zdt.projectile" />
+  
+  <projectile file="qzy_ty_hd_mdt.projectile" />
+  <projectile file="qzy_ty_hd_zdt.projectile" />
+  
+  <projectile file="sr_qingchuzhe_dt.projectile" />
+  
+  <!--call -->
+  <projectile file="bf109.projectile" />
+  <projectile file="zhenhai_hangdan.projectile" />
+  <projectile file="xiaojiajia_hd.projectile" />
+  <projectile file="xiaojiajia_hd1.projectile" />
+  <projectile file="xiaojiajia_jianpao.projectile" />
+  <projectile file="yingxianzuo_dt.projectile" />
+  <projectile file="jianpao_dt_2.projectile" />
+  <projectile file="jianpao_daji_1.projectile" />
+  <projectile file="jianpao_daji_1_1.projectile" />
+  <projectile file="mortar_shell.projectile" />
+  <projectile file="debri_destroy_big.projectile" />
+  
+  <projectile file="gunship_25mm.projectile" />
+  <projectile file="gunship_105mm.projectile" />
+  <projectile file="gunship_40mm.projectile" />
+  
+  <projectile file="kuailebang.projectile" />
+  <projectile file="tashkent_jz.projectile" />
+  <projectile file="tashkent_jz_1.projectile" />
+  
+  <projectile file="xiaojiajia_hd_mdt.projectile" />
+  <projectile file="xiaojiajia_hd_zdt.projectile" />
+  <projectile file="xiaojiajia_jianpao_1.projectile" />
+  
+  <!--2022.08.21 -->
+  <projectile file="Harbin.projectile" />
+  <projectile file="metaw_mengfeisi_dt.projectile" />
+  
+</projectiles>

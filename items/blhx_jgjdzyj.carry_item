@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Military grade electronic components" key="blhx_jgjdzyj.carry_item">
+ 
+    <inventory encumbrance="0.5" price="300.0" />
+	<hud_icon filename="blhx_jgjdzyj.png" />
+    <model filename="blhx_jgjdzyj.xml" />
+
+    <commonness value="1.0" in_stock="0" />
+</carry_item>

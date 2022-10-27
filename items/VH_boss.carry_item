@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="VH_boss.carry_item" 
+	name="vh" 
+	slot="1" 
+	transform_on_consume="VH_1"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	
+	<hud_icon filename="vh.png" />
+	
+	<commonness value="0.0" in_stock="1"  can_respawn_with="1"/>
+	
+    <inventory encumbrance="10" price="1280.0" />
+	
+    <capacity value="1" source="rank" source_value="0.0" />
+	
+    <modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" consumes_item="0" />
+	<model mesh_filename="VH.xml" />
+	
+	 </carry_item>	
+      	
+    <carry_item key="VH_1" 
+	name="vh_1" 
+	slot="1" 
+	transform_on_consume="VH_2"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="vh_1.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="VH.xml" />
+	</carry_item>
+	
+<carry_item key="VH_2" 
+	name="vh_2" 
+	slot="1" 
+	transform_on_consume="VH_3"
+	time_to_live_out_in_the_open="120.0"
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="vh_2.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="VH.xml" />	
+	</carry_item>
+
+	<carry_item key="VH_3" 
+	name="vh_3" 
+	slot="1" 
+	transform_on_consume="VH_4"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">
+    <hud_icon filename="vh_3.png" />	
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0" price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="VH.xml" />
+		
+	</carry_item>
+	
+	<carry_item key="VH_4" 
+	name="vh_4" 
+	slot="1" 
+	transform_on_consume="VH_5"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">
+	
+	<hud_icon filename="vh_4.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0" price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+	<modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />		
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="VH.xml" />
+	
+	</carry_item>
+      	
+    <carry_item key="VH_5" 
+	name="vh_5" 
+	slot="1" 
+	transform_on_consume="VH_6"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="vh_5.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="VH.xml" />
+	</carry_item>
+	
+    <carry_item key="VH_6" 
+	name="vh_6" 
+	slot="1" 
+	transform_on_consume="VH_7"
+	time_to_live_out_in_the_open="120.0"
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="vh_6.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+	<modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="stun"  />
+	<model mesh_filename="VH.xml" />
+	</carry_item>
+
+	<carry_item key="VH_7" 
+	name="vh_7" 
+	slot="1" 
+	transform_on_consume="VH_8"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">
+    <hud_icon filename="vh_7.png" />	
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0" price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+	<modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="VH.xml" />
+		
+	</carry_item>
+	
+	<carry_item key="VH_8" 
+	name="vh_8" 
+	slot="1" 
+	transform_on_consume="VH_9"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">
+    <hud_icon filename="vh_8.png" />	
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0" price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+	<modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="VH.xml" />
+		
+	</carry_item>
+	
+	<carry_item key="VH_9" 
+	name="vh_9" 
+	slot="1" 
+	transform_on_consume="VH_10"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">
+    <hud_icon filename="vh_9.png" />	
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0" price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="wound"  />
+	<model mesh_filename="VH.xml" />
+		
+	</carry_item>
+	<carry_item key="VH_10" 
+	name="vh_10" 
+	slot="1" 
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">
+    <hud_icon filename="vh_10.png" />	
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0" price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.08" />
+    <modifier class="hit_success_probability" value="-1.1" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+	<modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="death"  />
+	<model mesh_filename="VH.xml" />
+		
+	</carry_item>
+	
+</carry_items>

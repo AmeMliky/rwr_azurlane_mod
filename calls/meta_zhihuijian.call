@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="meta_call_5" key="meta_zhihuijian.call"
+	initiation_comment1="META Provide coordinate guidance"
+	initiation_comment2="META commanding ship  An all-missile launch"
+	acknowledge_comment="Roger, the main gun is charging"
+	acknowledge_time="3.0"
+	launch_comment="Barrage under way."
+        notify_metagame="1">
+    
+	<!-- for now just a clone of Heavy Naval -->
+	<!-- bombardment of 3 guns x2 barrels each -->
+
+	<round 
+	instances="8"
+	instance_class="grenade"
+	instance_key="jianpao_dt_2.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="3.1"
+	spawn_time="7.0">
+	<sound class="launch" fileref="naval_barrage_distant.wav" pitch_variety="0.0" volume="2.0" />   
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	<round 
+	instances="8"
+	instance_class="grenade"
+	instance_key="jianpao_dt_2.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="3.1"
+	spawn_time="7.0">
+	
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	<round 
+	instances="8"
+	instance_class="grenade"
+	instance_key="jianpao_dt_2.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="3.1"
+	spawn_time="7.0">
+	
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+	<round 
+	instances="6"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="5.0"
+	spawn_time="8.4">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="6"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="5.0"
+	spawn_time="8.4">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="6"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="5.0"
+	spawn_time="8.4">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+
+	<round 
+	instances="10"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1_1.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="8.5"
+	spawn_time="9.7">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="10"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1_1.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="8.5"
+	spawn_time="9.7">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="7"
+	instance_class="grenade"
+	instance_key="bf109.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="10"
+	spawn_time="11.5">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="7"
+	instance_class="grenade"
+	instance_key="bf109.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="10"
+	spawn_time="11.5">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="7"
+	instance_class="grenade"
+	instance_key="bf109.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="10"
+	spawn_time="11.5">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="7"
+	instance_class="grenade"
+	instance_key="bf109.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="10"
+	spawn_time="11.5">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	
+	<round 
+	instances="8"
+	instance_class="grenade"
+	instance_key="zhenhai_hangdan.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="12.0"
+	spawn_time="15.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="8"
+	instance_class="grenade"
+	instance_key="zhenhai_hangdan.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="12.0"
+	spawn_time="15.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="8"
+	instance_class="grenade"
+	instance_key="zhenhai_hangdan.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="12.0"
+	spawn_time="15.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<round 
+	instances="8"
+	instance_class="grenade"
+	instance_key="zhenhai_hangdan.projectile" 
+	instance_spread="20 20 20" 
+	common_spread="0 0 0" 
+	launch_time="12.0"
+	spawn_time="15.0">
+	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
+	</round>
+	
+	<hud_icon filename="meta_zhihuijian.png" />
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="10.0" />
+	<inventory encumbrance="0.0" price="6480.0" />
+	
+</call>

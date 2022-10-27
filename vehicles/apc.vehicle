@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="vehicle_base.vehicle" name="Toy APC" key="apc.vehicle" respawn_time="60" time_to_live_unsteerable="30" map_view_atlas_index="1" minimum_fill_requirement="0.25">
+	<tag name="metal_heavy" />
+	<tag name="apc" />
+
+	<tire_set offset="1.28 0.0 2.04" radius="0.65" />
+	<tire_set offset="1.28 0.0 0.0" radius="0.65" />
+	<tire_set offset="1.28 0.0 -2.04" radius="0.65" />
+
+	<control 
+	max_speed="20.0" 
+	acceleration="6.7" 
+	max_reverse_speed="6.0" 
+	min_health_to_steer="0.36" 
+	max_rotation="0.85" 
+	max_water_depth="1.9" 
+	steer_smoothening="0.7" />
+
+	<physics 
+	max_health="15.2" 
+	blast_damage_threshold="0.00" 
+	TODO_blast_damage_threshold="1.02" 
+	mass="12.0" 
+	broken_mass="5"
+    remove_collision_threshold="0.2"
+	extent="3.0 0.0 5.0" 
+	offset="0 0.0 0" 
+	top_offset="0 7 0" 
+	collision_model_pos="0 0.8 0" 
+	collision_model_extent="3.2 2.4 7.6" 
+	visual_offset="0 0.25 0" 
+	friction_offset="0.0" 
+	drag_offset="-0.05" /> 
+
+	<turret offset="0 2.4 0.67" weapon_key="apc_hmg.weapon" weapon_offset="0 0.1 1.9" weapon_recoil="0.1" max_rotation_step="0.0003" />
+
+	<visual class="chassis" mesh_filename="apc_body.mesh" texture_filename="apc.png" />
+	<visual class="chassis" key="broken" mesh_filename="apc_body_broken.mesh" texture_filename="apc_broken.png" />
+	<visual class="tire" mesh_filename="apc_wheel.mesh" texture_filename="apc_wheel.png" />
+	<visual class="turret" mesh_filename="apc_turret.mesh" texture_filename="apc.png" />
+	<visual class="turret" key="broken" mesh_filename="apc_turret_broken.mesh" texture_filename="apc_broken.png" />
+
+	<character_slot type="driver" position="0.7 0.3 1.0" rotation="0" exit_rotation="1.57" hiding="1" />
+	<character_slot type="gunner" position="-0.7 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" />
+
+	<character_slot type="passenger" position="-0.7 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="-0.5 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="-0.2 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="0.2 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="0.5 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="0.7 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
+
+	<!-- sound handling -->
+	<rev_sound filename="truck_rev0.wav" low_pitch="0.95" high_pitch="1.05" low_rev="0.0" high_rev="0.2" volume="1.0" />
+	<rev_sound filename="truck_rev3.wav" low_pitch="0.7" high_pitch="1.0" low_rev="0.05" high_rev="0.7" volume="1.0" />
+	<rev_sound filename="truck_rev4.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.4" high_rev="1.0" volume="1.0" />
+
+	<sound key="slide" filename="slide_noise.wav" />
+	<sound key="squeal" filename="tire_squeal.wav" />
+	<sound key="ignition" filename="truck_ignition.wav" />
+	<sound key="turret_rotation" filename="turret_rotation1.wav" />
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />  
+	<sound key="cleanup" filename="vehicle_explosion_1.wav" />
+
+	<effect event_key="slide" type="splat_map" surface_tag="road" size="1.0" atlas_index="5" layer="0" />
+	<effect event_key="slide_hard" type="splat_map" surface_tag="road" size="0.5" atlas_index="2" layer="0" />
+	<effect event_key="slide" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
+	<effect event_key="slide" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
+  
+	<effect event_key="health" value="1.8" ref="SmallSmokeVehicle" offset="-0.0 2.3 -2.7" />
+  <effect event_key="health" value="0.36" ref="SmallSmokeVehicle" offset="-0.0 2.3 -2.7" />
+  <effect event_key="health" value="0.36" ref="BrokenSparkle" post_processing="0" offset="-0.0 1.8 -2.7" />
+  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.0 3.2 0.5" />
+  <effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.0 2.3 -2.7" />  
+  <effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 3.0 0.5" />
+        <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
+        <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" /> 
+  
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0900" />
+	</event>
+  
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="200.0" />
+	</event>
+
+	<event key="destroy_rp_reward">
+		<trigger class="destroy" />
+		<result class="reward" rp="600.0" />
+	</event>
+  
+	
+</vehicle>

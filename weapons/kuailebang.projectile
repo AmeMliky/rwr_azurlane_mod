@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="air strike rocket" slot="2" key="kuailebang.projectile" >
+	
+	<sound class="result" key="other" fileref="light_gun_01.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_02.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_03.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_04.wav" volume="2.45" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+
+	<!-- Rockets are inaccurate, and can never destroy a full health pillbox in one barrage. However they arrive VERY quicky.-->
+	<!-- They are more effective for destroying moving vehicles, though one barrage will not be enough to take down a tank.-->
+	
+	 <trigger class="time" time_to_live="0.01"/>
+	<result
+	class="blast"
+	radius="10.0"
+	damage="20.0"
+	push="1.0"
+	decal="1" 
+	/>
+	
+	<model mesh_filename="" />
+	<commonness value="0.0" />
+	
+	<rotation class="motion" />
+	
+	<effect class="result" key="terrain" ref="ArtilleryBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtilleryBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtilleryBurstUp" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmokeUp" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmokeTop" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmoke" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtilleryGodray" lighting="0" />
+	<effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="1" />         <!-- was 6 14 16 -->
+	<effect class="result" type="splat_map" surface_tag="" size="9.0" atlas_index="4" layer="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="10.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+	<effect class="result" key="other" ref="ArtilleryBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="ArtilleryBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="ArtilleryBurstUp" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmokeUp" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmokeTop" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmoke" post_processing="1" />
+	<effect class="result" key="other" ref="ArtilleryGodray" lighting="0" />
+	<effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	
+	<effect class="activated" ref="Propulsion" />
+	<effect class="activated" ref="RocketFlameLong" />
+	
+</projectile>

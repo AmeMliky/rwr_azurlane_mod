@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	
+	<!--  blhx 2022/3/23-->
+	
+	
+	
+	<model filename="blhxm_df.xml">
+	<requirement class="weapon" slot="0" key="blhxw_zjd_df_1.weapon"/>
+	</model>
+	
+	
+	
+	
+	
+	<model filename="bq_l.xml">
+	<requirement class="weapon" slot="0" key="blhxw_javelin.weapon"/>
+	</model>
+	
+	<model filename="blhxm_z23.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_1_z23.weapon"/>
+	</model>
+	<model filename="blhxm_z23.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_1_z23_1.weapon"/>
+	</model>
+	
+	
+	<model filename="blhxm_Ayanami.xml">
+	<requirement class="weapon" slot="0" key="blhxw_zjd_lb_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_lafei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_2.weapon"/>
+	</model>
+	<model filename="blhxm_lafei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_2_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_mingsike.xml">
+	<requirement class="weapon" slot="0" key="blhxw_mg_4.weapon"/>
+	</model>
+	<model filename="blhxm_mingsike.xml">
+	<requirement class="weapon" slot="0" key="blhxw_mg_4_1.weapon"/>
+	</model>
+	
+
+	
+	<model filename="blhxm_djs_xc.xml">
+	<requirement class="weapon" slot="0" key="blhxw_pz_4_bzd.weapon"/>
+	</model>
+	
+	
+	<model filename="blhxm_baerdimo.xml">
+	<requirement class="weapon" slot="0" key="blhxw_ar_3.weapon"/>
+	</model>
+	
+	
+	
+</models>

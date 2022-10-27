@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="burning_piece_water_tower3.visual_item">
+
+    <model mesh_filename="vehicle_debris27.mesh" texture_filename="water_tower_broken.png" />
+    
+    
+    <effect ref="BurningPieces" />
+</visual_item>

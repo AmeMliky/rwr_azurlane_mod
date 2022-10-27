@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="blhxm_u1206.xml">
+	<requirement class="weapon" slot="0" key="blhxw_ju_5.weapon"/>
+	</model>
+	
+	
+</models>

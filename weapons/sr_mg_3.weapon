@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_mg.weapon" key="sr_mg_3.weapon">
+    <tag name="mg" />
+    <specification 
+  retrigger_time="0.075" 
+  accuracy_factor="0.725" 
+  spread_range="0.175"
+  sustained_fire_grow_step="2.5" 
+  sustained_fire_diminish_rate="1.15" 
+  magazine_size="100" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="1" 
+  suppressed="0" 
+  name="Heavy cruiser production version" 
+  class="0" 
+  projectile_speed="150.0" />
+
+	<!-- Balanced in several ways:-->
+	<!-- Accuracy is low, recoil moderate -->
+	<!-- Movement speed is slow -->
+	<!-- Rate of Fire is moderately slow -->
+	<!-- Velocity is low -->
+	<!-- Despite all this, magazine capacity is large and damage is very high. -->
+
+
+ 	<animation state_key="recoil" animation_key="recoil, hip fire" />
+ 	<animation state_key="recoil" animation_key="recoil2, hip fire" />
+ 	<animation state_key="recoil" animation_key="recoil3, hip fire" />
+	<animation key="recoil" stance_key="over_wall" ref="12" />
+	<animation key="recoil" stance_key="over_wall" ref="13" />
+	<animation key="recoil" stance_key="over_wall" ref="14" />
+	<animation state_key="hold" animation_key="hold, lmg" />
+	<animation key="reload" ref="33" />
+	<animation key="hold_on_wall" ref="1" />
+	<animation state_key="walking" animation_key="walking, hip fire" />
+	<animation state_key="crouching" animation_key="crouch, hold, hip fire" />
+	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    
+    <sound key="fire" fileref="sr_mg1.wav" pitch_variety="0.05" volume="0.6" />
+     <sound key="magazine_out" fileref="mg_sr_re4.wav" />
+    <sound key="magazine_in" fileref="mg_sr_in4.wav" />
+    
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="srw_mg_3.xml" />
+
+    <hud_icon filename="cs.png" />
+    <commonness value="0.05" can_respawn_with="1" in_stock="1"/>
+    <inventory encumbrance="5.0" price="70.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="bullet_sr.projectile">
+        <result class="hit" kill_probability="2.1" kill_decay_start_time="0.37" kill_decay_end_time="0.73" />
+    </projectile>
+    <modifier class="speed" value="-0.08" />
+</weapon>

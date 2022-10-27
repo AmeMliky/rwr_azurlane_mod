@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="deployable_mg_tripod.visual_item">
+
+    <model mesh_filename="deployable_mg_tripod.mesh" texture_filename="deployable_mg.png" />
+
+</visual_item>

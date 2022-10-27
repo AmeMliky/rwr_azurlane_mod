@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ar.weapon" key="blhxw_ar_3.weapon">
+    <tag name="assault" />
+    <specification 
+  retrigger_time="0.1" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.3" 
+  sustained_fire_diminish_rate="1.40" 
+  magazine_size="100" 
+  can_shoot_standing="1"
+  can_shoot_crouching="1" 
+  suppressed="0" 
+  name="Baltimore" 
+  class="0" 
+  projectile_speed="100.0"
+  sight_range_modifier="1.2"
+  barrel_offset="0.4" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m16a4" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+
+    <sound key="fire" fileref="AR_fire_3.wav" pitch_variety="0.07" volume="0.35" />
+    <sound key="magazine_out" fileref="ar_re_2.wav" />
+    <sound key="cycle" fileref="baerdimo_jn.wav" pitch_variety="0.0" volume="0.8" />
+    <sound class="impact" fileref="rifle_drop.wav" />    
+    <model filename="blhxw_ar_3.xml" />
+
+    <hud_icon filename="AzurLane_baerdimo.png" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="10.0" />
+	
+    <capacity value="1" source="rank" source_value="0.0" />
+
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="1.85" kill_decay_start_time="0.40" kill_decay_end_time="0.65" />
+    </projectile>
+
+    <shield offset="-0.55 0.0 0" extent="0.2 1.6 1.0" usable_for_cover="0"/>
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+    
+	<modifier class="speed" value="0.12" />    
+</weapon>

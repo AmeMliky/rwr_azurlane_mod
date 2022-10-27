@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+ <!--blhx 2022/3/23-->
+  <weapon file="ylb_1.weapon" >
+      <commonness value="0.4" in_stock="1" />  
+	  <capacity source="rank" source_value="0.1" value="4" />
+	 
+  </weapon>
+ 
+	<weapon file="meta_hm_hz_1.weapon"/>
+	<weapon file="meta_zjd_fl.weapon"/>
+	<weapon file="wx.weapon"/>
+	
+	<weapon file="blhxw_smg_2_yl.weapon"/>
+	<weapon file="blhxw_smg_2_yl_1.weapon"/>
+	<weapon file="blhxw_smg_1.weapon"/>
+	
+	<weapon file="blhxw_ar_1.weapon"/>
+	<weapon file="blhxw_ar_1_xy.weapon"/>
+	<weapon file="blhxw_ar_2.weapon"/>
+	<weapon file="blhxw_ar_2_yl.weapon"/>
+
+	<weapon file="blhxw_mg_1_q.weapon"/>
+	<weapon file="blhxw_mg_2_z.weapon"/>
+	<weapon file="blhxw_mg_4.weapon"/>
+	<weapon file="blhxw_mg_4_1.weapon"/>
+	
+	<weapon file="blhxw_ju_1_z.weapon"/>
+	<weapon file="blhxw_ju_1_z_1.weapon"/>
+	<weapon file="blhxw_ju_2_bzd.weapon"/>
+	<weapon file="blhxw_ju_2_bzd_xy.weapon"/>
+	<weapon file="blhxw_ju_3_ls.weapon"/>
+	<weapon file="blhxw_ju_3_ls_xy.weapon"/>
+	
+	<weapon file="blhxw_dq_1.weapon"/>
+	<weapon file="blhxw_dq_1_1.weapon"/>
+	<weapon file="blhxw_zjd_df.weapon"/>
+	<weapon file="blhxw_javelin.weapon"/>
+	<weapon file="blhxw_javelin_1.weapon"/>
+	<weapon file="blhxw_zjd_df_1.weapon"/>
+	
+	<!-- 2022/3/29-->
+	<weapon file="blhxw_ar_3.weapon"/>
+	<weapon file="blhxw_hjt_1_z23.weapon"/>
+	<weapon file="blhxw_hjt_1_z23_1.weapon"/>
+	<weapon file="blhxw_hm_1_qh.weapon"/>
+	<weapon file="blhxw_hm_1_qh_1.weapon"/>
+	<weapon file="blhxw_mg_3.weapon"/>
+	<weapon file="blhxw_mg_3_1.weapon"/>
+	<weapon file="blhxw_pz_1.weapon"/>
+	<weapon file="blhxw_pz_2.weapon"/>
+	<weapon file="blhxw_pz_2_blast.weapon"/>
+	<weapon file="blhxw_pz_3.weapon"/>
+	<weapon file="blhxw_pz_3_1.weapon"/>
+	<weapon file="blhxw_pz_3_2.weapon"/>
+	<weapon file="blhxw_pz_4_bzd.weapon"/>
+	<weapon file="blhxw_pz_4_bzd_1.weapon"/>
+	
+	<weapon file="blhxw_pjp_1.weapon"/>
+	<weapon file="blhxw_pjp_1_1.weapon"/>
+	
+	<weapon file="blhxw_hjt_2.weapon"/>
+	<weapon file="blhxw_hjt_2_1.weapon"/>
+	<weapon file="blhxw_hjt_3.weapon"/>
+	<weapon file="blhxw_hjt_3_1.weapon"/>
+	<weapon file="blhxw_hjt_3_2.weapon"/>
+	
+	<!--2022-4-2 -->
+	<weapon file="blhxw_ju_4_sd.weapon"/>
+	<weapon file="blhxw_ju_4_sd_1.weapon"/>
+	<weapon file="blhxw_ju_9_sd.weapon"/>
+	<weapon file="blhxw_ju_9_sd_1.weapon"/>
+	<weapon file="blhxw_zjd_lb.weapon"/>
+	<weapon file="blhxw_zjd_lb_1.weapon"/>
+	<weapon file="blhxw_mg_cjm.weapon"/>
+	
+	<weapon file="blhxw_futejia.weapon"/>
+	<weapon file="blhxw_hg_sdyg.weapon"/>
+	<weapon file="blhxw_hg_sdyg_1.weapon"/>
+	<weapon file="blhxw_ar_sc.weapon"/>
+	<weapon file="blhxw_ar_sc_1.weapon"/>
+	
+	<weapon file="blhxw_pz_5.weapon"/>
+	<weapon file="blhxw_pz_5_1.weapon"/>
+	<weapon file="blhxw_ju_5.weapon"/>
+	<weapon file="blhxw_ju_5_1.weapon"/>
+	
+	<weapon file="blhxw_bs_zbl.weapon"/>
+	<weapon file="blhxw_bs_zbl_1.weapon"/>
+	
+	<weapon file="rpg_1.weapon"/>
+	<weapon file="rpg_2.weapon"/>
+	
+	<weapon file="qbu10_ap_Schwarz.weapon"/>
+	<weapon file="qbu10_he_Schwarz.weapon"/>
+	
+	<weapon file="qzy_ty_hd.weapon"/>
+	
+	<weapon file="tank_cannon.weapon"/>
+	<weapon file="tank_mg.weapon"/>
+	
+	<weapon file="tank_cannon_1.weapon"/>
+	<weapon file="tank_mg_1.weapon"/>
+	
+	<weapon file="tank_cannon_2.weapon"/>
+	<weapon file="tank_mg_2.weapon"/>
+	
+	<weapon file="apc_hmg_2.weapon"/>
+	<weapon file="apc_hmg_1.weapon"/>
+	<weapon file="apc_hmg.weapon"/>
+	<weapon file="vulcan_tank_mg.weapon"/>
+	
+	<weapon file="blhxw_kuailebang.weapon"/>
+	<!-- 记忆宝投稿工兵铲-->
+	<weapon file="shovel_1.weapon"/>
+	<weapon file="shovel_sandbag_1.weapon"/>
+	
+	<!--彩蛋武器 打火机 创意 MIKU -->
+	<weapon file="dahuoji.weapon"/>
+	<!-- 2022.08.21-->
+	<weapon file="blhxw_Harbin.weapon"/>
+	<weapon file="blhxw_Harbin_1.weapon"/>
+	<weapon file="blhxw_leipuqinwang.weapon"/>
+	
+</weapons>

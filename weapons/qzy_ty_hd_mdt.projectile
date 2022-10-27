@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="rocket" slot="1" pulldown_in_air="0.01" key="qzy_ty_hd_mdt.projectile">
+    <tag name="rocket"/>
+    <result class="spawn" instance_class="projectile" instance_key="qzy_ty_hd_zdt.projectile" min_amount="2" max_amount="2" offset="0 0.0 0" position_spread="0 0" direction_spread="0.0 0.0" />
+    <trigger class="time" time_to_live="2.0"/>
+    <rotation class="motion" />
+    <model mesh_filename="sr_mh_mdt.xml" />
+
+    <commonness value="0.0" />
+
+    <effect class="activated" ref="Propulsion" />
+
+</projectile>

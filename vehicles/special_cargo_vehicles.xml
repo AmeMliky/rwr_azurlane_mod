@@ -1,0 +1,8 @@
+<vehicles>
+	<!-- if you add something here, remember to add it in common.resources too! -->
+	<vehicle filename="special_cargo_vehicle_base.vehicle" key="special_cargo_vehicle1.vehicle" /> 
+	<vehicle filename="special_cargo_vehicle_base.vehicle" key="special_cargo_vehicle2.vehicle" /> 
+	<vehicle filename="special_cargo_vehicle_base.vehicle" key="special_cargo_vehicle3.vehicle" /> 
+	<vehicle filename="special_cargo_vehicle_base.vehicle" key="special_cargo_vehicle4.vehicle" /> 
+	<vehicle filename="special_cargo_vehicle_base.vehicle" key="special_cargo_vehicle5.vehicle" /> 
+</vehicles>

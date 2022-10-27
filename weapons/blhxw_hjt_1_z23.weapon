@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_hm.weapon" key="blhxw_hjt_1_z23.weapon">
+    <tag name="bazooka" />
+    <specification 
+        retrigger_time="3.0" 
+        accuracy_factor="1.0" 
+        sustained_fire_grow_step="0.4" 
+        sustained_fire_diminish_rate="1.5" 
+        magazine_size="3" 
+        can_shoot_standing="1" 
+        can_shoot_crouching="1" 
+        can_shoot_prone="0"
+        suppressed="0" 
+        name="z23 Destruction mode" 
+        class="4" 
+        sight_range_modifier="1.45" 
+        projectile_speed="100.0" 
+        slot="0" 
+        burst_shots="1" 
+        projectiles_per_shot="1" />
+	<next_in_chain key="blhxw_hjt_1_z23_1.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="40" />
+   
+    <animation state_key="reload" animation_key="reloading, pf98" />    
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
+
+    <animation state_key="walking" animation_key="walking, hip fire" />
+    <animation state_key="running" animation_key="walking, hip fire" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
+	
+
+    <sound key="fire" fileref="z23_fire.wav" volume="0.42"/>
+    <sound key="magazine_out" fileref="z23re.wav" volume="0.3" />
+    <sound key="magazine_in" fileref="z23re1.wav" volume="0.3"/>
+    
+    <sound key="cycle" fileref="Z23.wav" pitch_variety="0.00" volume="1.0"/>
+
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <hud_icon filename="AzurLane_Z23_g.png" />
+    <model filename="z23w.xml" />
+
+    <ballistics near_far_distance="1000.0" speed_estimation_near="75.0" speed_estimation_far="75.0" max_speed="75.0" randomness="0.0" tweak_factor="0.8"/>
+    <projectile file="blhxw_hjt_1_z23.projectile" />
+    <weak_hand_hold offset="0.3" />
+
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1"/>    
+    <inventory encumbrance="10.0" price="233.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+  
+
+    <modifier class="speed" value="0.08" />
+	
+
+
+</weapon>

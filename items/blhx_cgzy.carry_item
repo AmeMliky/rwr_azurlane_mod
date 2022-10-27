@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Conventional explosives" key="blhx_cgzy.carry_item">
+ 
+    <inventory encumbrance="0.5" price="150.0" />
+	<hud_icon filename="blhx_cgzy.png" />
+    <model filename="blhx_cgzy.xml" />
+
+    <commonness value="2.0" in_stock="0" />
+</carry_item>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Special steel" key="blhx_tzgc.carry_item">
+ 
+    <inventory encumbrance="0.5" price="450.0" />
+	<hud_icon filename="blhx_tzgc.png" />
+    <model filename="blhx_tzgc.xml" />
+
+    <commonness value="0.8" in_stock="0" />
+</carry_item>

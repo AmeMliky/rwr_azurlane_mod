@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="little amagi" key="npc_xiaotiancheng.carry_item">
+ 
+    <inventory encumbrance="-2.0" price="128.0" />
+	<hud_icon filename="xiaotiaocheng.png" />
+    <model filename="xiaotiancheng.xml" />
+
+    <commonness value="3.0" in_stock="1" />
+</carry_item>

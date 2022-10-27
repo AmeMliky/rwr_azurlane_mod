@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Torpedo development drawing UR type" key="blhx_ur_yl.carry_item">
+ 
+    <inventory encumbrance="0.5" price="6480.0" />
+	<hud_icon filename="blhx_ur_yl.png" />
+    <model filename="blhx_ur_yl.xml" />
+
+    <commonness value="0.3" in_stock="0" />
+</carry_item>

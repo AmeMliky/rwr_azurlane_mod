@@ -1,0 +1,31 @@
+material AcidCloudWW2 {
+        receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend add
+			fog_override true
+
+			texture_unit {
+				texture acid_cloud.png
+			}
+		}
+	}
+}
+
+material AcidWW2 {
+        receive_shadows off
+	technique {
+		pass {
+			lighting off
+			depth_write off
+			scene_blend alpha_blend
+			fog_override true
+
+			texture_unit {
+				texture acid.png
+			}
+		}
+	}
+}

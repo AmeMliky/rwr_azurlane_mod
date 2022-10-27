@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="infected_ripper_elite.carry_item" name="ripper elite" slot="1" transform_on_consume="infected_ripper_elite_2" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="1" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+		<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_2" name="ripper_elite_2" slot="1" transform_on_consume="infected_ripper_elite_3" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+		<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_3" name="ripper_elite_3" slot="1" transform_on_consume="infected_ripper_elite_4" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+		<modifier class="speed" value="0.0" />
+    </carry_item>
+	
+    <carry_item key="infected_ripper_elite_4" name="ripper_elite_4" slot="1" transform_on_consume="infected_ripper_elite_5" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_5" name="ripper_elite_5" slot="1" transform_on_consume="infected_ripper_elite_6" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_6" name="ripper_elite_6" slot="1" transform_on_consume="infected_ripper_elite_7" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_7" name="ripper_elite_7" slot="1" transform_on_consume="infected_ripper_elite_8" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_8" name="ripper_elite_8" slot="1" transform_on_consume="infected_ripper_elite_9" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_9" name="ripper_elite_9" slot="1" transform_on_consume="infected_ripper_elite_10" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_10" name="ripper_elite_10" slot="1" transform_on_consume="infected_ripper_elite_11" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_11" name="ripper_elite_11" slot="1" transform_on_consume="infected_ripper_elite_12" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_12" name="ripper_elite_12" slot="1" transform_on_consume="infected_ripper_elite_13" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_13" name="ripper_elite_13" slot="1" transform_on_consume="infected_ripper_elite_14" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_14" name="ripper_elite_14" slot="1" transform_on_consume="infected_ripper_elite_15" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_15" name="ripper_elite_15" slot="1" transform_on_consume="infected_ripper_elite_16" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_16" name="ripper_elite_16" slot="1" transform_on_consume="infected_ripper_elite_17" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_17" name="ripper_elite_17" slot="1" transform_on_consume="infected_ripper_elite_18" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_18" name="ripper_elite_18" slot="1" transform_on_consume="infected_ripper_elite_19" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_19" name="ripper_elite_19" slot="1" transform_on_consume="infected_ripper_elite_20" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_20" name="ripper_elite_20" slot="1" transform_on_consume="infected_ripper_elite_21" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_21" name="ripper_elite_21" slot="1" transform_on_consume="infected_ripper_elite_22" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_22" name="ripper_elite_22" slot="1" transform_on_consume="infected_ripper_elite_23" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_23" name="ripper_elite_23" slot="1" transform_on_consume="infected_ripper_elite_24" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_24" name="ripper_elite_24" slot="1" transform_on_consume="infected_ripper_elite_25" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_25" name="ripper_elite_25" slot="1" transform_on_consume="infected_ripper_elite_26" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_26" name="ripper_elite_26" slot="1" transform_on_consume="infected_ripper_elite_27" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_27" name="ripper_elite_27" slot="1" transform_on_consume="infected_ripper_elite_28" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_28" name="ripper_elite_28" slot="1" transform_on_consume="infected_ripper_elite_29" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_29" name="ripper_elite_29" slot="1" transform_on_consume="infected_ripper_elite_30" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_30" name="ripper_elite_30" slot="1" transform_on_consume="infected_ripper_elite_31" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_31" name="ripper_elite_31" slot="1" transform_on_consume="infected_ripper_elite_32" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_32" name="ripper_elite_32" slot="1" transform_on_consume="infected_ripper_elite_33" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_33" name="ripper_elite_33" slot="1" transform_on_consume="infected_ripper_elite_34" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_34" name="ripper_elite_34" slot="1" transform_on_consume="infected_ripper_elite_35" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_35" name="ripper_elite_35" slot="1" transform_on_consume="infected_ripper_elite_36" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_36" name="ripper_elite_36" slot="1" transform_on_consume="infected_ripper_elite_37" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_37" name="ripper_elite_37" slot="1" transform_on_consume="infected_ripper_elite_38" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_38" name="ripper_elite_38" slot="1" transform_on_consume="infected_ripper_elite_39" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_39" name="ripper_elite_39" slot="1" transform_on_consume="infected_ripper_elite_40" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.1" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_40" name="ripper_elite_40" slot="1" transform_on_consume="infected_ripper_elite_41" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_41" name="ripper_elite_41" slot="1" transform_on_consume="infected_ripper_elite_42" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+       <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="+0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_42" name="ripper_elite_42" slot="1" transform_on_consume="infected_ripper_elite_43" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+       <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="+0.0" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_43" name="ripper_elite_43" slot="1" transform_on_consume="infected_ripper_elite_44" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+	<modifier class="speed" value="-0.1" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_44" name="ripper_elite_44" slot="1" transform_on_consume="infected_ripper_elite_45" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+
+	<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="infected_ripper_elite_45" name="ripper_elite_45" slot="1" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<modifier class="speed" value="-0.2" />
+	<modifier class="hit_success_probability" value="-0.25" />
+    </carry_item>
+
+</carry_items>

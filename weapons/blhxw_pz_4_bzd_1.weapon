@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_hg.weapon" key="blhxw_pz_4_bzd_1.weapon">
+    <tag name="medic" />
+	
+    <specification
+	retrigger_time="2.50" 
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="0.0" 
+	sustained_fire_diminish_rate="1.0" 
+	spread_range = "0.0"
+	magazine_size="5"  
+	can_shoot_standing="0" 
+	can_shoot_crouching="1" 
+    can_shoot_prone="0"
+	suppressed="1" 
+	name="The unicorn Mother support empty" 
+	class="1" 
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1" 
+	slot="0" 
+	stab_enabled="0"
+	projectile_speed="0.01" 
+	projectiles_per_shot="1"
+	barrel_offset="0.0" />
+	
+	<next_in_chain key="blhxw_pz_4_bzd.weapon" share_ammo="0" />
+	
+
+	<animation state_key="recoil"			animation_key="m14 carry, save" />
+	<animation state_key="reload"			animation_key="reloading, m14 carry" />
+    <animation state_key="cycle" 		animation_key="m14 carry, cycle" />
+    <animation state_key="hold" 		animation_key="still, heavy weapon" />
+    <animation state_key="hold_on_wall" 	animation_key="still, heavy weapon" />
+    <animation state_key="hold_casual" 		animation_key="still, heavy weapon" />
+    <animation state_key="still_against_wall" 	animation_key="still, heavy weapon" />
+    <animation state_key="walking" 		animation_key="walking, heavy weapon" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+
+
+    <sound key="effect" fileref="unicorn_jn.wav" pitch_variety="0.00" volume="0.6" />    
+
+
+
+	<model filename="blhxw_djs_2.xml" />
+	<hud_icon filename="AzurLane_dujiaoshou_3.png" />
+	
+	<commonness value="0.0" can_respawn_with="1" in_stock="0"/>
+	 <inventory encumbrance="10.0" price="280.0" />
+
+	<projectile file="m14k_stim.projectile" />
+	
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+	<modifier class="speed" value="+0.18" />
+	
+</weapon>

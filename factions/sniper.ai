@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="sniper_base.ai">
+  <parameter class="accuracy_offset" value="0.0" /> 
+  <parameter class="leader_sight_range" value="60.0" />
+  <parameter class="force_as_leader" value="1" />
+
+  <parameter class="using_cover_min_time" value="2.0" />
+  <parameter class="using_cover_max_time" value="4.0" />
+  
+  <parameter class="shooting_accuracy_ratio_requirement" value="0.6" />  
+
+  <parameter class="squad_cover_provider_range" value="20.0" />
+  <parameter class="squad_cover_provider_offset_factor" value="-0.9" />
+</ai>

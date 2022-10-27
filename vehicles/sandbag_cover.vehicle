@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle name="" key="sandbag_cover_1.vehicle" map_view_atlas_index="-1" respawn_time="36000.0" time_to_live="150.0" >
+	<tag name="sandbag" />
+<!--	<tag name="target" />  we don't want the sandbags to be processed by fov anymore (1.76) -->
+	<tire_set offset="1.0 0.0 0.5" radius="0.65" />
+	<tire_set offset="1.0 0.0 -0.5" radius="0.65" />
+
+	<control max_speed="1" acceleration="1" max_reverse_speed="1.0" max_rotation="0.8" max_water_depth="1.9" />
+
+	<physics max_health="7.2" mass="1000.0" extent="3.0 0.0 1.2" offset="0 0.0 0" top_offset="0 2 0" collision_model_pos="0 0.2 0" collision_model_extent="3.0 2.0 1.2" visual_offset="0 -0.1 0" collision_response_factor="0.6" blast_push_threshold="1000.0" vehicle_collision_damage_factor="500.0"/> 
+
+	<visual class="chassis" mesh_filename="sandbag_cover.mesh" texture_filename="sandbag_cover.png" />
+
+	<sound key="hit" filename="barrier_impact1.wav" />
+	<sound key="hit" filename="barrier_impact2.wav" />
+
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0010" />
+	</event>
+
+	<effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
+	<effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
+  
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_barrier.visual_item" min_amount="3" max_amount="5" offset="0 1.0 0" position_spread="1.5 1.5" direction_spread="0.02 0.1" /> 
+  </event>
+    
+  
+</vehicle>

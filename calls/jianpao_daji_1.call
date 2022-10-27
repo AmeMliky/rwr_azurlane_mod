@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="call_5" key="jianpao_daji_1.call"
+	initiation_comment1="Request cruiser coverage"
+	initiation_comment2="203 mm high-explosive bombs X 8 X 5"
+	acknowledge_comment="Roger, wait three.az"
+	acknowledge_time="2.0"
+	launch_comment="Barrage under way."
+        notify_metagame="1">
+	
+	
+	<!-- First Volley-->
+	
+	
+	<round
+	instances="5"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="3.0"
+	spawn_time="6.0">
+	<sound class="launch" fileref="203_call.wav" pitch_variety="0.0" volume="1.0" /> 
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="3"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="3.0"
+	spawn_time="6.0">
+	
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="5"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="6.0"
+	spawn_time="8">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="3"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="6.0"
+	spawn_time="8">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	<round
+	instances="8"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="8"
+	spawn_time="10">
+	<sound class="spawn" fileref="shell_whistle_02.wav" volume="0.95" />
+	</round>
+	
+	
+	
+	<round
+	instances="5"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="10.5"
+	spawn_time="12.5">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="10.5"
+	spawn_time="12.5">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	
+	<round
+	instances="5"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="12.5"
+	spawn_time="14.5">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+    <round
+	instances="3"
+	instance_class="grenade"
+	instance_key="jianpao_daji_1_1.projectile" 
+	instance_spread="20 15 20" 
+	common_spread="1 0 1" 
+	launch_time="12.5"
+	spawn_time="14.5">
+	<sound class="spawn" fileref="shell_whistle_01.wav" volume="0.95" />
+	</round>
+	
+	
+	
+	
+	
+
+    <hud_icon filename="call_jianpao1.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+	 <capacity value="100" source="rank" source_value="1.0" />
+    <inventory encumbrance="0.0" price="1280.0" />
+
+</call>

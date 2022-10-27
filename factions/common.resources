@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_carry_items="1" clear_grenades="1" >
+	<!-- always load common first; it"s the one that clears the initial weapon resources -->
+
+ 
+  <vehicle key="armored_truck.vehicle" />
+  <vehicle key="radar_truck.vehicle" />
+  <vehicle key="radar_tank2.vehicle" />  
+  <vehicle key="rubber_boat.vehicle" />
+  
+	
+ 
+  <vehicle key="cargo_truck.vehicle" />
+
+  <vehicle key="tow.vehicle" />
+  <vehicle key="tow_2.vehicle" />  
+  <vehicle key="cover1.vehicle" />
+  <vehicle key="humvee.vehicle" />
+
+  <vehicle key="radar_tower.vehicle" />
+  
+  <vehicle key="patrol_ship.vehicle" />
+
+  
+
+  <vehicle key="deco_vehicles.xml" />
+
+  
+  <vehicle key="gas_tank.vehicle" />
+  <!--油罐 -->
+  <vehicle key="mobile_armory.vehicle" />
+<!-- 军械车-->
+
+  <vehicle key="prison_bus.vehicle" />
+  <!-- 囚车 -->
+  <vehicle key="prison_door.vehicle" />
+  <!-- 监狱门 -->
+  <vehicle key="prison_hatch.vehicle" />  
+<!-- 监狱天窗 -->
+
+  <vehicle key="para_spawn.vehicle" />
+<!-- 重生信标 -->
+  
+  <vehicle key="radio_jammer.vehicle" />  
+<!-- 干扰塔 -->
+  <vehicle key="aa_emplacement.vehicle" />  
+ <!--AA炮 --> 
+  <vehicle key="water_tower.vehicle" />  
+  <!--水塔 --> 
+  <vehicle key="mortar_ammunition_crates.vehicle" />  
+  <!--迫击炮弹箱子 --> 
+  
+ 
+  <vehicle key="special_cargo_vehicles.xml" />  
+   <!--运货汽车 --> 
+  <vehicle key="special_crates_wood.xml" />  
+   <!--特殊的木头箱子 --> 
+  <vehicle key="tractor.vehicle" />
+   <!--拖拉机 --> 
+  <vehicle key="flare_checkpoint.vehicle" /> 
+  
+  <vehicle key="heli_extraction_broken.vehicle" /> 
+  <vehicle key="heli_broken1.vehicle" />   
+  <vehicle key="heli_broken2.vehicle" />     
+ <!--直升机残骸 --> 
+ 
+  <vehicle key="heli_extraction.vehicle" /> 
+  
+  
+  <vehicle key="cargo_helicopter_broken.vehicle" />  
+  <vehicle key="cargo_helicopter.vehicle" /> 
+<!--运货直升机残骸 --> 
+
+ 
+  
+  <vehicle key="tank2.vehicle" /> 
+<!--黑猫tank --> 
+  
+<!--运货汽车--> 
+  <vehicle key="radio_jammer2.vehicle" />  
+  <!--干扰塔--> 
+  <vehicle key="vulcan_tank.vehicle" /> 
+   <!--火神tank--> 
+  <vehicle key="buggy.vehicle" />   
+ <!--沙滩车--> 
+  <vehicle key="jeep_ee.vehicle" /> 
+   <!--熊猫车--> 
+   
+  
+	<vehicle key="icecream.vehicle" />
+	<vehicle key="darkcat.vehicle"/>
+	
+	
+	
+	<projectile key="blhxw_4_baozhu.projectile" />
+	<projectile key="blhxw_4_bzhayao.projectile" />
+	<projectile key="blhxw_4_tnt.projectile" />
+	<projectile key="blhxw_4_ywxk.projectile" />
+	<projectile key="blhxw_flare.projectile" />
+	
+<!-- 全阵营通用航弹-->
+	<weapon key="qzy_ty_hd.weapon"/>
+	<weapon key="blhxw_bs_zbl.weapon"/>
+	<weapon key="blhxw_bs_zbl_1.weapon"/>
+	<call key="blhx_sb_1.call" />
+	<call key="yingxianzuo.call" />
+	<call key="qzyty_tank.call" />
+	<call key="qzyty_humvee.call" />
+	<call key="bujiche.call" />
+	
+	<weapon key="blhxw_kuailebang.weapon"/>
+	<weapon key="shovel_1.weapon"/>
+	<weapon key="shovel_sandbag_1.weapon"/>
+	
+</resources>

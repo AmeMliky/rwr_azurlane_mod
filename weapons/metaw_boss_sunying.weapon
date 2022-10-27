@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ar.weapon" key="metaw_boss_sunying.weapon">
+    <tag name="assault" />
+    <specification 
+  retrigger_time="0.1"
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.8" 
+  sustained_fire_diminish_rate="2.5" 
+  magazine_size="32"  
+  can_shoot_standing="1" 
+  suppressed="0" 
+  carry_in_two_hands="1"
+  name="meta Jun yo" 
+  sight_range_modifier="1.10" 
+  class="0" 
+  projectile_speed="100.0" 
+  barrel_offset="0.4" 
+  projectiles_per_shot="1"
+ />
+  
+  
+	<animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, g36" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="meta_ar1.wav" pitch_variety="0.06" volume="0.8" />
+    <sound key="magazine_out" fileref="meta_re2.wav" volume="0.6" />
+    
+    <sound key="cycle" fileref="pz_re.wav" volume="0.7" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="metaw_smg_8.xml" />
+   
+    <hud_icon filename="sunying.png" />
+	
+    <commonness value="0.8" can_respawn_with="1" in_stock="1"/>
+	
+    <inventory encumbrance="10.0" price="2.0" />
+	
+    <weak_hand_hold offset="0.0" />
+    <projectile file="metaw_fy_dt.projectile">  
+	<result class="hit"  kill_probability="1.85" kill_decay_start_time="0.4" kill_decay_end_time="0.65" />
+    </projectile>
+    <modifier class="speed" value="0.15" />
+</weapon>

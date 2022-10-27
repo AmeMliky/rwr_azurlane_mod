@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="burning_piece_car1.visual_item">
+
+    <model mesh_filename="vehicle_debris13.mesh" texture_filename="burning_pieces.png" />                  
+    
+    <effect ref="BurningPieces" />
+</visual_item>

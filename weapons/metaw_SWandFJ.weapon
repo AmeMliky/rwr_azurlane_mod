@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+<weapon key="metaw_shengwang.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="20.0"  drop_count_factor_on_player_death="0.0" drop_count_limit_in_range="1">
+    <tag name="cqb" />
+
+    <specification
+	magazine_size="-1" 
+    can_shoot_prone="0" 
+    can_shoot_crouching="0" 
+    carry_in_two_hands="1" 
+    name="META Repulse" 
+    class="5" 
+    character_state="death" 
+    consume="0" 
+    affect_characters="1"
+    affect_vehicles="0"
+    sight_range_modifier="1" 
+    damage="3.5"
+    slot="0" 
+    range="4"
+
+    success_probability="2.2"
+    stab_enabled="1"
+    stab_range="4"
+	/>
+	
+	<!--next_in_chain key="" share_ammo="0" /-->
+    <animation state_key="recoil" 		animation_key="shengwang at 1" />
+    <!--animation state_key="recoil" 		animation_key="zweihander slash 2" />
+    <animation state_key="recoil" 		animation_key="zweihander slash 3" /-->
+    <animation state_key="hold" 		animation_key="shengwang still" />
+    <animation state_key="hold_on_wall" 	animation_key="shengwang still" />
+    <animation state_key="hold_casual" 		animation_key="shengwang,hold" />
+    <animation state_key="still_against_wall" 	animation_key="shengwang still" />
+    <animation state_key="crouching" 		animation_key="crouch,shengwang" />
+    <animation state_key="walking" 		animation_key="walking, shengwang" />
+    <animation state_key="walking_backwards" animation_key="walking, shengwang" />
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, shengwang" />
+	<animation state_key="running"  animation_key="running, shengwang" />
+    <animation state_key="stabbing" 		animation_key="shengwang stab" />
+
+
+	<sound key="effect" fileref="zweihander_swing_01.wav" pitch_variety="0.05" volume="0.3" />
+	<sound key="effect" fileref="zweihander_swing_02.wav" pitch_variety="0.05" volume="0.3" />	
+	<sound key="stab" fileref="zweihander_stab.wav" pitch_variety="0.05" volume="0.3" />      
+	<sound key="fire" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5" />
+	<sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5" />
+
+    <effect class="stab" key="character" ref="BloodSplat50Cal" lighting="1" />
+    <effect class="stab" key="character" ref="BurstShine50Cal" lighting="1" post_processing="0" />
+    <effect class="stab" key="static_object" ref="Burst" use_surface_color="1" />
+    <effect class="stab" key="shield" ref="ShieldBurst" />
+    <effect class="stab" key="vehicle" ref="Burst" use_surface_color="1" />
+	<model filename="metaw_huoyandajian.xml" />
+	<hud_icon filename="meta_shengwang.png" />
+    <weak_hand_hold offset="0.3" />
+	<commonness value="0.0001" can_respawn_with="1" in_stock="1"/>
+	<inventory encumbrance="10.0" price="100.0" />
+    <capacity source="rank" source_value="0.0" value="1" />
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+	<modifier class="speed" value="+0.38" />
+
+	<shield offset="-0.0 0.0 0" extent="1.0 2.0 2.0" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+    
+</weapon>
+
+<weapon key="metaw_fanji.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="20.0"  drop_count_factor_on_player_death="0.0" drop_count_limit_in_range="1">
+    <tag name="cqb" />
+
+    <specification
+	magazine_size="-1" 
+    can_shoot_prone="0" 
+    can_shoot_crouching="0" 
+    carry_in_two_hands="1" 
+    name="META Renown" 
+    class="5" 
+    character_state="death" 
+    consume="0" 
+    affect_characters="1"
+    affect_vehicles="0"
+    sight_range_modifier="1" 
+    damage="3.5"
+    slot="0" 
+    range="4"
+
+    success_probability="2.2"
+    stab_enabled="1"
+    stab_range="4"
+	/>
+	
+	<!--next_in_chain key="" share_ammo="0" /-->
+	<animation state_key="recoil" 		animation_key="shengwang at 1" />
+    <!--animation state_key="recoil" 		animation_key="zweihander slash 2" />
+    <animation state_key="recoil" 		animation_key="zweihander slash 3" /-->
+    <animation state_key="hold" 		animation_key="shengwang still" />
+    <animation state_key="hold_on_wall" 	animation_key="shengwang still" />
+    <animation state_key="hold_casual" 		animation_key="shengwang,hold" />
+    <animation state_key="still_against_wall" 	animation_key="shengwang still" />
+    <animation state_key="crouching" 		animation_key="crouch,shengwang" />
+    <animation state_key="walking" 		animation_key="walking, shengwang" />
+    <animation state_key="walking_backwards" animation_key="walking, shengwang" />
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, shengwang" />
+	<animation state_key="running"  animation_key="running, shengwang" />
+    <animation state_key="stabbing" 		animation_key="shengwang stab" />
+
+
+	<sound key="effect" fileref="zweihander_swing_01.wav" pitch_variety="0.05" volume="0.3" />
+	<sound key="effect" fileref="zweihander_swing_02.wav" pitch_variety="0.05" volume="0.3" />	
+	<sound key="stab" fileref="zweihander_stab.wav" pitch_variety="0.05" volume="0.3" />      
+	<sound key="fire" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5" />
+	<sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5" />
+
+    <effect class="stab" key="character" ref="BloodSplat50Cal" lighting="1" />
+    <effect class="stab" key="character" ref="BurstShine50Cal" lighting="1" post_processing="0" />
+    <effect class="stab" key="static_object" ref="Burst" use_surface_color="1" />
+    <effect class="stab" key="shield" ref="ShieldBurst" />
+    <effect class="stab" key="vehicle" ref="Burst" use_surface_color="1" />
+	<model filename="metaw_fanjidajian.xml" />
+	<hud_icon filename="meta_fanji.png" />
+    <weak_hand_hold offset="0.3" />
+	<commonness value="0.0001" can_respawn_with="1" in_stock="1"/>
+	<inventory encumbrance="10.0" price="100.0" />
+    <capacity source="rank" source_value="0.0" value="1" />
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+	<modifier class="speed" value="+0.38" />
+
+	<shield offset="-0.0 0.0 0" extent="1.0 2.0 2.0" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+    
+</weapon>
+</weapons>

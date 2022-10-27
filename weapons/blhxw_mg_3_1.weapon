@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_mg.weapon" key="blhxw_mg_3_1.weapon">
+    <tag name="tashkent" />
+    <specification 
+    retrigger_time="1.75" 
+    accuracy_factor="0.98" 
+    spread_range="0.0"
+    sustained_fire_grow_step="4.0" 
+    sustained_fire_diminish_rate="1.2" 
+    magazine_size="10" 
+    can_shoot_standing="1" 
+    can_shoot_crouching="1" 
+	name="tashkent Naval gun strike"
+    suppressed="0" 
+    class="0" 
+    projectile_speed="150.0"
+	barrel_offset="0.7"
+	barrel_offset_3d="0.7 0.7 -0.8"
+	sight_range_modifier="1.3"
+	use_basic_muzzle_smoke_effect="1"
+	carry_in_two_hands="0"
+	/>
+
+	<next_in_chain key="blhxw_mg_3.weapon" share_ammo="0" />
+<!--barrel_offset="0.7"-->
+
+    <!--animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, pkm" />
+	<animation state_key="next_in_chain_in" animation_key="mount bayonet part 1" />
+	<animation state_key="next_in_chain_out" animation_key="sheath bayonet part 2" />      
+    <animation key="hold" ref="32" />
+    <animation key="hold_on_wall" ref="1" />
+    <animation state_key="walking" animation_key="walking, heavy weapon" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" /-->
+	<animation state_key="recoil"	animation_key="fire, tashkent" />
+	<animation state_key="hold" animation_key="hold, tashkent" />
+	<animation state_key="crouching" animation_key="crouch, tashkent" />
+	<animation state_key="crouch_moving" animation_key="crouching, walk, tashkent" />
+	<animation state_key="walking_backwards" animation_key="walking, tashkent" />  
+    <animation state_key="reload" animation_key="relod, tashkent"  />
+	<animation state_key="hold_on_wall" animation_key="hold, tashkent" />
+    <animation state_key="still_against_wall" 	animation_key="hold, tashkent" />
+	<animation state_key="walking" animation_key="walking, tashkent" />
+	<animation state_key="running" animation_key="walking, tashkent" />  
+
+    <sound key="fire" fileref="mg_f3.wav" pitch_variety="0.05" volume="0.6" />
+    <sound key="magazine_out" fileref="mg_re2.wav" />
+    <sound key="magazine_in" fileref="mg_in2.wav" />
+    <sound key="cycle" fileref="" pitch_variety="0.00" volume="1.0" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="" />
+
+    <hud_icon filename="AzurLane_tashigan_3.png" />
+    <commonness value="0.15" can_respawn_with="1" in_stock="0"/>
+    <inventory encumbrance="10.0" price="610.0" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="tashkent_jz.projectile">
+    </projectile>
+
+	<capacity value="1" source="rank" source_value="0.0" />
+
+
+    <stance state_key="running" accuracy="0.2" />
+    <stance state_key="walking" accuracy="0.3" />
+    <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="standing" accuracy="0.4" />
+    <stance state_key="crouching" accuracy="0.6" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="0.1" />
+    <stance state_key="over_wall" accuracy="1.0" />  
+	
+	<shield offset="0 0 1.0" extent="1.2 2.0 0.2" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+    <modifier class="speed" value="0.08" />
+</weapon>

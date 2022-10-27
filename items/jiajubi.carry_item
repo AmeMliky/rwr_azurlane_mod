@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="furniture COIN" key="jiajubi.carry_item">
+ 
+    <inventory encumbrance="0.5" price="233.0" />
+	<hud_icon filename="jiajubi.png" />
+    <model filename="jiajubi.xml" />
+
+    <commonness value="2.0" in_stock="0" />
+</carry_item>

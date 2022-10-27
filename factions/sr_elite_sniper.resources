@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_grenades="1" clear_carry_items="1" clear_calls="1">
+	<weapon key='sr_boss_enpuleisi.weapon' />
+	<weapon key='sr_boss_enpuleisi_1.weapon' />
+	<weapon key='ylb_1.weapon' />
+	<carry_item key='meta_elite_hj.carry_item' />
+	<projectile key="blhxw_4_bzhayao.projectile" />
+	<projectile key="yingxianzuo_dt.projectile" />
+	<call key='blhx_sb_1.call' />
+	<call key='sr_hd.call' />
+</resources>

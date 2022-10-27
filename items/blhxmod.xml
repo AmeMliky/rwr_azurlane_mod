@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+	
+	<carry_item file="XHL.carry_item" />
+	<carry_item file="GLGL.carry_item" />
+	<carry_item file="HJMC.carry_item" />
+	<carry_item file="hhmc.carry_item" />
+	<carry_item file="VC.carry_item" />
+	<carry_item file="god_amemliky.carry_item" />
+	<carry_item file="VH_boss.carry_item" />
+	<carry_item file="VH_boss_ai.carry_item" />
+	
+	<carry_item file="gxn_dj.carry_item" />
+	
+	<carry_item file="meta_elite_hj.carry_item" />
+
+	<carry_item file="800_wz.carry_item" />
+	<carry_item file="3000_wz.carry_item" />
+	<carry_item file="hongjianjian.carry_item" />
+	<carry_item file="jiajubi.carry_item" />
+	<carry_item file="shiyou.carry_item" />
+	<carry_item file="jiezhi1.carry_item" />
+	<carry_item file="jiezhi2.carry_item" />
+	<carry_item file="hexin.carry_item" />
+	<carry_item file="mofang.carry_item" />
+	<carry_item file="tuiyixunzhang.carry_item" />
+	
+	<carry_item file="blhx_tydzyj.carry_item" />
+	<carry_item file="blhx_cgzy.carry_item" />
+	<carry_item file="blhx_cdt.carry_item" />
+	<carry_item file="blhx_gyjdzyj.carry_item" />
+	<carry_item file="blhx_jgjdzyj.carry_item" />
+	<carry_item file="blhx_lhj.carry_item" />
+	<carry_item file="blhx_ptgc.carry_item" />
+	<carry_item file="blhx_tzgc.carry_item" />
+	<carry_item file="blhx_trxj.carry_item" />
+	<carry_item file="blhx_yzgc.carry_item" />
+	<carry_item file="blhx_thj.carry_item" />
+	<carry_item file="blhx_tyhcxj.carry_item" />
+	<carry_item file="blhx_td.carry_item" />
+	
+	<carry_item file="blhx_sr_jm.carry_item" />
+	<carry_item file="blhx_ssr_jm.carry_item" />
+	<carry_item file="blhx_ssr_fkp.carry_item" />
+	<carry_item file="blhx_ssr_jp.carry_item" />
+	<carry_item file="blhx_ssr_jzj.carry_item" />
+	<carry_item file="blhx_ssr_yl.carry_item" />
+	<carry_item file="blhx_ur_fkp.carry_item" />
+	<carry_item file="blhx_ur_jp.carry_item" />
+	<carry_item file="blhx_ur_jzj.carry_item" />
+	<carry_item file="blhx_ur_yl.carry_item" />
+	
+	
+	<carry_item file="statue_kirby.carry_item" />
+	<carry_item file="statue_piggie.carry_item" />
+	<carry_item file="npc_ougen.carry_item" />
+	<carry_item file="npc_xiaotiancheng.carry_item" />
+	
+	
+	
+	
+	<!--彩蛋甲 -->
+	<carry_item file="J.R..50.carry_item" />
+	<carry_item file="xiexing.carry_item" />
+	<carry_item file="amemliky.carry_item" />
+	<carry_item file="jbhjs.carry_item" />
+	<carry_item file="momiji.carry_item" />
+	<carry_item file="sexy_m8701.carry_item" />
+	<carry_item file="wsghost.carry_item" />
+	<carry_item file="kp31.carry_item" />
+</carry_items>
+

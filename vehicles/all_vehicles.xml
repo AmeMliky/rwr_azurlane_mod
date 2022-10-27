@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicles>
+	<!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
+
+	<vehicle file="jeep.vehicle" />
+  <vehicle file="apc.vehicle" />
+  <vehicle file="armored_truck.vehicle" />
+  <vehicle file="radar_truck.vehicle" />
+  <vehicle file="radar_tank2.vehicle" />  
+
+  <vehicle file="rubber_boat.vehicle" />
+  <vehicle file="tank.vehicle" />
+  <vehicle file="cargo_truck.vehicle" />
+
+  <vehicle file="tow.vehicle" />
+  <vehicle file="tow_2.vehicle" />  
+  <vehicle file="cover1.vehicle" />
+  <vehicle file="humvee.vehicle" />
+
+  <vehicle file="radar_tower.vehicle" />
+  <!-- 信号塔 -->
+  
+  <vehicle file="patrol_ship.vehicle" />
+
+  <vehicle file="transport_truck.vehicle" />  
+
+  <vehicle file="deco_vehicles.xml" />
+
+  
+  <vehicle file="gas_tank.vehicle" />
+  <!--油罐 -->
+  <vehicle file="mobile_armory.vehicle" />
+<!-- 军械车-->
+
+  <vehicle file="prison_bus.vehicle" />
+  <!-- 囚车 -->
+  <vehicle file="prison_door.vehicle" />
+  <!-- 监狱门 -->
+  <vehicle file="prison_hatch.vehicle" />  
+<!-- 监狱天窗 -->
+
+  <vehicle file="para_spawn.vehicle" />
+<!-- 重生信标 -->
+  
+  <vehicle file="radio_jammer.vehicle" />  
+<!-- 干扰塔 -->
+  <vehicle file="aa_emplacement.vehicle" />  
+ <!--AA炮 --> 
+  <vehicle file="water_tower.vehicle" />  
+  <!--水塔 --> 
+  <vehicle file="mortar_ammunition_crates.vehicle" />  
+  <!--迫击炮弹箱子 --> 
+  
+ 
+  <vehicle file="special_cargo_vehicles.xml" />  
+   <!--运货汽车 --> 
+  
+  <vehicle file="tractor.vehicle" />
+   <!--拖拉机 --> 
+  <vehicle file="flare_checkpoint.vehicle" /> 
+  
+  <vehicle file="heli_extraction_broken.vehicle" /> 
+  <vehicle file="heli_broken1.vehicle" />   
+  <vehicle file="heli_broken2.vehicle" />     
+ <!--直升机残骸 --> 
+ 
+  <vehicle file="heli_extraction.vehicle" /> 
+  
+  
+  <vehicle file="cargo_helicopter_broken.vehicle" />  
+  <vehicle file="cargo_helicopter.vehicle" /> 
+<!--运货直升机残骸 --> 
+
+  <vehicle file="jeep_1.vehicle" /> 
+  <vehicle file="jeep_2.vehicle" />       
+  <vehicle file="apc_1.vehicle" />  
+  <vehicle file="apc_2.vehicle" />     
+  <vehicle file="tank_1.vehicle" />  
+  <vehicle file="tank_2.vehicle" /> 
+  
+  <vehicle file="tank2.vehicle" /> 
+<!--黑猫tank --> 
+  <vehicle file="transport_truck_1.vehicle" />  
+  <vehicle file="transport_truck_2.vehicle" />  
+<!--运货汽车--> 
+  <vehicle file="radio_jammer2.vehicle" />  
+  <!--干扰塔--> 
+  <vehicle file="vulcan_tank.vehicle" /> 
+   <!--火神tank--> 
+  <vehicle file="buggy.vehicle" />   
+ <!--沙滩车--> 
+  <vehicle file="jeep_ee.vehicle" /> 
+   <!--熊猫车--> 
+   
+  
+	<vehicle file="icecream.vehicle" />
+	<vehicle file="darkcat.vehicle"/>
+	
+	<vehicle file="atv_armory_para.vehicle" />
+	<vehicle file="atv_armory.vehicle"/>
+	<vehicle file="sandbag_cover.vehicle"/>
+	
+</vehicles>

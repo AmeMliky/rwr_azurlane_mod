@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Red diamonds" key="hongjianjian.carry_item">
+ 
+    <inventory encumbrance="0.5" price="328.0" />
+	<hud_icon filename="hongjianjian.png" />
+    <model filename="hongjianjian.xml" />
+
+    <commonness value="2.0" in_stock="1" />
+</carry_item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="burning_piece.visual_item">
+
+    <model mesh_filename="vehicle_debris01.mesh" />
+    <model mesh_filename="vehicle_debris02.mesh" />
+    <model mesh_filename="vehicle_debris03.mesh" />
+    <model mesh_filename="vehicle_debris04.mesh" />
+    <model mesh_filename="vehicle_debris05.mesh" />
+    <model mesh_filename="vehicle_debris06.mesh" />
+    <model mesh_filename="vehicle_debris07.mesh" />
+    <model mesh_filename="vehicle_debris08.mesh" />
+    <model mesh_filename="vehicle_debris09.mesh" />
+    <model mesh_filename="vehicle_debris10.mesh" />
+    <model mesh_filename="vehicle_debris11.mesh" />
+    <model mesh_filename="vehicle_debris12.mesh" />
+    <model mesh_filename="vehicle_debris13.mesh" />
+    <model mesh_filename="vehicle_debris14.mesh" />
+    <model mesh_filename="vehicle_debris15.mesh" />
+    <model mesh_filename="vehicle_debris16.mesh" />    
+    
+    <effect ref="BurningPieces" />
+</visual_item>

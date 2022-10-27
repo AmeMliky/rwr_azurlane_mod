@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_shared.character">
+	<comment key="Hmm, no signal" text="有什么东西在干扰我的无线电信号" />
+</character>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="burning_piece_mortar_ammunition_crates4.visual_item">
+    
+    <model mesh_filename="mortar_ammunition_crates_debris04.mesh" texture_filename="mortar_ammunition_crates.png" />
+ 
+    <effect ref="BurningPieces" />
+
+</visual_item>

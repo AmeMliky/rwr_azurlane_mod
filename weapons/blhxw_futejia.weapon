@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_mg.weapon"  key="blhxw_futejia.weapon" >
+    <tag name="bandage" />
+    <specification magazine_size="1" 
+    can_shoot_standing="1" 
+    can_shoot_crouching="1" 
+    can_shoot_prone="0"  
+    name="The north joint vodka" 
+    class="5" 
+    untransform_equipment_class="vest"
+    untransform_count="10"  
+    consume="1" 
+    sight_range_modifier="1" 
+    slot="1"
+	stab_enabled="1"	/>
+	
+	
+	
+    <animation state_key="recoil" 		animation_key="recoil, drinking_futejia" />
+    <animation state_key="hold" 		animation_key="still, single hand carry" />
+    <animation state_key="hold_on_wall" 	animation_key="still, single hand carry" />
+    <animation state_key="hold_casual" 		animation_key="still, single hand carry" />
+    <animation state_key="still_against_wall" 	animation_key="still, single hand carry" />
+    <animation state_key="crouching" 		animation_key="crouch, still, single hand carry" />
+    <animation state_key="running" 		animation_key="running, single hand carry" />
+    <animation state_key="walking" 		animation_key="walking, single hand carry" />
+    <animation state_key="walking_backwards" 	animation_key="walking backwards, single hand carry" />
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, single hand carry" />
+    <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, single hand carry" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+    <animation state_key="stabbing" animation_key="pistol whip" />
+    
+	
+	
+    <sound class="impact" fileref="medikit_drop.wav" />    
+	<sound key="effect" fileref="futejia.wav" pitch_variety="0.00"volume="0.8" />
+    <model filename="futejia.xml" />
+	
+    <capacity value="1" source="rank" source_value="0.0" />
+	<capacity value="2" source="rank" source_value="0.0" />
+	<capacity value="3" source="rank" source_value="0.0" />
+
+    <hud_icon filename="blhxw_futejia.png" />
+    <commonness value="0.0" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="9" price="88.0" />
+    <modifier class="speed" value="-0.15" />    
+
+
+</weapon>

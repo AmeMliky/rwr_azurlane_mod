@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_two_medic.weapon" key="qzy_ty_hd.weapon">
+   <tag name="rpg" />
+
+    <specification 
+  retrigger_time="-1.0" 
+  accuracy_factor="2.0" 
+  sustained_fire_grow_step="0.4" 
+  sustained_fire_diminish_rate="0.4" 
+  magazine_size="1" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="1" 
+  can_shoot_prone="0"
+  suppressed="1" 
+  name="Aerial bomb attack" 
+  class="3" 
+  reload_one_at_a_time="1" 
+ 
+  projectile_speed="75.0" 
+  sight_range_modifier="3.5"
+  slot="1" 
+  barrel_offset_3d="0 28 0"
+  projectiles_per_shot="1"
+  />
+ 
+   <ballistics curve_height="27.8" near_far_distance="0" speed_estimation_near="20.0" speed_estimation_far="20.0" max_speed="50.0" randomness="0.0" tweak_factor="1.00" />
+   
+	 <animation key="hold" animation_key="still, binoculars" />
+    <animation key="hold_on_wall" animation_key="still, binoculars" />
+    <animation key="hold_casual" animation_key="still, binoculars" />
+    <animation key="still_against_wall" animation_key="still, binoculars" />
+    <animation key="recoil" animation_key="recoil, binoculars" />
+    <animation key="crouching" animation_key="crouching still, binoculars" />
+    <animation key="running" animation_key="walking, binoculars" />
+    <animation key="walking" animation_key="walking, binoculars" />
+    <animation key="walking_backwards" animation_key="walking backwards, binoculars" />
+    <animation key="crouch_moving" animation_key="crouching forwards, binoculars" />
+    <animation key="changing_weapon_out" ref="57" />
+    <animation key="changing_weapon_in" ref="58" />
+    <animation key="reload" ref="35" />
+
+    <model filename="binoculars.xml" />
+
+    <projectile file="qzy_ty_hd_mdt.projectile" />
+
+   
+    <capacity value="3" source="rank" source_value="0.0" />
+
+    <hud_icon filename="cs.png" />
+    <commonness value="0.0" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="2.0" price="52.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.9" />
+    <stance state_key="walking" accuracy="0.9" />
+    <stance state_key="crouch_moving" accuracy="0.9" />
+    <stance state_key="prone_moving" accuracy="0.9" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" /> 
+	
+    
+    <modifier class="speed" value="0.0" />    
+
+</weapon>

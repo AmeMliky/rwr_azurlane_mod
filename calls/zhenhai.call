@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="call_1" key="zhenhai.call"
+      initiation_comment1="Zhenhai seaplane support"
+      initiation_comment2="FBA 19 500LB bomb X 4"
+      acknowledge_comment="Roger, wait eight.zh"
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way.zh"
+	  notify_metagame="1">
+    
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="zhenhai_hangdan.projectile" 
+           instance_spread="2 0 2" 
+			common_spread="0 0 0" 
+			launch_time="3.0"
+			spawn_time="5.0">
+	  <sound class="launch" fileref="zhenhai_call.wav" pitch_variety="0.0" volume="1.0" />
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+    </round>
+	
+	<round instances="2"
+           instance_class="grenade"
+           instance_key="zhenhai_hangdan.projectile" 
+           instance_spread="2 0 2" 
+			common_spread="0 0 0" 
+			launch_time="3.5"
+			spawn_time="5.0">
+	
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+	</round>
+    
+
+    <hud_icon filename="zhenhai.png" />
+    <capacity value="100" source="rank" source_value="0.0" />
+    <inventory encumbrance="0.0" price="128.0" />
+
+</call>

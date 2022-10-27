@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_carry_items="1" >
+<weapon key='sr_boss_siteliankusi.weapon' />
+<weapon key='sr_boss_siteliankusi_1.weapon' />
+<carry_item key="VH_boss_ai.carry_item" />
+<call key="zhenhai.call" />
+
+</resources>

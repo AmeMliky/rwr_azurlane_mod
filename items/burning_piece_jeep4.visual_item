@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="burning_piece_jeep4.visual_item">
+
+    <model mesh_filename="vehicle_debris11.mesh" texture_filename="jeep_body_broken.png" />
+            
+    
+    <effect ref="BurningPieces" />
+</visual_item>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item  key="HJMC.carry_item" name="hjmc" transform_on_consume="HJMC_1" slot="1" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="hjmc.png" />
+        <commonness value="0.00" in_stock="1"  can_respawn_with="1"/>
+        <inventory encumbrance="5.0"price="99" />
+		<capacity value="1" source="rank" source_value="0.0" />
+		
+		<modifier class="speed" value="0.15" />
+        <modifier class="hit_success_probability" value="-1.0" />
+        <modifier class="detectability" value="-0.38" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  consumes_item="0"/>
+		<model mesh_filename="hjmc.xml" />
+		
+		
+    </carry_item>
+
+    <carry_item  key="HJMC_1" name="hjmc_1" transform_on_consume="HJMC_2" slot="1" time_to_live_out_in_the_open="120.0">
+        <hud_icon filename="hjmc_1.png" />
+        <commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+        <inventory encumbrance="5.0"price="5" />
+		<capacity value="1" source="rank" source_value="0.0" />
+		
+		<modifier class="speed" value="0.15" />
+        <modifier class="hit_success_probability" value="-1.0" />
+        <modifier class="detectability" value="-0.38" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  consumes_item="0"/>
+		<model mesh_filename="hjmc.xml" />
+	
+		
+    </carry_item>
+
+
+    <carry_item  key="HJMC_2" name="hjmc_2" slot="1" time_to_live_out_in_the_open="120.0">
+<hud_icon filename="hjmc_2.png" />
+        <commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+        <inventory encumbrance="5.0"price="5" />
+		<capacity value="1" source="rank" source_value="0.0" />
+		
+		<modifier class="speed" value="0.15" />
+        <modifier class="hit_success_probability" value="-1.0" />
+        <modifier class="detectability" value="-0.38" />
+
+		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+		<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+		<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  consumes_item="0"/>
+		<model mesh_filename="hjmc.xml" />
+		
+		
+		
+    </carry_item>
+
+    
+</carry_items>

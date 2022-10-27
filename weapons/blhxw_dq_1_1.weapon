@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_smg.weapon" key="blhxw_dq_1_1.weapon">
+
+
+
+	<specification 
+	retrigger_time="0.065"
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="0.20" 
+	sustained_fire_diminish_rate="1.8"
+	magazine_size="38" 
+	can_shoot_standing="1" 
+	suppressed="1" 
+	name="Main cannon fire -- Four gods of the print" 
+	class="0" 
+	projectiles_per_shot="2"
+	projectile_speed="120.0"
+	barrel_offset="0.6"
+	/>
+	
+	<next_in_chain key="blhxw_dq_1.weapon" share_ammo="0" /> 
+	
+	<stance state_key="running" accuracy="0.92" />
+    <stance state_key="walking" accuracy="0.92" />
+    <stance state_key="crouch_moving" accuracy="0.85" />
+    <stance state_key="standing" accuracy="0.90" />
+    <stance state_key="crouching" accuracy="0.85" />
+    <stance state_key="prone" accuracy="0.82" /> 
+    <stance state_key="prone_moving" accuracy="0.78" />								
+    <stance state_key="over_wall" accuracy="0.98" /> 
+
+	 <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, scorpion-evo" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+	
+	<weak_hand_hold offset="0.3" />
+	
+	<sound key="fire" fileref="anshan_fire.wav" pitch_variety="0.05" volume="1.0"/>
+	<sound key="magazine_out" fileref="anshan_re.wav"  volume="0.5"/>
+	
+	<sound key="cycle" fileref="anshan_re2.wav" pitch_variety="0.00" volume="0.8" />
+	
+	<model filename="blhxw_dq_1_1.xml" />
+	<hud_icon filename="AzurLane_anshan_g.png" />
+
+	<commonness value="0.2" can_respawn_with="1" in_stock="1" />
+	<inventory encumbrance="5.0" price="1000.0"/>
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="18.0" />
+	
+	
+	<projectile file="anshan.projectile">
+		<result
+		class="hit"
+		kill_probability="1.75"
+		kill_probability_offset_on_successful_hit="0.6"
+		kill_decay_start_time="0.25"
+		kill_decay_end_time="0.42"
+		/>
+	</projectile>
+	<modifier class="speed" value="+0.2" />    
+</weapon>

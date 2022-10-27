@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="gxn_dj.carry_item" 
+	name="duoji" 
+	slot="1" 
+	transform_on_consume="dj_1"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	
+	<hud_icon filename="dj.png" />
+
+	<commonness value="0.0" in_stock="1"  can_respawn_with="1"/>
+	
+    <inventory encumbrance="10" price="25.0" />
+	
+    <capacity value="1" source="rank" source_value="0.0" />
+	
+    <modifier class="speed" value="+0.2" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="dj.xml" />
+	   
+
+	   </carry_item>	
+      	
+    <carry_item key="dj_1" 
+	name="dj_1" 
+	slot="1" 
+	transform_on_consume="dj_2"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="dj_1.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="+0.2" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="dj.xml" />
+	</carry_item>
+	
+<carry_item key="dj_2" 
+	name="dj_2" 
+	slot="1" 
+	transform_on_consume="dj_3"
+	time_to_live_out_in_the_open="120.0"
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="dj_2.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="+0.2" />
+    <modifier class="hit_success_probability" value="-0.60" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="dj.xml" />
+	</carry_item>
+
+	<carry_item key="dj_3" 
+	name="dj_3" 
+	slot="1" 
+	transform_on_consume="dj_4"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">
+    <hud_icon filename="dj_3.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="+0.2" />
+    <modifier class="hit_success_probability" value="-0.60" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="dj.xml" />
+		
+	</carry_item>
+	<carry_item key="dj_4" 
+	name="dj_4" 
+	slot="1" 
+	transform_on_consume="dj_5"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="dj_4.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+     <modifier class="speed" value="+0.2" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="dj.xml" />
+	
+	</carry_item>
+	
+	<carry_item key="dj_5" 
+	name="dj_5" 
+	slot="1" 
+	transform_on_consume="dj_6"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="dj_5.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+     <modifier class="speed" value="+0.2" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="dj.xml" />
+	
+	</carry_item>
+	
+	
+	<carry_item key="dj_6" 
+	name="dj_6" 
+	slot="1" 
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="dj_6.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="+0.2" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.1" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound"consumes_item="0" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="death"  />
+	<model mesh_filename="dj.xml" />
+	</carry_item>
+	
+</carry_items>

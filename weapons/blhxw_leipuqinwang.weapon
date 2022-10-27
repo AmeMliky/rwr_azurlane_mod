@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+<weapon key="blhxw_leipuqinwang.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="20.0"  drop_count_factor_on_player_death="0.0" drop_count_limit_in_range="1">
+	<tag name="melee" />
+	<tag name="elite" />
+    <specification 
+     retrigger_time="0.5"
+     magazine_size="45"
+     can_shoot_standing="1" 
+     can_shoot_crouching="1" 
+     can_shoot_prone="1" 
+     carry_in_two_hands="0" 
+     name="lupuleixite" 
+     class="0"
+     supperessed="0"
+     use_basic_muzzle_smoke_effect="0"
+     stab_enabled="1"
+     stab_range="2.8"
+    />
+	<next_in_chain key="blhxw_leipuqinwang2.weapon" share_ammo="0" />
+	<addon_model filename="blhxw_leipuqinwang3.xml" />
+	
+    <animation state_key="recoil"   animation_key="melee, leipu2" />
+    <animation state_key="stabbing" animation_key="melee, leipu" />
+    <animation state_key="hold" animation_key="still, hold, leipu" />
+    <animation state_key="hold_on_wall" animation_key="still overwall, leipu" />
+    <animation state_key="still_against_wall"   animation_key="still against wall, leipu" />
+    <animation state_key="hold_casual"  animation_key="relaxed, leipu" />
+    <animation state_key="running"  animation_key="running, leipu" />
+    <animation state_key="walking"  animation_key="walking, leipu" />
+    <animation state_key="crouching"    animation_key="crouch, leipu" />
+    <animation state_key="crouch_moving"    animation_key="crouching forwards, leipu" />
+    <animation state_key="crouch_moving_backwards"  animation_key="crouching forwards, leipu" />
+    <animation state_key="prone_still" animation_key="prone still, leipu" />
+    <animation state_key="prone_moving" animation_key="prone moving, leipu" />
+    <animation state_key="walking_backwards" animation_key="walking, leipu" />
+    <animation state_key="changing_weapon_in"   animation_key="change weapon in, sword" />
+    <animation state_key="changing_weapon_out"  animation_key="change weapon out, sword" />
+    <animation state_key="reload"   animation_key="relod, leipu" />
+	
+	<sound key="cycle" fileref="leipu_re.wav" pitch_variety="0.00" volume="1.0" />
+	<sound key="stab" fileref="leipu_stabl.wav" pitch_variety="0.05" volume="1.0"/>
+	
+    <model filename="" />
+    <hud_icon filename="AzurLane_lupuleixite.png" />
+    <projectile file="blhxw_zjd.projectile"/>
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="10.0" /> 
+  
+    <stance state_key="running" accuracy="1" />
+    <stance state_key="walking" accuracy="1" />
+    <stance state_key="crouch_moving" accuracy="1" />
+    <stance state_key="standing" accuracy="1" />
+    <stance state_key="crouching" accuracy="1" />
+    <stance state_key="prone" accuracy="1" /> 
+    <stance state_key="prone_moving" accuracy="1" />
+    <stance state_key="over_wall" accuracy="1" /> 
+
+
+   
+    <effect class="muzzle" ref="sawsnone" />
+    <inventory encumbrance="12.0" price="233.0" />
+
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1" />
+	<modifier class="speed" value="0.38" />
+	
+  
+	
+    <shield offset="-0.55 0.0 0" extent="0.8 0.5 1.0" />
+   
+    <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+   
+    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+ 
+     
+</weapon>
+
+<weapon key="blhxw_leipuqinwang2.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="20.0"  drop_count_factor_on_player_death="0.0" drop_count_limit_in_range="1">
+    <tag name="cqb" />
+    <specification 
+  retrigger_time="-1.0" 
+  accuracy_factor="0.98" 
+  sustained_fire_grow_step="2.0" 
+  sustained_fire_diminish_rate="1.35" 
+  magazine_size="16" 
+  can_shoot_standing="1" 
+  suppressed="1" 
+  name="lupuleixite_atk" 
+  class="1" 
+  barrel_offset="0.3"
+  spread_range="0.92"
+  reload_one_at_a_time="1" 
+  sight_range_modifier="1.38" 
+  projectile_speed="120.0" 
+  projectiles_per_shot="12" 
+  stab_enabled="1"
+  stab_range="1.2"
+  />
+  
+	<next_in_chain key="blhxw_leipuqinwang.weapon" share_ammo="0" />
+	<addon_model filename="blhxw_leipuqinwang.xml" />
+	
+    <animation state_key="recoil" ref="27" />
+    <animation state_key="cycle" ref="28" />
+    <animation state_key="reload" ref="29" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+    <sound key="fire" fileref="fire_leipu.wav" pitch_variety="0.05" volume="0.4" />
+    <sound key="cycle" fileref="" />
+    <sound key="reload_one" fileref="shot_re_leipu.wav" pitch_variety="0.05" volume="3.0" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+	<sound key="stab" fileref="leipu_stab1.wav" pitch_variety="0.00" volume="1.0"/>
+	
+    <model filename="blhxw_leipuqinwang2.xml" />
+
+    <hud_icon filename="AzurLane_lupuleixite.png" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="0" />
+    <inventory encumbrance="12.0" price="233.0" />
+
+    <weak_hand_hold offset="0.3" />
+	
+    <projectile file="bullet_meta.projectile">
+        <result class="hit" kill_probability="1.58" kill_probability_offset_on_successful_hit="0.5" kill_decay_start_time="0.42" kill_decay_end_time="0.68" />
+    </projectile>
+	
+	<stance state_key="running" accuracy="0.88" />
+    <stance state_key="walking" accuracy="0.88" />
+    <stance state_key="crouch_moving" accuracy="0.88" />
+    <stance state_key="standing" accuracy="0.90" />
+    <stance state_key="crouching" accuracy="0.90" />
+    <stance state_key="prone" accuracy="1.2" /> 
+    <stance state_key="prone_moving" accuracy="0.85" />
+    <stance state_key="over_wall" accuracy="0.95" /> 
+	
+    <modifier class="speed" value="+0.12" />
+</weapon>
+</weapons>

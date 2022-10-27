@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_carry_items="1" >
+
+	<weapon key='metaw_boss_shancheng.weapon' enabled="1" />
+	<weapon key='metaw_fanji.weapon'  enabled="1"/>
+	<weapon key='metaw_shengwang.weapon' enabled="1" />
+	
+	
+	<carry_item key='VH_boss_ai.carry_item' enabled="1" />
+	
+  
+	<projectile key='blhxw_4_baozhu.projectile' enabled="1" />
+	
+
+</resources>

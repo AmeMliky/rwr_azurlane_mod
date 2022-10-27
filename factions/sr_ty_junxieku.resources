@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key="sr_smg_1.weapon"/>
+	<weapon key="sr_smg_1_1.weapon"/>
+	<weapon key="sr_smg_2.weapon"/>
+	<weapon key="sr_smg_2_yl.weapon"/>
+	
+	<weapon key="sr_smg_3.weapon"/>
+	<weapon key="sr_mg_1.weapon"/>
+	<weapon key="sr_mg_2.weapon"/>
+	<weapon key="sr_mg_3.weapon"/>
+	<weapon key="sr_mg_4.weapon"/>
+	<weapon key="sr_mg_4_yl.weapon"/>
+	<weapon key="sr_hm_0.weapon"/>
+	<weapon key='ylb_1.weapon' />
+	<weapon key='wx.weapon' />
+	<weapon key="srw_boss_lawosi.weapon"/>
+	<weapon key="srw_boss_lawosi_1.weapon"/>
+	<weapon key="sr_qingchuzhe.weapon"/>
+	<weapon key="sr_qingchuzhe_1.weapon"/>
+	
+	<weapon key="srw_boss_tianpalansi.weapon"/>
+	<weapon key="srw_boss_tianpalansi_1.weapon"/>
+	
+	<weapon key="srw_jinghuazhe.weapon"/>
+	<weapon key="srw_jinghuazhe_1.weapon"/>
+	
+	<weapon key="sr_boss_siteliankusi.weapon"/>
+	<weapon key="sr_boss_siteliankusi_1.weapon"/>
+	
+	<weapon key="srw_guanchazhe.weapon"/>
+	<weapon key="srw_guanchazhe_1.weapon"/>
+	
+	<weapon key="sr_boss_enpuleisi.weapon"/>
+	<weapon key="sr_boss_enpuleisi_1.weapon"/>
+	
+	<weapon key="srw_boss_guanchazhe_zero.weapon"/>
+	<weapon key="srw_boss_guanchazhe_zero_1.weapon"/>
+	<weapon key="qzy_ty_hd.weapon"/>
+	<!-- 全阵营通用航弹-->
+	
+    
+	<carry_item key="XHL.carry_item" />
+	<carry_item key="GLGL.carry_item" />
+	<carry_item key="HJMC.carry_item" />
+	<carry_item key="hhmc.carry_item" />
+	<carry_item key="VC.carry_item" />
+	<carry_item key="god_amemliky.carry_item" />
+	<carry_item key="VH_boss.carry_item" />
+	<carry_item key="gxn_dj.carry_item" />
+	
+	<!-- 军械库显示的一般等价物-->
+	<carry_item key="800_wz.carry_item" />
+	<carry_item key="3000_wz.carry_item" />
+	<carry_item key="hongjianjian.carry_item" />
+	<carry_item key="tuiyixunzhang.carry_item" />
+	<carry_item key="jiajubi.carry_item" />
+	<carry_item key="shiyou.carry_item" />
+	<carry_item key="jiezhi1.carry_item" />
+	<carry_item key="jiezhi2.carry_item" />
+	<carry_item key="hexin.carry_item" />
+	<carry_item key="mofang.carry_item" />
+	
+	<carry_item key="blhx_tydzyj.carry_item" />
+	<carry_item key="blhx_cgzy.carry_item" />
+	<carry_item key="blhx_cdt.carry_item" />
+	<carry_item key="blhx_gyjdzyj.carry_item" />
+	<carry_item key="blhx_jgjdzyj.carry_item" />
+	<carry_item key="blhx_lhj.carry_item" />
+	<carry_item key="blhx_ptgc.carry_item" />
+	<carry_item key="blhx_tzgc.carry_item" />
+	<carry_item key="blhx_trxj.carry_item" />
+	<carry_item key="blhx_yzgc.carry_item" />
+	<carry_item key="blhx_thj.carry_item" />
+	<carry_item key="blhx_tyhcxj.carry_item" />
+	<carry_item key="blhx_td.carry_item" />
+	
+	<carry_item key="blhx_sr_jm.carry_item" />
+	<carry_item key="blhx_ssr_jm.carry_item" />
+	<carry_item key="blhx_ssr_fkp.carry_item" />
+	<carry_item key="blhx_ssr_jp.carry_item" />
+	<carry_item key="blhx_ssr_jzj.carry_item" />
+	<carry_item key="blhx_ssr_yl.carry_item" />
+	<carry_item key="blhx_ur_fkp.carry_item" />
+	<carry_item key="blhx_ur_jp.carry_item" />
+	<carry_item key="blhx_ur_jzj.carry_item" />
+	<carry_item key="blhx_ur_yl.carry_item" />
+	
+	<!--pa 战利品 -->
+	<carry_item key="statue_kirby.carry_item" />
+	<carry_item key="statue_piggie.carry_item" />
+	
+	
+	<call key="sr_hd.call" />
+	<call key="sr_jianpao2.call" />
+	<call key="sr_goujianzhe.call" />
+	<call key="sr_zhihuijian.call" />
+</resources>

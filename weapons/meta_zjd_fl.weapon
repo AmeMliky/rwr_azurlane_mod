@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ju.weapon" key="meta_zjd_fl.weapon"  >
+    <tag name="cqb" />
+	
+
+    <specification
+	magazine_size="-1" 
+    can_shoot_prone="1" 
+    carry_in_two_hands="0" 
+    name="meta dragon" 
+    class="5" 
+    character_state="death" 
+    consume="0" 
+    sight_range_modifier="0.9" 
+    slot="0" 
+    range="3.5"
+    success_probability="3.0"
+    stab_enabled="1"
+    stab_range="3.5"
+	/>
+	<next_in_chain key="meta_hm_hz_1.weapon" share_ammo="0" />
+	
+	<animation state_key="recoil"	animation_key="melee, gunto" />
+	<animation state_key="recoil"	animation_key="melee, gunto slash" />
+	<animation state_key="recoil" stance_key="prone" animation_key="melee, prone sword" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="melee, gunto swing" />
+	<animation state_key="stabbing"	animation_key="melee, gunto whip" />
+	<animation state_key="stabbing"	animation_key="melee, gunto stab" />
+	<animation state_key="hold"			animation_key="hold, gunto" />
+	<animation state_key="hold_casual"		animation_key="relaxed, gunto" />
+	<animation state_key="hold_on_wall"		animation_key="hold on wall, gunto" />
+	<animation state_key="still_against_wall"	animation_key="still against wall, gunto" />
+	<animation state_key="running"	animation_key="running, gunto" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, sword" />
+	<animation state_key="crouch_moving"	animation_key="crouching forwards, sword" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, sword" />
+	<animation state_key="changing_weapon_in"	animation_key="change weapon in, sword" />
+	<animation state_key="changing_weapon_out"	animation_key="change weapon out, sword" />
+    <animation state_key="prone_still" animation_key="prone still, sword" />
+    <animation state_key="prone_moving" animation_key="prone moving, sword" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+	
+	<sound key="fire" fileref="katana_swoosh.wav" pitch_variety="0.05" />
+	<sound key="stab" fileref="katana_swoosh.wav" pitch_variety="0.05" volume="0.8" />
+	<sound key="stab_hit" fileref="katana_hit_fatal.wav" pitch_variety="0.05" volume="1.0" />
+	<sound key="stab_hit_any" fileref="katana_hit.wav" pitch_variety="0.05" volume="0.8" />
+	<sound key="effect" fileref="katana_swoosh.wav" pitch_variety="0.05" />
+
+	<model filename="meta_zjd_fl.xml" />
+	<hud_icon filename="AzurLane_feilong_alter.png" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="12.0" />
+	<commonness value="0.0" can_respawn_with="1" in_stock="0" />
+	<inventory encumbrance="10.0" price="1000.0" />
+	
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+	<modifier class="speed" value="+0.2" />
+	
+</weapon>

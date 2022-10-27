@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="metam_genaisennao.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_genaisennao.weapon"/>
+	</model>
+	
+	<model filename="metam_mengfeisi.xml">
+		<requirement class="weapon" slot="0" key="metaw_mengfeisi_atk.weapon"/>
+	</model>
+	
+</models>

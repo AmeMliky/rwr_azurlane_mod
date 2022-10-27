@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Universal electronic component" key="blhx_tydzyj.carry_item">
+ 
+    <inventory encumbrance="0.5" price="150.0" />
+	<hud_icon filename="blhx_tydzyj.png" />
+    <model filename="blhx_tydzyj.xml" />
+
+    <commonness value="1.5" in_stock="0" />
+</carry_item>

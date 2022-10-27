@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="air strike rocket" slot="2" key="xiaojiajia_jianpao.projectile" >
+	
+	<sound class="result" key="other" fileref="light_gun_01.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_02.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_03.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_04.wav" volume="2.45" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+
+	<!-- Rockets are inaccurate, and can never destroy a full health pillbox in one barrage. However they arrive VERY quicky.-->
+	<!-- They are more effective for destroying moving vehicles, though one barrage will not be enough to take down a tank.-->
+	
+	<trigger class="impact" />
+	<result
+	class="blast"
+	radius="7.75"
+	damage="4.4"
+	push="0.5"
+	decal="1" faction_compare="not_equal"
+	/>
+	
+	<model mesh_filename="hongjianjian.xml" />
+	<commonness value="0.0" />
+	
+	<rotation class="motion" />
+	
+	 <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1" />  
+    <effect class="result" key="terrain" ref="SmokeTop" post_processing="1" />
+    <effect class="result" key="terrain" ref="Smoke" post_processing="1" />
+    <effect class="result" key="terrain" ref="Shine" lighting="0" />
+    <effect class="result" key="terrain" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="4.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+ 
+
+
+    <effect class="result" key="other" ref="SmokeTop" post_processing="1" />
+    <effect class="result" key="other" ref="Smoke" post_processing="1" />
+    <effect class="result" key="other" ref="Shine" lighting="0" />
+    <effect class="result" key="other" ref="Godray" lighting="0" />
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" /> 
+	  <trail probability="1.0" key="blhx_dt" /> 
+	
+</projectile>

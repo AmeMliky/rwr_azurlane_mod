@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default.character">
+
+	<sound key="death" fileref="meta_death.wav" pitch_variety="0.01" volume="1.0" />
+	<sound key="death" fileref="meta_death1.wav" pitch_variety="0.01" volume="1.0" />
+	<sound key="death" fileref="meta_death2.wav" pitch_variety="0.01" volume="1.0" />
+	<sound key="death" fileref="meta_death3.wav" pitch_variety="0.01" volume="1.0" />
+	<sound key="death" fileref="meta_death4.wav" pitch_variety="0.01" volume="1.0" />
+	<sound key="death" fileref="meta_death5.wav" pitch_variety="0.01" volume="1.0" />
+</character>

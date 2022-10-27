@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="META ring of oath" key="jiezhi2.carry_item">
+ 
+    <inventory encumbrance="0.5" price="9999.0" />
+	<hud_icon filename="jiezhi2.png" />
+    <model filename="jiezhi2.xml" />
+
+    <commonness value="0.3" in_stock="1" />
+</carry_item>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="sniper.ai">
+  <parameter class="accuracy_offset" value="0.08" /> 
+  <parameter class="fighting_favor_helping_probability" value="0.05" />
+  <parameter class="uses_vehicles" value="0" />
+  <parameter class="lonewolf" value="1" />
+  <parameter class="going_to_cover_crouched_lonewolf_min_enemy_distance" value="20.0" />
+  <parameter class="burst_time" value="1.0" /> 
+</ai>

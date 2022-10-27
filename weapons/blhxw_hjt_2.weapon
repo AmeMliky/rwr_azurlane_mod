@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_hm.weapon" key="blhxw_hjt_2.weapon">
+    <tag name="assault" />
+
+    <specification 
+  retrigger_time="-1.0" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="4.0" 
+  sustained_fire_diminish_rate="1.0" 
+  magazine_size="2" 
+  can_shoot_standing="1" 
+  suppressed="1" 
+  name="Laffey Solomon's god of war" 
+  class="2" 
+  reload_one_at_a_time="1"    
+  projectile_speed="110.0" 
+  barrel_offset="1" 
+  projectiles_per_shot="5"
+  sight_range_modifier="1.0"
+  spread_range="0.05"/>
+  <next_in_chain key="blhxw_hjt_2_1.weapon" share_ammo="0" />
+
+    <!--     <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="30.0" randomness="0.0" />    -->
+    <ballistics curve_height="3.0" near_far_distance="10.0" speed_estimation_near="55.0" speed_estimation_far="35.0" max_speed="37.0" randomness="0.0" tweak_factor="2.2" />  
+    <!-- <ballistics curve_height="4.0" near_far_distance="10.0" speed_estimation_near="20.0" max_speed="160.0" randomness="0.0" />   -->
+    <!-- <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="100.0" randomness="0.0" /> -->
+
+
+    <animation state_key="hold" animation_key="still, mgl" />
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="cycle" animation_key="cycle, mgl" />
+    <animation state_key="reload" animation_key="reloading, mgl, one at a time" />
+	
+    <sound key="fire" fileref="mgl_shot.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_out" fileref="m79_clip_out.wav" volume="0.8" />
+    <sound key="magazine_in" fileref="mossberg500_reload.wav" volume="0.8"/>
+    <sound key="reload_one" fileref="m79_reload.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+	
+    <model filename="blhxw_hjt_2.xml" />
+
+    <projectile file="blhxw_hjt_2.projectile" />
+    <weak_hand_hold offset="0.4" />
+
+    <hud_icon filename="AzurLane_lafei.png" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1"/>
+    <inventory encumbrance="10.0" price="650.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.05" />
+    <stance state_key="walking" accuracy="0.2" />
+    <stance state_key="crouch_moving" accuracy="0.05" />
+    <stance state_key="prone_moving" accuracy="0.01" />
+
+    <stance state_key="standing" accuracy="0.6" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" />
+    
+	<capacity value="1" source="rank" source_value="0.0" />
+   
+    
+    <modifier class="speed" value="0.1" />    
+
+</weapon>

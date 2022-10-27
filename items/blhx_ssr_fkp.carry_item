@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Air defense gun development drawings SSR type" key="blhx_ssr_fkp.carry_item">
+ 
+    <inventory encumbrance="0.5" price="2022.0" />
+	<hud_icon filename="blhx_ssr_fkp.png" />
+    <model filename="blhx_ssr_fkp.xml" />
+
+    <commonness value="0.5" in_stock="0" />
+</carry_item>

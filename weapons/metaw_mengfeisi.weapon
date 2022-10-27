@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+<weapon key="metaw_mengfeisi.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="20.0"  drop_count_factor_on_player_death="0.0" drop_count_limit_in_range="1">
+	<tag name="melee" />
+	<tag name="elite" />
+    <specification 
+  retrigger_time="0.05" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.10" 
+  sustained_fire_diminish_rate="1.5" 
+  magazine_size="68" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="meta_mengfeisi" 
+  class="0" 
+  projectile_speed="150.0"
+  sight_range_modifier="1.6"
+  barrel_offset="0.58"
+  />
+	<next_in_chain key="metaw_mengfeisi_atk.weapon" share_ammo="0" />
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, ak47" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="mengfeisi_fire.wav" pitch_variety="0.06" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+	
+	
+	<model filename="metaw_mengfeisi.xml" />
+    <hud_icon filename="AzurLane_mengfeisi_alter.png" />
+    <commonness value="0.1" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="200.0" />
+
+    <projectile file="bullet_meta.projectile">
+	    <result class="hit" kill_probability="1.6" kill_decay_start_time="0.35" kill_decay_end_time="0.68" />
+    </projectile>
+    <modifier class="speed" value="+0.1" />
+	
+	
+	<stance state_key="running" accuracy="0.70" />
+    <stance state_key="walking" accuracy="0.80" />
+    <stance state_key="crouch_moving" accuracy="0.85" />
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.85" />
+    <stance state_key="prone" accuracy="0.90" /> 
+    <stance state_key="prone_moving" accuracy="0.6" />
+    <stance state_key="over_wall" accuracy="1.0" /> 
+
+     
+</weapon>
+
+<weapon key="metaw_mengfeisi_atk.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="20.0"  drop_count_factor_on_player_death="0.0" drop_count_limit_in_range="1">
+	<tag name="melee" />
+	<tag name="elite" />
+    <specification 
+  retrigger_time="0.8" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.8" 
+  sustained_fire_diminish_rate="1.5" 
+  magazine_size="3" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="meta_mengfeisi_atk" 
+  class="0" 
+  projectiles_per_shot="3"
+  projectile_speed="150.0"
+  sight_range_modifier="1.6"
+  barrel_offset="0.58"
+  />
+	<next_in_chain key="metaw_mengfeisi.weapon" share_ammo="0" />
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, ak47" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="blhx_ju_2_fire.wav" pitch_variety="0.06" />
+    <sound key="magazine_out" fileref="rifle_clip_out.wav" />
+    <sound key="magazine_in" fileref="rifle_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+	
+	
+	<model filename="metaw_mengfeisi.xml" />
+    <hud_icon filename="AzurLane_mengfeisi_alter.png" />
+    <commonness value="0.005" can_respawn_with="1" in_stock="0" />
+    <inventory encumbrance="10.0" price="200.0" />
+
+    <projectile file="metaw_mengfeisi_dt.projectile">
+    </projectile>
+    <modifier class="speed" value="-0.20" />
+	
+	
+	<stance state_key="running" accuracy="0.90" />
+    <stance state_key="walking" accuracy="0.90" />
+    <stance state_key="crouch_moving" accuracy="0.90" />
+    <stance state_key="standing" accuracy="0.90" />
+    <stance state_key="crouching" accuracy="0.90" />
+    <stance state_key="prone" accuracy="0.90" /> 
+    <stance state_key="prone_moving" accuracy="0.6" />
+    <stance state_key="over_wall" accuracy="1.0" /> 
+
+     
+</weapon>
+
+</weapons>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_hm.weapon" key="blhxw_dq_1.weapon" >
+    <tag name="meta_hm" />
+   
+
+    <specification 
+  retrigger_time="0.1" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.5" 
+  sustained_fire_diminish_rate="1.0" 
+  magazine_size="1" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="1" 
+  carry_in_two_hands="1"
+  suppressed="1" 
+  name="Upriver no.1 missile" 
+  class="0" 
+  reload_one_at_a_time="0"  
+  sight_range_modifier="3.0" 
+  projectile_speed="100.0" 
+  slot="0" 
+  projectiles_per_shot="4"
+	stab_enabled="1"
+    stab_range="3.5"
+	/>
+  
+ <next_in_chain key="blhxw_dq_1_1.weapon" share_ammo="0" /> 
+  
+     <animation key="recoil" ref="40" />
+    <animation state_key="reload" animation_key="reloading, javelin" />
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
+	
+	<animation state_key="recoil"	animation_key="melee, gunto" />
+	<animation state_key="recoil"	animation_key="melee, gunto slash" />
+	<animation state_key="stabbing"	animation_key="melee, gunto whip" />
+	<animation state_key="stabbing"	animation_key="melee, gunto stab" />
+	<animation state_key="recoil" stance_key="prone" animation_key="melee, prone sword" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="melee, gunto swing" />
+	
+	
+	
+	
+    <sound key="fire" fileref="dq_anshan_fire.wav" pitch_variety="0.0" volume="0.6" />
+    <sound key="magazine_out" fileref="anshan_re.wav"  volume="0.5" />
+    
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="blhxw_dq_1.xml" />
+
+
+ <ballistics curve_height="20.0" near_far_distance="35" speed_estimation_near="20.0" speed_estimation_far="40.0" max_speed="90.0" randomness="0.0" tweak_factor="1.5" />
+
+    <projectile file="blhxw_dq_mdt.projectile" />
+    <weak_hand_hold offset="0.3" />
+	
+
+    <capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="18.0" />
+
+    <hud_icon filename="AzurLane_anshan_g1.png" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="0" />
+    <inventory encumbrance="5.0" price="1000.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+	
+	<stance state_key="running" accuracy="1.0" />
+    <stance state_key="walking" accuracy="1.0" />
+    <stance state_key="crouch_moving" accuracy="1.0" />
+    <stance state_key="standing" accuracy="1.0" />
+    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="prone" accuracy="1.0" /> 
+    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />  
+   <modifier class="speed" value="-0.1" />    
+</weapon>

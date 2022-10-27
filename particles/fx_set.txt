@@ -1,0 +1,110 @@
+//mortar
+    <effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarSmokeTop" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarSmoke" post_processing="1" />
+    <effect class="result" key="terrain" ref="Godray" lighting="0" />
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+    <effect class="result" key="other" ref="MortarBurstInner" post_processing="1" />
+    <effect class="result" key="other" ref="MortarBurstOuter" post_processing="1" />
+    <effect class="result" key="other" ref="MortarBurstUp" post_processing="1" />
+    <effect class="result" key="other" ref="MortarSmokeTop" post_processing="1" />
+    <effect class="result" key="other" ref="MortarSmoke" post_processing="1" />
+    <effect class="result" key="other" ref="Godray" lighting="0" />
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+
+//heavy mortar
+    <effect class="result" key="terrain" ref="MortarBurstInner" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarBurstOuter" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarBurstUp" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarSmokeUp" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarSmokeTop" post_processing="1" />
+    <effect class="result" key="terrain" ref="MortarSmoke" post_processing="1" />
+    <effect class="result" key="terrain" ref="ArtilleryGodray" lighting="0" />
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+    <effect class="result" key="other" ref="MortarBurstInner" post_processing="1" />
+    <effect class="result" key="other" ref="MortarBurstOuter" post_processing="1" />
+    <effect class="result" key="other" ref="MortarBurstUp" post_processing="1" />
+    <effect class="result" key="other" ref="MortarSmokeUp" post_processing="1" />
+    <effect class="result" key="other" ref="MortarSmokeTop" post_processing="1" />
+    <effect class="result" key="other" ref="MortarSmoke" post_processing="1" />
+    <effect class="result" key="other" ref="Godray" lighting="0" />
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+
+//artillery
+    <effect class="result" key="terrain" ref="ArtilleryBurstInner" post_processing="1" />
+    <effect class="result" key="terrain" ref="ArtilleryBurstOuter" post_processing="1" />
+    <effect class="result" key="terrain" ref="ArtilleryBurstUp" post_processing="1" />
+    <effect class="result" key="terrain" ref="ArtillerySmokeUp" post_processing="1" />
+    <effect class="result" key="terrain" ref="ArtillerySmokeTop" post_processing="1" />
+    <effect class="result" key="terrain" ref="ArtillerySmoke" post_processing="1" />
+    <effect class="result" key="terrain" ref="ArtilleryGodray" lighting="0" />
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+    <effect class="result" key="other" ref="ArtilleryBurstInner" post_processing="1" />
+    <effect class="result" key="other" ref="ArtilleryBurstOuter" post_processing="1" />
+    <effect class="result" key="other" ref="ArtilleryBurstUp" post_processing="1" />
+    <effect class="result" key="other" ref="ArtillerySmokeUp" post_processing="1" />
+    <effect class="result" key="other" ref="ArtillerySmokeTop" post_processing="1" />
+    <effect class="result" key="other" ref="ArtillerySmoke" post_processing="1" />
+    <effect class="result" key="other" ref="ArtilleryGodray" lighting="0" />
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />
+
+//naval
+    <effect class="result" key="terrain" ref="NavalBurstInner" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalBurstOuter" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalBurstUp" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalSmokeUp1" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalSmokeUp2" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalSmokeTop1" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalSmokeTop2" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalSmokeTop3" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalSmoke1" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalSmoke2" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalSmoke3" post_processing="1" />
+    <effect class="result" key="terrain" ref="NavalGodray" lighting="0" />
+    <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="3.0" atlas_index="0" layer="1" />
+    <effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+
+    <effect class="result" key="other" ref="NavalBurstInner" post_processing="1" />
+    <effect class="result" key="other" ref="NavalBurstOuter" post_processing="1" />
+    <effect class="result" key="other" ref="NavalSmokeUp1" post_processing="1" />
+    <effect class="result" key="other" ref="NavalSmokeUp2" post_processing="1" />
+    <effect class="result" key="other" ref="NavalSmokeTop1" post_processing="1" />
+    <effect class="result" key="other" ref="NavalSmokeTop2" post_processing="1" />
+    <effect class="result" key="other" ref="NavalSmokeTop3" post_processing="1" />
+    <effect class="result" key="other" ref="NavalSmoke1" post_processing="1" />
+    <effect class="result" key="other" ref="NavalSmoke2" post_processing="1" />
+    <effect class="result" key="other" ref="NavalSmoke3" post_processing="1" />
+    <effect class="result" key="other" ref="NavalGodray" lighting="0" />
+    <effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+
+    <effect class="result" key="static_object" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="character" copy="terrain" />

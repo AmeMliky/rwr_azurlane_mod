@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- -------------------------- -->
+	<model filename="metam_fjfz.xml">
+		<requirement class="weapon" slot="0" key="metaw_fjfz_ju_1.weapon"/>
+	</model>
+	
+	<model filename="metam_feiying.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_feiying.weapon"/>
+	</model>
+	
+	<model filename="metam_fushang.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_fushang.weapon"/>
+	</model>
+	
+	<model filename="meta_fl.xml">
+		<requirement class="weapon" slot="0" key="meta_hm_hz_1.weapon"/>
+	</model>
+	<model filename="meta_fl.xml">
+		<requirement class="weapon" slot="0" key="meta_zjd_fl.weapon"/>
+	</model>
+	
+	
+	<model filename="metam_genaisennao.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_genaisennao.weapon"/>
+	</model>
+	<model filename="metam_shaen.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_shaenhuotesi.weapon"/>
+	</model>
+	
+	<model filename="metam_hailunna.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_hailunna.weapon"/>
+	</model>
+	
+    <model filename="metam_shancheng.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_shancheng.weapon"/>
+	</model>
+	
+	<model filename="metam_canglong.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_canglong.weapon"/>
+	</model>
+	
+	<model filename="metam_fanji.xml">
+		<requirement class="weapon" slot="0" key="metaw_fanji.weapon"/>
+	</model>
+	
+	<model filename="metam_shengwang.xml">
+		<requirement class="weapon" slot="0" key="metaw_shengwang.weapon"/>
+	</model>
+	
+	<model filename="metam_mengfeisi.xml">
+		<requirement class="weapon" slot="0" key="metaw_mengfeisi.weapon"/>
+	</model>
+	
+	<model filename="metam_mengfeisi.xml">
+		<requirement class="weapon" slot="0" key="metaw_mengfeisi_atk.weapon"/>
+	</model>
+	
+</models>

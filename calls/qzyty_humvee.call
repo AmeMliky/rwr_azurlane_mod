@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="spawn Humvee" key="qzyty_humvee.call"
+      initiation_comment1="I need combat transportation"
+      acknowledge_comment="Confirmed, Humvee's in the air."
+      launch_comment="Airdropping Humvee now."
+      notify_metagame="1"
+      >
+
+    <round instances="1"
+           instance_class="vehicle"
+           instance_key="humvee.vehicle" 
+           instance_spread="2 0 2" 
+           common_spread="0 0 0" 
+           launch_time="2.0"
+           spawn_time="5.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="50.0"
+           initial_speed_to_target="0.0"
+		   avoid_objects="1">
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+
+    <hud_icon filename="call_hanma.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="400.0" />
+
+</call>

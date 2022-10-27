@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="air strike bomb" slot="2" key="xiaojiajia_hd1.projectile" >
+	
+	<sound class="result" key="other" fileref="light_gun_01.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_02.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_03.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="light_gun_04.wav" volume="2.45" pitch_variety="0.1"/>
+	
+	<sound class="result" key="terrain" copy="other" />
+	<sound class="result" key="static_object" copy="other" />
+	<sound class="result" key="vehicle" copy="other" />
+	<sound class="result" key="character" copy="other" />
+
+	
+	
+	<trigger class="impact" />
+	<result
+	class="blast"
+	radius="8.5"
+	damage="8.0"
+	push="1.0"
+	decal="1" faction_compare="not_equal"
+	/>
+	
+	<model mesh_filename="zhenhai_hd.xml" />
+	<commonness value="0.0" />
+	
+	<rotation class="motion" />
+	
+	<effect class="result" key="terrain" ref="ArtilleryBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtilleryBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtilleryBurstUp" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmokeUp" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmokeTop" post_processing="1" />
+	<effect class="result" key="terrain" ref="NavalSmokeTop1" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtillerySmoke" post_processing="1" />
+	<effect class="result" key="terrain" ref="NavalSmoke1" post_processing="1" />
+	<effect class="result" key="terrain" ref="ArtilleryGodray" lighting="0" />
+	<effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
+	<effect class="result" type="splat_map" surface_tag="" size="5.0" atlas_index="0" layer="1" />         <!-- was 6 9 12 -->
+	<effect class="result" type="splat_map" surface_tag="" size="7.0" atlas_index="4" layer="0" />
+	<effect class="result" type="splat_map" surface_tag="" size="9.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+	
+	<effect class="result" key="other" ref="ArtilleryBurstInner" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="ArtilleryBurstOuter" post_processing="1" use_surface_color="1" />
+	<effect class="result" key="other" ref="ArtilleryBurstUp" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmokeUp" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmokeTop" post_processing="1" />
+	<effect class="result" key="other" ref="NavalSmokeTop1" post_processing="1" />
+	<effect class="result" key="other" ref="ArtillerySmoke" post_processing="1" />
+	<effect class="result" key="other" ref="NavalSmoke1" post_processing="1" />
+	<effect class="result" key="other" ref="ArtilleryGodray" lighting="0" />
+	<effect class="result" key="other" ref="ShadowSmoke" shadow="1" />
+	
+	<effect class="result" key="static_object" copy="terrain" />
+	<effect class="result" key="vehicle" copy="terrain" />
+	<effect class="result" key="character" copy="terrain" />
+	
+	<effect class="activated" ref="Propulsion_rocket" />
+	
+</projectile>

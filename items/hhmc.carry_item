@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="hhmc.carry_item" 
+	name="hhmc" 
+	slot="1" 
+	transform_on_consume="GXNDJ_1"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	
+	<hud_icon filename="hhmc.png" />
+	<commonness value="0.00" in_stock="1"  can_respawn_with="1"/>
+	
+    <inventory encumbrance="10" price="128" />
+	
+    <capacity value="1" source="rank" source_value="0.0" />
+	
+    <modifier class="speed" value="0.12" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.2" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="hhmc.xml" />
+	   
+
+	   </carry_item>	
+      	
+    <carry_item key="GXNDJ_1" 
+	name="hhmc_1" 
+	slot="1" 
+	transform_on_consume="GXNDJ_2"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="hhmc_1.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.12" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.2" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="hhmc.xml" />
+	</carry_item>
+	
+<carry_item key="GXNDJ_2" 
+	name="hhmc_2" 
+	slot="1" 
+	transform_on_consume="GXNDJ_3"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="hhmc_2.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.12" />
+    <modifier class="hit_success_probability" value="-0.6" />
+     <modifier class="detectability" value="-0.2" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="hhmc.xml" />
+	</carry_item>
+
+	<carry_item key="GXNDJ_3" 
+	name="hhmc_3" 
+	slot="1" 
+	transform_on_consume="GXNDJ_4"
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="hhmc_3.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.05" />
+    <modifier class="hit_success_probability" value="-0.6" />
+     <modifier class="detectability" value="-0.2" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="hhmc.xml" />
+		
+	</carry_item>
+	<carry_item key="GXNDJ_4" 
+	name="hhmc_4" 
+	slot="1" 
+	time_to_live_out_in_the_open="120.0" 
+	player_death_drop_owner_lock_time="45.0">	
+	<hud_icon filename="hhmc_4.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="0.0" price="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.05" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.2" />
+    <modifier class="night_detectability" value="-0.05" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death"  />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="death"   />
+	<model mesh_filename="hhmc.xml" />
+	
+	</carry_item>
+</carry_items>

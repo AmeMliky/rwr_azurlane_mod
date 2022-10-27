@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+ <!--blhx 2022/4/10-->
+  <weapon file="sr_smg_1.weapon"/>
+  <weapon file="sr_smg_1_1.weapon"/>
+  <weapon file="sr_smg_2.weapon"/>
+  <weapon file="sr_smg_2_yl.weapon"/>
+  <weapon file="sr_smg_3.weapon"/>
+  <weapon file="sr_mg_1.weapon"/>
+  <weapon file="sr_mg_2.weapon"/>
+  <weapon file="sr_mg_3.weapon"/>
+  <weapon file="sr_mg_4.weapon"/>
+  <weapon file="sr_mg_4_yl.weapon"/>
+  
+  <weapon file="sr_hm_0.weapon"/>
+  
+  <weapon file="srw_boss_lawosi.weapon"/>
+  <weapon file="srw_boss_lawosi_1.weapon"/>
+  
+  <weapon file="sr_qingchuzhe.weapon"/>
+  <weapon file="sr_qingchuzhe_1.weapon"/>
+  
+  <weapon file="srw_boss_tianpalansi.weapon"/>
+  <weapon file="srw_boss_tianpalansi_1.weapon"/>
+  
+  <weapon file="srw_jinghuazhe.weapon"/>
+  <weapon file="srw_jinghuazhe_1.weapon"/>
+  
+  <weapon file="sr_boss_siteliankusi.weapon"/>
+  <weapon file="sr_boss_siteliankusi_1.weapon"/>
+  
+  <weapon file="srw_guanchazhe.weapon"/>
+  <weapon file="srw_guanchazhe_1.weapon"/>
+  
+  <weapon file="sr_boss_enpuleisi.weapon"/>
+  <weapon file="sr_boss_enpuleisi_1.weapon"/>
+  
+  <weapon file="srw_boss_guanchazhe_zero.weapon"/>
+  
+  
+</weapons>

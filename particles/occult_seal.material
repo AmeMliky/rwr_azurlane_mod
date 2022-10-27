@@ -1,0 +1,93 @@
+material OccultSealActivation {
+    technique {
+        pass {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+			depth_check off
+
+            texture_unit {
+                texture woosh.png 
+                tex_address_mode clamp
+            }
+        }
+    }
+}
+
+material OccultSealStage1 {
+	receive_shadows off
+	technique Default {
+		// stuff that shows through when hidden behind walls and roofs
+		pass Basic {
+			lighting off
+			//ambient 1.0 1.0 1.0 1.0
+			//diffuse 1.0 1.0 1.0 1.0 
+			//lighting on
+			ambient vertexcolour
+			diffuse vertexcolour
+
+			cull_hardware none
+			cull_software none        
+			//alpha_rejection greater 32
+			scene_blend alpha_blend
+
+			depth_write on
+			depth_check on
+
+			texture_unit Image {
+				texture occult_seal_stage_circle.png
+				tex_address_mode clamp
+			}
+		} 
+	}
+}
+
+material OccultSealStage2 : OccultSealStage1 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				texture occult_seal_stage_edge.png
+			}
+		}
+	}
+}
+
+material OccultSealStage3 : OccultSealStage2 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 72
+			}
+		}
+	}
+}
+
+material OccultSealStage4 : OccultSealStage2 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 144
+			}
+		}
+	}
+}
+
+material OccultSealStage5 : OccultSealStage2 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 216
+			}
+		}
+	}
+}
+
+material OccultSealStage6 : OccultSealStage2 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 288
+			}
+		}
+	}
+}

@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="grinch.carry_item" name="grinch" slot="1" transform_on_consume="grinch_2" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="1.0" in_stock="0" can_respawn_with="1" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+		<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_2" name="grinch_2" slot="1" transform_on_consume="grinch_3" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+		<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_3" name="grinch_3" slot="1" transform_on_consume="grinch_4" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+		<modifier class="speed" value="0.0" />
+    </carry_item>
+	
+    <carry_item key="grinch_4" name="grinch_4" slot="1" transform_on_consume="grinch_5" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_5" name="grinch_5" slot="1" transform_on_consume="grinch_6" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_6" name="grinch_6" slot="1" transform_on_consume="grinch_7" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_7" name="grinch_7" slot="1" transform_on_consume="grinch_8" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_8" name="grinch_8" slot="1" transform_on_consume="grinch_9" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_9" name="grinch_9" slot="1" transform_on_consume="grinch_10" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_10" name="grinch_10" slot="1" transform_on_consume="grinch_11" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_11" name="grinch_11" slot="1" transform_on_consume="grinch_12" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_12" name="grinch_12" slot="1" transform_on_consume="grinch_13" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_13" name="grinch_13" slot="1" transform_on_consume="grinch_14" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_14" name="grinch_14" slot="1" transform_on_consume="grinch_15" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_15" name="grinch_15" slot="1" transform_on_consume="grinch_16" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_16" name="grinch_16" slot="1" transform_on_consume="grinch_17" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_17" name="grinch_17" slot="1" transform_on_consume="grinch_18" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_18" name="grinch_18" slot="1" transform_on_consume="grinch_19" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_19" name="grinch_19" slot="1" transform_on_consume="grinch_20" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_20" name="grinch_20" slot="1" transform_on_consume="grinch_21" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_21" name="grinch_21" slot="1" transform_on_consume="grinch_22" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_22" name="grinch_22" slot="1" transform_on_consume="grinch_23" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_23" name="grinch_23" slot="1" transform_on_consume="grinch_24" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_24" name="grinch_24" slot="1" transform_on_consume="grinch_25" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_25" name="grinch_25" slot="1" transform_on_consume="grinch_26" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_26" name="grinch_26" slot="1" transform_on_consume="grinch_27" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_27" name="grinch_27" slot="1" transform_on_consume="grinch_28" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_28" name="grinch_28" slot="1" transform_on_consume="grinch_29" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="grinch_29" name="grinch_29" slot="1" transform_on_consume="grinch_30" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="grinch_30" name="grinch_30" slot="1" transform_on_consume="grinch_31" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="grinch_31" name="grinch_31" slot="1" transform_on_consume="grinch_32" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_32" name="grinch_32" slot="1" transform_on_consume="grinch_33" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_33" name="grinch_33" slot="1" transform_on_consume="grinch_34" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="grinch_34" name="grinch_34" slot="1" transform_on_consume="grinch_35" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="grinch_35" name="grinch_35" slot="1" transform_on_consume="grinch_36" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_36" name="grinch_36" slot="1" transform_on_consume="grinch_37" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.4" />
+    </carry_item>
+
+    <carry_item key="grinch_37" name="grinch_37" slot="1" transform_on_consume="grinch_38" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.3" />
+    </carry_item>
+
+    <carry_item key="grinch_38" name="grinch_38" slot="1" transform_on_consume="grinch_39" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_39" name="grinch_39" slot="1" transform_on_consume="grinch_40" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.1" />
+    </carry_item>
+
+    <carry_item key="grinch_40" name="grinch_40" slot="1" transform_on_consume="grinch_41" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_41" name="grinch_41" slot="1" transform_on_consume="grinch_42" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+       <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="+0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_42" name="grinch_42" slot="1" transform_on_consume="grinch_43" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+       <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="none" />
+
+	<modifier class="speed" value="+0.0" />
+    </carry_item>
+
+    <carry_item key="grinch_43" name="grinch_43" slot="1" transform_on_consume="grinch_44" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+        <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+        <modifier class="melee_hit_result" input_character_state="death" output_character_state="stun" />
+	<modifier class="speed" value="-0.1" />
+    </carry_item>
+
+    <carry_item key="grinch_44" name="grinch_44" slot="1" transform_on_consume="grinch_45" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="death" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="stun" />
+        <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" />
+
+	<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+    <carry_item key="grinch_45" name="grinch_45" slot="1" drop_count_factor_on_death="0.0" draggable="0">
+        <hud_icon filename="hud_vest_hole1.png" />
+        <capacity value="1" source="rank" source_value="0.0" />
+        <inventory encumbrance="50" price="0" />
+
+        <model mesh_filename="vest.xml" />
+
+        <commonness value="0.0" in_stock="0" can_respawn_with="0" />
+
+	<modifier class="speed" value="-0.2" />
+    </carry_item>
+
+</carry_items>

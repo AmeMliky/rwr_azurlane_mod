@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="sr_call_4" key="sr_goujianzhe.call"
+      initiation_comment1="Builders Aviation support"
+      initiation_comment2="500LB bomb X 6 1800lb bomb X 12 Naval gunfire support X 18"
+      acknowledge_comment="Roger, wait one"
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way."
+	  notify_metagame="1">
+    
+    <round instances="6"
+           instance_class="grenade"
+           instance_key="xiaojiajia_hd.projectile" 
+           instance_spread="8 8 8" 
+			common_spread="2 1 2" 
+			launch_time="1.1"
+			spawn_time="7.0">
+	  <sound class="launch" fileref="sr_call_4.wav" pitch_variety="0.0" volume="2.0" />
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+    </round>
+	
+	 <round instances="6"
+           instance_class="grenade"
+           instance_key="xiaojiajia_hd1.projectile" 
+            instance_spread="10 8 10" 
+			common_spread="2 1 2" 
+			launch_time="5.5"
+			spawn_time="8.0">
+	 
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+    </round>
+	
+	<round instances="6"
+           instance_class="grenade"
+           instance_key="xiaojiajia_hd1.projectile" 
+            instance_spread="10 8 10" 
+			common_spread="2 1 2" 
+			launch_time="5.5"
+			spawn_time="8.0">
+	 
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+    </round>
+	
+ <round instances="6"
+           instance_class="grenade"
+           instance_key="xiaojiajia_jianpao.projectile" 
+            instance_spread="10 8 10" 
+			common_spread="4 1 4" 
+			launch_time="6.5"
+			spawn_time="9.0">
+	
+    </round>
+	
+	 <round instances="6"
+           instance_class="grenade"
+           instance_key="xiaojiajia_jianpao.projectile" 
+            instance_spread="12 8 12" 
+			common_spread="4 1 4" 
+			launch_time="6.5"
+			spawn_time="9.0">
+	
+    </round>
+	
+	 <round instances="6"
+           instance_class="grenade"
+           instance_key="xiaojiajia_jianpao.projectile" 
+            instance_spread="12 8 12" 
+			common_spread="3 1 3" 
+			launch_time="6.5"
+			spawn_time="9.0">
+	
+    </round>
+    
+
+    <hud_icon filename="call_goujianzhe.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.6" />
+    <inventory encumbrance="0.0" price="648.0" />
+
+</call>

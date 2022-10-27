@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_carry_items="1" >
+	<!-- always load common first; it's the one that clears the initial weapon resources -->
+
+	<weapon key='blhxw_pz_3.weapon' />
+	<weapon key='blhxw_pz_3_1.weapon' />
+	
+
+	<carry_item key="VH_boss_ai.carry_item"  />
+	
+  
+	<projectile key='blhxw_4_baozhu.projectile' enabled="1" />
+	
+
+	 
+  
+</resources>

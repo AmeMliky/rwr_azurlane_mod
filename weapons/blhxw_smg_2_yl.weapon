@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_smg.weapon" key="blhxw_smg_2_yl.weapon">
+    <tag name="stealth" />
+    <specification 
+  retrigger_time="0.066" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.4" 
+  sustained_fire_diminish_rate="1.3" 
+  magazine_size="45" 
+  projectiles_per_shot="2"
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="76 mm artillery" 
+  class="0" 
+  projectile_speed="120.0"
+  sight_range_modifier="1.00"  />
+  
+  <next_in_chain key="blhxw_smg_2_yl_1.weapon" share_ammo="0" />
+  
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, scorpion-evo" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+	
+    <sound key="fire" fileref="smg4.wav" pitch_variety="0.03" volume="0.15"/>
+    <sound key="magazine_out" fileref="smg_re2.wav" volume="0.4" />
+   
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="blhxw_smg_2.xml" />
+    <hud_icon filename="smg_2.png" />
+    <inventory encumbrance="1.0" price="1.0" />
+    <commonness value="1.0" can_respawn_with="1" in_stock="1"/>
+   
+	
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.65" kill_decay_start_time="0.17" kill_decay_end_time="0.33" />
+    </projectile>
+    <modifier class="speed" value="0.4" />     
+</weapon>

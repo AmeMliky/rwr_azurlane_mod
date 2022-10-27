@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<squad_config name="Default">
+	<soldier />
+	<soldier weapon2_tag="lyb_1" />
+	<soldier />
+	<soldier />
+
+	<soldier />
+	<soldier />
+	<soldier />
+	<soldier />
+
+	<soldier />
+	<soldier />
+</squad_config>

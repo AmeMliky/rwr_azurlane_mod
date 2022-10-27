@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<vehicle key="jeep_2.vehicle" />
+ 	<vehicle key="apc_2.vehicle" />
+ 	<vehicle key="tank_2.vehicle" />
+ 	<vehicle key="transport_truck_2.vehicle" />
+
+
+
+	
+</resources>

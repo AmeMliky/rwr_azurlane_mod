@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="610mm_yl" key="610mm_yl.projectile" pulldown_in_air="8" use_time_to_live="1" time_to_live="1.6" can_be_detected_by_footmen="0" slot="1">
+    
+    <result class="blast" radius="6" push="0.3" decal="0" damage="3.0" character_state="stun" faction_compare="not_equal" make_vehicle_hit_sound="0" />
+	
+	
+    <trigger class="impact">
+     <collider class="terrain" enabled="1"  />     
+     <collider class="static_object" enabled="1"  /> 
+     <collider class="vehicle" enabled="1"  /> 
+     <collider class="character" enabled="1" />
+    </trigger>
+	
+	
+    <rotation class="random" />
+	
+	
+    <collision class="sticky" />
+ 
+    <model filename="610mm.xml" />
+
+    <throwable near_far_distance="100.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="40.0" randomness="0.0" />
+	
+	<commonness value="0.0" />
+	
+    <sound class="result" key="other" fileref="firecracker.wav" />
+
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+	
+	<effect class="activated" ref="CrackerPropulsion" lighting="0" />
+	<effect class="activated" ref="FlameSparkle" lighting="0" />
+	  
+    <effect class="result" key="terrain" ref="CrackerFlash" lighting="0" />
+	<effect class="result" key="terrain" ref="FlamePropulsionEnd" lighting="0" /> 
+	<effect class="result" key="terrain" ref="FlameSparkleEnd" lighting="0" />
+	<effect class="result" key="terrain" ref="DragonSparkle" lighting="0" />
+	<effect class="result" key="terrain" ref="DragonFlame2" lighting="0" />  
+    
+    <effect class="result" key="other" copy="terrain" />
+    <effect class="result" key="vehicle" copy="terrain" />
+    <effect class="result" key="static_object" copy="terrain" />    
+	
+</projectile>

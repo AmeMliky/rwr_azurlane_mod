@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon  file="base_one_smg.weapon" key="blhxw_zjd_lb_1.weapon" >
+   
+	
+    <specification
+	retrigger_time="1.2"
+	accuracy_factor="1.0"
+	sustained_fire_grow_step="0.8"
+	sustained_fire_diminish_rate="1.0"
+	magazine_size="2"
+	can_shoot_standing="1"
+	suppressed="1"
+    carry_in_two_hands="0" 
+	name="The torpedo launch Ayanami"
+	class="4"
+	reload_one_at_a_time="0"
+	sight_range_modifier="1.0"
+	projectile_speed="40.0"
+	projectiles_per_shot="5"
+	burst_shots="1"
+    slot="0"
+	spread_range="0.5"
+    stab_enabled="1"
+    stab_range="3.0"
+	barrel_offset="0.1"   />
+	
+	
+	<next_in_chain key="blhxw_zjd_lb.weapon" share_ammo="0" /> 
+	
+    <ballistics near_far_distance="100.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="40.0" randomness="0.0" /> 
+	
+	<animation state_key="stabbing"	animation_key="melee, ninjato whip" />
+	<animation state_key="stabbing"	animation_key="melee, ninjato slap" />
+	<animation state_key="stabbing"	animation_key="melee, ninjato slash" />
+	<animation state_key="recoil"	animation_key="recoil, ninjato" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil overwall, ninjato" />
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil crouching, ninjato" />
+	<animation state_key="recoil" stance_key="prone" animation_key="recoil prone, ninjato" />
+	<animation state_key="reload"   animation_key="df,re" />
+	<animation state_key="hold"	animation_key="still, ninjato" />
+	<animation state_key="hold_on_wall"	animation_key="still overwall, ninjato" />
+	<animation state_key="still_against_wall"	animation_key="still against wall, ninjato" />
+	<animation state_key="hold_casual"	animation_key="relaxed, ninjato" />
+	<animation state_key="running"	animation_key="running, ninjato" />
+	<animation state_key="walking"	animation_key="walking, ninjato" />
+	<animation state_key="crouching"	animation_key="crouch, ninjato" />
+	<animation state_key="crouch_moving"	animation_key="crouching forwards, ninjato" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, ninjato" />
+	<animation state_key="changing_weapon_in"	animation_key="change weapon in, ninjato" />
+	<animation state_key="changing_weapon_out"	animation_key="change weapon out, ninjato" />
+    <animation state_key="prone_still" animation_key="prone still, ninjato" />
+    <animation state_key="prone_moving" animation_key="prone moving, ninjato" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, ninjato" />
+	
+	<sound key="fire" fileref="cracker_throw.wav" pitch_variety="0.05" volume="0.3" />
+    <sound key="cycle" fileref="shuriken_grab.wav" />
+	<sound key="stab" fileref="ninjato_swoosh.wav" pitch_variety="0.05" />
+	<sound key="stab_hit" fileref="ninjato_hit_fatal.wav" pitch_variety="0.05" volume="0.6" />
+	<sound key="stab_hit_any" fileref="ninjato_hit.wav" pitch_variety="0.05" volume="0.6" />
+    <sound key="dry_fire" fileref="static.wav" />
+	<sound key="cycle" fileref="ayanami_jn.wav" pitch_variety="0.00" volume="0.6" />
+	
+    <projectile file="610mm_yl.projectile" />
+	
+    <capacity value="1" source="rank" source_value="0.0" />  	
+	
+    <weak_hand_hold offset="0.0" />
+
+	<model filename="zjd_2.xml" />
+	<hud_icon filename="zjd_2.png" />
+	
+	<commonness value="0.0001" can_respawn_with="1" in_stock="0" />
+	<inventory encumbrance="10.0" price="200.0" />
+	
+	<stance state_key="running" accuracy="0.8" />
+	<stance state_key="walking" accuracy="0.8" />
+	<stance state_key="crouch_moving" accuracy="0.8" />
+	<stance state_key="prone_moving" accuracy="0.8" />
+	
+	<stance state_key="standing" accuracy="0.8" />
+	<stance state_key="crouching" accuracy="0.8" />
+	<stance state_key="prone" accuracy="0.8" />
+	
+	<modifier class="speed" value="+0.65" />
+	
+    <shield offset="-0.3 0.0 0" extent="0.6 1.6 0.4" usable_for_cover="0"/>
+	
+</weapon>

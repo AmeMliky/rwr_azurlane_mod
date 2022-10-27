@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ar.weapon" key="metaw_boss_fushang.weapon">
+    <tag name="cqb" />
+	
+    <specification
+	retrigger_time="-1.0" 
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="0.0" 
+	sustained_fire_diminish_rate="1.0" 
+	spread_range = "0.0"
+	magazine_size="-1"  
+	carry_in_two_hands="0" 
+	can_shoot_standing="1" 
+	can_shoot_crouching="1" 
+	suppressed="0" 
+	name="meta Fuso" 
+	class="1" 
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1" 
+	slot="0" 
+	stab_enabled="1"
+	stab_range="4.0"
+	projectile_speed="0.0" 
+	projectiles_per_shot="1"
+	barrel_offset="0.0" />
+
+	<animation state_key="recoil"			animation_key="air thrust" />
+	<animation state_key="cycle"			animation_key="recoil, knife" />
+	<animation state_key="hold"			animation_key="hold, knife" />
+	<animation state_key="hold_casual"		animation_key="hold, saber" />
+	<animation state_key="hold_on_wall"		animation_key="hold, knife" />
+	<animation state_key="still_against_wall"	animation_key="hold, saber" />
+	<animation state_key="crouching"	animation_key="crouch, knife" />
+	<animation state_key="crouch_moving"	animation_key="crouching forwards, ninjato" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, ninjato" />
+	<animation state_key="running"			animation_key="running, pistol" />
+	<animation state_key="walking"			animation_key="walking, single hand carry" />
+	<animation state_key="changing_weapon_in"	animation_key="change weapon in, ninjato" />
+	<animation state_key="changing_weapon_out"	animation_key="change weapon out, ninjato" />
+    <animation state_key="prone_still" 		animation_key="prone still, sword" />
+    <animation state_key="prone_moving" 		animation_key="prone moving, ninjato" />
+	<animation state_key="walking_backwards" 	animation_key="walking backwards, pistol" />
+	<animation state_key="stabbing"			animation_key="stabbing, fast" />
+
+	<sound key="stab" fileref="grenade_throw1.wav" pitch_variety="0.05" volume="0.6" />
+	<sound key="stab_hit" fileref="impact_body1.wav" pitch_variety="0.05" volume="0.8" />
+
+	<model filename="metaw_boss_fushang.xml" />
+	<hud_icon filename="AzurLane_fusang_alter.png" />
+	
+	<commonness value="0.0" can_respawn_with="1" in_stock="1"/>
+	<inventory encumbrance="5.0" price="100.0" />
+
+	<projectile file="metaw_boss_fushang_dt.projectile" />
+	
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+	<modifier class="speed" value="+0.1" />
+	
+</weapon>

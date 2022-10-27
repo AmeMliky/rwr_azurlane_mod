@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_hg.weapon" key="shovel_sandbag_1.weapon"  >
+    <tag name="jiyibao" />
+    <specification 
+	magazine_size="1" 
+    carry_in_two_hands="0" 
+    can_shoot_prone="1" 
+    name="Ordnance shovel(Melee)" 
+    class="5" 
+	character_state="death" 
+    consume="0" 
+    sight_range_modifier="1" 
+    slot="1"
+	range="1.8"
+	success_probability="1.25"
+	stab_range="1.25"
+	stab_enabled="1" />
+	
+	<next_in_chain key="shovel_1.weapon" share_ammo="0" />
+	
+    <animation state_key="walking" 		animation_key="walking, single hand carry" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, single hand carry" />
+	<animation state_key="running" 		animation_key="running, single hand carry" />
+    <animation state_key="hold" 		animation_key="hold, saber" />
+    <animation state_key="hold_on_wall" 	animation_key="still, single hand carry" />
+    <animation state_key="hold_casual" 		animation_key="still, single hand carry" />
+    <animation state_key="still_against_wall"	animation_key="still, single hand carry" />
+    <animation state_key="stabbing" 		animation_key="stabbing1, shovel" />
+	<animation state_key="stabbing" 		animation_key="stabbing2, shovel" />
+    <animation state_key="recoil" 		animation_key="melee, shovel" />
+	<animation state_key="recoil" stance_key="prone" animation_key="melee, prone saber" />
+	<animation state_key="prone_still" animation_key="prone still, shovel" />
+    <animation state_key="crouching" 		animation_key="crouch, knife" />
+    <animation state_key="crouch_moving"	animation_key="crouching forwards, ninjato" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, ninjato" />
+	
+	<sound key="fire" fileref="sabre_swoosh.wav" pitch_variety="0.05" />
+    <sound class="impact" fileref="medikit_drop.wav" />    
+	<sound key="stab" fileref="sabre_swoosh.wav" pitch_variety="0.05" volume="0.8" />
+	<sound key="stab_hit" fileref="ninjato_hit.wav" pitch_variety="0.05" volume="1.0" />
+	<sound key="stab_hit_any" fileref="ninjato_hit_fatal.wav" pitch_variety="0.05" volume="0.8" />
+
+    <model mesh_filename="shovel.xml" />
+	<addon_model filename="backpack_sandbag.xml" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+
+    <hud_icon filename="hud_shovel.png" />
+  <commonness value="0.0" can_respawn_with="1" in_stock="0"/>
+    <inventory encumbrance="5.0" price="80.0" />
+
+    <modifier class="speed" value="+0.1" />
+
+</weapon>
+

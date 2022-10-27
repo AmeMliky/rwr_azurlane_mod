@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_hg.weapon" key="blhxw_hg_sdyg_1.weapon" >
+    <tag name="assault" />
+	
+    <specification
+	retrigger_time="0.35"
+	accuracy_factor="1.0"
+	sustained_fire_grow_step="0.2"
+	sustained_fire_diminish_rate="0.8"
+	magazine_size="15"
+	can_shoot_standing="1"
+    carry_in_two_hands="0" 
+	suppressed="0"
+	name="San Diego The songs of the stars"
+	class="0"
+	reload_one_at_a_time="0"
+	sight_range_modifier="1.0"
+	projectile_speed="100.0"
+	projectiles_per_shot="2"
+	burst_shots="1" 
+	slot="0" />
+	<next_in_chain key="blhxw_hg_sdyg.weapon" share_ammo="0" />
+  
+	
+	<animation state_key="recoil"	animation_key="recoil, pistol, 2hand" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil, pistol, 2hand, prone" />	
+    <animation state_key="reload"	animation_key="reloading, pistol" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, pistol, prone" />	
+	<animation state_key="hold"	animation_key="hold, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold_casual, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
+	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, pistol" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />    
+	
+    <sound key="fire" fileref="hg_fire.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_out" fileref="hg_re.wav" volume="1.0" />
+   
+    <sound key="cycle" fileref="SanDiego_jn.wav" pitch_variety="0.00" volume="0.4" />
+    <model filename="blhxw__hg_sdyg.xml" />
+
+    <hud_icon filename="AzurLane_shengdiyage_g.png" />
+    <commonness value="0.01" can_respawn_with="1" in_stock="0" />
+    <inventory encumbrance="10.0" price="188.0" />
+
+    
+    <weak_hand_hold offset="0.1" />
+    <projectile file="dujiaoshou_dt.projectile">
+    </projectile>
+    
+    <capacity source="rank" source_value="0.0" value="1" />    
+    
+    <stance state_key="running" accuracy="0.8" />
+    <stance state_key="walking" accuracy="0.8" />
+    <stance state_key="crouch_moving" accuracy="0.8" />
+    <stance state_key="prone_moving" accuracy="0.8" />
+
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="walking" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="0.95" />
+    
+    <modifier class="speed" value="+0.05" />    
+
+</weapon>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_smg.weapon" key="sr_smg_2_yl.weapon">
+    <tag name="stealth" />
+
+    <specification 
+  retrigger_time="0.5" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="1.0" 
+  sustained_fire_diminish_rate="1.0" 
+  magazine_size="2" 
+  projectiles_per_shot="3"
+  can_shoot_standing="1" 
+  suppressed="1" 
+  name="sirens explorer The torpedo projection" 
+  class="0" 
+  carry_in_two_hands="0" 
+  projectile_speed="120.0" 
+  barrel_offset="0.5" 
+ 
+  spread_range="0.1"/>
+  
+    <next_in_chain key="sr_smg_2.weapon" share_ammo="0" />
+
+    
+  <ballistics  near_far_distance="1000" speed_estimation_near="60.0" speed_estimation_far="60.0" max_speed="90.0" randomness="0.0" tweak_factor="1.00" />
+
+    <animation state_key="recoil"	animation_key="recoil, pistol" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil, smg1, prone" />	
+	<animation state_key="reload"	animation_key="reloading, pistol" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, smg1, prone" />	
+	<animation state_key="hold"	animation_key="hold, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold_casual, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
+	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, pistol" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+	<animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+	<animation state_key="prone_still" animation_key="prone_still, pistol" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+  
+    <sound key="fire" fileref="sr_smg2.wav" pitch_variety="0.05" volume="0.4" />
+    <sound key="magazine_out" fileref="sr_re.wav" volume="0.7" />
+   
+    <sound key="cycle" fileref="pz_re.wav" volume="0.7"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="srw_smg_2.xml" />
+
+    <projectile file="sr_yl_dt.projectile" />
+
+   
+    <capacity value="1" source="rank" source_value="0.0" />
+
+    <hud_icon filename="AzurLane_sairenquzhu.png" />
+    <commonness value="0.2" can_respawn_with="1" in_stock="0" />
+    <inventory encumbrance="10.0" price="10.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.1" />
+    <stance state_key="walking" accuracy="0.25" />
+    <stance state_key="crouch_moving" accuracy="0.1" />
+    <stance state_key="prone_moving" accuracy="0.1" />
+
+    <stance state_key="standing" accuracy="0.6" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="0.8" /> 
+    
+    <modifier class="speed" value="0.4" />    
+
+</weapon>

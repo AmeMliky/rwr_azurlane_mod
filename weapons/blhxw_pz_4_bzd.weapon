@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_pz.weapon" key="blhxw_pz_4_bzd.weapon">
+    <tag name="cqb" />
+    <specification 
+  retrigger_time="0.40" 
+  accuracy_factor="0.80" 
+  sustained_fire_grow_step="1.8" 
+  sustained_fire_diminish_rate="0.9" 
+  magazine_size="10" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="The unicorn Parallel torpedo" 
+  class="4" 
+  reload_one_at_a_time="1" 
+  sight_range_modifier="1.4" 
+  projectile_speed="80.0" 
+  projectiles_per_shot="6" 
+  burst_shots="1" />
+
+	<next_in_chain key="blhxw_pz_4_bzd_1.weapon" share_ammo="0" />
+    <animation key="recoil" ref="27" />
+    <animation key="reload" ref="29" />
+	
+    <sound key="fire" fileref="pz_fire5.wav" pitch_variety="0.04" volume="0.7" />
+    <sound key="cycle" fileref="mossberg500_cycle.wav" />
+    <sound key="reload_one" fileref="pz_re.wav" />
+	
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="blhxw_dujiaoshou.xml" />
+
+    <hud_icon filename="AzurLane_dujiaoshou_2.png" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1"/>   
+    <inventory encumbrance="10.0" price="280.0" />
+
+    <weak_hand_hold offset="0.2" />
+    <projectile file="dujiaoshou_dt.projectile">
+    </projectile>
+    <modifier class="speed" value="+0.12" />
+</weapon>

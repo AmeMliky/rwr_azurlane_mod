@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- -------------------------- -->
+	
+
+	<!--model filename="soldier_wickops.xml">
+		<requirement class="carry_item" slot="1" key="vest3_6"/>
+		<requirement class="weapon" slot="0" key="l30p.weapon"/>
+	</model-->   
+	<!--  blhx 2022/3/23-->
+	
+	
+	<model filename="blhxm_df.xml">
+	<requirement class="weapon" slot="0" key="blhxw_zjd_df.weapon"/>
+	</model>
+	<model filename="blhxm_df.xml">
+	<requirement class="weapon" slot="0" key="blhxw_zjd_df_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_xiaojiajia.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_3.weapon"/>
+	</model>
+	<model filename="blhxm_xiaojiajia.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_3_1.weapon"/>
+	</model>
+	<model filename="blhxm_xiaojiajia.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_3_2.weapon"/>
+	</model>
+	
+	<!-- 标枪测试-->
+	<model filename="bq_l.xml">
+	<requirement class="weapon" slot="0" key="blhxw_javelin.weapon"/>
+	</model>
+	<model filename="bq_l.xml">
+	<requirement class="weapon" slot="0" key="blhxw_javelin_1.weapon"/>
+	</model>
+	
+	
+	<model filename="blhxm_z23.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_1_z23.weapon"/>
+	</model>
+	<model filename="blhxm_z23.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_1_z23_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_Ayanami.xml">
+	<requirement class="weapon" slot="0" key="blhxw_zjd_lb.weapon"/>
+	</model>
+	<model filename="blhxm_Ayanami.xml">
+	<requirement class="weapon" slot="0" key="blhxw_zjd_lb_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_lafei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_2.weapon"/>
+	</model>
+	<model filename="blhxm_lafei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_hjt_2_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_mingsike.xml">
+	<requirement class="weapon" slot="0" key="blhxw_mg_4.weapon"/>
+	</model>
+	<model filename="blhxm_mingsike.xml">
+	<requirement class="weapon" slot="0" key="blhxw_mg_4_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_kewei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_pz_3.weapon"/>
+	</model>
+	<model filename="blhxm_kewei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_pz_3_1.weapon"/>
+	</model>
+	<model filename="blhxm_kewei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_pz_3_2.weapon"/>
+	</model>
+	
+	<model filename="blhxm_djs_xc.xml">
+	<requirement class="weapon" slot="0" key="blhxw_pz_4_bzd.weapon"/>
+	</model>
+	<model filename="blhxm_djs_xc_1.xml">
+	<requirement class="weapon" slot="0" key="blhxw_pz_4_bzd_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_baerdimo.xml">
+	<requirement class="weapon" slot="0" key="blhxw_ar_3.weapon"/>
+	</model>
+	
+	<model filename="blhxm_u1206.xml">
+	<requirement class="weapon" slot="0" key="blhxw_ju_5.weapon"/>
+	</model>
+	<model filename="blhxm_u1206_1.xml">
+	<requirement class="weapon" slot="0" key="blhxw_ju_5_1.weapon"/>
+	</model>
+	
+	<model filename="meta_fl.xml">
+		<requirement class="weapon" slot="0" key="meta_hm_hz_1.weapon"/>
+	</model>
+	<model filename="meta_fl.xml">
+		<requirement class="weapon" slot="0" key="meta_zjd_fl.weapon"/>
+	</model>
+	
+	 <model filename="srm_ceshizhe.xml">
+		<requirement class="weapon" slot="0" key="sr_mg_4.weapon"/>
+	</model>   
+	<model filename="srm_ceshizhe_1.xml">
+		<requirement class="weapon" slot="0" key="sr_mg_4_yl.weapon"/>
+	</model>  
+	
+	<model filename="srm_goujianzhe_1.xml">
+		<requirement class="weapon" slot="0" key="sr_smg_1.weapon"/>
+	</model>   
+	<model filename="srm_goujianzhe.xml">
+		<requirement class="weapon" slot="0" key="sr_smg_1_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_boss_lawosi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_lawosi.weapon"/>
+	</model>   
+	<model filename="srm_boss_lawosi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_lawosi_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_smg_2.xml">
+		<requirement class="weapon" slot="0" key="sr_smg_2.weapon"/>
+	</model>   
+	<model filename="srm_smg_2.xml">
+		<requirement class="weapon" slot="0" key="sr_smg_2_yl.weapon"/>
+	</model>  
+	
+	<model filename="srm_hm_0.xml">
+		<requirement class="weapon" slot="0" key="sr_hm_0.weapon"/>
+	</model>  
+	
+	<model filename="srm_boss_tianpalansi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_tianpalansi.weapon"/>
+	</model>  
+	<model filename="srm_boss_tianpalansi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_tianpalansi_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_jinghuazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_jinghuazhe.weapon"/>
+	</model>  
+	<model filename="srm_jinghuazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_jinghuazhe_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_boss_sitekuliansi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_siteliankusi.weapon"/>
+	</model>  
+	<model filename="srm_boss_sitekuliansi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_siteliankusi_1.weapon"/>
+	</model>  
+	
+	<model filename="srn_qcz.xml">
+		<requirement class="weapon" slot="0" key="sr_qingchuzhe.weapon"/>
+	</model>  
+	<model filename="srn_qcz.xml">
+		<requirement class="weapon" slot="0" key="sr_qingchuzhe_1.weapon"/>
+	</model> 
+	
+	<model filename="srm_guanchazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_guanchazhe.weapon"/>
+	</model>  
+	<model filename="srm_guanchazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_guanchazhe_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_boss_enpuleisi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_enpuleisi.weapon"/>
+	</model>
+	<model filename="srm_boss_enpuleisi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_enpuleisi_1.weapon"/>
+	</model>
+	
+	<model filename="metam_fjfz.xml">
+		<requirement class="weapon" slot="0" key="metaw_fjfz_ju_1.weapon"/>
+	</model>
+	
+	<model filename="metam_feiying.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_feiying.weapon"/>
+	</model>
+	
+	<model filename="metam_fushang.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_fushang.weapon"/>
+	</model>
+	
+	
+	<model filename="metam_genaisennao.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_genaisennao.weapon"/>
+	</model>
+	<model filename="metam_shaen.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_shaenhuotesi.weapon"/>
+	</model>
+	
+	<model filename="metam_hailunna.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_hailunna.weapon"/>
+	</model>
+	
+    <model filename="metam_shancheng.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_shancheng.weapon"/>
+	</model>
+	
+	<model filename="metam_canglong.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_canglong.weapon"/>
+	</model>
+	
+	<model filename="metam_sy.xml">
+		<requirement class="weapon" slot="0" key="metaw_boss_sunying.weapon"/>
+	</model> 
+	
+	<model filename="blhxm_cjm_1.xml">
+		<requirement class="weapon" slot="0" key="blhxw_mg_cjm.weapon"/>
+	</model> 
+	<model filename="blhxm_cjm_1.xml">
+		<requirement class="weapon" slot="0" key="blhxw_mg_cjm_1.weapon"/>
+	</model> 
+	
+	<model filename="blhxm_tashkent.xml">
+		<requirement class="weapon" slot="0" key="blhxw_mg_3.weapon"/>
+	</model> 
+	<model filename="blhxm_tashkent.xml">
+		<requirement class="weapon" slot="0" key="blhxw_mg_3_1.weapon"/>
+	</model> 
+	
+	<model filename="blhxm_huayuan.xml">
+		<requirement class="weapon" slot="0" key="blhxw_pjp_1.weapon"/>
+	</model> 
+	<model filename="blhxm_huayuan.xml">
+		<requirement class="weapon" slot="0" key="blhxw_pjp_1_1.weapon"/>
+	</model> 
+	
+	<model filename="blhxm_fushun.xml">
+		<requirement class="weapon" slot="0" key="qbu10_ap_Schwarz.weapon"/>
+	</model> 
+	<model filename="blhxm_fushun.xml">
+		<requirement class="weapon" slot="0" key="qbu10_he_Schwarz.weapon"/>
+	</model> 
+	
+	<model filename="blhxm_anshan.xml">
+		<requirement class="weapon" slot="0" key="blhxw_dq_1_1.weapon"/>
+	</model> 
+	<model filename="blhxm_anshan.xml">
+		<requirement class="weapon" slot="0" key="blhxw_dq_1.weapon"/>
+	</model> 
+	
+	<model filename="blhxm_duli.xml">
+		<requirement class="weapon" slot="0" key="blhxw_hm_1_qh.weapon"/>
+	</model> 
+	<model filename="blhxm_duli.xml">
+		<requirement class="weapon" slot="0" key="blhxw_hm_1_qh_1.weapon"/>
+	</model> 
+	
+	<model filename="blhxm_zbll.xml">
+		<requirement class="weapon" slot="0" key="blhxw_bs_zbl_1.weapon"/>
+	</model> 
+	<model filename="blhxm_zbll.xml">
+		<requirement class="weapon" slot="0" key="blhxw_bs_zbl.weapon"/>
+	</model> 
+	
+	<model filename="blhxm_shucheng.xml">
+		<requirement class="weapon" slot="0" key="blhxw_ar_sc_1.weapon"/>
+	</model> 
+	<model filename="blhxm_shucheng.xml">
+		<requirement class="weapon" slot="0" key="blhxw_ar_sc.weapon"/>
+	</model> 
+	
+	<!--2022.08.21 -->
+	<model filename="blhxm_Harbin.xml">
+		<requirement class="weapon" slot="0" key="blhxw_Harbin.weapon"/>
+	</model> 
+	<model filename="blhxm_Harbin.xml">
+		<requirement class="weapon" slot="0" key="blhxw_Harbin_1.weapon"/>
+	</model> 
+	<model filename="blhxm_leipuqinwang.xml">
+		<requirement class="weapon" slot="0" key="blhxw_leipuqinwang.weapon"/>
+	</model> 
+	<model filename="blhxm_leipuqinwang2.xml">
+		<requirement class="weapon" slot="0" key="blhxw_leipuqinwang2.weapon"/>
+	</model> 
+	
+	<model filename="metam_fanji.xml">
+		<requirement class="weapon" slot="0" key="metaw_fanji.weapon"/>
+	</model>
+	
+	<model filename="metam_shengwang.xml">
+		<requirement class="weapon" slot="0" key="metaw_shengwang.weapon"/>
+	</model>
+	
+	
+</models>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Warship gun development drawings SSR type" key="blhx_ssr_jp.carry_item">
+ 
+    <inventory encumbrance="0.5" price="2022.0" />
+	<hud_icon filename="blhx_ssr_jp.png" />
+    <model filename="blhx_ssr_jp.xml" />
+
+    <commonness value="0.5" in_stock="0" />
+</carry_item>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="rocket" slot="1" pulldown_in_air="13.0" key="blhxw_dq_mdt.projectile">
+    <tag name="rocket"/>
+    <result class="spawn" instance_class="projectile" instance_key="blhxw_dq_zdt.projectile" min_amount="1" max_amount="1" offset="0 0.0 0" position_spread="0 0" direction_spread="0.15 -0.3" />
+    <trigger class="time" time_to_live="1.3"/>
+    <rotation class="motion" />
+    <model mesh_filename="blhxw_bq_dt.xml" />
+
+    <commonness value="0.0" />
+
+    <effect class="activated" ref="Propulsion" />
+
+</projectile>

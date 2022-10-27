@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ar.weapon" key="sr_hm_0.weapon">
+    <tag name="stealth" />
+
+    <specification 
+  retrigger_time="2.5" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="1.0" 
+  sustained_fire_diminish_rate="1.0" 
+  magazine_size="3" 
+  projectiles_per_shot="2"
+  can_shoot_standing="1" 
+  carry_in_two_hands="0"
+  suppressed="1" 
+  name="siren chess player" 
+  slot="0"
+  class="0" 
+  projectile_speed="20.0" 
+  barrel_offset="0.5"
+  barrel_offset_3d="0 28 0"
+  sight_range_modifier="3.8"
+  spread_range="0.1"
+  use_basic_muzzle_smoke_effect="0" 
+  />
+  
+
+
+  
+   <ballistics curve_height="27.8" near_far_distance="0" speed_estimation_near="20.0" speed_estimation_far="20.0" max_speed="50.0" randomness="0.0" tweak_factor="1.00" />
+   
+	<animation state_key="recoil" animation_key="recoil, agent" />
+    <animation state_key="reload"	animation_key="reload, agent" />
+    <animation state_key="hold"	animation_key="still, agent" />
+    <animation state_key="hold_casual"	animation_key="relax agent" />
+    <animation state_key="hold_on_wall"	animation_key="still, agent" />
+    <animation state_key="still_against_wall"	animation_key="still, agent" />
+    <animation state_key="running" animation_key="running, agent" />
+    <animation state_key="walking"	animation_key="walking, agent" />
+    <animation state_key="walking_backwards" animation_key="walking, agent" />
+    <animation state_key="stabbing" animation_key="pistol whip" />
+	
+	<sound key="fire" fileref="guanchazhe_fire.wav" pitch_variety="0.06" volume="2.5" />
+
+	
+    <model filename="binoculars.xml" />
+
+    <projectile file="sr_hm_0_mdt.projectile" />
+
+   
+    <capacity value="1" source="rank" source_value="0.0" />
+
+    <hud_icon filename="sr_hm.png" />
+    <commonness value="0.015" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="9.0" price="0.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.9" />
+    <stance state_key="walking" accuracy="0.9" />
+    <stance state_key="crouch_moving" accuracy="0.9" />
+    <stance state_key="prone_moving" accuracy="0.9" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" /> 
+
+    
+    <modifier class="speed" value="-0.4" />    
+
+</weapon>

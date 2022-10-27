@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Ordinary steel" key="blhx_ptgc.carry_item">
+ 
+    <inventory encumbrance="0.5" price="300.0" />
+	<hud_icon filename="blhx_ptgc.png" />
+    <model filename="blhx_ptgc.xml" />
+
+    <commonness value="1.0" in_stock="0" />
+</carry_item>

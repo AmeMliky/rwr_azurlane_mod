@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_hm.weapon" key="blhxw_hjt_3_1.weapon">
+    <tag name="bq_1" />
+
+    <specification 
+  retrigger_time="1.0" 
+  accuracy_factor="0.85" 
+  sustained_fire_grow_step="1.8" 
+  sustained_fire_diminish_rate="0.4" 
+  magazine_size="4" 
+  can_shoot_standing="1" 
+  can_shoot_crouching="1" 
+  can_shoot_prone="1" 
+  suppressed="0" 
+  name="Saratoga BB" 
+  class="0" 
+  carry_in_two_hands="0" 
+  sight_range_modifier="1.4"  
+  projectile_speed="90.0"
+  projectiles_per_shot="2"  
+  barrel_offset="0.5" 
+  stab_enabled="1"
+  stab_range="1.5"
+  spread_range="0.18"
+/>
+
+	<next_in_chain key="blhxw_hjt_3_2.weapon" share_ammo="0" />
+
+	<!--<addon_model filename="backpack_small.xml" />-->
+
+    <!--     <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="50.0" randomness="0.0" />    -->
+   <ballistics  near_far_distance="1000" speed_estimation_near="60.0" speed_estimation_far="60.0" max_speed="90.0" randomness="0.0" tweak_factor="1.00" />
+	 
+
+    <!-- M79 <ballistics curve_height="6.0" near_far_distance="0.0" speed_estimation_near="9.0" speed_estimation_far="17.0" max_speed="30.0" randomness="0.0" tweak_factor="1.1" />  -->
+    <!-- <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="100.0" randomness="0.0" /> -->
+	<animation state_key="stabbing" animation_key="melee, xiaojiajia" />
+    <animation state_key="recoil"	animation_key="fire, tashkent" />
+	<animation state_key="recoil" stance_key="over_wall" animation_key="recoil overwall, ninjato" />
+	<animation state_key="recoil" stance_key="crouching" animation_key="recoil crouching, ninjato" />
+	<animation state_key="recoil" stance_key="prone" animation_key="recoil prone, ninjato" />
+	<animation state_key="reload"   animation_key="relod, xiaojiajia" />
+	<animation state_key="hold"	animation_key="still, ninjato" />
+	<animation state_key="hold_on_wall"	animation_key="still overwall, ninjato" />
+	<animation state_key="still_against_wall"	animation_key="still against wall, ninjato" />
+	<animation state_key="hold_casual"	animation_key="relaxed, xiaojiajia" />
+	<animation state_key="running"	animation_key="running, xiaojiajia" />
+	<animation state_key="walking"	animation_key="walking, xiaojiajia" />
+	<animation state_key="crouching"	animation_key="crouch, ninjato" />
+	<animation state_key="crouch_moving"	animation_key="crouching forwards, ninjato" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, ninjato" />
+	<animation state_key="changing_weapon_in"	animation_key="change weapon in, ninjato" />
+	<animation state_key="changing_weapon_out"	animation_key="change weapon out, ninjato" />
+    <animation state_key="prone_still" animation_key="prone still, ninjato" />
+    <animation state_key="prone_moving" animation_key="prone moving, ninjato" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, ninjato" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />   
+    
+    <sound key="fire" fileref="Saratoga_jp_fire.wav" pitch_variety="0.0" volume="1.0" />
+    <sound key="magazine_out" fileref="Saratoga_jp_relod.wav" pitch_variety="0.0" volume="1.0" />
+    <sound key="magazine_in" fileref="" />
+    <sound key="cycle" fileref="" />
+    <sound class="impact" fileref="rifle_drop.wav" />    
+ 
+    <model filename="blhxw_xiaojiajia.xml" />
+  
+    <projectile file="xiaojiajia_jianpao_1.projectile" />
+    <weak_hand_hold offset="0.002" />
+
+ 
+    <capacity value="1" source="rank" source_value="0.0" />
+
+    <hud_icon filename="AzurLane_salatuojia1.png" />
+    <commonness value="0.0" in_stock="0" can_respawn_with="1" />
+    <inventory encumbrance="12.0" price="200.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.1" />
+    <stance state_key="walking" accuracy="0.1" />
+    <stance state_key="crouch_moving" accuracy="0.85" />
+    <stance state_key="prone_moving" accuracy="0.85" />
+
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.85" />
+    <stance state_key="prone" accuracy="0.85" />
+    <modifier class="speed" value="0.1" />    
+
+</weapon>

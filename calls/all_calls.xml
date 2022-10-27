@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<calls>
+	<call file="zhenhai.call" />
+	<call file="bf109.call" />
+	<call file="xiaojiajia.call" />
+	<call file="yingxianzuo.call" />
+	<call file="jianpao_daji_2.call" />
+	<call file="jianpao_daji_1.call" />
+	
+	
+	<call file="blhx_sb_1.call" />
+	
+	<call file="meta_hd.call" />
+	<call file="meta_jianpao2.call" />
+	<call file="meta_feilong.call" />
+	<call file="meta_zhihuijian.call" />
+	
+	<call file="sr_hd.call" />
+	<call file="sr_jianpao2.call" />
+	<call file="sr_goujianzhe.call" />
+	<call file="sr_zhihuijian.call" />
+	<call file="qzyty_tank.call" />
+	<call file="qzyty_humvee.call" />
+	
+	<call file="bujiche.call" />
+	<call file="zhihuijian_0.call" />
+</calls>

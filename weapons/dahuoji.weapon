@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ju.weapon" key="dahuoji.weapon" >
+	
+
+
+	<tag name="bazooka" />
+	<specification 
+	 retrigger_time="1.6" 
+	accuracy_factor="0.9" 
+	sustained_fire_grow_step="0.5" 
+	sustained_fire_diminish_rate="0.15" 
+	magazine_size="1" 
+	can_shoot_standing="1" 
+	can_shoot_crouching="1" 
+	suppressed="0" 
+	name="dahuoji" 
+	class="3" 
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1.1" 
+	projectile_speed="60.0" 
+	slot="1" 
+	projectiles_per_shot="1" />
+	
+	
+	<animation key="recoil" animation_key="melee, bayonet"  />
+	<animation key="cycle" animation_key="bolt cycle" />
+	<animation key="cycle" stance_key="prone" animation_key="bolt cycle, prone1" />
+	<animation state_key="reload" animation_key="reloading, enfield" />
+	<animation state_key="reload" stance_key="prone" animation_key="reloading, enfield, prone" />
+
+	
+	<weak_hand_hold offset="0.0" />
+	
+	
+	<sound key="fire" fileref="dahuoji.wav" pitch_variety="0.05" volume="1.0"/>
+   
+	
+	
+	
+	<model filename="dahuoji.xml" />
+	<hud_icon filename="dahuoji.png" />
+	
+	<commonness value="0.0" can_respawn_with="1"  in_stock="1" />
+	<inventory encumbrance="10.0" price="12.0" />
+	
+	<capacity value="1" source="rank" source_value="0.0" />
+	<capacity value="2" source="rank" source_value="0.1" />
+	<capacity value="3" source="rank" source_value="0.2" />
+	
+	
+	
+	<projectile file="dahuoji.projectile">
+	</projectile>
+	<modifier class="speed" value="0.80" />  
+	
+</weapon>

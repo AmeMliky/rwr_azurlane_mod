@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="3000 supplies" key="3000_wz.carry_item">
+ 
+    <inventory encumbrance="0.5" price="3000.0" />
+	<hud_icon filename="3000_wz.png" />
+    <model filename="wz_3000.xml" />
+
+    <commonness value="1.0" in_stock="1" />
+</carry_item>

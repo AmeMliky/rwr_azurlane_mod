@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Retired medal" key="tuiyixunzhang.carry_item">
+ 
+    <inventory encumbrance="0.5" price="188.0" />
+	<hud_icon filename="tuiyixunzhang.png" />
+    <model filename="tuiyixunzhang.xml" />
+
+    <commonness value="2.0" in_stock="0" />
+</carry_item>

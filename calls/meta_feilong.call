@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="meta_call_4" key="meta_feilong.call"
+      initiation_comment1="Dragon Air support"
+      initiation_comment2="500LB bomb X 6 1800LB X 12 Naval gun X 24"
+      acknowledge_comment="The air raid is about to take place"
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way."
+	  notify_metagame="1">
+    
+    <round instances="6"
+           instance_class="grenade"
+           instance_key="xiaojiajia_hd.projectile" 
+           instance_spread="8 8 8" 
+			common_spread="4 4 4" 
+			launch_time="3.0"
+			spawn_time="6.0">
+	  <sound class="launch" fileref="feilong.wav" pitch_variety="0.0" volume="1.0" />
+	    <sound class="spawn" fileref="hd.wav" pitch_variety="0.05" volume="1.0" />
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+    </round>
+	
+	 <round instances="12"
+           instance_class="grenade"
+           instance_key="xiaojiajia_hd1.projectile" 
+            instance_spread="8 8 8" 
+			common_spread="4 4 4" 
+			launch_time="5.5"
+			spawn_time="7.0">
+	 
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+    </round>
+	
+ <round instances="24"
+           instance_class="grenade"
+           instance_key="xiaojiajia_jianpao.projectile" 
+            instance_spread="10 8 10" 
+			common_spread="4 4 4" 
+			launch_time="6.5"
+			spawn_time="9.0">
+    </round>
+    
+
+    <hud_icon filename="call_feilong.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.6" />
+    <inventory encumbrance="0.0" price="648.0" />
+
+</call>

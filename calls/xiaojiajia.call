@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="call_3" key="xiaojiajia.call"
+      initiation_comment1="Saratoga Aviation support"
+      initiation_comment2="F6F hellcat 500LB bomb X 4 Helldiver X 9 Naval gunfire support X 6"
+      acknowledge_comment="Roger, waitthree"
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way.slr"
+	  notify_metagame="1">
+    
+    <round instances="4"
+           instance_class="grenade"
+           instance_key="xiaojiajia_hd.projectile" 
+           instance_spread="5 8 5" 
+			common_spread="2 1 2" 
+			launch_time="3.0"
+			spawn_time="6.0">
+	  <sound class="launch" fileref="xiaojiajia_call.wav" pitch_variety="0.0" volume="1.0" />
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+    </round>
+	
+	 <round instances="9"
+           instance_class="grenade"
+           instance_key="xiaojiajia_hd1.projectile" 
+           instance_spread="10 14 10" 
+			common_spread="4 2 4" 
+			launch_time="5.5"
+			spawn_time="7.0">
+	 
+	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
+    </round>
+	
+ <round instances="6"
+           instance_class="grenade"
+           instance_key="xiaojiajia_jianpao.projectile" 
+           instance_spread="12 7 12" 
+			common_spread="4 0 4" 
+			launch_time="6.5"
+			spawn_time="9.0">
+	<sound class="launch" fileref="xiaojiajia_call.wav" pitch_variety="0.0" volume="1.0" />
+    </round>
+    
+
+    <hud_icon filename="diyumao.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="100" source="rank" source_value="0.6" />
+    <inventory encumbrance="0.0" price="648.0" />
+
+</call>

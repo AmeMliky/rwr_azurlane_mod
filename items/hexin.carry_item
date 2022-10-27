@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="Core data" key="hexin.carry_item">
+ 
+    <inventory encumbrance="0.5" price="280.0" />
+	<hud_icon filename="hexin.png" />
+    <model filename="hexin.xml" />
+
+    <commonness value="1.5" in_stock="0" />
+</carry_item>

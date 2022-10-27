@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="call_5" key="yingxianzuo.call"
+      initiation_comment1="Request Perseus wide area healing"
+      initiation_comment2="Maintenance tool aid"
+      acknowledge_comment="Roger, wait eight.yxz"
+      acknowledge_time="1.0"
+      launch_comment="Rounds on the way.yxz"
+	  notify_metagame="1">
+    
+    <round instances="2"
+           instance_class="grenade"
+           instance_key="yingxianzuo_dt.projectile" 
+           instance_spread="3 0 3" 
+			common_spread="0 0 0" 
+			launch_time="1.1"
+			spawn_time="3.0">
+		<sound class="launch" fileref="yingxianzuo_call.wav" pitch_variety="0.0" volume="1.0" />  
+	   
+    </round>
+	
+	<round instances="2"
+           instance_class="grenade"
+           instance_key="yingxianzuo_dt.projectile" 
+           instance_spread="3 0 3" 
+			common_spread="0 0 0" 
+			launch_time="2.0"
+			spawn_time="3.5">
+	  
+    </round>
+	
+
+    
+
+    <hud_icon filename="yingxianzuo_dt.png" />
+	 <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.1" />
+    <inventory encumbrance="0.0" price="68.0" />
+
+</call>

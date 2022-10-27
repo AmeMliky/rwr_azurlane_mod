@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<character filename="default_shared.character">
+	<comment key="Hmm, no signal" text="通讯受到干扰！"/>
+</character>

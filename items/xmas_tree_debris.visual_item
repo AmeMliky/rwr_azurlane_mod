@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="xmas_tree_debris.visual_item">
+    <model mesh_filename="xmas_tree_debris.xml" />
+</visual_item>

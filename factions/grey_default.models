@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	
+         
+    <model filename="srm_ceshizhe.xml">
+		<requirement class="weapon" slot="0" key="sr_mg_4.weapon"/>
+	</model>   
+	<model filename="srm_ceshizhe_1.xml">
+		<requirement class="weapon" slot="0" key="sr_mg_4_yl.weapon"/>
+	</model>  
+	
+	<model filename="srm_goujianzhe_1.xml">
+		<requirement class="weapon" slot="0" key="sr_smg_1.weapon"/>
+	</model>   
+	<model filename="srm_goujianzhe.xml">
+		<requirement class="weapon" slot="0" key="sr_smg_1_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_boss_lawosi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_lawosi.weapon"/>
+	</model>   
+	<model filename="srm_boss_lawosi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_lawosi_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_smg_2.xml">
+		<requirement class="weapon" slot="0" key="sr_smg_2.weapon"/>
+	</model>   
+	<model filename="srm_smg_2.xml">
+		<requirement class="weapon" slot="0" key="sr_smg_2_yl.weapon"/>
+	</model>  
+	
+	<model filename="srm_hm_0.xml">
+		<requirement class="weapon" slot="0" key="sr_hm_0.weapon"/>
+	</model>  
+	
+	<model filename="srm_boss_tianpalansi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_tianpalansi.weapon"/>
+	</model>  
+	<model filename="srm_boss_tianpalansi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_tianpalansi_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_jinghuazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_jinghuazhe.weapon"/>
+	</model>  
+	<model filename="srm_jinghuazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_jinghuazhe_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_boss_sitekuliansi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_siteliankusi.weapon"/>
+	</model>  
+	<model filename="srm_boss_sitekuliansi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_siteliankusi_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_guanchazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_guanchazhe.weapon"/>
+	</model>  
+	<model filename="srm_guanchazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_guanchazhe_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_boss_enpuleisi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_enpuleisi.weapon"/>
+	</model>
+	<model filename="srm_boss_enpuleisi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_enpuleisi_1.weapon"/>
+	</model>
+	
+	<model filename="srm_boss_guanchazhe_zero.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_guanchazhe_zero.weapon"/>
+	</model>
+	<model filename="srm_boss_guanchazhe_zero.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_guanchazhe_zero_1.weapon"/>
+	</model>
+    
+</models>

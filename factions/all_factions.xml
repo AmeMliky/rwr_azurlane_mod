@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factions>
+	<faction file="Azur_Lane.xml" />
+	<faction file="META.xml" />
+	<faction file="Siren.xml" />
+</factions>

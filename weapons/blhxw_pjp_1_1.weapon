@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_mg.weapon" key="blhxw_pjp_1_1.weapon" >
+	<tag name="bazooka" />
+	
+  <specification 
+	 retrigger_time="1.5" 
+	 accuracy_factor="0.96" 
+	 sight_range_modifier="2.5"
+     sight_height_offset="5.0"   
+	 sustained_fire_grow_step="1.8" 
+	 sustained_fire_diminish_rate="0.6" 
+	 magazine_size="3" 
+	 can_shoot_standing="1"
+	 carry_in_two_hands="0"  
+	 can_shoot_crouching="1"
+	 can_shoot_prone="0"
+	 suppressed="0" 
+	 name="New Jersey Shore bombardment" 
+	 class="4" 
+	 projectile_speed="60.0"  
+     barrel_offset="0.65"  
+	 projectiles_per_shot="3.0"
+	 burst_shots="3"
+     spread_range="0.08"
+	 stab_enabled="1"	
+   
+	/> 
+	<next_in_chain key="blhxw_pjp_1.weapon" share_ammo="0" />
+	
+
+	<!--ballistics curve_height="10" near_far_distance="20" speed_estimation_near="40.0" speed_estimation_far="80.0" max_speed="60.0" tweak_factor="1.23" randomness="0.00" /-->
+	<ballistics curve_height="18" near_far_distance="20" speed_estimation_near="40.0" speed_estimation_far="80.0" max_speed="60.0" tweak_factor="1.0" randomness="0.00" />
+
+	
+	
+	
+	<animation state_key="recoil" animation_key="recoil, agent" />
+    <animation state_key="reload"	animation_key="reload, agent" />
+    <animation state_key="hold"	animation_key="still, agent" />
+    <animation state_key="hold_casual"	animation_key="relax agent" />
+    <animation state_key="hold_on_wall"	animation_key="still, agent" />
+    <animation state_key="still_against_wall"	animation_key="still, agent" />
+    <animation state_key="running" animation_key="running, agent" />
+    <animation state_key="walking"	animation_key="walking, agent" />
+    <animation state_key="walking_backwards" animation_key="walking, agent" />
+    <animation state_key="stabbing" animation_key="pistol whip" />
+	<animation state_key="crouching"	animation_key="crouch, pistol dual" />
+	<animation state_key="crouch_moving"	animation_key="crouching, pistol 2" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, pistol 2" />
+	<animation state_key="stabbing" animation_key="pistol whip" />
+  <!-- <sound key="fire" fileref="fireworks_woosh.wav" pitch_variety="0.05" volume="1.0"/> -->
+	<sound key="fire" fileref="huayuan_fire.wav" pitch_variety="0.3" />
+	<sound key="magazine_out" fileref="NewJersey_re.wav"  pitch_variety="0.00" volume="4.0" />
+	<sound key="magazine_in" fileref="dry_fire.wav" volume="0.7"/>
+	<sound key="cycle" fileref="portable_mortar_reload.wav" volume="0.7"/>
+	<sound class="impact" fileref="rifle_drop.wav" />
+	
+	<model filename="blhxw_pjp_1.xml" />
+	<hud_icon filename="AzurLane_xinzexi_2.png" />
+	
+	<commonness value="0.01" in_stock="0" can_respawn_with="1" />
+	<inventory encumbrance="11.0" price="1000.0" />
+	
+	<capacity value="0" source="rank" source_value="0.0" />
+	<capacity value="1" source="rank" source_value="5.0" />
+
+	<weak_hand_hold offset="0.3" />
+	
+	<projectile file="pjp_pt_1.projectile" />
+
+
+	
+	<effect class="muzzle" ref="MusketMuzzle" />
+	<effect class="muzzle" ref="UpDust" />
+	
+	<stance state_key="running" accuracy="0.5" />
+	<stance state_key="walking" accuracy="0.5" />
+	<stance state_key="crouch_moving" accuracy="0.5" />
+	<stance state_key="prone_moving" accuracy="0.5" />
+	
+	<stance state_key="standing" accuracy="0.5" />
+	<stance state_key="crouching" accuracy="0.5" />
+	<stance state_key="prone" accuracy="0.8" />
+
+  <modifier class="speed" value="-0.30" /> 
+	
+</weapon>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ar.weapon" key="srw_boss_tianpalansi.weapon">
+    <tag name="stealth" />
+    <specification 
+  retrigger_time="0.12" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.5" 
+  sustained_fire_diminish_rate="2.0" 
+  magazine_size="36" 
+  projectiles_per_shot="3"
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="Day Paris haze" 
+  class="4" 
+  burst_shots="2"
+  last_burst_retrigger_time="0.15"
+  spread_range="0.3"
+  projectile_speed="120.0"
+  sight_range_modifier="1.30"  />
+  
+  <next_in_chain key="srw_boss_tianpalansi_1.weapon" share_ammo="0" />
+  
+  <!-- retrigger_time 单独最小开火时常= 60/射速-->
+  <!--accuracy_factor 初始精度 -->
+  <!--sustained_fire_grow_step 开火散布增幅-->
+  <!-- sustained_fire_diminish_rate 停火减幅-->
+  <!-- magazine_size 弹容-->
+  <!-- can_shoot_standing 是否允许站立射击-->
+  <!-- suppressed 是否消音 1 是 0 否--> 
+  <!-- projectiles_per_shot="2" 一次打两发子弹-->
+  <!--class 是否为全自动武器 -->
+  <!-- projectile_speed 投射物速度，弹速-->
+  <!--   barrel_offset  枪口长度-->
+  <!--sight_range_modifier 视野因子 -->
+  <!--   barrel_offset  枪口长度-->
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, scorpion-evo" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+	
+    <sound key="fire" fileref="sr_ar.wav" pitch_variety="0.03" volume="0.6"/>
+    <sound key="magazine_out" fileref="sr_ar_re.wav" volume="0.7"/>
+   
+    <sound key="cycle" fileref="pz_re.wav" volume="0.7" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="srw_boss_tianpalansi.xml" />
+    <hud_icon filename="sr_boss_tianpalansi.png" />
+    <inventory encumbrance="10.0" price="10.0" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1"/>
+    <!--生成权重，复活自带，会出现在军械库出售 -->
+	
+    <projectile file="sr_boss_tianpalansi_bullt_dt.projectile">
+        <result class="hit" kill_probability="1.85" kill_decay_start_time="0.38" kill_decay_end_time="0.57" />
+    </projectile>
+    <modifier class="speed" value="0.15" />     
+	
+	<stance state_key="running" accuracy="0.8" />
+    <stance state_key="walking" accuracy="0.8" />
+    <stance state_key="crouch_moving" accuracy="0.8" />
+    <stance state_key="standing" accuracy="0.8" />
+    <stance state_key="crouching" accuracy="0.8" />
+    <stance state_key="prone" accuracy="0.8" /> 
+    <stance state_key="prone_moving" accuracy="0.8" />								
+    <stance state_key="over_wall" accuracy="0.95" /> 
+	
+</weapon>

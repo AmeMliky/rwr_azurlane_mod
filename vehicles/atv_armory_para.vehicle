@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle file="vehicle_base.vehicle" name="supply quad" key="atv_armory_para.vehicle" map_view_atlas_index="28" minimum_fill_requirement="1" respawn_time="0" time_to_live="3.5" >
+	<tag name="metal_thin" />
+	<tag name="supply_para" />
+
+	<tire_set offset="0.63 0.0 0.81" radius="0.405" />
+	<tire_set offset="0.63 0.0 -0.81" radius="0.405" />
+
+	<control max_speed="24.0" acceleration="8.5" max_reverse_speed="5.0" max_rotation="0.5" max_water_depth="1.4" steer_smoothening="0.7" can_steer_on_ground="0" />
+
+	<physics max_health="0.0" mass="1.0" extent="1.44 0.0 2.7" offset="0 0.0 0.0" top_offset="0 0.54 0" collision_model_pos="0.0 0.54 0.0" collision_model_extent="1.62 1.485 3.06" visual_offset="0 0.135 0" gravity="-10" friction_offset="0.1"  drag_offset="-0.25" destroy_on_top_hit="1" destroy_on_top_hit_time="1.0" top_hit_tracking_time="0.6" />  
+
+	<turret offset="0 1.3 0.0" weapon_key="chute_medium.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0" max_rotation_step="0.0" rotation_range="0.0" />
+
+	<visual class="chassis" mesh_filename="atv_armory_body.mesh" texture_filename="atv.png" max_tilt="0.04" />
+ 	<visual class="front_tire" mesh_filename="atv_wheel_front.mesh" texture_filename="atv_wheel_front.png" />
+	<visual class="rear_tire" mesh_filename="atv_wheel_back.mesh" texture_filename="atv_wheel_back.png" />
+
+	<sound key="hit" filename="car_hit1.wav" volume="0.5" />
+	<sound key="hit" filename="car_hit2.wav" volume="0.5" />
+	<sound key="hit" filename="car_hit3.wav" volume="0.5" />
+  
+	<event>
+		<trigger class="destroy" />  	
+    		<result class="spawn" instance_class="vehicle" instance_key="atv_armory.vehicle" min_amount="1" max_amount="1" offset="0 0.0 0" position_spread="0 0" direction_spread="0 -1" />
+	</event>
+
+</vehicle>

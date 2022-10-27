@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ar.weapon" key="srw_boss_tianpalansi_1.weapon">
+    <tag name="stealth" />
+
+    <specification 
+  retrigger_time="0.3" 
+  accuracy_factor="0.68"
+  sustained_fire_grow_step="0.8" 
+  sustained_fire_diminish_rate="2.0" 
+  magazine_size="2" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="Day Paris haze YL" 
+  class="4"
+  burst_shots="2"  
+  sight_range_modifier="1.5" 
+  last_burst_retrigger_time="0.3"  
+  projectile_speed="40.0"
+  projectiles_per_shot="5"  
+  spread_range="0.18"
+  barrel_offset="0.3" />
+  <!-- retrigger_time 单独最小开火时常= 60/射速-->
+  <!--accuracy_factor 初始精度 -->
+  <!--sustained_fire_grow_step 开火散布增幅-->
+  <!-- sustained_fire_diminish_rate 停火减幅-->
+  <!-- magazine_size 弹容-->
+  <!-- can_shoot_standing 是否允许站立射击-->
+  <!-- suppressed 是否消音 1 是 0 否--> 
+  <!-- projectiles_per_shot 单次开火投射物数量-->
+  <!--class 是否为全自动武器 -->
+  <!-- projectile_speed 投射物速度，弹速-->
+  <!--   barrel_offset  枪口长度-->
+  <!--sight_range_modifier 视野因子 -->
+  <!--   barrel_offset  枪口长度-->
+  <!-- spread_range 投射物散布范围-->
+    <next_in_chain key="srw_boss_tianpalansi.weapon"  share_ammo="0" />
+
+    
+   <ballistics curve_height="2.0" near_far_distance="0.0" speed_estimation_near="40.0" speed_estimation_far="40.0" max_speed="52.0" randomness="0.0" tweak_factor="1.94" /> 
+    <!--curve_height抛物线顶点高度 near_far_distance 达到设置距离时，抛物线最高  speed_estimation_near 到达最高点前速度10  speed_estimation_far 到达最高点后速度16  最大速度为47  随机度0 -->
+    <!--tweak_factor="1.00" 越小落点越靠近玩家，越大抛射角度越大。理解为影响弹道的斜率 -->
+	<animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m79" />
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />
+	
+    <sound key="fire" fileref="sr_ar1.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_out" fileref="sr_ar_re.wav" volume="0.7" />
+    
+    <sound key="cycle" fileref="pz_re.wav" volume="0.7"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="srw_boss_tianpalansi.xml" />
+
+    <projectile file="sr_boss_tianpalansi_dt.projectile" />
+
+   
+    <capacity value="1" source="rank" source_value="0.0" />
+
+    <hud_icon filename="sr_boss_tianpalansi_1.png" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="0" />
+    <inventory encumbrance="10.0" price="10.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.7" />
+    <stance state_key="walking" accuracy="0.7" />
+    <stance state_key="crouch_moving" accuracy="0.7" />
+    <stance state_key="prone_moving" accuracy="0.7" />
+    <stance state_key="standing" accuracy="0.7" />
+    <stance state_key="crouching" accuracy="0.7" />
+    <stance state_key="prone" accuracy="0.7" />
+    <stance state_key="over_wall" accuracy="0.7" /> 
+	<!-- running 奔跑时的射击精度-->
+	<!-- walking 步行时的射击精度-->
+	<!-- crouch_moving 蹲下移动时的精度-->
+	<!-- standing 站立不动时-->
+	<!-- crouching 蹲着不动时-->
+	<!-- prone 卧倒不动时-->
+	<!-- prone_moving 卧倒移动时-->
+	<!-- over_wall 架设时？-->
+    
+    <modifier class="speed" value="0.4" />    
+
+</weapon>

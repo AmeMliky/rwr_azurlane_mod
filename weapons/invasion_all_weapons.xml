@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+  <weapon file="apc_hmg.weapon"/>
+  <weapon file="tank_cannon.weapon" />
+  <weapon file="tank_mg.weapon" />
+ 
+<!-- yan ti-->
+  <weapon file="humvee_mg.weapon"/>
+  
+ <!--ji qiang ta-->
+  <weapon file="deployable_mg.weapon" />
+  <weapon file="patrol_ship_mg.weapon" />
+  <weapon file="patrol_ship_cannon.weapon" />
+  <weapon file="patrol_ship_mortar.weapon" />
+  <weapon file="deployable_minig.weapon" />
+  
+<!--jia te lin-->
+  <weapon file="mortar.weapon" />
+  
+<!--pai ji pao  -->
+  <weapon file="tow.weapon" />
+  
+<!--tow -->
+  <weapon file="apc_hmg_1.weapon" />
+  <weapon file="apc_hmg_2.weapon" />
+  <weapon file="tank_cannon_1.weapon" />
+  <weapon file="tank_cannon_2.weapon" />
+  <weapon file="tank2_cannon.weapon" />
+  <weapon file="tank2_mg.weapon" />
+  <weapon file="tank2_missile_launcher.weapon" />
+  <weapon file="tank_mg_1.weapon" />
+  <weapon file="tank_mg_2.weapon" />  
+  <weapon file="vulcan_tank_mg.weapon" />
+  <weapon file="buggy_mg.weapon" />
+  <!--tank wu qi  -->
+
+  <weapon file="wrench.weapon">
+    <commonness value="0.0" in_stock="1" />
+    <capacity source="rank" source_value="0.0" value="4" />
+  </weapon>
+ <!--ban shou -->
+  <weapon file="deployable_gl.weapon" />
+  
+<!--liu dan fa she qi bu shu -->
+	<weapon file="humvee_gl.weapon" />
+  <weapon file="m113_tank_cannon.weapon" /> 
+  <weapon file="mortar_vulcan.weapon" />        
+  <weapon file="wiesel_mg3.weapon">
+  </weapon>
+  <weapon file="wiesel_tow.weapon">
+  </weapon>  
+  <!--you shu--> 
+	<weapon file="chute_small.weapon" /> 
+	<weapon file="chute_medium.weapon" /> 
+	<weapon file="chute_large.weapon" />
+	<weapon file="aav7_gl.weapon" />
+	<weapon file="aav7_mg.weapon" />  
+   <weapon file="radar_tank_cannon.weapon" />    
+	<weapon file="hornet.weapon" />
+   <weapon file="vulcan_acav_mg.weapon" />
+   <weapon file="vulcan_acav_minig.weapon" />
+   <weapon file="technical_mg.weapon" />
+	<weapon file="wiesel_mk20.weapon" /> 
+	<weapon file="zjx19_mg.weapon" />
+	<weapon file="repair_crane_tank.weapon" />
+	<weapon file="flamer_tank_mg.weapon" />
+	<weapon file="flamer_tank_cannon.weapon" />
+    <weapon file="noxe.weapon" />
+	<weapon file="legion_cannon.weapon" />
+	<weapon file="legion_mg.weapon" />
+    <weapon file="sev90_cannon.weapon" />    
+	<weapon file="m528_apj.weapon" />
+	<weapon file="m528_hmg.weapon" />  
+<!-- CB#6 -->
+  <weapon file="torch.weapon">  
+    <commonness value="0.0" in_stock="0" />  
+    <capacity source="rank" source_value="0.0" value="0" />
+    <capacity source="rank" source_value="0.4" value="1" />
+  </weapon>  
+<!-- han qiang  -->
+	<weapon file="blhx_weapons.xml" />
+	<weapon file="meta_weapons.xml" />
+	<weapon file="sr_weapons.xml" />
+</weapons>

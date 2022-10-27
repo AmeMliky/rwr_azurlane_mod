@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<weapon key='blhx_1_hm_zh_1.weapon' />
+	<weapon key='ylb_1.weapon' />
+	<weapon key='meta_hm_hz_1.weapon' />
+	<weapon key='meta_zjd_fl.weapon'/>
+	
+	<weapon key='wx.weapon' />
+	<weapon key='blhxw_smg_1.weapon' />
+	<weapon key='blhxw_smg_2_yl_1.weapon' />
+	<weapon key='blhxw_smg_2_yl.weapon' />
+	<weapon key="blhxw_ar_1.weapon"/>
+	<weapon key="blhxw_ar_1_xy.weapon"/>
+	<weapon key="blhxw_ar_2.weapon"/>
+	<weapon key="blhxw_ar_2_yl.weapon"/>
+	<weapon key="blhxw_mg_1_q.weapon"/>
+	<weapon key="blhxw_mg_2_z.weapon"/>
+	<weapon key="blhxw_mg_4.weapon"/>
+	<weapon key="blhxw_mg_4_1.weapon"/>
+	
+	<weapon key="blhxw_ju_1_z.weapon"/>
+	<weapon key="blhxw_ju_1_z_1.weapon"/>
+	<weapon key="blhxw_ju_2_bzd.weapon"/>
+	<weapon key="blhxw_ju_2_bzd_xy.weapon"/>
+	<weapon key="blhxw_ju_3_ls.weapon"/>
+	<weapon key="blhxw_ju_3_ls_xy.weapon"/>
+	<weapon key="blhxw_dq_1.weapon"/>
+	<weapon key="blhxw_dq_1_1.weapon"/>
+	<weapon key="blhxw_zjd_df.weapon"/>
+	<weapon key="blhxw_javelin.weapon"/>
+	<weapon key="blhxw_zjd_df_1.weapon"/>
+	
+	<!--2022/3/29 -->
+	<weapon key="blhxw_ar_3.weapon"/>
+	<weapon key="blhxw_hjt_1_z23.weapon"/>
+	<weapon key="blhxw_hjt_1_z23_1.weapon"/>
+	<weapon key="blhxw_hm_1_qh.weapon"/>
+	<weapon key="blhxw_hm_1_qh_1.weapon"/>
+	<weapon key="blhxw_mg_3.weapon"/>
+	<weapon key="blhxw_mg_3_1.weapon"/>
+	<weapon key="blhxw_pz_1.weapon"/>
+	<weapon key="blhxw_pz_2.weapon"/>
+	<weapon key="blhxw_pz_2_blast.weapon"/>
+	<weapon key="blhxw_pz_3.weapon"/>
+	<weapon key="blhxw_pz_3_1.weapon"/>
+	<weapon key="blhxw_pz_3_2.weapon"/>
+	<weapon key="blhxw_pz_4_bzd.weapon"/>
+	<weapon key="blhxw_pz_4_bzd_1.weapon"/>
+	
+	<weapon key="blhxw_pjp_1.weapon"/>
+	<weapon key="blhxw_pjp_1_1.weapon"/>
+	
+	<weapon key="blhxw_hjt_2.weapon"/>
+	<weapon key="blhxw_hjt_2_1.weapon"/>
+	<weapon key="blhxw_hjt_3.weapon"/>
+	<weapon key="blhxw_hjt_3_1.weapon"/>
+	<weapon key="blhxw_hjt_3_2.weapon"/>
+	
+	<!--2022-4-2 -->
+	<weapon key="blhxw_ju_4_sd.weapon"/>
+	<weapon key="blhxw_ju_4_sd_1.weapon"/>
+	<weapon key="blhxw_ju_9_sd.weapon"/>
+	<weapon key="blhxw_ju_9_sd_1.weapon"/>
+	<weapon key="blhxw_zjd_lb.weapon"/>
+	<weapon key="blhxw_zjd_lb_1.weapon"/>
+	<weapon key="blhxw_mg_cjm.weapon"/>
+	<weapon key="blhxw_mg_cjm_1.weapon"/>
+	
+	<weapon key="blhxw_futejia.weapon"/>
+	<weapon key="blhxw_hg_sdyg.weapon"/>
+	<weapon key="blhxw_hg_sdyg_1.weapon"/>
+	<weapon key="blhxw_ar_sc.weapon"/>
+	<weapon key="blhxw_ar_sc_1.weapon"/>
+	
+	<weapon key="blhxw_pz_5.weapon"/>
+	<weapon key="blhxw_pz_5_1.weapon"/>
+	<weapon key="blhxw_ju_5.weapon"/>
+	<weapon key="blhxw_ju_5_1.weapon"/>
+	
+	
+	
+	<weapon key="rpg_1.weapon"/>
+	<weapon key="rpg_2.weapon"/>
+	
+	<weapon key="qbu10_ap_Schwarz.weapon"/>
+	<weapon key="qbu10_he_Schwarz.weapon"/>
+	
+	<weapon key="qzy_ty_hd.weapon"/>
+	<!--2022.08.21 -->
+	<weapon key="blhxw_Harbin.weapon"/>
+	<weapon key="blhxw_Harbin_1.weapon"/>
+	<weapon key="blhxw_leipuqinwang.weapon"/>
+	<weapon key="blhxw_leipuqinwang2.weapon"/>
+	
+	
+	<projectile key="blhxw_4_baozhu.projectile" />
+	<projectile key="blhxw_4_bzhayao.projectile" />
+	<projectile key="yingxianzuo_dt.projectile" />
+
+	
+
+    
+	<carry_item key="XHL.carry_item" />
+	<carry_item key="GLGL.carry_item" />
+	<carry_item key="HJMC.carry_item" />
+	<carry_item key="hhmc.carry_item" />
+	<carry_item key="VC.carry_item" />
+	<carry_item key="god_amemliky.carry_item" />
+	<carry_item key="VH_boss.carry_item" />
+	<carry_item key="gxn_dj.carry_item" />
+
+	
+	
+	<carry_item key="800_wz.carry_item" />
+	<carry_item key="3000_wz.carry_item" />
+	<carry_item key="hongjianjian.carry_item" />
+	<carry_item key="tuiyixunzhang.carry_item" />
+	<carry_item key="jiajubi.carry_item" />
+	<carry_item key="shiyou.carry_item" />
+	<carry_item key="jiezhi1.carry_item" />
+	<carry_item key="jiezhi2.carry_item" />
+	<carry_item key="hexin.carry_item" />
+	<carry_item key="mofang.carry_item" />
+	
+	<carry_item key="blhx_tydzyj.carry_item" />
+	<carry_item key="blhx_cgzy.carry_item" />
+	<carry_item key="blhx_cdt.carry_item" />
+	<carry_item key="blhx_gyjdzyj.carry_item" />
+	<carry_item key="blhx_jgjdzyj.carry_item" />
+	<carry_item key="blhx_lhj.carry_item" />
+	<carry_item key="blhx_ptgc.carry_item" />
+	<carry_item key="blhx_tzgc.carry_item" />
+	<carry_item key="blhx_trxj.carry_item" />
+	<carry_item key="blhx_yzgc.carry_item" />
+	<carry_item key="blhx_thj.carry_item" />
+	<carry_item key="blhx_tyhcxj.carry_item" />
+	<carry_item key="blhx_td.carry_item" />
+	
+	<carry_item key="blhx_sr_jm.carry_item" />
+	<carry_item key="blhx_ssr_jm.carry_item" />
+	<carry_item key="blhx_ssr_fkp.carry_item" />
+	<carry_item key="blhx_ssr_jp.carry_item" />
+	<carry_item key="blhx_ssr_jzj.carry_item" />
+	<carry_item key="blhx_ssr_yl.carry_item" />
+	<carry_item key="blhx_ur_fkp.carry_item" />
+	<carry_item key="blhx_ur_jp.carry_item" />
+	<carry_item key="blhx_ur_jzj.carry_item" />
+	<carry_item key="blhx_ur_yl.carry_item" />
+	<carry_item key="npc_ougen.carry_item" />
+	<carry_item key="npc_xiaotiancheng.carry_item" />
+	
+	<carry_item key="statue_kirby.carry_item" />
+	<carry_item key="statue_piggie.carry_item" />
+	
+	<call key="zhenhai.call" />
+	<call key="bf109.call" />
+	<call key="xiaojiajia.call" />
+	<call key="yingxianzuo.call" />
+	<call key="jianpao_daji_2.call" />
+	<call key="jianpao_daji_1.call" />
+	
+	
+	<call key="zhihuijian_0.call" />
+
+</resources>

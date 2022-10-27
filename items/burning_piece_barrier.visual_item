@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<visual_item key="burning_piece_barrier.visual_item">
+
+    <model mesh_filename="vehicle_debris18.mesh" />   
+    
+    <effect ref="DustBarrier" />
+</visual_item>

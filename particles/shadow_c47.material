@@ -1,0 +1,58 @@
+// TODO: clean this up
+
+import ShadowPlantIntegrated from "shadow_plant.material"
+import ShadowPlantIntegrated2 from "shadow_plant.material"
+import ShadowPlantSimple from "shadow_plant.material"
+
+material ShadowC47Integrated : ShadowPlantIntegrated {
+	technique Basic {
+		shadow_caster_material ShadowC47Integrated2
+	}
+}
+
+material ShadowC47Integrated2 : ShadowPlantIntegrated2 {
+	technique ShadersShadows {
+		pass Basic {	
+			texture_unit Basic {
+				texture shadow_c47.png
+			}
+		}
+	}
+}
+
+material ShadowC47Simple : ShadowPlantSimple {
+	technique NoShaders {
+		pass Basic {
+			texture_unit Basic {
+				texture shadow_c47.png
+        	}
+		} 
+	}
+}
+
+
+material ShadowC47OffsetIntegrated : ShadowPlantIntegrated {
+	technique Basic {
+		shadow_caster_material ShadowC47OffsetIntegrated2
+	}
+}
+
+material ShadowC47OffsetIntegrated2 : ShadowPlantIntegrated2 {
+	technique ShadersShadows {
+		pass Basic {	
+			texture_unit Basic {
+				texture shadow_C47_offset.png
+			}
+		}
+	}
+}
+
+material ShadowC47OffsetSimple : ShadowPlantSimple {
+	technique NoShaders {
+		pass Basic {
+			texture_unit Basic {
+				texture shadow_C47_offset.png
+        	}
+		} 
+	}
+}

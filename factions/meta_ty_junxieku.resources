@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<weapon key="blhxw_futejia.weapon"/>
+	<weapon key='metaw_fjfz_ju_1.weapon' />
+	<weapon key='metaw_boss_feiying.weapon' />
+	<weapon key='metaw_boss_sunying.weapon' />
+	<weapon key='metaw_boss_fushang.weapon' />
+	<weapon key='meta_hm_hz_1.weapon' />
+	<weapon key='meta_zjd_fl.weapon' />
+	<weapon key="metaw_boss_shaenhuotesi.weapon" />
+	<weapon key="metaw_boss_genaisennao.weapon" />
+	<weapon key="metaw_boss_hailunna.weapon" />
+	<weapon key="metaw_boss_shancheng.weapon" />
+	<weapon key="metaw_boss_canglong.weapon" />
+	<weapon key='ylb_1.weapon' />
+	<weapon key="blhxw_bs_zbl.weapon"/>
+	<weapon key="blhxw_bs_zbl_1.weapon"/>
+	
+	<weapon key="metaw_rpg_1.weapon" />
+	<weapon key="metaw_rpg_2.weapon" />
+	
+	<weapon key="metaw_ar_1.weapon" />
+	<weapon key="metaw_smg_1.weapon" />
+	<weapon key="metaw_smg_2.weapon" />
+	<weapon key="metaw_smg_3_elite.weapon" />
+	
+	<weapon key='metaw_fanji.weapon'  />
+	<weapon key='metaw_shengwang.weapon'  />
+	<weapon key='metaw_mengfeisi.weapon'  />
+	<weapon key='metaw_mengfeisi_atk.weapon'  />	
+	
+    
+	<carry_item key="XHL.carry_item" />
+	<carry_item key="GLGL.carry_item" />
+	<carry_item key="HJMC.carry_item" />
+	<carry_item key="hhmc.carry_item" />
+	<carry_item key="VC.carry_item" />
+	<carry_item key="god_amemliky.carry_item" />
+	<carry_item key="VH_boss.carry_item" />
+	
+	<carry_item key="gxn_dj.carry_item" />
+	
+	<carry_item key="meta_elite_hj.carry_item" />
+	
+	
+	<call key="meta_hd.call" />
+	<call key="meta_jianpao1.call" />
+	<call key="meta_jianpao2.call" />
+	<call key="meta_feilong.call" />
+	<call key="meta_zhihuijian.call" />
+</resources>

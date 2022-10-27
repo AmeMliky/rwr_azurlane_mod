@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_ar.weapon" key="blhxw_ar_2.weapon">
+    <tag name="stealth" />
+    <specification 
+  retrigger_time="0.1" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.2" 
+  sustained_fire_diminish_rate="2.0" 
+  magazine_size="30" 
+  projectiles_per_shot="1"
+  can_shoot_standing="1" 
+  suppressed="0" 
+  name="Single-mounted SKC28 150mm main gun" 
+  class="0" 
+  projectile_speed="100.0"
+  sight_range_modifier="1.10" 
+	barrel_offset="0.42"
+	/>
+  
+  <next_in_chain key="blhxw_ar_2_yl.weapon" share_ammo="0" />
+  
+ 
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, scorpion-evo" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+	
+    <sound key="fire" fileref="AR_fire_2.wav" pitch_variety="0.03" volume="0.25"/>
+    <sound key="magazine_out" fileref="ar_re_2.wav" />
+   
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="blhxw_ar_2.xml" />
+    <hud_icon filename="blhxw_ar_2.png" />
+    <inventory encumbrance="10.0" price="10.0" />
+    <commonness value="1.0" can_respawn_with="1" in_stock="1"/>
+   
+	
+    <projectile file="bullet.projectile">
+        <result class="hit" kill_probability="1.85" kill_decay_start_time="0.40" kill_decay_end_time="0.65" />
+    </projectile>
+    <modifier class="speed" value="0.15" />     
+	
+	
+	
+</weapon>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	 
+	<!--  blhx 2022/3/23-->
+	
+	<model filename="srm_boss_lawosi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_lawosi.weapon"/>
+	</model>
+	
+	<model filename="srm_boss_tianpalansi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_tianpalansi.weapon"/>
+	</model>  
+	<model filename="srm_boss_tianpalansi.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_tianpalansi_1.weapon"/>
+	</model> 
+	
+	<model filename="srm_jinghuazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_jinghuazhe_1.weapon"/>
+	</model>  
+	
+	<model filename="srm_guanchazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_guanchazhe.weapon"/>
+	</model>  
+	<model filename="srm_guanchazhe.xml">
+		<requirement class="weapon" slot="0" key="srw_guanchazhe_1.weapon"/>
+	</model> 
+
+	<model filename="srm_boss_enpuleisi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_enpuleisi.weapon"/>
+	</model>
+	<model filename="srm_boss_enpuleisi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_enpuleisi_1.weapon"/>
+	</model>	
+	
+</models>

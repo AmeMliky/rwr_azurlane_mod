@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_smg.weapon" key="metaw_smg_1.weapon">
+    <tag name="stealth" />
+    <specification 
+  retrigger_time="0.045" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="0.5" 
+  sustained_fire_diminish_rate="3.0" 
+  magazine_size="60" 
+  can_shoot_standing="1" 
+  projectiles_per_shot="1"
+  suppressed="0" 
+  name="meta smg1" 
+  class="0" 
+  projectile_speed="115.0"
+  sight_range_modifier="1.00" 
+  use_basic_muzzle_smoke_effect="0"  />
+  
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, scorpion-evo" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+	
+    <sound key="fire" fileref="meta_smg.wav" pitch_variety="0.03" volume="0.45"/>
+	
+    <sound key="magazine_out" fileref="meta_re2.wav" />
+   
+    <sound key="cycle" fileref="pz_re.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <model filename="metaw_smg_6.xml" />
+    <hud_icon filename="cs.png" />
+    <inventory encumbrance="10.0" price="0.0" />
+	
+    <commonness value="0.3" can_respawn_with="1" in_stock="1"/>
+    
+	
+    <projectile file="bullet_meta.projectile">
+        <result class="hit" kill_probability="1.45" kill_decay_start_time="0.21" kill_decay_end_time="0.33" />
+    </projectile>
+    <modifier class="speed" value="0.2" />     
+</weapon>

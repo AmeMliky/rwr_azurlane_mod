@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1"  clear_carry_items="1" clear_calls="1" >
+	<!-- always load common first; it's the one that clears the initial weapon resources -->
+	<weapon key='blhxw_zjd_df_1.weapon' />
+	<weapon key='blhxw_javelin.weapon' />
+	<weapon key='blhxw_hjt_1_z23.weapon' />
+	<weapon key='blhxw_hjt_1_z23_1.weapon' />
+	<weapon key='blhxw_zjd_lb_1.weapon' />
+	<weapon key='blhxw_hjt_2.weapon' />
+	<weapon key='blhxw_hjt_2_1.weapon' />
+	<weapon key='blhxw_mg_4.weapon' />
+	<weapon key='blhxw_mg_4_1.weapon' />
+	<weapon key='blhxw_pz_4_bzd.weapon' />
+	<weapon key='blhxw_ar_3.weapon' />
+	
+	<projectile key="blhxw_4_bzhayao.projectile" />
+	<projectile key="yingxianzuo_dt.projectile" />
+
+	<call key="zhenhai.call" />
+	<call key="bf109.call" />
+	<call key="jianpao_daji_1.call" /> 
+   
+
+	<carry_item key='VH_boss_ai.carry_item' enabled="1" />			
+	
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Xmas box" key="xmas_box.carry_item">
+  <hud_icon filename="hud_xmas_box.png" />
+  <inventory encumbrance="0.5" price="1.0" />
+
+  <model mesh_filename="xmas_box.mesh" texture_filename="xmas.png" />
+
+  <commonness value="0.0" in_stock="0" />
+</carry_item>

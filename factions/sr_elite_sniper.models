@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="srm_boss_enpuleisi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_enpuleisi.weapon"/>
+	</model>
+	<model filename="srm_boss_enpuleisi.xml">
+		<requirement class="weapon" slot="0" key="sr_boss_enpuleisi_1.weapon"/>
+	</model>
+	
+</models>

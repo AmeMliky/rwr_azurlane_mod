@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_items>
+    <carry_item key="GLGL.carry_item" 
+	name="glgl" 
+	slot="1" 
+	transform_on_consume="GLGL_1"
+	time_to_live_out_in_the_open="30.0" 
+	player_death_drop_owner_lock_time="0.0">
+    <hud_icon filename="glgl.png" />	
+	<commonness value="3.0" in_stock="1"  can_respawn_with="1"/>
+	
+    <inventory encumbrance="10.0"price="10.0" />
+	
+    <capacity value="1" source="rank" source_value="0.0" />
+	
+    <modifier class="speed" value="0.25" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="-0.1" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="glgl.xml" />
+		
+	 </carry_item>	
+      	
+    <carry_item key="GLGL_1" 
+	name="glgl_1" 
+	slot="1" 
+	transform_on_consume="GLGL_2"
+	time_to_live_out_in_the_open="30.0" 
+	player_death_drop_owner_lock_time="0.0">	
+	<hud_icon filename="glgl_1.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0"price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.20" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="-0.1" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="glgl.xml" />
+	</carry_item>
+	
+<carry_item key="GLGL_2" 
+	name="glgl_2" 
+	slot="1" 
+	transform_on_consume="GLGL_3"
+	time_to_live_out_in_the_open="30.0"
+	player_death_drop_owner_lock_time="0.0">	
+	<hud_icon filename="glgl_2.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0"price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.10" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="-0.1" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="none"  />
+	<model mesh_filename="glgl.xml" />	
+	</carry_item>
+
+	<carry_item key="GLGL_3" 
+	name="glgl_3" 
+	slot="1" 
+	transform_on_consume="GLGL_4"
+	time_to_live_out_in_the_open="30.0" 
+	player_death_drop_owner_lock_time="0.0">	
+	<hud_icon filename="glgl_3.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0"price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.05" />
+    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="detectability" value="-0.05" />
+    <modifier class="night_detectability" value="-0.1" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="wound" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="death"  />
+	<model mesh_filename="glgl.xml" />
+		
+	</carry_item>
+	<carry_item key="GLGL_4" 
+	name="glgl_4" 
+	slot="1" 
+	time_to_live_out_in_the_open="30" 
+	player_death_drop_owner_lock_time="0.0">	
+	<hud_icon filename="glgl_4.png" />
+	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
+    <inventory encumbrance="5.0"price="5.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+    <modifier class="speed" value="0.05" />
+    <modifier class="hit_success_probability" value="-0.5" />
+    <modifier class="detectability" value="-0.0" />
+    <modifier class="night_detectability" value="0.0" />	
+	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
+	<modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="death" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="wound" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="stun" consumes_item="0" />
+	<modifier class="melee_hit_result" input_character_state="death" output_character_state="death"  />
+	<model mesh_filename="glgl.xml" />
+	
+
+	</carry_item>
+</carry_items>
