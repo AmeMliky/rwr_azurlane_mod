@@ -36,6 +36,19 @@
 	
 	<weapon key="srw_boss_guanchazhe_zero.weapon"/>
 	<weapon key="srw_boss_guanchazhe_zero_1.weapon"/>
+	<weapon key="srw_boss_guanchazhe_zero_2.weapon"/>
+	<weapon key="srw_boss_zcz_juexin.weapon"/>
+	<weapon key="srw_boss_zcz_juexin_1.weapon"/>
+	
+	<weapon key="srw_boss_zcz_hemite.weapon"/>
+	<weapon key="srw_boss_zcz_hemite_1.weapon"/>
+	
+	<weapon key="srw_jingying_qingxunyang.weapon"/>
+	<weapon key="srw_jingying_qingxunyang_1.weapon"/>
+	
+	<weapon key="srw_jingying_zhanlie.weapon"/>
+	<weapon key="srw_jingying_zhanlie_1.weapon"/>
+	
 	<weapon key="qzy_ty_hd.weapon"/>
 	<!-- 全阵营通用航弹-->
 	

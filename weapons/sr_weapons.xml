@@ -36,6 +36,9 @@
   <weapon file="sr_boss_enpuleisi_1.weapon"/>
   
   <weapon file="srw_boss_guanchazhe_zero.weapon"/>
-  
+  <weapon file="srw_boss_zcz_juexin.weapon"/>
+  <weapon file="srw_boss_zcz_hemite.weapon"/>
+  <weapon file="srw_jingying_qingxunyang.weapon"/>
+  <weapon file="srw_jingying_zhanlie.weapon"/>
   
 </weapons>

@@ -75,5 +75,38 @@
 	<model filename="srm_boss_guanchazhe_zero.xml">
 		<requirement class="weapon" slot="0" key="srw_boss_guanchazhe_zero_1.weapon"/>
 	</model>
-    
+	<model filename="srm_boss_guanchazhe_zero.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_guanchazhe_zero_2.weapon"/>
+	</model>
+	
+	
+	<model filename="srm_boss_zcz_juexin.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_zcz_juexin.weapon"/>
+	</model>
+	<model filename="srm_boss_zcz_juexin.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_zcz_juexin_1.weapon"/>
+	</model>
+	
+	<model filename="srm_boss_zcz_hemite.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_zcz_hemite.weapon"/>
+	</model>
+	<model filename="srm_boss_zcz_hemite_1.xml">
+		<requirement class="weapon" slot="0" key="srw_boss_zcz_hemite_1.weapon"/>
+	</model>
+	
+	<model filename="srm_jingying_qingxunyang.xml">
+		<requirement class="weapon" slot="0" key="srw_jingying_qingxunyang.weapon"/>
+	</model>
+	<model filename="srm_jingying_qingxunyang_1.xml">
+		<requirement class="weapon" slot="0" key="srw_jingying_qingxunyang_1.weapon"/>
+	</model>
+	
+	<model filename="srm_jingying_zhanlie_1.xml">
+		<requirement class="weapon" slot="0" key="srw_jingying_zhanlie_1.weapon"/>
+	</model>
+	<model filename="srm_jingying_zhanlie.xml">
+		<requirement class="weapon" slot="0" key="srw_jingying_zhanlie.weapon"/>
+	</model>
+	
+	
 </models>

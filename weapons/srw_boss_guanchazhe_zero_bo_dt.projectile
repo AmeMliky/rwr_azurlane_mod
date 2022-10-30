@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="zero_dt_buou" slot="1" pulldown_in_air="4.0" key="srw_boss_guanchazhe_zero_bo_dt.projectile">
+    
+    <result class="spawn" instance_class="projectile" instance_key="srw_boss_guanchazhe_zero_buou_dt.projectile" min_amount="15" max_amount="15" offset="0.0 0 0" position_spread="0.0 0.0" direction_spread="0.1 -0.15" />
+    <trigger class="time" time_to_live="1.9"/>
+    <rotation class="motion" />
+    <model filename="srw_boss_guanchazhe_zero_w.xml" />
+
+    <commonness value="0.0" />
+
+    <effect class="activated" ref="Propulsion" />
+
+</projectile>
+
+
+
