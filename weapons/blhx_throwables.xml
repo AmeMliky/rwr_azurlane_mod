@@ -82,4 +82,6 @@
   <projectile file="srw_boss_guanchazhe_zero_bo_dt.projectile" />
   <projectile file="srw_boss_guanchazhe_zero_buou_dt.projectile" />
   
+  <projectile file="srw_czc_hemite_dt_1.projectile" />
+  <projectile file="srw_czc_hemite_dt_2.projectile" />
 </projectiles>

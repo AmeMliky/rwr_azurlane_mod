@@ -79,7 +79,7 @@
      sight_height_offset="5.0"   
 	 sustained_fire_grow_step="2.0" 
 	 sustained_fire_diminish_rate="0.3" 
-	 magazine_size="6" 
+	 magazine_size="1" 
 	 can_shoot_standing="1"
 	 carry_in_two_hands="0"  
 	 can_shoot_crouching="1"
@@ -87,17 +87,14 @@
 	 suppressed="0" 
 	 name="Arbiter: The Hermit IX sea fog action" 
 	 class="4" 
-    projectile_speed="120.0"  
-    barrel_offset="0.65"  
-	projectiles_per_shot="3"
-	burst_shots="3"
-    spread_range="0.05"
-   
+	 projectile_speed="10"  
+     barrel_offset="0.2"  
+	 projectiles_per_shot="1"
+     spread_range="0.05"
+	 use_basic_muzzle_smoke_effect="0"
 	/> 
 	<next_in_chain key="srw_boss_zcz_hemite.weapon" share_ammo="0" />
 	
-
-	<ballistics  near_far_distance="1.0"  speed_estimation_near="20.0"  speed_estimation_far="45.0"  max_speed="200.0" randomness="0.05"/>
 	
 	
 	
@@ -134,7 +131,7 @@
 
 	<weak_hand_hold offset="0.3" />
 	
-	<projectile file="sr_guanchazhe_dt.projectile" />
+	<projectile file="srw_czc_hemite_dt_1.projectile" />
 
 
 	
