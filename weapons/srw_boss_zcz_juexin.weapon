@@ -3,11 +3,11 @@
 <weapon key="srw_boss_zcz_juexin.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="20.0"  drop_count_factor_on_player_death="0.0" drop_count_limit_in_range="1">
 	<tag name="elite" />
      <specification 
-	retrigger_time="0.12" 
-	accuracy_factor="0.8" 
-	sustained_fire_grow_step="1.2" 
-	sustained_fire_diminish_rate="1.8" 
-	magazine_size="200" 
+	retrigger_time="0.18" 
+	accuracy_factor="0.94" 
+	sustained_fire_grow_step="1.6" 
+	sustained_fire_diminish_rate="1.0" 
+	magazine_size="73" 
 	can_shoot_standing="1" 
 	can_shoot_crouching="1" 
 	suppressed="0" 
@@ -17,7 +17,7 @@
     class="0" 
     projectile_speed="150.0"
 	projectiles_per_shot="3"
-	barrel_offset_3d="0 0 0"
+	barrel_offset_3d="0.3 0.2 0"
 	
 	/>
 
@@ -43,12 +43,12 @@
     <sound key="cycle" fileref="pz_re.wav" /-->
     <sound class="impact" fileref="rifle_drop.wav" />   
 
-	<sound key="fire" fileref="mg_f1.wav" pitch_variety="0.04" volume="0.5" />
+	<sound key="fire" fileref="sr_juexin_fire.wav" pitch_variety="0.04" volume="1.2" />
     <sound key="magazine_out" fileref="mg_re1.wav" />
 	
     <model filename="" />
 
-    <hud_icon filename="cs.png" />
+    <hud_icon filename="Determination.png" />
 	<commonness value="0.0005" in_stock="1" can_respawn_with="1" />
 	<capacity value="1" source="rank" source_value="0.0" />
     <weak_hand_hold offset="0.2" />
@@ -57,17 +57,17 @@
    <projectile file="sr_zcz_juexin_dt.projectile"/>
      
      
-    <stance state_key="running" accuracy="1.0" />
-    <stance state_key="walking" accuracy="1.0" />
-    <stance state_key="crouch_moving" accuracy="1.0" />
-    <stance state_key="prone_moving" accuracy="1.0" />
+    <stance state_key="running" accuracy="0.6" />
+    <stance state_key="walking" accuracy="0.6" />
+    <stance state_key="crouch_moving" accuracy="0.4" />
+    <stance state_key="prone_moving" accuracy="0.4" />
 
-    <stance state_key="standing" accuracy="1.0" />
-    <stance state_key="crouching" accuracy="1.0" />
+    <stance state_key="standing" accuracy="0.72" />
+    <stance state_key="crouching" accuracy="0.96" />
     <stance state_key="prone" accuracy="1.0" />
     
     <modifier class="speed" value="0.08" />
-	<shield offset="0.5 -0.35 0" extent="0.8 1.4 0.6" />
+	<shield offset="0.0 0.35 0" extent="0.8 1.4 0.6" />
 	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
     <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
     <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
@@ -85,6 +85,7 @@
     can_shoot_standing="1" 
     can_shoot_crouching="1" 
     can_shoot_prone="0" 
+	carry_in_two_hands="0"
     suppressed="0" 
     class="3" 
     sight_range_modifier="1" 
@@ -121,10 +122,10 @@
 	<sound key="cycle" fileref="pz_re.wav" volume="0.7"/>
 	<sound class="impact" fileref="rifle_drop.wav" />
 	
-	<model filename="cs.xml" />
-	<hud_icon filename="cs.png" />
+	<model filename="" />
+	<hud_icon filename="Determination.png" />
 	
-	<commonness value="0.0001" in_stock="0" can_respawn_with="1" />
+	<commonness value="0.00001" in_stock="0" can_respawn_with="1" />
 	<inventory encumbrance="11.0" price="328.0" />
 	
 	<capacity value="1" source="rank" source_value="0.0" />
@@ -148,13 +149,13 @@
 	<stance state_key="crouching" accuracy="0.8" />
 	<stance state_key="prone" accuracy="1.0" />
 
-	<modifier class="speed" value="-0.50" /> 
-	
-	<shield offset="0.3 -0.35 0" extent="2.0 2.0 2.0" />
+	<modifier class="speed" value="-0.65" /> 
+	<modifier class="detectability" value="+0.3" />
+	<shield offset="0 0 0" extent="2.0 2.0 2.0" />
 	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
     <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
     <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
-    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" consumes_item="0" />
     <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
     <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
   
