@@ -42,9 +42,9 @@
 	<animation state_key="stabbing" animation_key="melee, quick knife" />
 	<animation state_key="stabbing" animation_key="pistol whip 3" />
 
-    <sound key="fire" fileref="cjm_fire_1.wav" pitch_variety="0.05" volume="0.4" />
-    <sound key="magazine_in" fileref="cjm_jn2.wav"  pitch_variety="0.00" volume="0.7" />
-    <sound key="cycle" fileref="cjm_zt.wav" pitch_variety="0.00" volume="0.7" />
+    <sound key="fire" fileref="sr_qingxunyang_fire.wav" pitch_variety="0.05" volume="1.0" />
+    <sound key="magazine_in" fileref="sr_qingxunyang_relod.wav"  pitch_variety="0.00" volume="0.7" />
+    <sound key="cycle" fileref="sr_qingxunyang_relod_1.wav" pitch_variety="0.00" volume="0.7" />
     <sound class="impact" fileref="rifle_drop.wav" />
 	
     <model filename="" />
@@ -68,7 +68,7 @@
     <stance state_key="crouching" accuracy="0.9" />
     <stance state_key="prone" accuracy="0.9" />
     
-    <modifier class="speed" value="-0.15" />
+    <modifier class="speed" value="0.08" />
  
      
 </weapon>
@@ -88,13 +88,13 @@
 	barrel_offset="0.3" 
 	spread_range="0.04"
 	name="siren Oceana HE" 
-	projectiles_per_shot="3"
+	projectiles_per_shot="1"
 	 />
 
    
 	<next_in_chain key="srw_jingying_qingxunyang.weapon" share_ammo="0" />
 	
-	<ballistics near_far_distance="1000.0" speed_estimation_near="50.0" speed_estimation_far="50.0" max_speed="180.0" randomness="0.0" />
+	<ballistics near_far_distance="1000.0" speed_estimation_near="180.0" speed_estimation_far="180.0" max_speed="180.0" randomness="0.0" />
 	
 	
 	<animation state_key="reload"	animation_key="reloading, m1919" />
@@ -119,12 +119,12 @@
 	<animation state_key="stabbing" animation_key="melee, quick knife" />
 	<animation state_key="stabbing" animation_key="pistol whip 3" />
   <!-- <sound key="fire" fileref="fireworks_woosh.wav" pitch_variety="0.05" volume="1.0"/> -->
-	<sound key="fire" fileref="guanchazhe_fire.wav" pitch_variety="0.05" volume="3.0"/>
-	<sound key="fire" fileref="guanchazhe_fire1.wav" pitch_variety="0.00" volume="3.0" />
-	<sound key="magazine_out" fileref="pz_re2.wav" volume="0.7" />
+	<sound key="fire" fileref="sr_qingxunyang_jz_fire.wav" pitch_variety="0.05" volume="0.8"/>
+	
+	<sound key="magazine_out" fileref="sr_qingxunyang_relod.wav" volume="0.5" />
 	
 	
-	<sound key="cycle" fileref="pz_re.wav" volume="0.7"/>
+	<sound key="cycle" fileref="sr_qingxunyang_relod_1.wav" volume="0.5"/>
 	<sound class="impact" fileref="rifle_drop.wav" />
 	
 	<model filename="" />
@@ -138,7 +138,7 @@
 
 	<weak_hand_hold offset="0.3" />
 	
-	<projectile file="cjmdt_2.projectile" />
+	<projectile file="sr_qingxunyang.projectile" />
 
 
 	

@@ -5,7 +5,7 @@
     <trigger class="time" time_to_live="1.9"/>
     <rotation class="motion" />
     <model filename="srw_boss_guanchazhe_zero_w.xml" />
-
+	<sound class="result"  fileref="sr_guanchazhe_buou_place.wav" pitch_variety="0.05" volume="1.0"  />
     <commonness value="0.0" />
 
     <effect class="activated" ref="Propulsion" />
