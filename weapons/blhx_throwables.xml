@@ -63,7 +63,7 @@
   <projectile file="jianpao_daji_1_1.projectile" />
   <projectile file="mortar_shell.projectile" />
   <projectile file="debri_destroy_big.projectile" />
-  
+  <projectile file="sr_jianpao_dt_2.projectile" />
   <projectile file="gunship_25mm.projectile" />
   <projectile file="gunship_105mm.projectile" />
   <projectile file="gunship_40mm.projectile" />

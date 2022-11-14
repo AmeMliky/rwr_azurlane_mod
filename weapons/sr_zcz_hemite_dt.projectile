@@ -10,7 +10,7 @@
 
     <commonness value="0.0" />
 
-    <sound class="result" key="other" fileref="explosion5.wav" />
+    <sound class="result" key="other" fileref="sr_hemite_dt_boom.wav" />
 
 
     <sound class="result" key="terrain" copy="other" />

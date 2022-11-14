@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="RWM mortar" slot="1" pulldown_in_air="18" key="pjp_pt_1.projectile" >
-    <tag name="grenade"/>
+<projectile class="grenade" name="" slot="1" pulldown_in_air="18" key="pjp_pt_1.projectile" >
 
-    <result class="blast" radius="5.2" damage="2.41" decal="1" character_state="death" push="1.0" faction_compare="not_equal"  />
+    <result class="blast" radius="5.2" damage="2.41" decal="1" character_state="death" push="2.0" faction_compare="not_equal"  />
     <trigger class="impact" />
     <rotation class="motion" />
 	<sound class="result" key="other" fileref="explosion4.wav" />

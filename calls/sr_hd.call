@@ -16,7 +16,7 @@
 	launch_time="1.1"
 	spawn_time="5.5">
 	<sound class="launch" fileref="jinghuazhe_call.wav"  pitch_variety="0.0" volume="2.0" />
-	<sound class="spawn" fileref="hd.wav"  pitch_variety="0.0" volume="1.0" />
+	<sound class="spawn" fileref="sr_call_fly2.wav"  pitch_variety="0.05" volume="1.0" />
 	</round>
 
 	<round

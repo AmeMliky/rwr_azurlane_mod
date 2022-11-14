@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="air strike rocket" slot="2" key="xiaojiajia_jianpao.projectile" >
 	
-	<sound class="result" key="other" fileref="light_gun_01.wav" volume="2.45" pitch_variety="0.1"/>
-	<sound class="result" key="other" fileref="light_gun_02.wav" volume="2.45" pitch_variety="0.1"/>
-	<sound class="result" key="other" fileref="light_gun_03.wav" volume="2.45" pitch_variety="0.1"/>
-	<sound class="result" key="other" fileref="light_gun_04.wav" volume="2.45" pitch_variety="0.1"/>
+	<sound class="result" key="other" fileref="explosion1.wav" />
+    <sound class="result" key="other" fileref="explosion2.wav" />  
 	
 	<sound class="result" key="terrain" copy="other" />
 	<sound class="result" key="static_object" copy="other" />

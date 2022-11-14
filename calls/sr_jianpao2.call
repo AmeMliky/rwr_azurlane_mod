@@ -13,7 +13,7 @@
 	<round 
 	instances="12"
 	instance_class="grenade"
-	instance_key="jianpao_dt_2.projectile" 
+	instance_key="sr_jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
 	common_spread="0 0 0" 
 	launch_time="6.0"
@@ -25,55 +25,60 @@
 	<round 
 	instances="12"
 	instance_class="grenade"
-	instance_key="jianpao_dt_2.projectile" 
+	instance_key="sr_jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
 	common_spread="0 0 0" 
-	launch_time="11.0"
+	launch_time="13.0"
 	spawn_time="17.0">
+	<sound class="launch" fileref="sr_call_fire_zhanlie_1.wav" pitch_variety="0.0" volume="3.0" /> 
 	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
 	</round>
 
 	<round 
 	instances="12"
 	instance_class="grenade"
-	instance_key="jianpao_dt_2.projectile" 
+	instance_key="sr_jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
 	common_spread="0 0 0" 
 	launch_time="14.0"
 	spawn_time="20.0">
+	<sound class="launch" fileref="sr_call_fire_zhanlie_1.wav" pitch_variety="0.0" volume="3.0" /> 
 	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
 	</round>
 	
 	<round 
 	instances="12"
 	instance_class="grenade"
-	instance_key="jianpao_dt_2.projectile" 
+	instance_key="sr_jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
 	common_spread="0 0 0" 
 	launch_time="17.0"
 	spawn_time="23.0">
+	<sound class="launch" fileref="sr_call_fire_zhanlie_1.wav" pitch_variety="0.0" volume="3.0" /> 
 	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
 	</round>
 
 	<round 
 	instances="12"
 	instance_class="grenade"
-	instance_key="jianpao_dt_2.projectile" 
+	instance_key="sr_jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
 	common_spread="0 0 0" 
 	launch_time="20.0"
 	spawn_time="26.0">
+	<sound class="launch" fileref="sr_call_fire_zhanlie_1.wav" pitch_variety="0.0" volume="3.0" /> 
 	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
 	</round>
 
 	<round 
 	instances="12"
 	instance_class="grenade"
-	instance_key="jianpao_dt_2.projectile" 
+	instance_key="sr_jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
 	common_spread="0 0 0" 
 	launch_time="23.0"
 	spawn_time="29.0">
+	<sound class="launch" fileref="sr_call_fire_zhanlie_1.wav" pitch_variety="0.0" volume="3.0" /> 
 	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
 	</round>
 	

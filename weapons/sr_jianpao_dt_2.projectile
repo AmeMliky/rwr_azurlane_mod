@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="jianpao_2" slot="2" key="jianpao_dt_2.projectile" >
+<projectile class="grenade" name="jianpao_2" slot="2" key="sr_jianpao_dt_2.projectile" >
 	
 	<sound class="result" key="other" fileref="naval_gun_01.wav" volume="2.7" pitch_variety="0.05" />
 	
@@ -61,5 +61,5 @@
 	<effect class="result" key="character" copy="terrain" />
 	
 	<effect class="activated" ref="Propulsion_rocket" />
-	 <trail probability="1.0" key="blhx_dt" /> 
+	 <trail probability="1.0" key="sr_jianpao" /> 
 </projectile>

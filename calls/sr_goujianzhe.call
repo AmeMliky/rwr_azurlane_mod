@@ -15,6 +15,7 @@
 			launch_time="1.1"
 			spawn_time="7.0">
 	  <sound class="launch" fileref="sr_call_4.wav" pitch_variety="0.0" volume="2.0" />
+	  <sound class="spawn" fileref="sr_call_fly2.wav"  pitch_variety="0.05" volume="1.0" />
 	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
     </round>
 	

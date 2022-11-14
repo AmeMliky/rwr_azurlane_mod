@@ -16,7 +16,7 @@
 	launch_time="3.0"
 	spawn_time="5.0">
 	<sound class="launch" fileref="bf109.wav"  pitch_variety="0.0" volume="1.0" />
-	
+	<sound class="spawn" fileref="call_fly3.wav"  volume="1.0" />
 	</round>
 
 	<round

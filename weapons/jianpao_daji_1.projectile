@@ -6,7 +6,7 @@
 
     <model mesh_filename="pjp_pt.xml" />
 
-    <sound class="result" key="other" fileref="explosion4.wav" />
+    <sound class="result" key="other" fileref="naval_gun_02.wav" volume="2.7" pitch_variety="0.05" />
 
     <commonness value="0.0" can_respawn_with="0" in_stock="0"/>
 

@@ -10,7 +10,7 @@
     <round instances="2"
            instance_class="grenade"
            instance_key="yingxianzuo_dt.projectile" 
-           instance_spread="3 0 3" 
+           instance_spread="2 0 2" 
 			common_spread="0 0 0" 
 			launch_time="1.1"
 			spawn_time="3.0">
@@ -21,7 +21,7 @@
 	<round instances="2"
            instance_class="grenade"
            instance_key="yingxianzuo_dt.projectile" 
-           instance_spread="3 0 3" 
+           instance_spread="1.5 0 1.5" 
 			common_spread="0 0 0" 
 			launch_time="2.0"
 			spawn_time="3.5">

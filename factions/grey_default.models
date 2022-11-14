@@ -94,7 +94,11 @@
 		<requirement class="weapon" slot="0" key="srw_boss_zcz_hemite_1.weapon"/>
 	</model>
 	
-	<model filename="srm_jingying_qingxunyang.xml">
+	<!--model filename="srm_jingying_qingxunyang.xml">
+		<requirement class="weapon" slot="0" key="srw_jingying_qingxunyang.weapon"/>
+	</model-->
+	
+	<model filename="srm_jingying_qingxunyang_1.xml">
 		<requirement class="weapon" slot="0" key="srw_jingying_qingxunyang.weapon"/>
 	</model>
 	<model filename="srm_jingying_qingxunyang_1.xml">

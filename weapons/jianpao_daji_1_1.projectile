@@ -6,9 +6,7 @@
     <model mesh_filename="pjp_pt.xml" />
     <commonness value="0.0" />
 
-    <sound class="result" key="other" fileref="explosion3.wav" />
-    <sound class="result" key="other" fileref="explosion4.wav" />
-
+    <sound class="result" key="other" fileref="naval_gun_03.wav" volume="2.7" pitch_variety="0.05"/>
     <sound class="result" key="terrain" copy="other" />
     <sound class="result" key="static_object" copy="other" />
     <sound class="result" key="vehicle" copy="other" />

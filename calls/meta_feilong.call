@@ -15,7 +15,7 @@
 			launch_time="3.0"
 			spawn_time="6.0">
 	  <sound class="launch" fileref="feilong.wav" pitch_variety="0.0" volume="1.0" />
-	    <sound class="spawn" fileref="hd.wav" pitch_variety="0.05" volume="1.0" />
+	   <sound class="spawn" fileref="meta_call_fly.wav" pitch_variety="0.05" volume="1.0" />
 	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
     </round>
 	

@@ -15,7 +15,7 @@
 	common_spread="0 0 0" 
 	launch_time="3.0"
 	spawn_time="5.0">
-	<sound class="launch" fileref="hd.wav"  pitch_variety="0.0" volume="1.0" />
+	<sound class="launch" fileref="meta_call_fly.wav"  pitch_variety="0.005" volume="1.0" />
 	
 	</round>
 

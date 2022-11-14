@@ -3,8 +3,8 @@
     <tag name="grenade" />
 
     <result class="blast" radius="6.0" damage="0.5" push="0.3" decal="1" character_state="unwound"  />
-    <trigger class="time" time_to_live="5.0"/>
- 
+    <!--trigger class="time" time_to_live="5.0"/-->
+	<trigger class="impact" />
     <rotation class="random" />
 
     <model filename="ylb_1.xml" />
@@ -16,9 +16,7 @@
 	<capacity value="6" source="rank" source_value="0" />
     <inventory encumbrance="5.0" price="2.0" />
 
-    <sound class="result" key="other" fileref="explosion1.wav" />
-    <sound class="result" key="other" fileref="explosion2.wav" />
-    <sound class="result" key="other" fileref="explosion2_1.wav" />    
+    <sound class="result" key="other" fileref="yingxianzuo_dt.wav" pitch_variety="0.05" volume="0.7"  />   
 
     <sound class="result" key="terrain" copy="other" />
     <sound class="result" key="static_object" copy="other" />
