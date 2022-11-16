@@ -7,11 +7,11 @@
       launch_comment="Rounds on the way."
 	  notify_metagame="1">
     
-    <round instances="6"
+    <round instances="4"
            instance_class="grenade"
            instance_key="xiaojiajia_hd.projectile" 
-           instance_spread="8 8 8" 
-			common_spread="4 4 4" 
+           instance_spread="8 12 8" 
+			common_spread="4 12 4" 
 			launch_time="3.0"
 			spawn_time="6.0">
 	  <sound class="launch" fileref="feilong.wav" pitch_variety="0.0" volume="1.0" />
@@ -19,18 +19,18 @@
 	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
     </round>
 	
-	 <round instances="12"
+	 <round instances="8"
            instance_class="grenade"
            instance_key="xiaojiajia_hd1.projectile" 
-            instance_spread="8 8 8" 
-			common_spread="4 4 4" 
+            instance_spread="8 12 8" 
+			common_spread="4 12 4" 
 			launch_time="5.5"
 			spawn_time="7.0">
 	 
 	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
     </round>
 	
- <round instances="24"
+ <round instances="8"
            instance_class="grenade"
            instance_key="xiaojiajia_jianpao.projectile" 
             instance_spread="10 8 10" 

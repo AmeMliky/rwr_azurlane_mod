@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="air strike rocket" slot="2" key="xiaojiajia_jianpao.projectile" >
+<projectile class="grenade" name="" slot="2" key="xiaojiajia_jianpao.projectile" >
 	
 	<sound class="result" key="other" fileref="explosion1.wav" />
     <sound class="result" key="other" fileref="explosion2.wav" />  
@@ -15,8 +15,8 @@
 	<trigger class="impact" />
 	<result
 	class="blast"
-	radius="7.75"
-	damage="4.4"
+	radius="3.2"
+	damage="1.0"
 	push="0.5"
 	decal="1" faction_compare="not_equal"
 	/>

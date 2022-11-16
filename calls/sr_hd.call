@@ -8,7 +8,7 @@
     notify_metagame="1">
 
 	<round
-	instances="4"
+	instances="2"
 	instance_class="grenade"
 	instance_key="bf109.projectile" 
 	instance_spread="5 0 5" 
@@ -20,7 +20,7 @@
 	</round>
 
 	<round
-	instances="4"
+	instances="2"
 	instance_class="grenade"
 	instance_key="bf109.projectile" 
 	instance_spread="5 0 5" 
@@ -31,7 +31,7 @@
 	
 	</round>
 	
-	<hud_icon filename="call_hd.png" />
+	<hud_icon filename="sr_call_hd.png" />
 	<capacity value="0" source="rank" source_value="0.0" />
 	<capacity value="100" source="rank" source_value="0.4" />
 	<inventory encumbrance="0.0" price="168.0" />

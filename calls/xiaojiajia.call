@@ -30,7 +30,7 @@
 	   <effect class="launch" ref="ShadowAirplaneFlyby_WW2" shadow="1" />
     </round>
 	
- <round instances="6"
+ <round instances="24"
            instance_class="grenade"
            instance_key="xiaojiajia_jianpao.projectile" 
            instance_spread="12 7 12" 

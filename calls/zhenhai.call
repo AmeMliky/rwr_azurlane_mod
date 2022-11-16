@@ -31,7 +31,7 @@
 	</round>
     
 
-    <hud_icon filename="zhenhai.png" />
+    <hud_icon filename="call_zhenhai.png" />
     <capacity value="100" source="rank" source_value="0.0" />
     <inventory encumbrance="0.0" price="128.0" />
 

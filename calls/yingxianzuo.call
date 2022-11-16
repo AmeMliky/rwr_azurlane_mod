@@ -7,10 +7,10 @@
       launch_comment="Rounds on the way.yxz"
 	  notify_metagame="1">
     
-    <round instances="2"
+    <round instances="1"
            instance_class="grenade"
            instance_key="yingxianzuo_dt.projectile" 
-           instance_spread="2 0 2" 
+           instance_spread="0 0 0" 
 			common_spread="0 0 0" 
 			launch_time="1.1"
 			spawn_time="3.0">
@@ -18,10 +18,10 @@
 	   
     </round>
 	
-	<round instances="2"
+	<round instances="1"
            instance_class="grenade"
            instance_key="yingxianzuo_dt.projectile" 
-           instance_spread="1.5 0 1.5" 
+           instance_spread="0 0 0" 
 			common_spread="0 0 0" 
 			launch_time="2.0"
 			spawn_time="3.5">
@@ -31,7 +31,7 @@
 
     
 
-    <hud_icon filename="yingxianzuo_dt.png" />
+    <hud_icon filename="call_yingxianzuo.png" />
 	 <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="100" source="rank" source_value="0.1" />
     <inventory encumbrance="0.0" price="68.0" />

@@ -87,7 +87,7 @@
 	
 	
 	
-	<hud_icon filename="call_jianpao2.png" />
+	<hud_icon filename="sr_call_jianpao2.png" />
 	<capacity value="0" source="rank" source_value="0" />
 	<capacity value="100" source="rank" source_value="5.0" />
 	<inventory encumbrance="0.0" price="3280.0" />
