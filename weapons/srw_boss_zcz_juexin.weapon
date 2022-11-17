@@ -17,27 +17,27 @@
     class="0" 
     projectile_speed="150.0"
 	projectiles_per_shot="3"
-	barrel_offset_3d="0.3 0.2 0"
-	
+	barrel_offset_3d="0.3 0.2 0.0"
+	stab_enabled="1"
+    stab_range="1.2"
 	/>
 
 	<next_in_chain key="srw_boss_zcz_juexin_1.weapon" share_ammo="0" />	
 	<addon_model filename="srm_boss_zcz_juexin_jz.xml" />
-	<animation state_key="recoil" animation_key="recoil, juexin1" />
+	<animation state_key="recoil" animation_key="recoil, juexin" />
     <animation state_key="recoil" animation_key="recoil, juexin2" />
-    <animation state_key="reload"	animation_key="reload, agent" />
+    <animation state_key="reload"	animation_key="relod, juexin" />
     <animation state_key="hold"	animation_key="still, agent" />
-    <animation state_key="hold_casual"	animation_key="relax agent" />
+	
+    <animation state_key="hold_casual"	animation_key="relaxed, juexin" />
     <animation state_key="hold_on_wall"	animation_key="still, agent" />
-    <animation state_key="still_against_wall"	animation_key="still, agent" />
-    <animation state_key="running" animation_key="running, agent" />
-    <animation state_key="walking"	animation_key="walking, agent" />
-    <animation state_key="walking_backwards" animation_key="walking, agent" />
-    <animation state_key="stabbing" animation_key="pistol whip" />
-	<animation state_key="crouching"	animation_key="crouch, pistol dual" />
-	<animation state_key="crouch_moving"	animation_key="crouching, pistol 2" />
-	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, pistol 2" />
-
+    <animation state_key="running" animation_key="running, juexin" />
+    <animation state_key="walking"	animation_key="running, juexin" />
+    <animation state_key="walking_backwards" animation_key="running, juexin" />
+    <animation state_key="stabbing" animation_key="melee, juexin" />
+	<animation state_key="crouching"	animation_key="crouch, juexin" />
+	<animation state_key="crouch_moving"	animation_key="crouching backwards, juexin" />
+	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, juexin" />
     <!--sound key="fire" fileref="pz_fire3.wav" pitch_variety="0.05" volume="0.4" />
     <sound key="magazine_out" fileref="guanchazhe_fire1.wav" pitch_variety="0.00" volume="0.4" />
     <sound key="cycle" fileref="pz_re.wav" /-->
@@ -90,7 +90,8 @@
     class="3" 
     sight_range_modifier="1" 
 	name="arbiter determination shield deployment" 
-	 
+	stab_enabled="1"
+    stab_range="1.2"
    
 	/> 
 	<next_in_chain key="srw_boss_zcz_juexin.weapon" share_ammo="0" />
@@ -109,7 +110,7 @@
     <animation state_key="running" animation_key="running, agent" />
     <animation state_key="walking"	animation_key="walking, agent" />
     <animation state_key="walking_backwards" animation_key="walking, agent" />
-    <animation state_key="stabbing" animation_key="pistol whip" />
+    <animation state_key="stabbing" animation_key="melee, juexin" />
 	<animation state_key="crouching"	animation_key="crouch, pistol dual" />
 	<animation state_key="crouch_moving"	animation_key="crouching, pistol 2" />
 	<animation state_key="crouch_moving_backwards"	animation_key="crouching backwards, pistol 2" />
@@ -149,7 +150,7 @@
 	<stance state_key="crouching" accuracy="0.8" />
 	<stance state_key="prone" accuracy="1.0" />
 
-	<modifier class="speed" value="-0.65" /> 
+	<modifier class="speed" value="-0.98" /> 
 	<modifier class="detectability" value="+0.3" />
 	<shield offset="0 0 0" extent="2.0 2.0 2.0" />
 	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
