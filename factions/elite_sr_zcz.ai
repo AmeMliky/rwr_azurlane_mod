@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="zcz.ai">
+  <parameter class="accuracy_offset" value="0.065" /> 
+  <parameter class="accuracy_offset_in_player_squad" value="0.03" />
+  <parameter class="willingness_to_charge" value="0.5" />
+
+<!-- firemode switching -->
+  
+  
+  
+  <parameter class="min_number_of_enemies_to_throw_grenade" value="1.0" />
+
+<!-- flare usage -->
+  <parameter class="check_fellows_for_shield_use_range" value="50.0" />
+  <parameter class="max_active_shields_per_fellows" value="50.0" />
+</ai>

@@ -14,7 +14,7 @@
 	instances="8"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="18 18 18" 
 	common_spread="0 0 0" 
 	launch_time="2.1"
 	spawn_time="7.0">
@@ -22,10 +22,10 @@
 	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
 	</round>
 	<round 
-	instances="8"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="18 18 18" 
 	common_spread="0 0 0" 
 	launch_time="3.1"
 	spawn_time="7.0">
@@ -33,10 +33,10 @@
 	<sound class="spawn" fileref="naval_shell_whistle.wav" volume="1.4" />
 	</round>
 	<round 
-	instances="8"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="14 14 14" 
 	common_spread="0 0 0" 
 	launch_time="3.1"
 	spawn_time="7.0">
@@ -45,10 +45,10 @@
 	</round>
 
 	<round 
-	instances="6"
+	instances="4"
 	instance_class="grenade"
 	instance_key="jianpao_daji_1.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="12 15 12" 
 	common_spread="0 0 0" 
 	launch_time="5.0"
 	spawn_time="8.4">
@@ -59,7 +59,7 @@
 	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_daji_1.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="18 20 18" 
 	common_spread="0 0 0" 
 	launch_time="5.0"
 	spawn_time="8.4">
@@ -67,10 +67,10 @@
 	</round>
 	
 	<round 
-	instances="6"
+	instances="2"
 	instance_class="grenade"
 	instance_key="jianpao_daji_1.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="5 5 5" 
 	common_spread="0 0 0" 
 	launch_time="5.0"
 	spawn_time="8.4">
@@ -78,10 +78,10 @@
 	</round>
 
 	<round 
-	instances="10"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_daji_1_1.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="14 14 14" 
 	common_spread="0 0 0" 
 	launch_time="8.5"
 	spawn_time="9.7">
@@ -89,10 +89,10 @@
 	</round>
 	
 	<round 
-	instances="10"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_daji_1_1.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="12 12 12" 
 	common_spread="0 0 0" 
 	launch_time="8.5"
 	spawn_time="9.7">
@@ -100,10 +100,10 @@
 	</round>
 	
 	<round 
-	instances="7"
+	instances="5"
 	instance_class="grenade"
 	instance_key="bf109.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="12 12 12" 
 	common_spread="0 0 0" 
 	launch_time="10"
 	spawn_time="11.5">
@@ -111,10 +111,10 @@
 	</round>
 	
 	<round 
-	instances="7"
+	instances="3"
 	instance_class="grenade"
 	instance_key="bf109.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="12 12 12" 
 	common_spread="0 0 0" 
 	launch_time="10"
 	spawn_time="11.5">
@@ -122,10 +122,10 @@
 	</round>
 	
 	<round 
-	instances="7"
+	instances="3"
 	instance_class="grenade"
 	instance_key="bf109.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="12 12 12" 
 	common_spread="0 0 0" 
 	launch_time="10"
 	spawn_time="11.5">
@@ -133,10 +133,10 @@
 	</round>
 	
 	<round 
-	instances="7"
+	instances="3"
 	instance_class="grenade"
 	instance_key="bf109.projectile" 
-	instance_spread="20 20 20" 
+	instance_spread="12 12 12" 
 	common_spread="0 0 0" 
 	launch_time="10"
 	spawn_time="11.5">
@@ -145,7 +145,7 @@
 	
 	
 	<round 
-	instances="8"
+	instances="4"
 	instance_class="grenade"
 	instance_key="zhenhai_hangdan.projectile" 
 	instance_spread="20 20 20" 
@@ -156,7 +156,7 @@
 	</round>
 	
 	<round 
-	instances="8"
+	instances="6"
 	instance_class="grenade"
 	instance_key="zhenhai_hangdan.projectile" 
 	instance_spread="20 20 20" 
@@ -167,7 +167,7 @@
 	</round>
 	
 	<round 
-	instances="8"
+	instances="4"
 	instance_class="grenade"
 	instance_key="zhenhai_hangdan.projectile" 
 	instance_spread="20 20 20" 
@@ -178,7 +178,7 @@
 	</round>
 	
 	<round 
-	instances="8"
+	instances="6"
 	instance_class="grenade"
 	instance_key="zhenhai_hangdan.projectile" 
 	instance_spread="20 20 20" 

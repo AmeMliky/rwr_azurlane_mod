@@ -37,7 +37,7 @@
     <effect class="result" key="static_object" copy="terrain" />
     <effect class="result" key="character" copy="terrain" />  
 	
-    <!--trail probability="1.0" key="juexin" /--> 
+    <trail probability="1.0" key="sr_jianpao" /> 
   
 
 </projectile>

@@ -2,7 +2,7 @@
 <projectile class="grenade" name="b_boom" key="blhxw_4_bzhayao.projectile" slot="0" radius="0.15" drop_count_limit_in_range="4">
     <tag name="grenade" />
 
-    <result class="blast" radius="6.0" damage="6.9" push="1.0" decal="1" character_state="death" faction_compare="not_equal" />
+    <result class="blast" radius="3.8" damage="6.9" push="1.0" decal="1" character_state="death" faction_compare="not_equal" />
 	<trigger class="impact" />
     <rotation class="motion" />
 	

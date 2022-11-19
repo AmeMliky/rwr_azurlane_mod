@@ -56,6 +56,8 @@
 	<carry_item file="npc_ougen.carry_item" />
 	<carry_item file="npc_xiaotiancheng.carry_item" />
 	
+	<!--塞壬精英-->
+	<carry_item file="elite_sr_ai.carry_item" />
 	
 	
 	

@@ -71,7 +71,7 @@ radio_queue_size="3"
 			<!-- wearables -->
 			<item_class_existence class="carry_item" slot="1" probability="1.0" />
 			<!-- backpack -->
-			<item_class_existence class="carry_item" slot="0" probability="0.2" />
+			<item_class_existence class="carry_item" slot="0" probability="0.1" />
 		</item_class_existence_config>
 
 		<attribute_config class="rp">
@@ -111,7 +111,7 @@ radio_queue_size="3"
 			<!-- wearables -->
 			<item_class_existence class="carry_item" slot="1" probability="1.0" />
 			<!-- backpack -->
-			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
 		</item_class_existence_config>
 
 		<attribute_config class="xp">
@@ -144,7 +144,7 @@ radio_queue_size="3"
 			<!-- wearables -->
 			<item_class_existence class="carry_item" slot="1" probability="1.0" />
 			<!-- backpack -->
-			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
 		</item_class_existence_config>
 
 		<attribute_config class="xp">
@@ -195,7 +195,7 @@ radio_queue_size="3"
 			<item_class_existence class="carry_item" slot="1" probability="1.0" />
 			<!-- backpack -->
 			<!-- note, always bp items -->
-			<item_class_existence class="carry_item" slot="0" probability="1.0" />
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
 		</item_class_existence_config>
 
 		<attribute_config class="xp">

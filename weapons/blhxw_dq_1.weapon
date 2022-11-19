@@ -59,7 +59,7 @@
 
     <hud_icon filename="AzurLane_anshan_g1.png" />
     <commonness value="0.0001" can_respawn_with="1" in_stock="0" />
-    <inventory encumbrance="5.0" price="1000.0" />
+    <inventory encumbrance="5.0" price="380.0" />
 
     <effect class="muzzle" ref="LawMuzzle" />
     <effect class="muzzle" ref="UpDust" />

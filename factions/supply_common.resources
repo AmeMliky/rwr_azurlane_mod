@@ -42,19 +42,14 @@
 
 	<weapon key="sr_qingchuzhe.weapon"/>
 
-	
 	<weapon key="srw_boss_tianpalansi.weapon"/>
-
 	
 	<weapon key="srw_jinghuazhe.weapon"/>
-
 	
 	<weapon key="sr_boss_siteliankusi.weapon"/>
 
-	
 	<weapon key="srw_guanchazhe.weapon"/>
 
-	
 	<weapon key="sr_boss_enpuleisi.weapon"/>
 
 	
@@ -75,4 +70,11 @@
 	
 	<projectile key="blhxw_4_tnt.projectile" />
 	<projectile key="blhxw_4_ywxk.projectile" />
+	
+	<!--11/19 -->
+	<weapon key="srw_boss_guanchazhe_zero.weapon"/>
+	<weapon key="srw_boss_zcz_juexin.weapon"/>
+	<weapon key="srw_boss_zcz_hemite_1.weapon"/>
+	<weapon key="srw_jingying_qingxunyang.weapon"/>
+	<weapon key="srw_jingying_zhanlie_1.weapon"/>
 </resources>

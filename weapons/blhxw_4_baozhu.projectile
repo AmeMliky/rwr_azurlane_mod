@@ -2,7 +2,7 @@
 <projectile class="grenade" name="bianpao" key="blhxw_4_baozhu.projectile" slot="0" radius="0.15" drop_count_limit_in_range="4">
     <tag name="grenade" />
 
-    <result class="blast" radius="7.2" damage="3.5" push="0.3" decal="1" character_state="death" faction_compare="not_equal" />
+    <result class="blast" radius="4.2" damage="3.5" push="0.3" decal="1" character_state="death" faction_compare="not_equal" />
     <trigger class="time" time_to_live="3"/>
  
     <rotation class="motion" />
