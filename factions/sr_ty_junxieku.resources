@@ -61,7 +61,7 @@
 	<carry_item key="god_amemliky.carry_item" />
 	<carry_item key="VH_boss.carry_item" />
 	<carry_item key="gxn_dj.carry_item" />
-	<carry_item key="elite_sr_ai.carry_item" />
+	<!--carry_item key="elite_sr_ai.carry_item" /-->
 	
 	<!-- 军械库显示的一般等价物-->
 	<carry_item key="800_wz.carry_item" />

@@ -512,6 +512,7 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 			CallMarkerConfig("sr_hd.call", "call_marker", 7, 1.0, 15.0),
 			CallMarkerConfig("sr_jianpao2.call", "call_marker", 9, 0.5,85),         
 			CallMarkerConfig("zhihuijian_0.call", "call_marker", 4, 0.5,75),
+			CallMarkerConfig("sr_zhihuijian.call", "call_marker", 2, 0.5,40),
 			};
 
 		addTracker(CallMarkerTracker(this, configs));
