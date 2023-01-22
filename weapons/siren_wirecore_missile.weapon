@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon key="siren_wirecore_missile.weapon">
+    <specification retrigger_time="4" 
+    accuracy_factor="0.78" 
+    sustained_fire_grow_step="1.2" 
+    sustained_fire_diminish_rate="0.6" 
+    sight_range_modifier="1.65"
+    ai_sight_range_modifier="0.8" 
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="Wirecore missile" 
+    class="0" 
+    projectile_speed="100.0" 
+    slot="2" 
+    barrel_offset_3d="0 2 0"
+    projectiles_per_shot="2"
+    sight_height_offset="2.5" />
+    
+    <model mesh_filename="siren_vehicles_wirecore_missile.mesh" texture_filename="siren_vehicles_wirecore_missile.png" />
+    <hud_icon filename="hud_hornet.png" />
+    <commonness value="0.0" />
+
+    <ballistics curve_height="10" near_far_distance="0" speed_estimation_near="80.0" speed_estimation_far="80.0" max_speed="50.0" tweak_factor="1.8" randomness="0.0" />
+    <projectile file="siren_vehicles_wirecore_missile.projectile" />
+    
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />	
+    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.0" />
+    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />	
+    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.0" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />  <!-- important non combat player-only vehicles -->  
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="10" />     
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <sound key="fire" fileref="noxe_shot.wav" volume="0.5" pitch_variety="0.0" />
+
+
+</weapon>

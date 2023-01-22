@@ -9,7 +9,7 @@
     name="Ordnance Shovel" 
     class="5" 
     spawn_instance_class="vehicle" 
-    spawn_instance_key="sandbag_cover_1.vehicle" 
+    spawn_instance_key="cover1.vehicle"  
     consume="0" 
     sight_range_modifier="1" 
     slot="1"
@@ -18,7 +18,7 @@
 	projectiles_per_shot="1" />
 	
 	<next_in_chain key="shovel_sandbag_1.weapon" share_ammo="0" />
-	
+	<!--spawn_instance_key="sandbag_cover_1.vehicle"-->  
 	<addon_model filename="backpack_sandbag.xml" />
 
     <animation state_key="recoil" 		animation_key="recoil, digging" />	

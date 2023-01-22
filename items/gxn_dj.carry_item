@@ -16,7 +16,7 @@
     <capacity value="1" source="rank" source_value="0.0" />
 	
     <modifier class="speed" value="+0.2" />
-    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="hit_success_probability" value="-0.8" />
     <modifier class="detectability" value="-0.1" />
     <modifier class="night_detectability" value="-0.05" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -41,7 +41,7 @@
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
     <modifier class="speed" value="+0.2" />
-    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="hit_success_probability" value="-0.78" />
     <modifier class="detectability" value="-0.1" />
     <modifier class="night_detectability" value="-0.05" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -64,7 +64,7 @@
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
     <modifier class="speed" value="+0.2" />
-    <modifier class="hit_success_probability" value="-0.60" />
+    <modifier class="hit_success_probability" value="-0.72" />
     <modifier class="detectability" value="-0.1" />
     <modifier class="night_detectability" value="-0.05" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -87,7 +87,7 @@
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
     <modifier class="speed" value="+0.2" />
-    <modifier class="hit_success_probability" value="-0.60" />
+    <modifier class="hit_success_probability" value="-0.7" />
     <modifier class="detectability" value="-0.1" />
     <modifier class="night_detectability" value="-0.05" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -110,7 +110,7 @@
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
      <modifier class="speed" value="+0.2" />
-    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="hit_success_probability" value="-0.68" />
     <modifier class="detectability" value="-0.1" />
     <modifier class="night_detectability" value="-0.05" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -134,7 +134,7 @@
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
      <modifier class="speed" value="+0.2" />
-    <modifier class="hit_success_probability" value="-0.6" />
+    <modifier class="hit_success_probability" value="-0.65" />
     <modifier class="detectability" value="-0.1" />
     <modifier class="night_detectability" value="-0.05" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />

@@ -99,5 +99,9 @@
 	<vehicle file="atv_armory_para.vehicle" />
 	<vehicle file="atv_armory.vehicle"/>
 	<vehicle file="sandbag_cover.vehicle"/>
+	<!--2023/1/22	-->
+	
+	<vehicle file="siren_wirecore.vehicle"/>
+	
 	
 </vehicles>

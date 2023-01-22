@@ -81,4 +81,10 @@
 	<weapon file="blhx_weapons.xml" />
 	<weapon file="meta_weapons.xml" />
 	<weapon file="sr_weapons.xml" />
+	
+<!-- 2023/1/22-->
+	<weapon file="siren_wirecore.weapon" />
+	<weapon file="siren_wirecore_missile.weapon" />  
+	
+	
 </weapons>

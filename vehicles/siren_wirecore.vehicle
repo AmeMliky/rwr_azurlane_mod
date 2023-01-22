@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="Toy APC" key="acp.vehicle" respawn_time="60" time_to_live_unsteerable="30" map_view_atlas_index="1" minimum_fill_requirement="0.25">
+<vehicle file="vehicle_base.vehicle" name="wirecore" key="siren_vehicles_wirecore.vehicle" respawn_time="60" time_to_live_unsteerable="30" map_view_atlas_index="1" minimum_fill_requirement="0.25">
 	<tag name="metal_heavy" />
 	<tag name="apc" />
 
@@ -23,32 +23,43 @@
 	mass="12.0" 
 	broken_mass="5"
     remove_collision_threshold="0.2"
-	extent="3.0 0.0 5.0" 
+	extent="4.0 0.0 8.5" 
 	offset="0 0.0 0" 
 	top_offset="0 7 0" 
 	collision_model_pos="0 0.8 0" 
-	collision_model_extent="3.2 2.4 7.6" 
+	collision_model_extent="4 3 8.5" 
 	visual_offset="0 0.25 0" 
 	friction_offset="0.0" 
 	drag_offset="-0.05" /> 
 
-	<turret offset="0 2.4 0.67" weapon_key="apc_hmg.weapon" weapon_offset="0 0.1 1.9" weapon_recoil="0.1" max_rotation_step="0.0001" />
+	<turret offset="0 0 -1.2" weapon_key="siren_wirecore_turret.weapon" weapon_offset="0 0 1.2" weapon_recoil="0.0" max_rotation_step="0.0003" rotation_range="4." />
+	
+	<turret offset="0 0 0" weapon_key="siren_wirecore_missile.weapon" weapon_offset="0 0 0" weapon_recoil="1.0" max_rotation_step="0.0003" rotation_range="0.5" />
+	
+	
+	<visual class="chassis" mesh_filename="siren_vehicles_wirecore.mesh" texture_filename="siren_vehicles_wirecore.png" />
+	<visual class="chassis" key="broken" mesh_filename="siren_vehicles_wirecore.mesh" texture_filename="siren_vehicles_wirecore.png" />
+	<visual class="turret" turret_index="0" mesh_filename="" texture_filename="" />
+	<visual class="turret" turret_index="1" mesh_filename="" texture_filename="" />
+	<!--visual class="tire" mesh_filename="apc_wheel.mesh" texture_filename="apc_wheel.png" /-->
+	<!--visual class="turret" mesh_filename="siren_vehicles_wirecore_turret.mesh" texture_filename="siren_vehicles_wirecore_turret.png" />
+	<visual class="turret" key="broken" mesh_filename="siren_vehicles_wirecore_turret.mesh" texture_filename="siren_vehicles_wirecore_turret.png" /-->
 
-	<visual class="chassis" mesh_filename="apc_body.mesh" texture_filename="apc.png" />
-	<visual class="chassis" key="broken" mesh_filename="apc_body_broken.mesh" texture_filename="apc_broken.png" />
-	<visual class="tire" mesh_filename="apc_wheel.mesh" texture_filename="apc_wheel.png" />
-	<visual class="turret" mesh_filename="apc_turret.mesh" texture_filename="apc.png" />
-	<visual class="turret" key="broken" mesh_filename="apc_turret_broken.mesh" texture_filename="apc_broken.png" />
+	<character_slot type="driver" position="2 0.3 2" rotation="0" exit_rotation="1.57" hiding="1" />
+	<!--character_slot type="gunner" position="-0.7 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" /-->
+	<character_slot type="gunner" position="-2 0.3 -1.7" rotation="0" exit_rotation="-1.57" hiding="1" >
+		<turret index="0" />
+	</character_slot>
 
-	<character_slot type="driver" position="0.7 0.3 1.0" rotation="0" exit_rotation="1.57" hiding="1" />
-	<character_slot type="gunner" position="-0.7 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" />
+	<character_slot type="gunner" position="-2 0.3 2"  rotation="0" exit_rotation="-1.57" hiding="1" >
+		<turret index="1" />
+	</character_slot>
 
-	<character_slot type="passenger" position="-0.7 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="-0.5 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="-0.2 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="0.2 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="0.5 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="0.7 0.3 -2.3" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="-0.7 0.3 -4" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="-0.5 0.3 -4" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="-0.2 0.3 -4" rotation="0" exit_rotation="3.14" hiding="1" />
+	<character_slot type="passenger" position="0.2 0.3 -4" rotation="0" exit_rotation="3.14" hiding="1" />
+	
 
 	<!-- sound handling -->
 	<rev_sound filename="truck_rev0.wav" low_pitch="0.95" high_pitch="1.05" low_rev="0.0" high_rev="0.2" volume="1.0" />

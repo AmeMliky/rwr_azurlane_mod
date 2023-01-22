@@ -84,4 +84,8 @@
   
   <projectile file="srw_czc_hemite_dt_1.projectile" />
   <projectile file="srw_czc_hemite_dt_2.projectile" />
+  
+  <!-- 2023/1/22 -->
+  <projectile file="siren_vehicles_wirecore_missile.projectile" />
+  
 </projectiles>

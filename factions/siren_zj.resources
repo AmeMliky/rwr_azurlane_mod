@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
  	<vehicle key="jeep_1.vehicle" />
- 	<vehicle key="apc_1.vehicle" />
+ 	<vehicle key="siren_vehicles_wirecore.vehicle" />
  	<vehicle key="tank_1.vehicle" />
  	<vehicle key="transport_truck_1.vehicle" />  
 

@@ -19,8 +19,8 @@
 	blast_push_threshold="1000.0" 
 	vehicle_collision_damage_factor="2.0" /> 
 
+	
 	<visual class="chassis" mesh_filename="hesco_barrier.mesh" texture_filename="hesco_barrier.png" />
-
 	<sound key="hit" filename="barrier_impact1.wav" />
 	<sound key="hit" filename="barrier_impact2.wav" />
 
