@@ -63,6 +63,8 @@ class BasicCommandHandler : Tracker {
 			spawnInstanceNearPlayer(senderId, "tank_2.vehicle", "vehicle", 0);
 		}else  if(checkCommand(message, "ice")) {
 			spawnInstanceNearPlayer(senderId, "icecream.vehicle", "vehicle", 0); 
+		}else  if(checkCommand(message, "v_cs")) {
+			spawnInstanceNearPlayer(senderId, "armored_truck.vehicle", "vehicle", 0); 
 		} else if (checkCommand(message, "1_own")) {
 			int factionId = 1;
 			array<const XmlElement@> bases = getBases(m_metagame);

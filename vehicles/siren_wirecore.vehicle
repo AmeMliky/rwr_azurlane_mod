@@ -3,9 +3,9 @@
 	<tag name="metal_heavy" />
 	<tag name="apc" />
 
-	<tire_set offset="1.28 0.0 2.04" radius="0.65" />
-	<tire_set offset="1.28 0.0 0.0" radius="0.65" />
-	<tire_set offset="1.28 0.0 -2.04" radius="0.65" />
+	<tire_set offset="1.5 0.0 2.15" radius="0.65" />
+	<tire_set offset="1.5 0.0 0.0" radius="0.65" />
+	<tire_set offset="1.5 0.0 -2.15" radius="0.65" />
 
 	<control 
 	max_speed="20.0" 
@@ -28,13 +28,13 @@
 	top_offset="0 7 0" 
 	collision_model_pos="0 0.8 0" 
 	collision_model_extent="4 3 8.5" 
-	visual_offset="0 0.25 0" 
+	visual_offset="0 1 0" 
 	friction_offset="0.0" 
 	drag_offset="-0.05" /> 
 
-	<turret offset="0 0 -1.2" weapon_key="siren_wirecore_turret.weapon" weapon_offset="0 0 1.2" weapon_recoil="0.0" max_rotation_step="0.0003" rotation_range="4." />
+	<turret offset="0 0.55 -1.2" weapon_key="siren_wirecore_turret.weapon" weapon_offset="0 0 1.2" weapon_recoil="0.0" max_rotation_step="0.0003" rotation_range="4" />
 	
-	<turret offset="0 0 0" weapon_key="siren_wirecore_missile.weapon" weapon_offset="0 0 0" weapon_recoil="1.0" max_rotation_step="0.0003" rotation_range="0.5" />
+	<turret offset="0 0.55 0" weapon_key="siren_wirecore_missile.weapon" weapon_offset="0 0 0" weapon_recoil="1.0" max_rotation_step="0.0003" rotation_range="0.5" />
 	
 	
 	<visual class="chassis" mesh_filename="siren_vehicles_wirecore.mesh" texture_filename="siren_vehicles_wirecore.png" />

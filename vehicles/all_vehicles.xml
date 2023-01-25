@@ -4,7 +4,7 @@
 
 	<vehicle file="jeep.vehicle" />
   <vehicle file="apc.vehicle" />
-  <vehicle file="armored_truck.vehicle" />
+  <!--vehicle file="armored_truck.vehicle" /-->
   <vehicle file="radar_truck.vehicle" />
   <vehicle file="radar_tank2.vehicle" />  
 
@@ -102,6 +102,6 @@
 	<!--2023/1/22	-->
 	
 	<vehicle file="siren_wirecore.vehicle"/>
-	
+	<vehicle file="siren_vehicles_external_storage.vehicle"/>
 	
 </vehicles>

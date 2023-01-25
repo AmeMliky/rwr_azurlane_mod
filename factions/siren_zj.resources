@@ -4,8 +4,6 @@
  	<vehicle key="siren_vehicles_wirecore.vehicle" />
  	<vehicle key="tank_1.vehicle" />
  	<vehicle key="transport_truck_1.vehicle" />  
-
-	
-
+	<vehicle key="armored_truck.vehicle" />
 	
 </resources>

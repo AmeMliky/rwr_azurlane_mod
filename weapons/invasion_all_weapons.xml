@@ -86,5 +86,5 @@
 	<weapon file="siren_wirecore.weapon" />
 	<weapon file="siren_wirecore_missile.weapon" />  
 	
-	
+	<weapon file="siren_vehicles_external_storage_elefire.weapon" />  
 </weapons>
