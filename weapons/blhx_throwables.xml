@@ -87,5 +87,7 @@
   
   <!-- 2023/1/22 -->
   <projectile file="siren_vehicles_wirecore_missile.projectile" />
+  <projectile file="external_storage_dd.projectile" />
+  
   
 </projectiles>

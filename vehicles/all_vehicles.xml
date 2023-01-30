@@ -4,7 +4,7 @@
 
 	<vehicle file="jeep.vehicle" />
   <vehicle file="apc.vehicle" />
-  <!--vehicle file="armored_truck.vehicle" /-->
+  <vehicle file="armored_truck.vehicle" />
   <vehicle file="radar_truck.vehicle" />
   <vehicle file="radar_tank2.vehicle" />  
 

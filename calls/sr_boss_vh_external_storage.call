@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="spawn Humvee" key="sr_boss_vh_external_storage.call"
+      initiation_comment1="I Need heavy strategic weapons support"
+      acknowledge_comment="Confirmed, external storage class Aircraft carrier deployment"
+      launch_comment="Airdropping external storage now."
+      notify_metagame="1"
+      >
+
+    <round instances="1"
+           instance_class="vehicle"
+           instance_key="siren_vehicles_external_storage.vehicle" 
+           instance_spread="2 0 2" 
+           common_spread="0 0 0" 
+           launch_time="2.0"
+           spawn_time="5.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="50.0"
+           initial_speed_to_target="0.0"
+		   avoid_objects="1">
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+
+	 <round
+	       instances="10"
+           instance_class="soldier"
+		   instance_key="elite_sr_zcz"
+		   instance_spread="5 15 5" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+
+    </round>
+
+
+    <hud_icon filename="call_hanma.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="250000.0" />
+
+</call>

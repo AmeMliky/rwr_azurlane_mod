@@ -109,4 +109,5 @@
 	<call key="sr_jianpao2.call" />
 	<call key="sr_goujianzhe.call" />
 	<call key="sr_zhihuijian.call" />
+	<call key="sr_boss_vh_external_storage.call" />
 </resources>

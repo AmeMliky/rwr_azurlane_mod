@@ -35,6 +35,6 @@
 
     <effect class="muzzle" ref="BigMuzzle" />
 
-    <sound class="operation" key="fire" fileref="blhx_ju_fire.wav" />
+    <sound class="operation" key="fire" fileref="blhx_ju_fire.wav" pitch_variety="0.01" volume="0.75" />
 
 </weapon>

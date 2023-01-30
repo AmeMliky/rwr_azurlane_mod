@@ -62,32 +62,31 @@
 	
 
 	<!-- sound handling -->
-	<rev_sound filename="truck_rev0.wav" low_pitch="0.95" high_pitch="1.05" low_rev="0.0" high_rev="0.2" volume="1.0" />
-	<rev_sound filename="truck_rev3.wav" low_pitch="0.7" high_pitch="1.0" low_rev="0.05" high_rev="0.7" volume="1.0" />
-	<rev_sound filename="truck_rev4.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.4" high_rev="1.0" volume="1.0" />
+	<rev_sound filename="wirecore_qd.wav" low_pitch="0.95" high_pitch="1.0" low_rev="0.15" high_rev="1.0" volume="0.5" />
+	
 
 	<sound key="slide" filename="slide_noise.wav" />
-	<sound key="squeal" filename="tire_squeal.wav" />
-	<sound key="ignition" filename="truck_ignition.wav" />
-	<sound key="turret_rotation" filename="turret_rotation1.wav" />
+	<sound key="squeal" filename="wirecore_qd.wav" pitch_variety="0.1" volume="0.2" />
+	<sound key="ignition" filename="wirecore_sc.wav" pitch_variety="0.0" volume="1.7"/>
+	<sound key="turret_rotation" filename="wirecore_rotation.wav" pitch_variety="0.1" volume="1.0"/>
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />
 	<sound key="destroy" filename="vehicle_explosion_1.wav" />  
 	<sound key="cleanup" filename="vehicle_explosion_1.wav" />
-
+	<sound key="horn" filename="huaq.wav" /> 
 	<effect event_key="slide" type="splat_map" surface_tag="road" size="1.0" atlas_index="5" layer="0" />
 	<effect event_key="slide_hard" type="splat_map" surface_tag="road" size="0.5" atlas_index="2" layer="0" />
 	<effect event_key="slide" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
 	<effect event_key="slide" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
   
 	<effect event_key="health" value="1.8" ref="SmallSmokeVehicle" offset="-0.0 2.3 -2.7" />
-  <effect event_key="health" value="0.36" ref="SmallSmokeVehicle" offset="-0.0 2.3 -2.7" />
-  <effect event_key="health" value="0.36" ref="BrokenSparkle" post_processing="0" offset="-0.0 1.8 -2.7" />
-  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.0 3.2 0.5" />
-  <effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.0 2.3 -2.7" />  
-  <effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 3.0 0.5" />
-        <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
-        <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" /> 
+	<effect event_key="health" value="0.36" ref="SmallSmokeVehicle" offset="-0.0 2.3 -2.7" />
+	<effect event_key="health" value="0.36" ref="BrokenSparkle" post_processing="0" offset="-0.0 1.8 -2.7" />
+	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.0 3.2 0.5" />
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.0 2.3 -2.7" />  
+	<effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 3.0 0.5" />
+    <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
+    <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" /> 
   
 	<event key="receive_damage_xp_reward">
 		<trigger class="receive_damage" />

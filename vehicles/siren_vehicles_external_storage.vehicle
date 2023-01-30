@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicle 
 	file="vehicle_base.vehicle" 
-	name="external_storage" 
-	key="armored_truck.vehicle" 
+	name="external storage" 
+	key="siren_vehicles_external_storage.vehicle" 
 	time_to_live_unsteerable="300" 
 	respawn_time="180" 
 	map_view_atlas_index="2" 
@@ -30,7 +30,7 @@
 
     <tire_set offset="2.6 0.05 7.00" radius="0.3" />
     <tire_set offset="2.6 0.05 -7.00" radius="0.3" />
-    <modifier class="blast_damage" value="-3.0" />
+    <modifier class="blast_damage" value="-0.5" />
     <modifier class="blast_range" value="-1.0" />
     <control 
 		max_speed="6.0"
@@ -47,7 +47,7 @@
     <physics 
 		max_health="150.0"
 		mass="2000.0"
-		gravity="-80"
+		gravity="-10"
 		broken_mass="2000"
 		remove_collision_threshold="0.2"
     	blast_damage_threshold="3.0"
@@ -57,7 +57,7 @@
         friction_offset="+0.1"
         drag_offset="+0.1"
 		collision_model_pos="0 2.00 0"
-		collision_model_extent="10 6 20"
+		collision_model_extent="9 4.5 20"
 		visual_offset="0 0.6 0"/>
     <event>
         <trigger class="destroy" />
@@ -68,8 +68,9 @@
         <result class="map_enable" />
     </event>
 	
-    <item_container class="armory" offset="0.0 0.78 -8.25" soldier_group="default"/>
-    <spawn_point offset="0 21 -12.5"/>
+    <item_container class="armory" offset="0.0 0.6 -10" soldier_group="default"/>
+  
+	<spawn_point offset="0 0 -14.5"/>
 	
 	
     
@@ -78,7 +79,7 @@
 	<visual class="chassis" key="broken" mesh_filename="siren_vehicles_external_storage.mesh" texture_filename="siren_vehicles_external_storage.png" />
 	
 	
-    <turret offset="0 2.5 3.8" weapon_key="external_storage_elefire.weapon" weapon_offset="0 -0.2 -0.6" weapon_recoil="0.0" max_rotation_step="0.00015" rotation_range="1"/>
+    <turret offset="0 2.4 3.8" weapon_key="external_storage_elefire.weapon" weapon_offset="0 -0.2 -0.6" weapon_recoil="0.0" max_rotation_step="0.00015" rotation_range="1"/>
 	0
 	<!--参考CTMOD amos无人机 复数炮台构建环形移动路径 -->
     <turret offset="4.5 2 2" weapon_key="external_storage_none.weapon" weapon_offset="0 0 0" rotation="3.14" max_rotation_step="0.000010"/>
@@ -151,22 +152,33 @@
 	31
     <turret offset="0 0 0" weapon_key="external_storage_subroutine.weapon" weapon_offset="0 0 0" parent_turret_index="31" rotation_range="6.28" />
 	32
-	
-	
+	<!--导弹与副炮 -->
+	<turret offset="0 6.7 -6.8" weapon_key="external_storage_missile.weapon" weapon_offset="0 0 0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.0001" rotation="0.0" rotation_range="6.28" />
+	33
+	<turret offset="1.55 6.6 -2.85" weapon_key="external_storage_auxiliary_gun.weapon" weapon_offset="-0.0 0 0" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0002" rotation="1.57" rotation_range="1.57" />
+	34
+	<turret offset="-1.55 6.6 -2.85" weapon_key="external_storage_auxiliary_gun.weapon" weapon_offset="0.0 0 0" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0002" rotation="-1.57" rotation_range="1.57" /> 
+	35
+	<turret offset="1.55 6.6 -4.65" weapon_key="external_storage_auxiliary_gun.weapon" weapon_offset="-0.0 0 0" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0002" rotation="1.57" rotation_range="1.57" />
+	36
+	<turret offset="-1.55 6.6 -4.65" weapon_key="external_storage_auxiliary_gun.weapon" weapon_offset="0.0 0 0" weapon_recoil="0.02" physics_recoil="0.0" max_rotation_step="0.0002" rotation="-1.57" rotation_range="1.57" />	
+	37
 	
 	
 	
 	<!--visual class="turret" key="broken" mesh_filename="tank_turret_broken.mesh" texture_filename="tank_broken.png" /-->  
 	<visual class="turret" turret_index="0" mesh_filename="" texture_filename="" />
 	<visual class="turret" turret_index="6" mesh_filename="" texture_filename="" />
+	
+	
 
 
-    <character_slot type="driver" position="3.5 0.5 2" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
-	<character_slot type="gunner" position="-3.5 0.7 2" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
+    <character_slot type="driver" position="5 0.5 2" rotation="0" exit_rotation="1.57" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="-5 0.7 7" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37">
 		<turret index="0" />
 	</character_slot>
 <!--左前无人机-->
-	<character_slot type="gunner" position="3.5 0.7 4" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" >
+	<character_slot type="gunner" position="5 0.7 5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" >
 		<turret index="1" />
 		<turret index="2" />
 		<turret index="3" />
@@ -177,7 +189,7 @@
 		<turret index="8" />
 	</character_slot>
 <!--右前无人机-->
-	<character_slot type="gunner" position="-3.5 0.7 4" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37" >
+	<character_slot type="gunner" position="-5 0.7 5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37" >
 		<turret index="9" />
 		<turret index="10" />
 		<turret index="11" />
@@ -188,7 +200,7 @@
 		<turret index="16" />
 	</character_slot>
 <!--左后无人机-->	
-	<character_slot type="gunner" position="3.5 0.7 -4" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" >
+	<character_slot type="gunner" position="5 0.7 -5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" >
 		<turret index="17" />
 		<turret index="18" />
 		<turret index="19" />
@@ -200,7 +212,7 @@
 	</character_slot>
 	
 <!--右前后无人机-->	
-<character_slot type="gunner" position="-3.5 0.7 -4" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37" >
+	<character_slot type="gunner" position="-5 0.7 -5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37" >
 		<turret index="25" />
 		<turret index="26" />
 		<turret index="27" />
@@ -210,18 +222,40 @@
 		<turret index="31" />
 		<turret index="32" />
 	</character_slot>
+
+<!--导弹 后续四个为副炮 -->
+<character_slot type="gunner" position="0 0.7 -10" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37" >
+		<turret index="33" />	
+	</character_slot>
+	
+	<character_slot type="gunner" position="5 0.7 -1" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" >
+		<turret index="34" />
+	</character_slot>
+	
+	<character_slot type="gunner" position="-5 0.7 -1" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37" >
+		<turret index="35" />
+	</character_slot>
+	
+	<character_slot type="gunner" position="5 0.7 -2.5" rotation="0" exit_rotation="1.57" hiding="1" animation_id="37" >
+		<turret index="36" />
+	</character_slot>
+	
+	<character_slot type="gunner" position="-5 0.7 --2.5" rotation="0" exit_rotation="-1.57" hiding="1" animation_id="37" >
+		<turret index="37" />	
+	</character_slot>
+	
 	
 	<!-- sound handling -->
-	<rev_sound filename="ambient_alert_daytime.wav" low_pitch="1.0" high_pitch="1.0" low_rev="0.0" high_rev="1.0"  pitch_variety="0.0" volume="0.7" />
+	<rev_sound filename="siren_vehicles_external_storage_bgm.wav" low_pitch="1.0" high_pitch="1.0" low_rev="0.0" high_rev="1.0"  pitch_variety="0.0" volume="1.0" />
 	
 
 	
-	<sound key="ignition" filename="blhx_yinqin.wav"  pitch_variety="0.0" volume="1.0" />
+	<sound key="ignition" filename="siren_vehicles_external_storage_yq_up.wav"  pitch_variety="0.01" volume="2" />
 	<sound key="hit" filename="car_hit1.wav" />
 	<sound key="hit" filename="car_hit2.wav" />
 	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
 	<sound key="cleanup" filename="vehicle_explosion_1.wav" />    
-
+	<sound key="horn" filename="siren_vehicles_external_storage_horn.wav" volume="0.8" /> 
 	<sound key="turret_rotation" filename="turret_rotation1.wav" volume="0.8" />
 	<sound key="turret_rotation" filename="turret_rotation2.wav" volume="0.8"/>
   

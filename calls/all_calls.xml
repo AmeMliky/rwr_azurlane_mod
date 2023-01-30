@@ -24,4 +24,7 @@
 	
 	<call file="bujiche.call" />
 	<call file="zhihuijian_0.call" />
+	
+	
+	<call file="sr_boss_vh_external_storage.call" />
 </calls>
