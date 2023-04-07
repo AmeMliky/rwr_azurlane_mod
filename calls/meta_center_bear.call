@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="spawn Humvee" key="meta_center_bear.call"
+      initiation_comment1="I Need heavy strategic weapons support"
+      acknowledge_comment="Confirmed, center bear class tank deployment"
+      launch_comment="Heavy Center bear level tank in air drop."
+      notify_metagame="1"
+      >
+
+    <round instances="1"
+           instance_class="vehicle"
+           instance_key="meta_center_bear.vehicle" 
+           instance_spread="2 0 2" 
+           common_spread="0 0 0" 
+           launch_time="2.0"
+           spawn_time="5.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="50.0"
+           initial_speed_to_target="0.0"
+		   avoid_objects="1">
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+
+	 <round
+	       instances="4"
+           instance_class="soldier"
+		   instance_key="elite_sniper"
+		   instance_spread="5 15 5" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="11.0">
+
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+
+    </round>
+
+
+    <hud_icon filename="meta_center_bear_call.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.4" />
+    <inventory encumbrance="0.0" price="996.0" />
+
+</call>

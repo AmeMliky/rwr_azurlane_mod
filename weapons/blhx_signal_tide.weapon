@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+<weapon key="blhx_signal_tide_zhupao.weapon">
+    <specification retrigger_time="6.0" 
+    accuracy_factor="0.95" 
+    sustained_fire_grow_step="0.8" 
+    sustained_fire_diminish_rate="0.8" 
+    sight_range_modifier="1.75"
+    ai_sight_range_modifier="1.5"
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="meta_center_bear_zhupao" 
+    class="0" 
+	barrel_offset_3d="0 4.5 7"
+    projectile_speed="150.0" 
+    slot="2" 
+    barrel_offset="2.0" 
+    projectiles_per_shot="1" />
+    <model mesh_filename="" texture_filename="" />
+    <hud_icon filename="external_storage_elefire_w.png" />
+    <commonness value="0.0" />
+    <projectile file="tank_cannon.projectile">
+	  <result 
+	class="blast" 
+	radius="6.8" 
+	damage="12.8" 
+	push="2.0" 
+	decal="1" 
+	damage_origin_vehicle="0" character_state="death" faction_compare="not_equal" />
+	<trail probability="1.0" key="misaka_laser_trail" /> 
+	</projectile>
+    
+	<!-- Scoring for target priority. Distance is between 0 and 1 based on range; direction is between 0 and 1 based on whether its near the barrel; squad_command is between 0 and on based on how close to the player's command order is, and base_score is a weight.. -->
+	<!-- These all add together and the highest 'score' is the new target, targets are rescanned every 2.5 seconds to see if a new higher-score target is in sight-range. -->
+	<!-- You must define a blank tag at the top of the list to handle all cases where the vehicle is fighting something "undefined", which is what common infantry might best fit under. -->
+    <target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.9" />
+    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
+    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.0" />	
+    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.5" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.0" />  <!-- important non combat player-only vehicles -->  
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />
+
+
+    <!--effect class="muzzle" ref="BiggerMuzzle" />
+    <effect class="muzzle" ref="CannonSmokeBig" /> 
+    <effect class="muzzle" ref="CannonSmokeBigSphere" /-->      
+	<effect class="muzzle" ref="misaka_mikoto_muzzle_current"/>
+	<effect class="muzzle" ref="misaka_mikoto_muzzle_current_02"/>
+	<effect class="muzzle" ref="misaka_mikoto_muzzle_current_03"/>
+	<effect class="muzzle" ref="misaka_mikoto_muzzle_current_04"/>
+	<effect class="muzzle" ref="misaka_mikoto_muzzle_current_05"/>
+	<effect class="muzzle" ref="misaka_mikoto_muzzle_halo"/>
+	<effect class="muzzle" ref="misaka_mikoto_muzzle_thunder_01"/>	
+
+    <sound class="operation" key="fire" fileref="blhx_signal_tide_zhupao.wav" pitch_variety="0.1" volume="1.0"/>
+	<!--sound class="operation" key="fire" fileref="external_storage_elefire_fire_2.wav" pitch_variety="0.1" volume="1.0"/-->
+	<!--sound class="operation" key="fire" fileref="external_storage_elefire_fire_3.wav" pitch_variety="0.1" volume="1.0"/-->
+
+</weapon>
+<!--塞壬坦克副炮 -->
+<weapon key="blhx_signal_tide_autogun.weapon">
+    <specification 
+    slot="2" 
+    retrigger_time="0.15" 
+    accuracy_factor="0.78" 
+    sustained_fire_grow_step="0.8" 
+    sustained_fire_diminish_rate="1.15" 
+    sight_range_modifier="1.55"
+    ai_sight_range_modifier="1.28"
+    magazine_size="-1" 
+    can_shoot_standing="0" 
+    can_shoot_crouching="0" 
+    suppressed="0" 
+    name="blhx_signal_tide_autogun" 
+	projectiles_per_shot="3"
+    class="0" 
+	barrel_offset_3d="0 0 1.5"
+    projectile_speed="130.0" />
+    
+    <sound key="fire" fileref="blhx_signal_tide_autogun.wav" pitch_variety="0.1" volume="0.2" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <model mesh_filename="" texture_filename=""/>
+
+    <hud_icon filename="external_storage_auxiliary_gun_w.png" />
+    <commonness value="0.00" />
+
+    <weak_hand_hold offset="0.4" />
+     <projectile file="bullet.projectile">
+        <result class="hit"  kill_probability="1.7" kill_decay_start_time="0.8" kill_decay_end_time="1.6" />
+    </projectile>
+</weapon>
+
+<!--塞壬坦克机枪 -->
+
+
+<weapon key="blhx_signal_tide_daodan.weapon">
+	<tag name="mortar" />
+   <specification 
+	
+  retrigger_time="0.6" 
+  accuracy_factor="1.0" 
+  spread_range="0.12"
+  sustained_fire_grow_step="0.35" 
+  sustained_fire_diminish_rate="0.2" 
+  sight_range_modifier="1.7"
+  ai_sight_range_modifier="1.38"
+  sight_height_offset="4.0"  
+  magazine_size="-1" 
+  suppressed="0" 
+  name="blhx_signal_tide_daodan" 
+  class="0" 
+  projectile_speed="80.0" 
+  slot="2"   
+  projectiles_per_shot="1"
+  cooldown_start="0.95"
+  cooldown_end="0.0"  />
+	
+	<!--ballistics curve_height="2.8" near_far_distance="10.0" speed_estimation_near="55.0" speed_estimation_far="35.0" max_speed="37.0" randomness="0.0" tweak_factor="2.2" /-->
+	
+	<ballistics near_far_distance="1.0" speed_estimation_near="20.0" speed_estimation_far="35.0" max_speed="80.0" randomness="0.1" />
+   
+	<animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation key="reload" ref="33" />
+    <animation key="hold" ref="32" />
+    <animation key="hold_on_wall" ref="1" />
+    <animation key="walking" ref="31" />
+    <sound key="fire" fileref="meta_center_bear_autogun.wav" volume="1.0" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <model mesh_filename="" texture_filename=""/>
+	<commonness value="0.00" />
+	<target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.9" />
+    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
+    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.0" />	
+    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.5" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.0" />  
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />
+    <hud_icon filename="hud_tank_mg.png" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="external_storage_dd.projectile">
+    <result 
+	class="blast" 
+	radius="3.2" 
+	damage="2.01" 
+	push="1.2" 
+	decal="1" 
+	damage_origin_vehicle="0" character_state="death" faction_compare="not_equal" />
+    </projectile>
+    
+    
+
+</weapon>	
+</weapons>

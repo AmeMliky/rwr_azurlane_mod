@@ -77,4 +77,10 @@
 	<weapon key="srw_boss_zcz_hemite_1.weapon"/>
 	<weapon key="srw_jingying_qingxunyang.weapon"/>
 	<weapon key="srw_jingying_zhanlie_1.weapon"/>
+	
+	
+	<weapon key="metaw_hunter_dd.weapon" />
+	<weapon key="metaw_fortune_dd.weapon" />
+	<weapon key="metaw_sheffield.weapon" />
+	<weapon key="metaw_elizabeth.weapon" />
 </resources>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="rocket" slot="1" pulldown_in_air="1.5" key="rpg_dt_2.projectile">
+<projectile class="grenade" name="rocket" slot="1" pulldown_in_air="50" key="rpg_dt_2.projectile">
     <tag name="rocket"/>
-    <result class="blast" radius="3.8" damage="2.2" push="1.8" decal="1" faction_compare="not_equal" />
-    <trigger class="time" time_to_live="1.2"/>
+    <result class="blast" radius="4.8" damage="12.8" push="2" decal="1"  />
+    <trigger class="impact" />
     <rotation class="motion" />
     <model mesh_filename="rpg_2_dt.xml" />
-	<collision class="sticky" />
+	
     <commonness value="0.0" />
 
     <sound class="result" key="other" fileref="explosion1.wav" />

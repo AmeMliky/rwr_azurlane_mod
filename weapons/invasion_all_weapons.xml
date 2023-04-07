@@ -87,4 +87,8 @@
 	<weapon file="siren_wirecore_missile.weapon" />  
 	
 	<weapon file="siren_vehicles_external_storage_elefire.weapon" />  
+<!--2023/3/13 -->	
+	<weapon file="siren_wire_control_level.weapon" />
+	<weapon file="meta_center_bear.weapon" />
+	<weapon file="blhx_signal_tide.weapon" />
 </weapons>

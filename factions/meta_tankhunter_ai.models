@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="metam_hunter_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_at_ai.weapon"/>
+	</model>
+	<model filename="metam_hunter_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_hunter_dd_2.weapon"/>
+	</model>
+	
+</models>

@@ -9,8 +9,10 @@
     name="Maintenance tools" 
     class="5" 
     character_state="unwound" 
-    consume="1" 
+    consume="0" 
     sight_range_modifier="1" />
+	
+	<next_in_chain key="wx.weapon" share_ammo="0" />
     <animation state_key="recoil" 		animation_key="medic1" />
     <animation state_key="hold" 		animation_key="still, single hand carry" />
     <animation state_key="hold_on_wall" 	animation_key="still, single hand carry" />
@@ -31,9 +33,9 @@
     <capacity value="2" source="rank" source_value="0.0" />
 
     <hud_icon filename="ylb_1.png" />
-    <commonness value="0.8" />
+    <commonness value="0.5" />
     <inventory encumbrance="5" price="1.0" />
 	
-    <modifier class="speed" value="+0.1" />    
+    <modifier class="speed" value="+0.12" />    
 
 </weapon>

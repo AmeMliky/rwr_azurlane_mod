@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="jianpao_2" slot="2" key="jianpao_dt_2.projectile" >
 	
-	<sound class="result" key="other" fileref="naval_gun_01.wav" volume="2.7" pitch_variety="0.05" />
-	
+	<sound class="result" key="other" fileref="naval_gun_01.wav" volume="2.0" pitch_variety="0.05" />
+	<sound class="result" key="other" fileref="naval_gun_02.wav" volume="2.0" pitch_variety="0.05" />
+	<sound class="result" key="other" fileref="naval_gun_03.wav" volume="2.0" pitch_variety="0.05" />
 	<sound class="result" key="terrain" copy="other" />
 	<sound class="result" key="static_object" copy="other" />
 	<sound class="result" key="vehicle" copy="other" />

@@ -4,7 +4,7 @@
 
 	<weapon key='blhxw_pz_3.weapon' />
 	<weapon key='blhxw_pz_3_1.weapon' />
-	
+	<weapon key='blhxw_xiaoougen.weapon' />
 
 	<carry_item key="VH_boss_ai.carry_item"  />
 	

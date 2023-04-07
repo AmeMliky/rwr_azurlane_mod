@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources clear_weapons="1" clear_vehicles="1" clear_grenades="1" clear_carry_items="1" clear_calls="1">
 	<weapon key='blhxw_ju_5.weapon' />
+	<weapon key='blhxw_z46.weapon' />
 	<weapon key='ylb_1.weapon' />
 	<carry_item key='meta_elite_hj.carry_item' />
 

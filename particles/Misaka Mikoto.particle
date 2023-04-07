@@ -1,0 +1,226 @@
+by rst
+2022.5.8
+武器文件下添加
+<effect class="muzzle" ref="misaka_mikoto_muzzle_current"/>
+<effect class="muzzle" ref="misaka_mikoto_muzzle_current_02"/>
+<effect class="muzzle" ref="misaka_mikoto_muzzle_current_03"/>
+<effect class="muzzle" ref="misaka_mikoto_muzzle_current_04"/>
+<effect class="muzzle" ref="misaka_mikoto_muzzle_current_05"/>
+<effect class="muzzle" ref="misaka_mikoto_muzzle_halo"/>
+<effect class="muzzle" ref="misaka_mikoto_muzzle_thunder_01"/>
+弹头文件添加
+<trail probability="1" key="misaka_laser_trail"/>
+
+
+particle_system misaka_mikoto_muzzle_current		
+{
+	quota 1000
+	material misaka_mikoto_muzzle_current_01
+	particle_width 5
+	particle_height 5
+	renderer billboard	
+    billboard_origin center
+	billboard_rotation_type vertex
+	billboard_type point
+    common_up_vector 0 0 1
+
+    emitter Point{
+		angle 90
+		colour 0 0 0 0
+		direction 0 1 0
+		emission_rate 50
+		position 0 0 0
+		velocity 0.001
+		time_to_live 0.04
+		duration 0.3
+    }
+	affector Rotator{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+    affector Scaler{rate 0}
+    affector ColourFader2{
+		red1	10
+		green1  30
+		blue1	50
+		alpha1	50
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.0
+	}
+}
+particle_system misaka_mikoto_muzzle_current_02 : misaka_mikoto_muzzle_current{   
+	material misaka_mikoto_muzzle_current_02
+}
+
+particle_system misaka_mikoto_muzzle_current_03 : misaka_mikoto_muzzle_current
+{
+    billboard_origin bottom_center
+	billboard_rotation_type vertex
+	billboard_type perpendicular_self
+    material misaka_mikoto_muzzle_current_03
+}
+particle_system misaka_mikoto_muzzle_current_04 : misaka_mikoto_muzzle_current
+{
+     billboard_origin bottom_center
+	billboard_rotation_type vertex
+	billboard_type perpendicular_self
+    material misaka_mikoto_muzzle_current_04
+}
+particle_system misaka_mikoto_muzzle_current_05 : misaka_mikoto_muzzle_current
+{
+     billboard_origin bottom_center
+	billboard_rotation_type vertex
+	billboard_type perpendicular_self
+    material misaka_mikoto_muzzle_current_05
+}
+
+
+particle_system misaka_mikoto_muzzle_thunder_01
+{
+    quota 1000
+    material muzzle_thunder_blue
+    particle_width 40
+	particle_height 5
+	renderer billboard	
+    billboard_origin center_right
+	billboard_rotation_type vertex
+	billboard_type oriented_self
+    emitter Point{
+		angle 0
+		colour 0 0 0 0
+		direction 0 1 0
+		emission_rate 50
+		position 0 0 0
+		velocity 0.0001
+		time_to_live 0.1
+		duration 0.3
+    }
+	affector Rotator{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start    90
+		rotation_range_end	90
+	}
+    affector ColourFader2{
+		red1	10
+		green1  10
+		blue1	10
+		alpha1	10
+		red2	 -5
+		green2  -5
+		blue2	-5
+		alpha2	-5
+		state_change 0.0
+	}
+
+}
+particle_system misaka_mikoto_muzzle_halo
+{
+    quota 1000
+    material explosion_smoke_04
+    particle_width 4
+	particle_height 4
+	renderer billboard	
+	billboard_rotation_type vertex
+	billboard_type point
+   emitter Point{
+		angle 0
+		colour 1 1 1 1
+		direction 0 1 0
+		emission_rate 30
+		position 0 0 0
+		velocity 0.1
+		time_to_live 0.1
+		duration 0.1
+    }
+	affector ColourFader2{
+		red1	10
+		green1  10
+		blue1	10
+		alpha1	10
+		red2	 -3
+		green2  -3
+		blue2	-3
+		alpha2	-3
+		state_change 0.05
+	}
+	affector Rotator{
+		rotation_speed_range_start	0
+		rotation_speed_range_end	0
+		rotation_range_start	0
+		rotation_range_end	360
+	}
+
+}
+------------------------------------------------
+material alpha_blend_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend alpha_blend
+		}
+	}
+}
+material add_base{
+	receive_shadows off
+	technique{
+		pass{
+			lighting off
+			fog_override true
+			depth_write off
+			scene_blend add
+		}
+	}
+}
+material misaka_mikoto_muzzle_current_01 : add_base
+{   technique{pass{
+            cull_hardware none
+			texture_unit {
+				texture muzzle_current_01.png 	
+}}}}
+material misaka_mikoto_muzzle_current_02 : misaka_mikoto_muzzle_current_01
+{   technique{pass{
+			texture_unit {
+				texture muzzle_current_02.png 	
+}}}}
+material misaka_mikoto_muzzle_current_03 : misaka_mikoto_muzzle_current_01
+{   technique{pass{
+			texture_unit {
+				texture muzzle_current_03.png 	
+}}}}
+material misaka_mikoto_muzzle_current_04 : misaka_mikoto_muzzle_current_01
+{   technique{
+    pass{
+			texture_unit {
+				texture muzzle_current_04.png 	
+}}}}
+material misaka_mikoto_muzzle_current_05 : misaka_mikoto_muzzle_current_01
+{   technique{pass{
+			texture_unit {
+				texture muzzle_current_05.png 	
+}}}}
+
+material muzzle_thunder_blue : add_base
+{   technique{pass{
+			texture_unit {
+				texture muzzle_thunder_blue.png 	
+}}}}
+material misaka_laser_trail : add_base
+{   technique{pass{
+			texture_unit {
+				texture misaka_laser_trail.png 	
+}}}}
+material explosion_smoke_04 : add_base
+{   technique{pass{
+			texture_unit {
+				texture explosion_smoke_04.png 	
+}}}}
+

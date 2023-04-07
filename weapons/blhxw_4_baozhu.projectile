@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="bianpao" key="blhxw_4_baozhu.projectile" slot="0" radius="0.15" drop_count_limit_in_range="4">
+<projectile class="grenade" name="bianpao" key="blhxw_4_baozhu.projectile" slot="0" radius="0.15" drop_count_limit_in_range="4" pulldown_in_air="40" >
     <tag name="grenade" />
 
     <result class="blast" radius="4.2" damage="3.5" push="0.3" decal="1" character_state="death" faction_compare="not_equal" />
-    <trigger class="time" time_to_live="3"/>
+    <trigger class="time" time_to_live="2.4"/>
  
     <rotation class="motion" />
 
     <model filename="baozhu.xml" />
     <hud_icon filename="baozhu.png" />
 
-    <throwable curve_height="25.0" near_far_distance="8.0" speed_estimation_near="8.0" speed_estimation_far="10.0" max_speed="25.0" randomness="0.07" />
-
+    <!--throwable curve_height="25.0" near_far_distance="8.0" speed_estimation_near="8.0" speed_estimation_far="10.0" max_speed="25.0" randomness="0.07" /-->
+	<throwable curve_height="11.8" near_far_distance="10.0" speed_estimation_near="80" speed_estimation_far="100.0" max_speed="1750.0" randomness="0.07" tweak_factor="1.775"/>
   
     <commonness value="1.0" can_respawn_with="1" in_stock="1"/>
     

@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <models>
 	<!-- -------------------------- -->
-	<model filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50.carry_item"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_1"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_2"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_3"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_4"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_5"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_6"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_mingsike.xml"><requirement class="carry_item" slot="1" key="JR.50_6"/><requirement class="rank" range="0 1000000" /></model>
 	
-	<model filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs.carry_item"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_1"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_2"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_3"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_4"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_5"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_6"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="jbhjs.xml"><requirement class="carry_item" slot="1" key="jbhjs_6"/><requirement class="rank" range="0 1000000" /></model>
 	
-	<model filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky.carry_item"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_1"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_2"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_3"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_4"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_5"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_6"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="amemliky_joker.xml"><requirement class="carry_item" slot="1" key="amemliky_6"/><requirement class="rank" range="0 1000000" /></model>
 	
-	<model filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji.carry_item"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_1"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_2"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_3"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_4"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_5"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_6"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="momiji.xml"><requirement class="carry_item" slot="1" key="momiji_6"/><requirement class="rank" range="0 1000000" /></model>
 	
-	<model filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701.carry_item"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_1"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_2"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_3"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_4"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_5"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_6"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="sexy_m8701.xml"><requirement class="carry_item" slot="1" key="sexy_m8701_6"/><requirement class="rank" range="0 1000000" /></model>
 	
-	<model filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost.carry_item"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_1"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_2"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_3"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_4"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_5"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_6"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="ws_ghost.xml"><requirement class="carry_item" slot="1" key="wsghost_6"/><requirement class="rank" range="0 1000000" /></model>
 	
-	<model filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31.carry_item"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31_1"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31_2"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31_3"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31_4"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="icem_kp31_dp.xml"><requirement class="carry_item" slot="1" key="kp31_5"/><requirement class="rank" range="0 1000000" /></model>
-	<model filename="icem_kp31_dp.xml"><requirement class="carry_item" slot="1" key="kp31_6"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="icem_kp31.xml"><requirement class="carry_item" slot="1" key="kp31_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="icem_kp31_dp.xml"><requirement class="carry_item" slot="1" key="kp31_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="icem_kp31_dp.xml"><requirement class="carry_item" slot="1" key="kp31_6"/><requirement class="rank" range="0 1000000" /></model>
 	
 	
 </models>

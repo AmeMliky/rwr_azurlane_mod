@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="mark" key="tracer_dart_blast.projectile" slot="2" pulldown_in_air="80" >
+    <result class="spawn" instance_class="projectile" instance_key="tracer_missile.projectile"  min_amount="3" max_amount="3" offset="0 50 0" position_spread="5 5" direction_spread="0 0" />  
+    <trigger class="impact"/>
+    <rotation class="motion" />
+      
+
+    <sound class="impact" fileref="woosh1.wav" volume="3.0" />    
+	
+<!--     <sound class="impact" key="terrain" fileref="woosh1.wav" volume="3.0"/> -->
+    <!-- <sound class="impact" key="terrain" fileref="explosion3.wav" volume="3.0"/> -->
+<!--     <sound class="impact" key="other" copy="terrain" />
+    <sound class="impact" key="static_object" copy="terrain" />
+    <sound class="impact" key="vehicle" copy="terrain" />
+    <sound class="impact" key="character" copy="terrain" />
+ -->
+
+</projectile>

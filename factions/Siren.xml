@@ -209,7 +209,7 @@ firstnames_file="siren_firstnames.txt"
 		</attribute_config>
 	</soldier>   
 
-	<soldier name="elite_sr_zcz" spawn_score="0.04" squad_size_xp_cap="0.0" >
+	<soldier name="elite_sr_zcz" spawn_score="0.08" squad_size_xp_cap="0.0" >
 		<character filename="default_sr.character" />
 		<ai filename="elite_sr_zcz.ai" />
         

@@ -3,6 +3,9 @@
 	<model filename="blhxm_u1206.xml">
 	<requirement class="weapon" slot="0" key="blhxw_ju_5.weapon"/>
 	</model>
+	<model filename="blhxm_z46.xml">
+	<requirement class="weapon" slot="0" key="blhxw_z46.weapon"/>
+	</model>
 	
 	
 </models>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="blhxm_kewei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_pz_3.weapon"/>
+	</model>
+	<model filename="blhxm_kewei.xml">
+	<requirement class="weapon" slot="0" key="blhxw_pz_3_1.weapon"/>
+	</model>
+	<model filename="blhxm_xiaoougen.xml">
+	<requirement class="weapon" slot="0" key="blhxw_xiaoougen.weapon"/>
+	</model>
+	
+	
+</models>

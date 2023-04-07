@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_grenades="1" clear_carry_items="1" clear_calls="1">
+	
+	<weapon key='blhxw_xiaotiancheng.weapon' />
+	
+	
+	<weapon key='ylb_1.weapon' />
+	<weapon key='rpg_1.weapon' />
+	<carry_item key='elite_sr_ai.carry_item' />
+	
+	<projectile key="blhxw_4_bzhayao.projectile" />
+
+	
+	
+	<call key='blhx_sb_1.call' />
+	<call key='jianpao_daji_1.call' />
+	
+</resources>

@@ -23,4 +23,9 @@
 	<weapon file="metaw_smg_3_elite.weapon" />
 	<weapon file="metaw_SWandFJ.weapon" />
 	<weapon file="metaw_mengfeisi.weapon" />
+	
+	<weapon file="metaw_hunter_dd.weapon" />
+	<weapon file="metaw_fortune_dd.weapon" />
+	<weapon file="metaw_sheffield.weapon" />
+	<weapon file="metaw_elizabeth.weapon" />
 </weapons>

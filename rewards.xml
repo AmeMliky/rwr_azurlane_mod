@@ -2,11 +2,11 @@
 <reward_config>
 	<reward class="enemy_shot" 				base="+0.0010" 	bonus="0.0005"  type="xp" />  <!-- 5XP*0.3 + 0.005*soldierXP*0.3 - bonus capped to 10k XP -->
 	<reward class="enemy_shot" 				base="10" 	 type="rp" />  <!-- 5XP*0.3 + 0.005*soldierXP*0.3 - bonus capped to 10k XP -->
-	<reward class="enemy_killed_in_explosion" 		base="+0.0010" 	bonus="0.000"  type="xp" />
+	<reward class="enemy_killed_in_explosion" 		base="+0.0010" 	bonus="0.0005"  type="xp" />
 	<reward class="enemy_killed_in_explosion" 		base="10" 	 type="rp" />
-	<reward class="enemy_stabbed" 				base="+0.003" 	bonus="0.000"  type="xp" />
+	<reward class="enemy_stabbed" 				base="+0.003" 	bonus="0.001"  type="xp" />
 	<reward class="enemy_stabbed" 				base="30" 	  type="rp" />
-	<reward class="enemy_kill_combo" 			base="+0.0015" bonus="0.000"  type="xp" />
+	<reward class="enemy_kill_combo" 			base="+0.0020" bonus="0.002"  type="xp" />
 
 	<reward class="self_suicide" 				base="-0.0010" 	bonus="0.0" 	type="xp" />  
 	<reward class="self_killed" 				base="-0.0" 	bonus="0.0" 	type="xp" />        

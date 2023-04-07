@@ -30,6 +30,16 @@
 	<weapon key='metaw_mengfeisi.weapon'  />
 	<weapon key='metaw_mengfeisi_atk.weapon'  />	
 	
+	<weapon key='metaw_hunter_dd.weapon'  />
+	<weapon key='metaw_hunter_dd_2.weapon'  />
+	<weapon key='metaw_fortune_dd.weapon'  />
+	<weapon key='metaw_fortune_dd_1.weapon'  />
+	<weapon key='metaw_shefeeield.weapon'  />
+	<weapon key='metaw_shefeeield_1.weapon'  />
+	<weapon key='metaw_elizabeth.weapon'  />
+	<weapon key='metaw_elizabeth_1.weapon'  />
+	
+	
     
 	<carry_item key="XHL.carry_item" />
 	<carry_item key="GLGL.carry_item" />
@@ -49,4 +59,5 @@
 	<call key="meta_jianpao2.call" />
 	<call key="meta_feilong.call" />
 	<call key="meta_zhihuijian.call" />
+	<call key="meta_center_bear.call" />
 </resources>

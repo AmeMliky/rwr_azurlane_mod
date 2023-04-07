@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ai filename="default.ai">
+	<!-- much of the targetting priority of the Tank Hunter choosing vehicle targets is handled on the Panzerschreck weapon -->
+
+  <parameter class="uses_vehicles" value="0.0" />
+  <parameter class="force_as_leader" value="1.0" />
+
+  <parameter class="accuracy_penalty_range" value="0.0" />
+  <parameter class="accuracy_offset" value="0.1" />  <!-- was 0.4 in 1.81 -->
+
+<!--  <parameter class="ai_stand_manually_to_shoot_over_wall" value="1.0"/> -->		<!-- normal AI don't always need this. this helps with the new cover-accuracy bonus applying to single-shot rifles, but... meh. snipers need it though!-->
+  <parameter class="shooting_accuracy_ratio_requirement" value="0.92" />  	<!-- was 0.7 here, but 0.6 in vanilla -->
+  <parameter class="squad_cover_provider_range" value="20.0" />
+  <parameter class="squad_cover_provider_offset_factor" value="-0.9" />
+
+  <parameter class="cover_status_recheck_time" value="1.0" />
+
+  <parameter class="lonewolf" value="0" />
+
+  <parameter class="max_sight_range_with_muzzle" value="45.0" />
+  <parameter class="leader_sight_range" value="45.0" />
+
+  <parameter class="dive_from_grenade_probability" value="1.0" />
+
+  <parameter class="max_leader_authority_willing_to_join_another_squad" value="0.0" />
+  <parameter class="defending_authority_offset_to_join_squad" value="10.0" />
+
+  <parameter class="active_guarding_probability" value="1.0" />
+  <parameter class="willingness_to_guard" value="1.0" />
+
+  <parameter class="wait_time" value="1.5" />
+  <parameter class="wait_time_variance" value="0.2" />
+
+  <parameter class="willingness_to_charge" value="0.0" />
+
+  <parameter class="melee_attack_wait_time" value="0.0" />
+
+  <parameter class="fighting_against_vehicle_move_radius" value="45.0" />
+</ai>

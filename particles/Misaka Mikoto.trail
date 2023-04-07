@@ -1,0 +1,4 @@
+<trail key="misaka_laser_trail" material="misaka_laser_trail" 
+trail_length="75" intensity_range="1 1" 
+initial_width_range="2 2" width_change="+10" />
+

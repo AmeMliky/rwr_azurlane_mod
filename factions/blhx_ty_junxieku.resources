@@ -91,6 +91,14 @@
 	<weapon key="blhxw_Harbin_1.weapon"/>
 	<weapon key="blhxw_leipuqinwang.weapon"/>
 	<weapon key="blhxw_leipuqinwang2.weapon"/>
+	<weapon key="blhxw_xiaotiancheng.weapon"/>
+	
+	<weapon key="blhxw_huajia.weapon"/>
+	<weapon key="blhxw_huangjiacaifu_1.weapon"/>
+	<weapon key="blhxw_huangjiacaifu.weapon"/>
+	<weapon key="blhxw_z46.weapon"/>
+	<weapon key="blhxw_xiaoougen.weapon"/>
+	<weapon key="blhxw_pz_1_1.weapon"/>
 	
 	
 	<projectile key="blhxw_4_baozhu.projectile" />
@@ -161,5 +169,5 @@
 	
 	
 	<call key="zhihuijian_0.call" />
-
+	<call key="blhx_signal_tide.call" />
 </resources>

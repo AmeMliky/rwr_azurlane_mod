@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<!-- -------------------------- -->
+	<!-- basic -->
+	<!-- -------------------------- -->	
+
+	<model filename="blhxm_huajia.xml">
+		<requirement class="weapon" slot="0" key="blhxw_huajia.weapon"/>
+	</model>
+
+</models>

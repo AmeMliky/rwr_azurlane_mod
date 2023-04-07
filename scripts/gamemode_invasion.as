@@ -513,6 +513,10 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 			CallMarkerConfig("sr_jianpao2.call", "call_marker", 9, 0.5,85),         
 			CallMarkerConfig("zhihuijian_0.call", "call_marker", 4, 0.5,75),
 			CallMarkerConfig("sr_zhihuijian.call", "call_marker", 2, 0.5,40),
+			CallMarkerConfig("sr_boss_vh_external_storage.call", "call_marker_drop", 2, 0.5,20),
+			CallMarkerConfig("siren_wire_control_level.call", "call_marker_drop", 2, 0.5,20),
+			CallMarkerConfig("meta_center_bear.call", "call_marker_drop", 2, 0.5,20),
+			CallMarkerConfig("blhx_signal_tide.call", "call_marker_drop", 2, 0.5,20),
 			};
 
 		addTracker(CallMarkerTracker(this, configs));

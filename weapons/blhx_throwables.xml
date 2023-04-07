@@ -89,5 +89,23 @@
   <projectile file="siren_vehicles_wirecore_missile.projectile" />
   <projectile file="external_storage_dd.projectile" />
   
+  <projectile file="meta_center_bear_autogun_dt.projectile" />
+  <projectile file="rpg_mdt.projectile" />
+  <projectile file="tracer_missile.projectile" />
+  <projectile file="tracer_dart_blast.projectile" />
+  <projectile file="tracer_dart.projectile" />
   
+  <projectile file="metaw_at_ai.projectile" />
+  <projectile file="blhxw_at_ai.projectile" />
+  <projectile file="tracer_dart.projectile" />
+  <projectile file="tracer_dart_blast.projectile" />
+  <projectile file="tracer_missile.projectile" />
+  
+  <projectile file="blhx_hm_huajia_mdt.projectile" />
+  <projectile file="blhx_hm_huajia_zdt.projectile" />
+  
+  <projectile file="metaw_hunter_dd_dt.projectile" />
+  <projectile file="metaw_elizabeth_dt.projectile" />
+  <projectile file="metaw_sheffield_dt.projectile" />
+  <projectile file="blhx_huajia_spawn.projectile" />
 </projectiles>

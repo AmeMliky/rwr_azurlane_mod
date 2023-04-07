@@ -1,0 +1,17 @@
+material meta_jianpao1 {
+	receive_shadows off
+	technique {
+		pass {
+			lighting off
+			fog_override true
+
+			depth_write off
+			scene_blend add
+
+			texture_unit {
+				texture meta_jianpao1.png
+			}
+		}
+	}
+}
+

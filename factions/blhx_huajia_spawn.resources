@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_grenades="1" clear_calls="1" clear_equipment="1">	
+	
+	<weapon key='blhxw_huajia.weapon' />
+	<projectile key="blhx_huajia_spawn.projectile" />
+	<carry_item key='VH_boss_ai.carry_item' enabled="1" />
+  
+	
+
+</resources>

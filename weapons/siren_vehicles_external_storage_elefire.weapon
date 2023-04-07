@@ -19,7 +19,7 @@
     barrel_offset="2.0" 
     projectiles_per_shot="1" />
     <model mesh_filename="siren_vehicles_external_storage_elefire.mesh" texture_filename="siren_vehicles_external_storage_elefire.png" />
-    <hud_icon filename="hud_tank_cannon.png" />
+    <hud_icon filename="external_storage_elefire_w.png" />
     <commonness value="0.0" />
     <projectile file="tank_cannon.projectile">
 	  <result 
@@ -70,7 +70,7 @@
 	class="0"
 	projectile_speed="150"/>
 	<model mesh_filename="siren_vehicles_external_storage_subroutine.mesh" texture_filename="siren_vehicles_external_storage_subroutine.png"/>
-	<hud_icon filename="cs.png"/>
+	<hud_icon filename="external_storage_subroutine_w.png"/>
 	<commonness value="0.0"/>
 	<sound key="fire" fileref="external_storage_subroutine_fire.wav" pitch_variety="0.1" volume="0.5" />
 	<weak_hand_hold offset="0.4"/>
@@ -93,7 +93,7 @@
 	class="0"
 	projectile_speed="210"/>
 	<model mesh_filename="" texture_filename=""/>
-	<hud_icon filename="cs.png"/>
+	<hud_icon filename="external_storage_subroutine_w.png"/>
 	<commonness value="0.0"/>
 	<target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5"/>
 	<projectile file="bullet.projectile">
@@ -126,7 +126,7 @@
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <model mesh_filename="external_storage_auxiliary_gun.mesh" texture_filename="external_storage_auxiliary_gun.png"/>
 
-    <hud_icon filename="hud_patrol_ship_mg.png" />
+    <hud_icon filename="external_storage_auxiliary_gun_w.png" />
     <commonness value="0.00" />
 
     <weak_hand_hold offset="0.4" />
@@ -189,7 +189,7 @@
     
     <weak_hand_hold offset="0.3" />
 
-    <hud_icon filename="hud_patrol_ship_mortar.png" />
+    <hud_icon filename="external_storage_missile_w.png" />
     <commonness value="0.0" />
 
     <effect class="muzzle" ref="Smoke" />

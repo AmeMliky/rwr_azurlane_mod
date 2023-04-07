@@ -3,7 +3,7 @@
 	<!-- if you add something here, remember to add it in common.resources or specific faction resources too! -->
 
 	<vehicle file="jeep.vehicle" />
-  <vehicle file="apc.vehicle" />
+  
   <vehicle file="armored_truck.vehicle" />
   <vehicle file="radar_truck.vehicle" />
   <vehicle file="radar_tank2.vehicle" />  
@@ -103,5 +103,9 @@
 	
 	<vehicle file="siren_wirecore.vehicle"/>
 	<vehicle file="siren_vehicles_external_storage.vehicle"/>
-	
+	<vehicle file="siren_wire_control_level.vehicle"/>
+	<!--2023/3/19	-->
+	<vehicle file="meta_center_bear.vehicle"/>
+	<vehicle file="blhx_signal_tide.vehicle"/>
+	<vehicle file="apc.vehicle" />
 </vehicles>

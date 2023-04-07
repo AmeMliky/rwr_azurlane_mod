@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_one_hg.weapon" key="blhxw_huangjiacaifu.weapon">
+    <tag name="assault" />       
+	
+    <specification
+	retrigger_time="0.20"
+	accuracy_factor="1.0"
+	sustained_fire_grow_step="0.3"
+	sustained_fire_diminish_rate="1.5"
+	spread_range="0.25"  
+	magazine_size="12"
+	can_shoot_standing="1"
+	suppressed="0"
+    carry_in_two_hands="0" 
+	name="MOT Royal Fortune"
+	class="4"
+	reload_one_at_a_time="0"
+	sight_range_modifier="1.0"
+	projectile_speed="120.0"
+	projectiles_per_shot="1"
+	burst_shots="1"
+	barrel_offset="0"
+    slot="0" />
+	
+	<next_in_chain key="blhxw_huangjiacaifu_1.weapon" share_ammo="0" />
+	
+	<animation state_key="recoil"	animation_key="recoil, revolver" />
+	<animation key="recoil" stance_key="prone" animation_key="recoil, pistol, prone" />
+	<animation state_key="cycle"	animation_key="cycle, revolver" />
+    <animation state_key="reload"	animation_key="reloading, swing out revolver" />
+	<animation state_key="hold"	animation_key="hold, pistol" />
+	<animation state_key="hold_casual"	animation_key="hold_casual, pistol" />
+	<animation state_key="hold_on_wall"	animation_key="hold, pistol" />
+	<animation state_key="still_against_wall"	animation_key="hold, pistol" />
+	<animation state_key="crouching"	animation_key="crouch, pistol" />
+	<animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+	<animation state_key="running"	animation_key="running, pistol" />
+	<animation state_key="walking"	animation_key="walking, pistol" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+    <animation state_key="prone_still" animation_key="prone_still, pistol" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
+    <animation state_key="crouch_moving_backwards" animation_key="crouching backwards, hip fire" />
+	
+    <sound key="fire" fileref="model29_shot.wav" volume="0.6" pitch_variety="0.05" />
+    <sound key="cycle_out" fileref="re_huangjiacaifu.wav"  pitch_variety="0.0"  volume="0.8" />
+    <sound key="cycle_in" fileref="revolver_cycle_in.wav" volume="1" />
+    <sound key="cycle" fileref="revolver_cycle.wav" volume="1" />
+    <model filename="model_29.xml" />
+
+    <hud_icon filename="AzurLane_huangjiacaifu.png" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="5.0" price="80.0" />
+
+    <projectiles_per_shot value="1" />
+    <weak_hand_hold offset="0.1" />
+    <projectile file="bullet.projectile">
+        <result class="hit"
+		kill_probability="1.6"
+		kill_probability_offset_on_successful_hit="3.8"
+		kill_decay_start_time="0.35"
+		kill_decay_end_time="0.72" />
+    </projectile>
+    
+    <capacity value="1" source="rank" source_value="0.0" />
+
+    
+    <stance state_key="running" accuracy="0.8" />
+    <stance state_key="walking" accuracy="0.9" />
+    <stance state_key="crouch_moving" accuracy="0.8" />
+    <stance state_key="prone_moving" accuracy="0.8" />
+
+    <stance state_key="standing" accuracy="0.85" />
+    <stance state_key="crouching" accuracy="0.95" />
+    <stance state_key="prone" accuracy="0.95" />
+    <modifier class="speed" value="+0.0" />       
+
+</weapon>

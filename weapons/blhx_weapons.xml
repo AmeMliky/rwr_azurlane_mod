@@ -121,5 +121,15 @@
 	<weapon file="blhxw_Harbin.weapon"/>
 	<weapon file="blhxw_Harbin_1.weapon"/>
 	<weapon file="blhxw_leipuqinwang.weapon"/>
+	<weapon file="blhxw_huajia.weapon"/>
+	<weapon file="blhxw_huangjiacaifu.weapon"/>
+	<weapon file="blhxw_huangjiacaifu_1.weapon"/>
+	<weapon file="blhxw_z46.weapon"/>
+	<weapon file="blhxw_xiaotiancheng.weapon"/>
+	<weapon file="blhxw_at_ai.weapon"/>
+	<weapon file="metaw_at_ai.weapon"/>
+	<weapon file="blhxw_xiaoougen.weapon"/>
 	
+	<weapon file="blhxw_pz_1_1.weapon"/>
+	<weapon file="meta_tankhunter.weapon"/>
 </weapons>

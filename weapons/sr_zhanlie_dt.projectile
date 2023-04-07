@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="" slot="1" pulldown_in_air="18" key="pjp_pt_1.projectile" > 
-    <result class="blast" radius="4.8" damage="1.98" decal="1" character_state="death" push="1.2" faction_compare="not_equal"  />
+    <result class="blast" radius="4.5" damage="2.4" decal="1" character_state="death" push="1.2" faction_compare="not_equal"  />
     <trigger class="impact" />
     <rotation class="motion" />
 	<sound class="result" key="other" fileref="sr_zhanlie_dt_boom.wav" pitch_variety="0.05" volume="1.0"/>

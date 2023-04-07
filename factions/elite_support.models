@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="blhxm_xiaotiancheng.xml">
+		<requirement class="weapon" slot="0" key="blhxw_xiaotiancheng.weapon"/>
+	</model>
+	
+	
+	
+</models>

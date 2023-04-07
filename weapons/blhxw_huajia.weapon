@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+<weapon file="base_one_pz.weapon"  key="blhxw_huajia.weapon" >
+
+    <specification 
+	magazine_size="1"
+    consume="0"  
+	can_shoot_standing="1" 
+	can_shoot_crouching="1" 
+	can_shoot_prone="0" 
+	carry_in_two_hands="0" 
+	name="ROC Hwah Jah" 
+	class="5"
+	stab_enabled="0"
+	success_probability="3.5"
+	slot="0" 
+	range="3.5"  
+	character_state="death" />
+
+	<next_in_chain key="blhxw_huajia_1.weapon" share_ammo="0" />
+    <animation state_key="recoil" 			animation_key="claw_fast attack, zombie" />
+    <animation state_key="hold" 			animation_key="still, zombie" />
+    <animation state_key="hold_on_wall" 		animation_key="still, zombie" />
+    <animation state_key="still_against_wall" 	animation_key="still, zombie" />
+    <animation state_key="crouching" 		animation_key="crouch still, zombie" />
+    <animation state_key="running" 			animation_key="running, zombie" />
+    <animation state_key="walking" 			animation_key="walking, zombie" />
+    
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, single hand carry" />
+    <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, single hand carry" />    
+
+        <animation state_key="stabbing"	animation_key="stabbing, zombie" />
+    
+	
+	<sound key="effect" fileref="stab_huajia1.wav" pitch_variety="0.00" volume="0.7" />
+	<sound key="effect" fileref="stab_huajia2.wav" pitch_variety="0.00" volume="0.7" />
+
+
+	<control key="effect" value="1" />
+
+	    <model filename="" />
+		<hud_icon filename="AzurLane_huajia_2.png" />
+		<commonness value="0.0001" />
+		<inventory encumbrance="10.0" price="98.0" />
+		
+	<shield offset="0.1 0.0 0" extent="0.8 1.5 1.2" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+    <modifier class="speed" value="+0.15" />
+	</weapon>
+	
+	
+	
+	
+<weapon key="blhxw_huajia_1.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="20.0"  drop_count_factor_on_player_death="0.0" drop_count_limit_in_range="1">
+	<tag name="stealth" />
+
+    <specification 
+  retrigger_time="3.5" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="1.0" 
+  sustained_fire_diminish_rate="1.0" 
+  magazine_size="1" 
+  projectiles_per_shot="1"
+  can_shoot_standing="1" 
+  carry_in_two_hands="0"
+  suppressed="1" 
+  name="siren chess player" 
+  slot="0"
+  class="0" 
+  projectile_speed="20.0" 
+  barrel_offset="0.5"
+  barrel_offset_3d="0 28 0"
+  sight_range_modifier="3.8"
+  spread_range="0.1"
+  use_basic_muzzle_smoke_effect="0" 
+  />
+  
+
+
+	<next_in_chain key="blhxw_huajia.weapon" share_ammo="0" />
+	<ballistics curve_height="27.8" near_far_distance="0" speed_estimation_near="20.0" speed_estimation_far="20.0" max_speed="50.0" randomness="0.0" tweak_factor="1.00" />
+	<animation state_key="recoil"   animation_key="melee, leipu2" />
+	<!--animation state_key="recoil" animation_key="recoil, agent" /-->
+    <animation state_key="reload"	animation_key="reload, agent" />
+    <animation state_key="hold"	animation_key="still, agent" />
+    <animation state_key="hold_casual"	animation_key="relax agent" />
+    <animation state_key="hold_on_wall"	animation_key="still, agent" />
+    <animation state_key="still_against_wall"	animation_key="still, agent" />
+    <animation state_key="running" animation_key="running, agent" />
+    <animation state_key="walking"	animation_key="walking, agent" />
+    <animation state_key="walking_backwards" animation_key="walking, agent" />
+    <animation state_key="stabbing" animation_key="pistol whip" />
+	
+	<sound key="fire" fileref="huajia_hd_fire.wav" pitch_variety="0.0" volume="1.0" />
+	<sound key="magazine_out" fileref="huajia_reload.wav"  pitch_variety="0.0" volume="0.8" />
+	
+    <model filename="" />
+
+    <projectile file="blhx_hm_huajia_mdt.projectile" />
+
+   
+    <capacity value="1" source="rank" source_value="0.0" />
+
+    <hud_icon filename="AzurLane_huajia_2.png" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="0" />
+    <inventory encumbrance="9.0" price="0.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.9" />
+    <stance state_key="walking" accuracy="0.9" />
+    <stance state_key="crouch_moving" accuracy="0.9" />
+    <stance state_key="prone_moving" accuracy="0.9" />
+    <stance state_key="standing" accuracy="0.9" />
+    <stance state_key="crouching" accuracy="0.9" />
+    <stance state_key="prone" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" /> 
+
+    
+    <modifier class="speed" value="-0.18" />
+	</weapon>
+</weapons>

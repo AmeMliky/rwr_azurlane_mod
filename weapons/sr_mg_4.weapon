@@ -2,21 +2,24 @@
 <weapon file="base_one_mg.weapon" key="sr_mg_4.weapon">
     <tag name="mg" />
     <specification 
-  retrigger_time="0.048" 
-  accuracy_factor="0.87" 
-  sustained_fire_grow_step="0.4" 
-  sustained_fire_diminish_rate="2.0" 
-  magazine_size="200" 
+  retrigger_time="0.05" 
+  accuracy_factor="0.85" 
+  sustained_fire_grow_step="0.04" 
+  sustained_fire_diminish_rate="0.50" 
+  magazine_size="800" 
   can_shoot_standing="1" 
   can_shoot_crouching="1" 
   can_shoot_prone="0"
   suppressed="0" 
   name="The tester" 
   class="0" 
+  sight_range_modifier="1.2"
   barrel_offset="0.6"
   barrel_offset_3d="0 0.3 0.6"
   projectile_speed="150.0"
-  projectiles_per_shot="3" />
+  projectiles_per_shot="3"
+  cooldown_start="0.80" 
+  cooldown_end="0.4"  />
 
 	 <next_in_chain key="sr_mg_4_yl.weapon"  share_ammo="0" />
 	
@@ -44,7 +47,7 @@
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet_sr.projectile">
-        <result class="hit" kill_probability="2.1" kill_decay_start_time="0.20" kill_decay_end_time="0.33" />
+        <result class="hit" kill_probability="1.85" kill_decay_start_time="0.18" kill_decay_end_time="0.60" />
     </projectile>
 
     <capacity value="1" source="rank" source_value="0.0" />

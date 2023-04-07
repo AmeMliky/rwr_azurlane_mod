@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<character filename="default.character">
+
+	<sound key="death" fileref="elite_support_death.wav" pitch_variety="0.0"  volume="1.0" />
+	
+
+</character>

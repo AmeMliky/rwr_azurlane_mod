@@ -327,4 +327,77 @@
 		<requirement class="weapon" slot="0" key="srw_jingying_zhanlie.weapon"/>
 	</model>
 	
+	<model filename="metam_mengfeisi.xml">
+		<requirement class="weapon" slot="0" key="metaw_mengfeisi.weapon"/>
+	</model>
+	
+	<model filename="metam_mengfeisi.xml">
+		<requirement class="weapon" slot="0" key="metaw_mengfeisi_atk.weapon"/>
+	</model>
+	
+	<model filename="blhxm_huajia.xml">
+		<requirement class="weapon" slot="0" key="blhxw_huajia.weapon"/>
+	</model>
+	<model filename="blhxm_huajia.xml">
+		<requirement class="weapon" slot="0" key="blhxw_huajia_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_huangjiacaifu.xml">
+		<requirement class="weapon" slot="0" key="blhxw_huangjiacaifu.weapon"/>
+	</model>
+	<model filename="blhxm_huangjiacaifu.xml">
+		<requirement class="weapon" slot="0" key="blhxw_huangjiacaifu_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_z46.xml">
+		<requirement class="weapon" slot="0" key="blhxw_z46.weapon"/>
+	</model>
+	
+	<model filename="blhxm_xiaochaijun.xml">
+		<requirement class="weapon" slot="0" key="blhxw_pz_1.weapon"/>
+	</model>
+	<model filename="blhxm_xiaochaijun.xml">
+		<requirement class="weapon" slot="0" key="blhxw_pz_1_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_xiaotiancheng.xml">
+		<requirement class="weapon" slot="0" key="blhxw_xiaotiancheng.weapon"/>
+	</model>
+	
+	<model filename="blhxm_xiaoougen.xml">
+		<requirement class="weapon" slot="0" key="blhxw_xiaoougen.weapon"/>
+	</model>
+	
+	<model filename="metam_hunter_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_hunter_dd.weapon"/>
+	</model>
+	
+	<model filename="metam_hunter_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_hunter_dd_2.weapon"/>
+	</model>
+	
+	<model filename="metam_fortune_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_fortune_dd.weapon"/>
+	</model>
+	
+	<model filename="metam_fortune_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_fortune_dd_1.weapon"/>
+	</model>
+	
+	<model filename="metam_sheffield.xml">
+		<requirement class="weapon" slot="0" key="metaw_shefeeield.weapon"/>
+	</model>
+	
+	<model filename="metam_sheffield.xml">
+		<requirement class="weapon" slot="0" key="metaw_shefeeield_1.weapon"/>
+	</model>
+	
+	<model filename="metam_elizabeth.xml">
+		<requirement class="weapon" slot="0" key="metaw_elizabeth.weapon"/>
+	</model>
+	
+	<model filename="metam_elizabeth.xml">
+		<requirement class="weapon" slot="0" key="metaw_elizabeth_1.weapon"/>
+	</model>
+	
 </models>

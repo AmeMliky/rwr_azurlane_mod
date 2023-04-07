@@ -56,4 +56,36 @@
 		<requirement class="weapon" slot="0" key="metaw_mengfeisi_atk.weapon"/>
 	</model>
 	
+	<model filename="metam_hunter_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_hunter_dd.weapon"/>
+	</model>
+	
+	<model filename="metam_hunter_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_hunter_dd_2.weapon"/>
+	</model>
+	
+	<model filename="metam_fortune_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_fortune_dd.weapon"/>
+	</model>
+	
+	<model filename="metam_fortune_dd.xml">
+		<requirement class="weapon" slot="0" key="metaw_fortune_dd_1.weapon"/>
+	</model>
+	
+	<model filename="metam_sheffield.xml">
+		<requirement class="weapon" slot="0" key="metaw_shefeeield.weapon"/>
+	</model>
+	
+	<model filename="metam_sheffield.xml">
+		<requirement class="weapon" slot="0" key="metaw_shefeeield_1.weapon"/>
+	</model>
+	
+	<model filename="metam_elizabeth.xml">
+		<requirement class="weapon" slot="0" key="metaw_elizabeth.weapon"/>
+	</model>
+	
+	<model filename="metam_elizabeth.xml">
+		<requirement class="weapon" slot="0" key="metaw_elizabeth_1.weapon"/>
+	</model>
+	
 </models>

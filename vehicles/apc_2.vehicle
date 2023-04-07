@@ -1,60 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="META-40 APC" key="apc_2.vehicle" respawn_time="60" time_to_live_unsteerable="30" map_view_atlas_index="1" minimum_fill_requirement="0.25">
+<vehicle file="vehicle_base.vehicle" name="META-40 TANK HUNTER" key="apc_2.vehicle" respawn_time="60" time_to_live_unsteerable="30" map_view_atlas_index="1" minimum_fill_requirement="0.25">
 	<tag name="metal_heavy" />
 	<tag name="apc" />
 
-	<tire_set offset="1.28 0.0 2.22" radius="0.80" />
-	<tire_set offset="1.28 0.0 -0.53" radius="0.80" />
-	<tire_set offset="1.28 0.0 -2.42" radius="0.80" />
+	<tire_set offset="2 0.0 2.22" radius="0.5" />
+	<tire_set offset="2 0.0 -2.42" radius="0.5" />
 
 	<control 
-	max_speed="21.0" 
-	acceleration="6.4" 
-	max_reverse_speed="6.0" 
-	min_health_to_steer="0.33" 
-	max_rotation="0.85" 
-	max_water_depth="1.9" 
-	steer_smoothening="0.7" />
+		max_speed="15.0"
+		acceleration="12.0"
+		max_reverse_speed="12.0"
+		max_limiter_speed="12.0"
+		max_rotation="0.0"
+		max_water_depth="6.0"
+		can_steer_in_water="0.8" 
+		steer_smoothening="0.98"
+		min_health_to_steer="1.8"
+		tracked="1"
+		gears="0"/>
+	
 
 	<physics 
-	max_health="15.6" 
+	max_health="21.6" 
 	blast_damage_threshold="0.00" 
 	TODO_blast_damage_threshold="1.02" 
-	mass="14.0" 
+	mass="200.0" 
 	broken_mass="5"
     remove_collision_threshold="0.2"
 	extent="3.0 0.0 6.0" 
 	offset="0 0.0 0" 
 	top_offset="0 6 0" 
-	collision_model_pos="0 1.0 0.0" 
-	collision_model_extent="3.4 3.0 8.8" 
+	collision_model_pos="0 1.2 0.0" 
+	collision_model_extent="4.4 3.0 8.8" 
 	visual_offset="0 0.5 0.0" 
 	friction_offset="0.0" 
-	drag_offset="-0.05" /> 
+	drag_offset="0.0" /> 
 
-	<turret offset="0 2.80 0.70" weapon_key="apc_hmg_2.weapon" weapon_offset="0 0.4 2.0" weapon_recoil="0.05" max_rotation_step="0.0003" />
+	
+	<modifier class="blast_damage" value="-0.3" />
+	<visual class="chassis" mesh_filename="meta_hunter_base.mesh" texture_filename="meta_hunter_base.png" />
+	<!--visual class="chassis" mesh_filename="apc_body_2.mesh" texture_filename="apc_2.png" /-->
+	<visual class="chassis" key="broken" mesh_filename="meta_hunter_base.mesh" texture_filename="apc_2_broken.png" />
+	<visual class="turret" mesh_filename="meta_hunter_zhupao.mesh" texture_filename="meta_hunter_zhupao.png" />
+	<visual class="turret" key="broken" mesh_filename="meta_hunter_zhupao.mesh" texture_filename="apc_turret_2_broken.png" />
+	
+	<turret offset="0 2.80 -3" weapon_key="meta_tankhunter.weapon" weapon_offset="0 1.0 7.0" weapon_recoil="0.05" max_rotation_step="0.0001" />
+	<turret offset="0 2.80 -3" weapon_key="apc_hmg_2.weapon" weapon_offset="0 1.0 7.0" weapon_recoil="0.05" max_rotation_step="0.0001" />
+	
+	<visual class="track" mesh_filename="meta_hunter_base_track1.mesh" offset="1.9 0.0 0.0" >
+		<!--part texture_filename="meta_center_bear_track.png" /-->
+		<!--part texture_filename="meta_center_bear_track.png" texture_animation="rotate" tire_binding="1" /-->
+		<part texture_filename="meta_hunter_base_track.png" texture_animation="translate" tire_binding="1" />
 
-	<visual class="chassis" mesh_filename="apc_body_2.mesh" texture_filename="apc_2.png" />
-	<visual class="chassis" key="broken" mesh_filename="apc_body_2_broken.mesh" texture_filename="apc_2_broken.png" />
-	<visual class="tire" mesh_filename="apc_wheel_2.mesh" texture_filename="jeep_1.png" />
-	<visual class="turret" mesh_filename="apc_turret_2.mesh" texture_filename="apc_turret_2.png" />
-	<visual class="turret" key="broken" mesh_filename="apc_turret_2_broken.mesh" texture_filename="apc_turret_2_broken.png" />
+	</visual>
+	<visual class="track" mesh_filename="meta_hunter_base_track2.mesh" offset="1.9 0.0 0.0" >
+		<!--part texture_filename="meta_center_bear_track.png" /-->
+		<!--part texture_filename="meta_center_bear_track.png" texture_animation="rotate" tire_binding="1" /-->
+		<part texture_filename="meta_hunter_base_track.png" texture_animation="translate" tire_binding="1" />
 
-	<character_slot type="driver" position="0.7 0.3 1.0" rotation="0" exit_rotation="1.57" hiding="1" />
-	<character_slot type="gunner" position="-0.7 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" >
+	</visual>
+	
+	<visual class="track" mesh_filename="meta_hunter_base_track1.mesh" offset="-1.9 0.0 0.0" >
+		<!--part texture_filename="meta_center_bear_track.png" /-->
+		<!--part texture_filename="meta_center_bear_track.png" texture_animation="rotate" tire_binding="1" /-->
+		<part texture_filename="meta_hunter_base_track.png" texture_animation="translate" tire_binding="1" />
+
+	</visual>
+	<visual class="track" mesh_filename="meta_hunter_base_track2.mesh" offset="-1.9 0.0 0.0" >
+		<!--part texture_filename="meta_center_bear_track.png" /-->
+		<!--part texture_filename="meta_center_bear_track.png" texture_animation="rotate" tire_binding="1" /-->
+		<part texture_filename="meta_hunter_base_track.png" texture_animation="translate" tire_binding="1" />
+
+	</visual>
+	
+	<visual class="track" mesh_filename="meta_tank_hunter_lift.mesh" offset="2.0 0.0 0.0" >
+		<part texture_filename="meta_tank_hunter_lift.png" />
+	</visual>
+
+	<visual class="track" mesh_filename="meta_tank_hunter_right.mesh" offset="-2.0 0.0 0.0" >
+		<part texture_filename="meta_tank_hunter_lift.png" />
+	</visual>
+	
+	
+	
+	
+	
+	<character_slot type="driver" position="1.5 0.3 1.0" rotation="0" exit_rotation="1.57" hiding="1" />
+	<character_slot type="gunner" position="-1.5 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" >
      		<turret index="0" />
+			<turret index="1" />
 	</character_slot>  
-	<character_slot type="passenger" position="-0.7 0.3 -3.0" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="-0.5 0.3 -3.0" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="-0.2 0.3 -3.0" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="0.2 0.3 -3.0" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="0.5 0.3 -3.0" rotation="0" exit_rotation="3.14" hiding="1" />
-	<character_slot type="passenger" position="0.7 0.3 -3.0" rotation="0" exit_rotation="3.14" hiding="1" />
+	
+	
 
 	<!-- sound handling -->
-	<rev_sound filename="truck_rev0.wav" low_pitch="0.85" high_pitch="1.05" low_rev="0.0" high_rev="0.7" volume="1.2" />
-	<rev_sound filename="truck_rev3.wav" low_pitch="0.6" high_pitch="1.1" low_rev="0.15" high_rev="0.8" volume="1.0" />
-	<rev_sound filename="truck_rev4.wav" low_pitch="0.8" high_pitch="1.1" low_rev="0.5" high_rev="1.0" volume="1.0" />
+	<rev_sound filename="tank_rev0.wav" low_pitch="0.4" high_pitch="0.5" low_rev="0.0" high_rev="1.0" volume="0.9" />
+	<rev_sound filename="tank_rev0_b.wav" low_pitch="0.6" high_pitch="0.7" low_rev="0.0" high_rev="1.0" volume="0.6" /> 
+	<rev_sound filename="tank_rev1.wav" low_pitch="0.2" high_pitch="0.4" low_rev="0.4" high_rev="0.7" volume="1.0" />
+	<rev_sound filename="tank_tracks.wav" low_pitch="0.4" high_pitch="0.8" low_rev="0.1" high_rev="1.0" volume="0.9" />  
+	<rev_sound filename="tank_rev2.wav" low_pitch="0.3" high_pitch="0.5" low_rev="0.9" high_rev="1.0" volume="0.9" />
 
 	<sound key="slide" filename="slide_noise.wav" />
 	<sound key="squeal" filename="tire_squeal.wav" />

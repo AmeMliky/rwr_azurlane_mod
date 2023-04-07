@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_items>
     <carry_item key="god_amemliky.carry_item" 
-	name="amemliky" 
+	name="commander" 
 	slot="1" 
 	transform_on_consume="godamemliky_1"
 	time_to_live_out_in_the_open="10.0" 
@@ -31,7 +31,7 @@
 	   </carry_item>	
       	
     <carry_item key="godamemliky_1" 
-	name="amemliky" 
+	name="commander" 
 	slot="1" 
 	time_to_live_out_in_the_open="0.0" 
 	player_death_drop_owner_lock_time="0.0">	

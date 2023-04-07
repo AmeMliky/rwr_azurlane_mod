@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="blhxm_xiaochaijun.xml">
+		<requirement class="weapon" slot="0" key="blhxw_pz_1_1.weapon"/>
+	</model>
+	<model filename="blhxm_xiaochaijun.xml">
+		<requirement class="weapon" slot="0" key="blhxw_pz_1.weapon"/>
+	</model>
+	<model filename="blhxm_huangjiacaifu.xml">
+		<requirement class="weapon" slot="0" key="blhxw_huangjiacaifu_1.weapon"/>
+	</model>
+	<model filename="blhxm_huangjiacaifu.xml">
+		<requirement class="weapon" slot="0" key="blhxw_huangjiacaifu.weapon"/>
+	</model>
+	
+	
+</models>

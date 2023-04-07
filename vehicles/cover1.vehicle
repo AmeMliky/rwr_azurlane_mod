@@ -22,6 +22,7 @@
 
 	
 	<visual class="chassis" mesh_filename="hesco_barrier.mesh" texture_filename="hesco_barrier.png" />
+	<!--visual class="chassis" mesh_filename="blhx_apc.mesh" texture_filename="blhx_tank.png"/-->
 	<sound key="hit" filename="barrier_impact1.wav" />
 	<sound key="hit" filename="barrier_impact2.wav" />
 

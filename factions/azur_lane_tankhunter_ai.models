@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<models>
+	<model filename="blhxm_xiaoougen.xml">
+		<requirement class="weapon" slot="0" key="blhxw_at_ai.weapon"/>
+	</model>
+	
+	
+</models>

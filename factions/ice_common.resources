@@ -12,5 +12,6 @@
 	<carry_item key="sexy_m8701.carry_item" />
 	<carry_item key="wsghost.carry_item" />
 	<carry_item key="kp31.carry_item" />
+	<projectile key="blhx_huajia_spawn.projectile" />
 	
 </resources>

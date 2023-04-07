@@ -27,4 +27,7 @@
 	
 	
 	<call file="sr_boss_vh_external_storage.call" />
+	<call file="siren_wire_control_level.call" />
+	<call file="meta_center_bear.call" />
+	<call file="blhx_signal_tide.call" />
 </calls>

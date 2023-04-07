@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_two_medic.weapon" key="blhxw_at_ai.weapon">
+    <tag name="bazooka" />
+    <specification 
+        retrigger_time="2.5" 
+        accuracy_factor="1.0" 
+        sustained_fire_grow_step="1.5" 
+        sustained_fire_diminish_rate="0.5" 
+        magazine_size="3" 
+        can_shoot_standing="1" 
+        can_shoot_crouching="1" 
+        can_shoot_prone="0"
+        suppressed="0" 
+        name="AT GUN" 
+        class="4" 
+        sight_range_modifier="1.45" 
+        projectile_speed="80.0" 
+        slot="0" 
+        burst_shots="1" 
+		barrel_offset="1.2"
+        projectiles_per_shot="1" />
+		
+	
+    <animation key="recoil" ref="40" />
+    <!-- <animation key="reload" ref="35" /> -->
+    <animation state_key="reload" animation_key="reloading, pf98" />    
+    <animation key="hold" ref="39" />
+    <animation key="hold_on_wall" ref="39" />
+	
+    <animation state_key="walking" animation_key="walking, hip fire" />
+    <animation state_key="running" animation_key="walking, hip fire" />
+    <animation state_key="crouch_moving" animation_key="crouching forwards, hip fire" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, hip fire" />  
+
+	<target_factors tag="" distance="1.0" direction="0.0" squad_command="1.0" base_score="0.5" />
+    <target_factors tag="heavy_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.9" />
+    <target_factors tag="apc" distance="1.0" direction="0.0" squad_command="1.0" base_score="6.0" />
+    <target_factors tag="light_combat" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.0" />	
+    <target_factors tag="defensive_at" distance="1.0" direction="0.0" squad_command="1.0" base_score="5.5" />
+    <target_factors tag="tactical" distance="1.0" direction="0.0" squad_command="1.0" base_score="7.0" />  <!-- important non combat player-only vehicles -->  
+    <target_factors tag="bazooka" distance="1.0" direction="0.0" squad_command="1.0" base_score="8.0" />
+	
+     <sound key="fire" fileref="at_rpg_1_fire.wav" volume="1.0"/>
+    <sound key="magazine_out" fileref="qingchuzhe_re.wav" volume="1.0" />
+   
+    <sound key="cycle" fileref="pz_re.wav" volume="0.3"/>
+
+    <sound class="impact" fileref="rifle_drop.wav" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <hud_icon filename="AzurLane_qingchuzhe.png" />
+    <model filename="rpg_1.xml" />
+
+    <ballistics near_far_distance="1000.0" speed_estimation_near="65.0" speed_estimation_far="65.0" max_speed="80.0" randomness="0.0" tweak_factor="0.8"/>
+    <projectile file="blhxw_at_ai.projectile" />
+    <weak_hand_hold offset="0.3" />
+
+    <commonness value="0.001" can_respawn_with="1" in_stock="1"/>    
+    <inventory encumbrance="5.0" price="68.0" />
+    <capacity value="1" source="rank" source_value="0.0" />
+   
+
+    <modifier class="speed" value="+0.1" />
+	
+
+
+</weapon>
