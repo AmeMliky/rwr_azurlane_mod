@@ -2,16 +2,19 @@
 <resources clear_weapons="1" clear_vehicles="1" clear_calls="1" clear_carry_items="1" clear_grenades="1" >
 	<!-- always load common first; it"s the one that clears the initial weapon resources -->
 
- 
- 	<carry_item key="JR.50.carry_item" />
+	<carry_item key="JR.50.carry_item" />
+ 	
 	<carry_item key="xiexing.carry_item" />
 	<carry_item key="amemliky.carry_item" />
 	<carry_item key="jbhjs.carry_item" />
 	<weapon key="dahuoji.weapon"/>
+	<weapon key="suomi.weapon"/>
+	<weapon key="azur_lane_akashi.weapon"/>
 	<carry_item key="momiji.carry_item" />
 	<carry_item key="sexy_m8701.carry_item" />
 	<carry_item key="wsghost.carry_item" />
 	<carry_item key="kp31.carry_item" />
 	<projectile key="blhx_huajia_spawn.projectile" />
 	
+	<carry_item key="azur_lane_jianzaoquan.carry_item" />
 </resources>

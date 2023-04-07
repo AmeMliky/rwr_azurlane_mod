@@ -11,6 +11,7 @@
 	magazine_size="61" 
 	can_shoot_standing="1" 
 	suppressed="1" 
+	sight_range_modifier="1."
 	name="Main cannon fire -- Four gods of the print" 
 	class="0" 
 	projectiles_per_shot="2"
@@ -55,7 +56,7 @@
 	<projectile file="anshan.projectile">
 		<result
 		class="hit"
-		kill_probability="1.75"
+		kill_probability="1.65"
 		kill_probability_offset_on_successful_hit="0.4"
 		kill_decay_start_time="0.32"
 		kill_decay_end_time="0.67"

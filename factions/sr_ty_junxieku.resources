@@ -111,4 +111,8 @@
 	<call key="sr_zhihuijian.call" />
 	<call key="sr_boss_vh_external_storage.call" />
 	<call key="siren_wire_control_level.call" />
+	
+	<!--抽卡武器重生复活需载入/-->
+	<weapon key='metaw_elizabeth_1.weapon'  />
+	<weapon key='metaw_elizabeth.weapon'  />
 </resources>

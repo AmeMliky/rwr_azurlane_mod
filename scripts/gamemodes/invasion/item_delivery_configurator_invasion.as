@@ -515,32 +515,26 @@ class ItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
 	protected void setupCommunity6() {
 		_log("adding community box 6 config", 1);
 		array<Resource@> deliveryList = {
-			 Resource("gift_box_community_6.carry_item", "carry_item")
+			 Resource("azur_lane_jianzaoquan.carry_item", "carry_item")
 		};
 
 		array<array<ScoredResource@>> rewardPasses = {
 			{
          
-         ScoredResource("kulakov.weapon", "weapon", 10.0f),
-         ScoredResource("rpd.weapon", "weapon", 15.0f),
-         ScoredResource("ak47_w_gp25.weapon", "weapon", 14.0f),
-         ScoredResource("g36_w_ag36.weapon", "weapon", 14.0f),
-         ScoredResource("m16a4_w_m203.weapon", "weapon", 14.0f),			 
-         ScoredResource("mac10.weapon", "weapon", 20.0f),
-         ScoredResource("ash12.weapon", "weapon", 9.0f),
-		 ScoredResource("torch.weapon", "weapon", 4.0f, 2)
+         //ScoredResource("kulakov.weapon", "weapon", 10.0f),
+        // ScoredResource("rpd.weapon", "weapon", 15.0f),
+        // ScoredResource("ak47_w_gp25.weapon", "weapon", 14.0f),
+        // ScoredResource("g36_w_ag36.weapon", "weapon", 14.0f),
+        // ScoredResource("m16a4_w_m203.weapon", "weapon", 14.0f),			 
+        // ScoredResource("mac10.weapon", "weapon", 20.0f),
+        // ScoredResource("ash12.weapon", "weapon", 9.0f),
+		ScoredResource("jiezhi1.carry_item", "carry_item", 1.0f, 1),
+		ScoredResource("metaw_elizabeth.weapon", "weapon", 1.0f, 1)
 
 			},
             {
-         ScoredResource("ultimax.weapon", "weapon", 10.0f),
-         ScoredResource("zweihander.weapon", "weapon", 20.0f), 
-         ScoredResource("sabre.weapon", "weapon", 20.0f),
-         ScoredResource("doublebarrel.weapon", "weapon", 20.0f),
-         ScoredResource("golden_mp5sd.weapon", "weapon", 12.0f),		 
-		 ScoredResource("gift_box_community_4.carry_item", "carry_item", 3.0f),         
-		 ScoredResource("gift_box_community_3.carry_item", "carry_item", 4.0f),
-		 ScoredResource("gift_box_community_5.carry_item", "carry_item", 6.0f),
-         ScoredResource("gift_box_community_2.carry_item", "carry_item", 5.0f)                                   
+         ScoredResource("jiezhi2.carry_item", "carry_item", 1.0f, 1)
+                                          
 			} 
 		};   
 

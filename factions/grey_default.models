@@ -112,5 +112,11 @@
 		<requirement class="weapon" slot="0" key="srw_jingying_zhanlie.weapon"/>
 	</model>
 	
+	<model filename="azl_mingshi_arblasting2.xml">
+		<requirement class="weapon" slot="0" key="azur_lane_akashi.weapon"/>
+	</model>
 	
+	<model filename="azl_mingshi_arblasting1.xml">
+		<requirement class="weapon" slot="0" key="azur_lane_akashi_1.weapon"/>
+	</model>
 </models>

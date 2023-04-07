@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_one_wp.carry_item" name="building ticket" key="azur_lane_jianzaoquan.carry_item">
+ 
+    <inventory encumbrance="0" price="648.0" />
+	<hud_icon filename="jianzaoquan.png" />
+    <model filename="jianzaoquan.xml" />
+
+    <commonness value="0.002" in_stock="1" />
+</carry_item>

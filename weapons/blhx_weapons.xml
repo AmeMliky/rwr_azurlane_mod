@@ -132,4 +132,6 @@
 	
 	<weapon file="blhxw_pz_1_1.weapon"/>
 	<weapon file="meta_tankhunter.weapon"/>
+	<weapon file="azur_lane_akashi.weapon"/>
+	<weapon file="suomi.weapon"/>
 </weapons>

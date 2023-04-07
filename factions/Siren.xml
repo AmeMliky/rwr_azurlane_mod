@@ -238,4 +238,32 @@ firstnames_file="siren_firstnames.txt"
 
 
 
+		<!-- 华甲僵尸-->
+	<soldier name="blhx_js_huajia" spawn_score="0.00" squad_size_xp_cap="0">
+		<character filename="blhx_huajia.character" />
+		<ai filename="blhx_huajia_spawn.ai" />
+		
+		<models file="blhx_huajia_spawn.models" />
+
+		<resources file="blhx_huajia_spawn.resources" />
+
+		<item_class_existence_config>
+		<item_class_existence class="weapon" slot="0" probability="0.0"/>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="0.0"/>
+			<!-- wearables -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<item_class_existence class="carry_item" slot="0" probability="0.0" />
+		</item_class_existence_config>
+    
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="0.0" max="0.0" />
+		</attribute_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="0.0" max="100.0" />
+		</attribute_config>    
+
+	</soldier>
 </faction>

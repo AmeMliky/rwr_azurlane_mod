@@ -60,4 +60,9 @@
 	<call key="meta_feilong.call" />
 	<call key="meta_zhihuijian.call" />
 	<call key="meta_center_bear.call" />
+	
+	
+	<!--抽卡武器重生复活需载入/-->
+	<weapon key='metaw_elizabeth_1.weapon'  />
+	<weapon key='metaw_elizabeth.weapon'  />
 </resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+<weapon file="base_one_hg.weapon" key="azur_lane_akashi.weapon" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0" >
+    <tag name="assault" />
+    <specification 
+  retrigger_time="1" 
+  accuracy_factor="1.0" 
+  sustained_fire_grow_step="0.0" 
+  sustained_fire_diminish_rate="1.0" 
+  magazine_size="100" 
+  carry_in_two_hands="0" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="1" 
+  can_shoot_prone="0" 
+  suppressed="0" 
+  name="akashi" 
+  class="0" 
+  projectile_speed="10.0" 
+  use_basic_muzzle_smoke_effect="0"
+  barrel_offset_3d="0 0.4 0.0" />
+	<next_in_chain key="azur_lane_akashi_1.weapon" share_ammo="0" />
+    <animation state_key="recoil" 		animation_key="recoil, torch" />
+	<animation state_key="reload" animation_key="reloading, torch" />
+    <animation state_key="hold" 		animation_key="still, single hand carry" />
+    <animation state_key="hold_on_wall" 	animation_key="recoil, torch" />
+    <animation state_key="hold_casual" 		animation_key="still, single hand carry" />
+    <animation state_key="still_against_wall" 	animation_key="still, single hand carry" />
+    <animation state_key="crouching" 		animation_key="recoil, torch" />
+    <animation state_key="running" 		animation_key="walking, single hand carry" />
+    <animation state_key="walking" 		animation_key="walking, single hand carry" />
+    <animation state_key="walking_backwards" 	animation_key="walking backwards, single hand carry" />
+    <animation state_key="crouch_moving" 	animation_key="crouching forwards, single hand carry" />
+    <animation state_key="crouch_moving_backwards" 	animation_key="crouching backwards, single hand carry" />
+    <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
+	
+    <effect class="muzzle" ref="FlareFlashTorch" />
+    <effect class="muzzle" ref="FlareSparkleTorch" />
+
+    <sound key="fire" fileref="torch_shot.wav"  volume="0.75" pitch_variety="0.05" />
+	<sound key="magazine_out" fileref="flamer_out.wav" />
+	<sound key="magazine_in" fileref="portable_mortar_reload.wav" />
+    <sound key="cycle" fileref="musket_magazine_out.wav" volume="0.25" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <model filename="torch.xml" />
+    <!--drop_on_death_result class="spawn" instance_class="projectile" instance_key="propane.projectile" min_amount="1" max_amount="1" offset="0 1 0" position_spread="0 0" direction_spread="0.01 0.01" /-->    
+
+    <hud_icon filename="AzurLane_mingshi.png" />
+    <commonness value="0.0" can_respawn_with="0"  in_stock="1"/>
+    <inventory encumbrance="10.0" price="648.0" />
+
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="1.0" />     
+
+    <weak_hand_hold offset="0.0" />
+
+    <projectile file="torch.projectile" />
+
+    <modifier class="speed" value="0.12" />
+</weapon>
+
+<weapon file="base_one_hg.weapon" key="azur_lane_akashi_1.weapon">
+    <tag name="medic" />
+	
+    <specification
+	retrigger_time="2.50" 
+	accuracy_factor="1.0" 
+	sustained_fire_grow_step="0.0" 
+	sustained_fire_diminish_rate="1.0" 
+	spread_range = "0.0"
+	magazine_size="5"  
+	can_shoot_standing="0" 
+	can_shoot_crouching="1" 
+    can_shoot_prone="0"
+	suppressed="1" 
+	name="akashi repair" 
+	class="1" 
+	reload_one_at_a_time="0" 
+	sight_range_modifier="1" 
+	slot="0" 
+	stab_enabled="0"
+	projectile_speed="0.01" 
+	projectiles_per_shot="1"
+	barrel_offset="0.0" />
+	
+	<next_in_chain key="azur_lane_akashi.weapon" share_ammo="0" />
+	
+
+	<animation state_key="recoil"			animation_key="m14 carry, save" />
+	<animation state_key="reload"			animation_key="reloading, m14 carry" />
+    <animation state_key="cycle" 		animation_key="m14 carry, cycle" />
+    <animation state_key="hold" 		animation_key="still, heavy weapon" />
+    <animation state_key="hold_on_wall" 	animation_key="still, heavy weapon" />
+    <animation state_key="hold_casual" 		animation_key="still, heavy weapon" />
+    <animation state_key="still_against_wall" 	animation_key="still, heavy weapon" />
+    <animation state_key="walking" 		animation_key="walking, heavy weapon" />
+    <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+
+
+    <sound key="effect" fileref="" pitch_variety="0.00" volume="0.6" />    
+
+
+
+	<model filename="blhxw_djs_2.xml" />
+	<hud_icon filename="AzurLane_mingshi_1.png" />
+	
+	<commonness value="0.0" can_respawn_with="0" in_stock="0"/>
+	 <inventory encumbrance="10.0" price="648.0" />
+
+	<projectile file="m14k_stim.projectile" />
+	
+	<stance state_key="running" accuracy="1.0" />
+	<stance state_key="walking" accuracy="1.0" />
+	<stance state_key="crouch_moving" accuracy="1.0" />
+	<stance state_key="prone_moving" accuracy="1.0" />
+	<stance state_key="standing" accuracy="1.0" />
+	<stance state_key="crouching" accuracy="1.0" />
+	<stance state_key="prone" accuracy="1.0" />
+	
+	<modifier class="speed" value="+0.5" />
+	
+</weapon>
+</weapons>

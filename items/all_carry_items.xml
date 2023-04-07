@@ -4,7 +4,8 @@
     <carry_item file="cd.carry_item" /> 
 	<carry_item file="costume_underpants.carry_item"/>     
 	<!-- 可装备胖次-->
-	<!--carry_item file="lottery.carry_item" /彩票-->    
+	<!--carry_item file="lottery.carry_item" /-->
+	<carry_item file="azur_lane_jianzaoquan.carry_item" />	
 	<carry_item file="god_vest.carry_item" />
 	<carry_item file="blhxmod.xml" />
 
