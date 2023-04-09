@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+<weapon key="blhxw_commander_1.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="60.0"  drop_count_factor_on_player_death="1.0" drop_count_limit_in_range="1">
+    <tag name="cbq" />
+    <specification 
+  retrigger_time="0.18" 
+  accuracy_factor="0.99" 
+  sustained_fire_grow_step="0.45" 
+  sustained_fire_diminish_rate="1.88" 
+  magazine_size="26" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  sight_range_modifier="1.3"
+  name="commander auto gun" 
+  class="0" 
+  projectile_speed="145.0"
+  barrel_offset="0.6"
+  use_basic_muzzle_smoke_effect="1" 
+  stab_enabled="1"
+  stab_range="2.0"  />
+
+    <next_in_chain key="blhxw_commander_2.weapon" share_ammo="0" />
+
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, ak47" />
+	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
+    <animation state_key="next_in_chain_in" animation_key="switch fire mode" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+    <animation state_key="celebrate_shoot" animation_key="celebrating, shooting" />
+
+    <sound key="fire" fileref="commander_fire_1.wav" pitch_variety="0.06" volume="0.7" />
+    <sound key="magazine_out" fileref="commander_out_magazine.wav" pitch_variety="0.06" volume="1.0"/>
+    <sound key="magazine_in" fileref="commander_in_magazine.wav" pitch_variety="0.06" volume="1.0"/>
+    <sound key="cycle" fileref="commander_cycle.wav" pitch_variety="0.06" volume="1.0"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+	<sound key="last_ammo" fileref="commander_last_one.wav" />
+    <model filename="blhxw_commander_1.xml" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="100" />
+
+    <hud_icon filename="blhxw_commander_1_hud.png" />
+    <commonness value="0.0" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="996.0" />
+
+    <projectile file="blhxw_commander_bullet.projectile">
+	    <result class="hit" kill_probability="2.15" kill_probability_offset_on_successful_hit="1.25" kill_decay_start_time="0.31" kill_decay_end_time="0.85" />
+    </projectile>
+    <modifier class="speed" value="0.3" />
+	<stance state_key="running" accuracy="0.9" />
+    <stance state_key="walking" accuracy="0.9" />
+    <stance state_key="crouch_moving" accuracy="0.95" />
+    <stance state_key="standing" accuracy="1" />
+    <stance state_key="crouching" accuracy="1" />
+    <stance state_key="prone" accuracy="1" /> 
+    <stance state_key="prone_moving" accuracy="0.8" />
+    <stance state_key="over_wall" accuracy="1.1" /> 
+	
+	<shield offset="-1.2 0.0 0" extent="0.2 1.0 1.0" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+    <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+
+</weapon>
+
+<weapon key="blhxw_commander_2.weapon" drop_count_factor_on_death="0.0" on_ground_up="0 0 1" time_to_live_out_in_the_open="60.0"  drop_count_factor_on_player_death="1.0" drop_count_limit_in_range="1">
+    <tag name="assault" />
+
+    <specification 
+  retrigger_time="0.38" 
+  accuracy_factor="0.98" 
+  sustained_fire_grow_step="0.5" 
+  sustained_fire_diminish_rate="1.2" 
+  magazine_size="3" 
+  can_shoot_standing="1" 
+  suppressed="0" 
+  sight_range_modifier="1.55"
+  name="commander AT gun" 
+  class="0" 
+  projectile_speed="12.0" 
+  barrel_offset="0.3" 
+  spread_range="0.04"
+  stab_enabled="1"
+  stab_range="2.0"/>
+
+    <next_in_chain key="blhxw_commander_1.weapon" share_ammo="0" />
+
+    <!--     <ballistics near_far_distance="20.0" speed_estimation_2ear="25.0" speed_estimation_far="25.0" max_speed="30.0" randomness="0.0" />    -->
+    <ballistics near_far_distance="1000.0" speed_estimation_near="120.0" speed_estimation_far="12.0" max_speed="120.0" randomness="0.0" />
+	<!--curve_height抛物线顶点高度 near_far_distance 达到设置距离时，抛物线最高  speed_estimation_near 到达最高点前速度10  speed_estimation_far 到达最高点后速度16  最大速度为47  随机度0 -->
+    <!--tweak_factor="1.00" 越小落点越靠近玩家，越大抛射角度越大。理解为影响弹道的斜率 -->
+    <!-- <ballistics curve_height="4.0" near_far_distance="10.0" speed_estimation_near="20.0" max_speed="160.0" randomness="0.0" />   -->
+    <!-- <ballistics near_far_distance="20.0" speed_estimation_near="25.0" speed_estimation_far="25.0" max_speed="100.0" randomness="0.0" /> -->
+	
+    <animation key="recoil" ref="12" />
+    <animation key="recoil" ref="13" />
+    <animation key="recoil" ref="14" />
+    <animation state_key="reload" animation_key="reloading, m79" />
+	<animation state_key="stabbing"	animation_key="melee, bayonet" />
+	
+	
+	
+    <sound key="fire" fileref="commander_fire_2_2.wav" pitch_variety="0.05" volume="0.3" />
+	<sound key="fire" fileref="commander_fire_2_1.wav" pitch_variety="0.05" volume="0.3" />
+    <sound key="magazine_out" fileref="commander_at_out.wav" volume="0.7" />
+    <sound key="magazine_in" fileref="commander_at_in.wav" volume="0.7"/>
+    <sound key="cycle" fileref="commander_cycle.wav" volume="0.7"/>
+    <sound class="impact" fileref="rifle_drop.wav" />
+	<sound key="last_ammo" fileref="commander_last_one.wav" />
+    <model filename="blhxw_commander_2.xml" />
+
+    <projectile file="blhxw_commander_dt.projectile" />
+
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="1" source="rank" source_value="100" />
+
+    <hud_icon filename="blhxw_commander_2_hud.png" />
+    <commonness value="0.0" can_respawn_with="1" in_stock="0" />
+    <inventory encumbrance="10.0" price="996.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+
+    <stance state_key="running" accuracy="0.98" />
+    <stance state_key="walking" accuracy="0.98" />
+    <stance state_key="crouch_moving" accuracy="0.98" />
+    <stance state_key="prone_moving" accuracy="0.98"/>
+
+    <stance state_key="standing" accuracy="0.98"/>
+    <stance state_key="crouching" accuracy="0.98" />
+    <stance state_key="prone" accuracy="1.0" />
+    <stance state_key="over_wall" accuracy="0.98" /> 
+    
+    <modifier class="speed" value="0.18" />   
+	
+	<shield offset="-1.2 0.0 0" extent="0.2 1.0 1.0" />
+	<modifier class="projectile_hit_result" input_character_state="death" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="wound" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_hit_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" consumes_item="0" />
+    <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" consumes_item="0"/>
+    <modifier class="projectile_blast_result" input_character_state="stun" output_character_state="none" consumes_item="0" />
+
+	
+
+</weapon>
+
+
+
+</weapons>

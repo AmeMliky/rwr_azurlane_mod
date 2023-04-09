@@ -134,4 +134,5 @@
 	<weapon file="meta_tankhunter.weapon"/>
 	<weapon file="azur_lane_akashi.weapon"/>
 	<weapon file="suomi.weapon"/>
+	<weapon file="blhxw_commander.weapon"/>
 </weapons>

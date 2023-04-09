@@ -7,9 +7,14 @@
 	<carry_item key="xiexing.carry_item" />
 	<carry_item key="amemliky.carry_item" />
 	<carry_item key="jbhjs.carry_item" />
+	<carry_item key="blhx_commander.carry_item" />
 	<weapon key="dahuoji.weapon"/>
 	<weapon key="suomi.weapon"/>
 	<weapon key="azur_lane_akashi.weapon"/>
+	
+	<weapon key="blhxw_commander_1.weapon"/>
+	<weapon key="blhxw_commander_2.weapon"/>
+	
 	<carry_item key="momiji.carry_item" />
 	<carry_item key="sexy_m8701.carry_item" />
 	<carry_item key="wsghost.carry_item" />

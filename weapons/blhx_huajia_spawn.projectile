@@ -6,8 +6,8 @@
 
     <rotation class="random" />
 
-    <model mesh_filename="cs.xml" />.
-    <hud_icon filename="cs.png" />
+    <model mesh_filename="huajia_dt_spawn.xml" />.
+    <hud_icon filename="AzurLane_huajia_2_1.png" />
 
     <throwable near_far_distance="100.0" speed_estimation_near="10.0" speed_estimation_far="10.0" max_speed="10.0" randomness="0.0" />
 

@@ -57,5 +57,14 @@
 	<model score="1500" filename="icem_kp31_dp.xml"><requirement class="carry_item" slot="1" key="kp31_5"/><requirement class="rank" range="0 1000000" /></model>
 	<model score="1500" filename="icem_kp31_dp.xml"><requirement class="carry_item" slot="1" key="kp31_6"/><requirement class="rank" range="0 1000000" /></model>
 	
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_commander.carry_item"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_command_1"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_command_2"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_command_3"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_command_4"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_command_5"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_command_6"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_command_7"/><requirement class="rank" range="0 1000000" /></model>
+	<model score="1500" filename="blhxm_commander.xml"><requirement class="carry_item" slot="1" key="blhx_command_8"/><requirement class="rank" range="0 1000000" /></model>
 	
 </models>

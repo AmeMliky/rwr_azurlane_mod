@@ -8,7 +8,7 @@
     name="cooling water" 
     class="5" 
     untransform_equipment_class="vest"
-    untransform_count="2"  
+    untransform_count="3"  
     consume="0" 
     sight_range_modifier="1" 
     slot="1" />

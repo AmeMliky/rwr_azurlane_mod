@@ -88,7 +88,7 @@
 	 projectile_speed="150.0" 
 	 projectiles_per_shot="16"
 	 slot="0"
-	 name="META elizabeth" 
+	 name="META elizabeth the queen between light and shadow" 
 	/> 
 	<next_in_chain key="metaw_elizabeth.weapon" share_ammo="0" />
 	<ballistics

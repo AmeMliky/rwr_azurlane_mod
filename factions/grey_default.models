@@ -119,4 +119,14 @@
 	<model filename="azl_mingshi_arblasting1.xml">
 		<requirement class="weapon" slot="0" key="azur_lane_akashi_1.weapon"/>
 	</model>
+	
+	
+	<model filename="blhxm_commander.xml">
+		<requirement class="weapon" slot="0" key="blhxw_commander_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_commander.xml">
+		<requirement class="weapon" slot="0" key="blhxw_commander_2.weapon"/>
+	</model>
+	
 </models>
