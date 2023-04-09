@@ -2,18 +2,18 @@
 <weapon file="base_one_smg.weapon" key="metaw_ar_1.weapon">
     <tag name="stealth" />
     <specification 
-  retrigger_time="0.09" 
+  retrigger_time="0.07" 
   accuracy_factor="0.95" 
-  sustained_fire_grow_step="0.5" 
-  sustained_fire_diminish_rate="1.12" 
+  sustained_fire_grow_step="0.12" 
+  sustained_fire_diminish_rate="1.5" 
   magazine_size="120" 
   can_shoot_standing="1" 
   projectiles_per_shot="1"
   suppressed="0" 
   name="meta ar1" 
   class="0" 
-  projectile_speed="130.0"
-  sight_range_modifier="1.00" 
+  projectile_speed="155.0"
+  sight_range_modifier="1.20" 
   barrel_offset="0.5" 
   use_basic_muzzle_smoke_effect="0"  />
   
@@ -38,7 +38,7 @@
     
 	
     <projectile file="bullet_meta.projectile">
-        <result class="hit" kill_probability="1.85" kill_decay_start_time="0.23" kill_decay_end_time="0.4" />
+        <result class="hit" kill_probability="1.85" kill_decay_start_time="0.28" kill_decay_end_time="0.7" />
     </projectile>
     <modifier class="speed" value="0.12" />     
 </weapon>

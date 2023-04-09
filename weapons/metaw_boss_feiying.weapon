@@ -4,7 +4,7 @@
     <specification 
   retrigger_time="0.15"
   accuracy_factor="1.0" 
-  sustained_fire_grow_step="0.8" 
+  sustained_fire_grow_step="0.4" 
   sustained_fire_diminish_rate="2.5" 
   magazine_size="12"  
   can_shoot_standing="1" 
@@ -13,7 +13,7 @@
   name="meta Hiyo" 
   sight_range_modifier="1.10" 
   class="4" 
-  projectile_speed="80.0" 
+  projectile_speed="100.0" 
   barrel_offset="0.4" 
   projectiles_per_shot="1"
   burst_shots="3"/>

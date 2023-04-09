@@ -40,18 +40,18 @@ class RepairCrane : Tracker {
         string sourceKey = event.getStringAttribute("key");
 
         if (sourceKey == "repair_crane") {
-            range = 3.5;
-            repairValue = 0.6;
+            range = 5.0;
+            repairValue = 0.5;
             overHealth = 1.1;
             y_offset = -5.0;
         } else if (sourceKey == "repair_tank") {
-            range = 3.5;
+            range = 5.0;
             repairValue = 0.5;
             overHealth = 1.0;
             y_offset = -5.0;
         } else if (sourceKey == "repair_torch") {
-            range = 3.0;
-            repairValue = 0.1;
+            range = 5.0;
+            repairValue = 0.5;
             overHealth = 1.1;
             y_offset = 0.0;
             rpReward = 0;

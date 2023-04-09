@@ -13,7 +13,7 @@
   name="meta Jun yo" 
   sight_range_modifier="1.10" 
   class="0" 
-  projectile_speed="100.0" 
+  projectile_speed="145.0" 
   barrel_offset="0.4" 
   projectiles_per_shot="1"
  />
@@ -42,7 +42,7 @@
 	
     <weak_hand_hold offset="0.0" />
     <projectile file="metaw_fy_dt.projectile">  
-	<result class="hit"  kill_probability="1.85" kill_decay_start_time="0.4" kill_decay_end_time="0.65" />
+	<result class="hit"  kill_probability="1.85" kill_decay_start_time="0.28" kill_decay_end_time="0.95" />
     </projectile>
     <modifier class="speed" value="0.15" />
 </weapon>
