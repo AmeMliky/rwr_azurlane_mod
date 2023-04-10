@@ -33,5 +33,5 @@
     <hud_icon filename="call_tank.png" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="100" source="rank" source_value="0.5" />
-    <inventory encumbrance="0.0" price="498.0" />
+    <inventory encumbrance="0.0" price="4096.0" />
 </call>

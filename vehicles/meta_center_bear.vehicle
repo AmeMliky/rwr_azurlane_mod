@@ -15,12 +15,7 @@
 	existence="one_per_faction" 
 	owner="faction" 
 	usable_for_cover="0" 
-	soldier_capacity_offset="10"
-	protectors="2" 
-	designated_squad_as_driver_only="0" 
-	minimum_fill_requirement="0.0" 
-	ai_force_designated_driver_xp="6.1"
-	ai_navigation_offset="0.0"
+	minimum_fill_requirement="1.0" 
 	jams_enemy_radio="0">
 	
     <tag name="metal_heavy" />
@@ -165,17 +160,17 @@
 	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
 	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
   
-	<effect event_key="health" value="20.5" ref="SmallSmokeVehicle" offset="-0.7 2.4 -4.2" />
-	<effect event_key="health" value="20.5" ref="SmallSmokeVehicle" offset="+0.7 2.4 -4.2" />  
-	<effect event_key="health" value="15" ref="SmallSmokeVehicle" offset="-0.7 2.4 -4.2" />
-	<effect event_key="health" value="15" ref="SmallSmokeVehicle" offset="+0.7 2.4 -4.2" />  
-	<effect event_key="health" value="4.5" ref="BrokenSparkle" post_processing="0" offset="-0.7 1.8 -4.2" />
-	<effect event_key="health" value="4.5" ref="BrokenSparkle" post_processing="0" offset="+0.7 1.8 -4.2" />  
-	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 2.4 -3.1" />
-	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.8 2.5 -3.1" />  
-	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 3.2 0.5" />  
-	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.6 3.0 -0.2" />    
-	<effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 2.4 -3.1" />
+	<effect event_key="health" value="20.5" ref="SmallSmokeVehicle" offset="-0.7 2.4 -1.2" />
+	<effect event_key="health" value="20.5" ref="SmallSmokeVehicle" offset="+0.7 2.4 -2.2" />  
+	<effect event_key="health" value="15" ref="SmallSmokeVehicle" offset="-0.7 2.4 -1.2" />
+	<effect event_key="health" value="15" ref="SmallSmokeVehicle" offset="+0.7 2.4 -1.2" />  
+	<effect event_key="health" value="4.5" ref="BrokenSparkle" post_processing="0" offset="-0.7 1.8 -1.2" />
+	<effect event_key="health" value="4.5" ref="BrokenSparkle" post_processing="0" offset="+0.7 1.8 -1.2" />  
+	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 2.4 -0.1" />
+	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.8 2.5 -0.1" />  
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 3.2 1.5" />  
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.6 3.0 1.2" />    
+	<effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 2.4 -2.1" />
     <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
     <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" />     
    

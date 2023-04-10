@@ -3,10 +3,10 @@
     <tag name="mg" />
     <specification 
   retrigger_time="0.075" 
-  accuracy_factor="0.725" 
-  spread_range="0.175"
-  sustained_fire_grow_step="2.5" 
-  sustained_fire_diminish_rate="1.15" 
+  accuracy_factor="0.92" 
+  spread_range="0.075"
+  sustained_fire_grow_step="0.5" 
+  sustained_fire_diminish_rate="1.65" 
   magazine_size="100" 
   can_shoot_standing="1" 
   can_shoot_crouching="1" 
@@ -15,12 +15,7 @@
   class="0" 
   projectile_speed="150.0" />
 
-	<!-- Balanced in several ways:-->
-	<!-- Accuracy is low, recoil moderate -->
-	<!-- Movement speed is slow -->
-	<!-- Rate of Fire is moderately slow -->
-	<!-- Velocity is low -->
-	<!-- Despite all this, magazine capacity is large and damage is very high. -->
+	
 
 
  	<animation state_key="recoil" animation_key="recoil, hip fire" />
@@ -44,12 +39,12 @@
     <model filename="srw_mg_3.xml" />
 
     <hud_icon filename="cs.png" />
-    <commonness value="0.05" can_respawn_with="1" in_stock="1"/>
+    <commonness value="0.1" can_respawn_with="1" in_stock="1"/>
     <inventory encumbrance="5.0" price="70.0" />
 
     <weak_hand_hold offset="0.4" />
     <projectile file="bullet_sr.projectile">
         <result class="hit" kill_probability="2.1" kill_decay_start_time="0.37" kill_decay_end_time="0.73" />
     </projectile>
-    <modifier class="speed" value="-0.08" />
+    <modifier class="speed" value="0.08" />
 </weapon>

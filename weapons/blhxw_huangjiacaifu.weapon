@@ -3,7 +3,7 @@
     <tag name="assault" />       
 	
     <specification
-	retrigger_time="0.20"
+	retrigger_time="0.35"
 	accuracy_factor="1.0"
 	sustained_fire_grow_step="0.3"
 	sustained_fire_diminish_rate="1.5"
@@ -13,7 +13,7 @@
 	suppressed="0"
     carry_in_two_hands="0" 
 	name="MOT Royal Fortune"
-	class="4"
+	class="0"
 	reload_one_at_a_time="0"
 	sight_range_modifier="1.0"
 	projectile_speed="120.0"
@@ -41,11 +41,11 @@
     <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
     <animation state_key="crouch_moving_backwards" animation_key="crouching backwards, hip fire" />
 	
-    <sound key="fire" fileref="model29_shot.wav" volume="0.6" pitch_variety="0.05" />
-    <sound key="cycle_out" fileref="re_huangjiacaifu.wav"  pitch_variety="0.0"  volume="0.8" />
-    <sound key="cycle_in" fileref="revolver_cycle_in.wav" volume="1" />
-    <sound key="cycle" fileref="revolver_cycle.wav" volume="1" />
-    <model filename="model_29.xml" />
+    <sound key="fire" fileref="huangjiacaifu_fire.wav" volume="0.2" pitch_variety="0.05" />
+    <sound key="cycle_out" fileref="huangjiacaifu_reload_out.wav"  pitch_variety="0.0"  volume="0.8" />
+    <sound key="cycle_in" fileref="huangjiacaifu_reload_in.wav" volume="0.6" />
+    <sound key="cycle" fileref="huangjiacaifu_reload_cycle.wav" volume="0.6" />
+    <model filename="blhxw_huangjiacaifu_hg.xml" />
 
     <hud_icon filename="AzurLane_huangjiacaifu.png" />
     <commonness value="0.0001" can_respawn_with="1" in_stock="1" />

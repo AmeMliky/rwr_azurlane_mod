@@ -104,13 +104,19 @@
 	<carry_item key="statue_kirby.carry_item" />
 	<carry_item key="statue_piggie.carry_item" />
 	
-	
+	<call key="blhx_sb_1.call" />
+	<call key="yingxianzuo.call" />
 	<call key="sr_hd.call" />
 	<call key="sr_jianpao2.call" />
 	<call key="sr_goujianzhe.call" />
 	<call key="sr_zhihuijian.call" />
 	<call key="sr_boss_vh_external_storage.call" />
 	<call key="siren_wire_control_level.call" />
+	<call key="qzyty_tank.call" />
+	
+	<call key="bujiche.call" />
+	<call key="qzyty_humvee.call" />
+	<call key="qzyty_tank.call" />
 	
 	<!--抽卡武器重生复活需载入/-->
 	<weapon key='metaw_elizabeth_1.weapon'  />

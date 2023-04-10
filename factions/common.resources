@@ -102,11 +102,7 @@
 	<weapon key="qzy_ty_hd.weapon"/>
 	<weapon key="blhxw_bs_zbl.weapon"/>
 	<weapon key="blhxw_bs_zbl_1.weapon"/>
-	<call key="blhx_sb_1.call" />
-	<call key="yingxianzuo.call" />
-	<call key="qzyty_tank.call" />
-	<call key="qzyty_humvee.call" />
-	<call key="bujiche.call" />
+	
 	
 	<weapon key="blhxw_kuailebang.weapon"/>
 	<weapon key="shovel_1.weapon"/>

@@ -15,8 +15,8 @@
   burst_shots="2"
   last_burst_retrigger_time="0.15"
   spread_range="0.3"
-  projectile_speed="120.0"
-  sight_range_modifier="1.30"  />
+  projectile_speed="145.0"
+  sight_range_modifier="1.35"  />
   
   <next_in_chain key="srw_boss_tianpalansi_1.weapon" share_ammo="0" />
   
@@ -52,9 +52,9 @@
     <!--生成权重，复活自带，会出现在军械库出售 -->
 	
     <projectile file="sr_boss_tianpalansi_bullt_dt.projectile">
-        <result class="hit" kill_probability="1.85" kill_decay_start_time="0.38" kill_decay_end_time="0.57" />
+        <result class="hit" kill_probability="1.85" kill_decay_start_time="0.32" kill_decay_end_time="0.68" />
     </projectile>
-    <modifier class="speed" value="0.15" />     
+    <modifier class="speed" value="0.22" />     
 	
 	<stance state_key="running" accuracy="0.8" />
     <stance state_key="walking" accuracy="0.8" />

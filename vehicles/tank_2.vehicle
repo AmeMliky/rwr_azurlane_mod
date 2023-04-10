@@ -21,7 +21,7 @@
 	max_limiter_speed="6.0"/>
 
 	<physics 
-	max_health="40" 
+	max_health="38" 
 	blast_damage_threshold="0.17" 
 	TODO_blast_damage_threshold="1.02" 
 	mass="200.0" 	

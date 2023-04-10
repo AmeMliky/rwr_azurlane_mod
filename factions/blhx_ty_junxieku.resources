@@ -160,6 +160,10 @@
 	<carry_item key="statue_kirby.carry_item" />
 	<carry_item key="statue_piggie.carry_item" />
 	
+	<call key="blhx_sb_1.call" />
+	<call key="yingxianzuo.call" />
+	
+	
 	<call key="zhenhai.call" />
 	<call key="bf109.call" />
 	<call key="xiaojiajia.call" />
@@ -170,7 +174,9 @@
 	
 	<call key="zhihuijian_0.call" />
 	<call key="blhx_signal_tide.call" />
-	
+	<call key="bujiche.call" />
+	<call key="qzyty_humvee.call" />
+	<call key="qzyty_tank.call" />
 	<!--抽卡武器重生复活需载入/-->
 	<weapon key='metaw_elizabeth_1.weapon'  />
 	<weapon key='metaw_elizabeth.weapon'  />

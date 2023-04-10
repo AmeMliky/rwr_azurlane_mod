@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <character filename="default_base.character">
 
-	<comment key="Open fire" text="!"/>
-	<comment key="Open fire" text="urgh"/>  
-	<comment key="Open fire" text="rawr"/>  
+	<comment key="Open fire" text="hey ya!"/>
+	<comment key="Open fire" text="dor ya~"/>  
+	<comment key="Open fire" text="enhim"/>  
   
 	<comment key="enemy seen" text="!" /> 
-	<comment key="enemy seen" text="urgh!" />
-	<comment key="enemy seen" text="rawr!" />   
+	<comment key="enemy seen" text="yei!" />
+	<comment key="enemy seen" text="ahy!" />   
   
 	<parameter class="can_use_inventory" value="0" />  
 	<parameter class="can_use_vehicles" value="0" />  

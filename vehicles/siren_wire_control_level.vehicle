@@ -15,12 +15,7 @@
 	existence="one_per_faction" 
 	owner="faction" 
 	usable_for_cover="0" 
-	soldier_capacity_offset="10"
-	protectors="0" 
-	designated_squad_as_driver_only="0" 
-	minimum_fill_requirement="0.0" 
-	ai_force_designated_driver_xp="6.1"
-	ai_navigation_offset="0.0"
+	minimum_fill_requirement="1.0" 
 	jams_enemy_radio="1">
 	
     <tag name="metal_heavy" />
@@ -118,12 +113,12 @@
 	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
 	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
   
-	<effect event_key="health" value="3.15" ref="SmallSmokeVehicle" offset="-0.7 2.4 -4.2" />
-	<effect event_key="health" value="3.15" ref="SmallSmokeVehicle" offset="+0.7 2.4 -4.2" />  
-	<effect event_key="health" value="0.62" ref="SmallSmokeVehicle" offset="-0.7 2.4 -4.2" />
-	<effect event_key="health" value="0.62" ref="SmallSmokeVehicle" offset="+0.7 2.4 -4.2" />  
-	<effect event_key="health" value="0.62" ref="BrokenSparkle" post_processing="0" offset="-0.7 1.8 -4.2" />
-	<effect event_key="health" value="0.62" ref="BrokenSparkle" post_processing="0" offset="+0.7 1.8 -4.2" />  
+	<effect event_key="health" value="3.15" ref="SmallSmokeVehicle" offset="-0.7 3 -4.2" />
+	<effect event_key="health" value="3.15" ref="SmallSmokeVehicle" offset="+0.7 3 -4.2" />  
+	<effect event_key="health" value="0.62" ref="SmallSmokeVehicle" offset="-0.7 3 -4.2" />
+	<effect event_key="health" value="0.62" ref="SmallSmokeVehicle" offset="+0.7 3 -4.2" />  
+	<effect event_key="health" value="0.62" ref="BrokenSparkle" post_processing="0" offset="-0.7 2.5 -4.2" />
+	<effect event_key="health" value="0.62" ref="BrokenSparkle" post_processing="0" offset="+0.7 2.5 -4.2" />  
 	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 2.4 -3.1" />
 	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.8 2.5 -3.1" />  
 	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 3.2 0.5" />  

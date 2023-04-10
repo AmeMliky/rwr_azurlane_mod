@@ -4,7 +4,7 @@
     <specification 
   retrigger_time="0.3" 
   accuracy_factor="0.88" 
-  sustained_fire_grow_step="1.4" 
+  sustained_fire_grow_step="0.4" 
   sustained_fire_diminish_rate="0.9" 
   magazine_size="21" 
   can_shoot_standing="1" 
@@ -32,15 +32,15 @@
     <model filename="srw_smg_1.xml" />
 
     <hud_icon filename="AzurLane_unknown5.png" />
-    <commonness value="0.0" can_respawn_with="1" in_stock="0"/>
+    <commonness value="0.28" can_respawn_with="1" in_stock="0"/>
     <inventory encumbrance="5.0" price="100.0" />
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet_sr.projectile">
 	
 	<result class="hit" kill_probability="1.65" 
-        kill_decay_start_time="0.17" 
-        kill_decay_end_time="0.38" />
+        kill_decay_start_time="0.20" 
+        kill_decay_end_time="0.60" />
     </projectile>
 
     <modifier class="speed" value="0.02" />

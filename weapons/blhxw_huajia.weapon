@@ -11,10 +11,11 @@
 	carry_in_two_hands="0" 
 	name="ROC Hwah Jah" 
 	class="5"
-	stab_enabled="0"
 	success_probability="3.5"
 	slot="0" 
 	range="3.5"  
+	stab_enabled="1"
+    stab_range="2.8"
 	character_state="death" />
 
 	<next_in_chain key="blhxw_huajia_1.weapon" share_ammo="0" />

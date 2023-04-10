@@ -53,7 +53,8 @@
 	
 	<carry_item key="meta_elite_hj.carry_item" />
 	
-	
+	<call key="blhx_sb_1.call" />
+	<call key="yingxianzuo.call" />
 	<call key="meta_hd.call" />
 	<call key="meta_jianpao1.call" />
 	<call key="meta_jianpao2.call" />
@@ -61,7 +62,9 @@
 	<call key="meta_zhihuijian.call" />
 	<call key="meta_center_bear.call" />
 	
-	
+	<call key="bujiche.call" />
+	<call key="qzyty_humvee.call" />
+	<call key="qzyty_tank.call" />
 	<!--抽卡武器重生复活需载入/-->
 	<weapon key='metaw_elizabeth_1.weapon'  />
 	<weapon key='metaw_elizabeth.weapon'  />

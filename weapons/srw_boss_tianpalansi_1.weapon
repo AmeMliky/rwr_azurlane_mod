@@ -82,6 +82,6 @@
 	<!-- prone_moving 卧倒移动时-->
 	<!-- over_wall 架设时？-->
     
-    <modifier class="speed" value="0.4" />    
+    <modifier class="speed" value="0.22" />    
 
 </weapon>
