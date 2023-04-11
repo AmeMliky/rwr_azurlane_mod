@@ -8,13 +8,7 @@
 	map_view_atlas_index="5" 
 	max_character_collision_speed="15" 
 	max_character_collision_speed_on_normal="5" 
-	reserves_spawn_point="1" 
-	allow_ai_to_use="1"
-	allow_character_leave_request="1" 
-	allow_owner_to_use_only="0" 
-	existence="one_per_faction" 
-	owner="faction" 
-	usable_for_cover="0" 
+	reserves_spawn_point="1"  
 	minimum_fill_requirement="1.0" 
 	jams_enemy_radio="0">
 	

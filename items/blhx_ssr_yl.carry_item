@@ -5,5 +5,5 @@
 	<hud_icon filename="blhx_ssr_yl.png" />
     <model filename="blhx_ssr_yl.xml" />
 
-    <commonness value="0.5" in_stock="0" />
+    <commonness value="0.2" in_stock="0" />
 </carry_item>

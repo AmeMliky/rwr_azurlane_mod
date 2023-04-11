@@ -528,12 +528,14 @@ class ItemDeliveryConfiguratorInvasion : ItemDeliveryConfigurator {
         // ScoredResource("m16a4_w_m203.weapon", "weapon", 14.0f),			 
         // ScoredResource("mac10.weapon", "weapon", 20.0f),
         // ScoredResource("ash12.weapon", "weapon", 9.0f),
-		ScoredResource("jiezhi1.carry_item", "carry_item", 1.0f, 1),
-		ScoredResource("metaw_elizabeth.weapon", "weapon", 1.0f, 1)
+		ScoredResource("jiezhi1.carry_item", "carry_item", 5.0f, 1),
+		ScoredResource("metaw_elizabeth.weapon", "weapon", 0.1f, 1),
+		ScoredResource("blhxw_commander_1.weapon", "weapon", 1.2f, 1),
+		ScoredResource("jiezhi2.carry_item", "carry_item", 5.0f, 1)
 
 			},
             {
-         ScoredResource("jiezhi2.carry_item", "carry_item", 1.0f, 1)
+         ScoredResource("hongjianjian.carry_item", "carry_item", 1.0f, 1)
                                           
 			} 
 		};   

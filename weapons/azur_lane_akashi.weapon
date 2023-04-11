@@ -102,8 +102,8 @@
     <animation state_key="walking" 		animation_key="walking, heavy weapon" />
     <animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
 
-
-    <sound key="effect" fileref="" pitch_variety="0.00" volume="0.6" />    
+	
+    <sound key="effect" fileref="akashi_jn.wav" pitch_variety="0.00" volume="0.6" />    
 	   
 	<drop_on_death_result class="spawn" instance_class="carry_item" instance_key="hongjianjian.carry_item" min_amount="2" max_amount="2" offset="0 1 0" position_spread="0 0" direction_spread="0.01 0.01" />    
 	<model filename="" />

@@ -231,6 +231,35 @@ radio_queue_size="3"
 			<attribute weight="1.0" min="10" max="100.0" />
 		</attribute_config>
 	</soldier>
+	
+	
+	
+	<soldier name="elite_meta" spawn_score="0.18" squad_size_xp_cap="0.0" >
+		<character filename="elite_meta.character" />
+		<ai filename="elite_sr_zcz.ai" />
+        
+		<models file="elite_meta.models" />
+		
+		<resources file="elite_meta.resources" /> 
+        
+		<item_class_existence_config>
+			<!-- secondaries -->
+			<item_class_existence class="weapon" slot="1" probability="1.0" />
+			<!-- wearables -->
+			<!-- note, always vest -->
+			<item_class_existence class="carry_item" slot="1" probability="1.0" />
+			<!-- backpack -->
+			<!-- note, always bp items -->
+			<item_class_existence class="carry_item" slot="0" probability="0.5" />
+		</item_class_existence_config>
+
+		<attribute_config class="xp">
+			<attribute weight="1.0" min="24" max="200" />
+		</attribute_config>
+		<attribute_config class="rp">
+			<attribute weight="1.0" min="7000.0" max="10000.0" />
+		</attribute_config>
+	</soldier>   
  	
 	
 		<!-- 华甲僵尸-->

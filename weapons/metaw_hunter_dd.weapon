@@ -61,7 +61,7 @@
     <effect class="muzzle" ref="sawsnone" />
     <inventory encumbrance="5.0" price="68.0" />
 
-    <commonness value="0.001" can_respawn_with="1" in_stock="1" />
+    <commonness value="0.0001" can_respawn_with="1" in_stock="1" />
 	<modifier class="speed" value="0.38" />
 	
   
@@ -133,7 +133,7 @@
     <projectile file="metaw_hunter_dd_dt.projectile" />
     <weak_hand_hold offset="0.3" />
 
-    <commonness value="0.001" can_respawn_with="1" in_stock="0"/>    
+    <commonness value="0.0003" can_respawn_with="1" in_stock="0"/>    
     <inventory encumbrance="5.0" price="68.0" />
     <capacity value="1" source="rank" source_value="0.0" />
    

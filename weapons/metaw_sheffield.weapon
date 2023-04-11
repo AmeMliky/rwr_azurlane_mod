@@ -36,15 +36,15 @@
     <animation state_key="changing_weapon_in" 	animation_key="change weapon in, single hand carry" />
     <animation state_key="prone_still" animation_key="prone_still, pistol" />
     <animation state_key="walking_backwards" animation_key="walking backwards, pistol" />
-	
-    <sound key="fire" fileref="pz_fire4.wav" volume="0.4" />
+	<animation state_key="next_in_chain_in" animation_key="switch fire mode" />
+    <sound key="fire" fileref="metaw_shefeeield_fire_1_1.wav" volume="0.7" />
     <sound key="magazine_out" fileref="pz_re3.wav" volume="1"/>
     
     <sound key="cycle" fileref="revolver_magazine_in.wav" volume="1" />
     <model filename="metaw_shefeeield_cqb.xml" />
 
     <hud_icon filename="AzurLane_xiefeierde_alter.png" />
-    <commonness value="0.0001" can_respawn_with="1" in_stock="1" />
+    <commonness value="0.0002" can_respawn_with="1" in_stock="1" />
     <inventory encumbrance="10.0" price="68.0" />
 
     <weak_hand_hold offset="0.1" />
@@ -101,8 +101,8 @@
     <animation key="cycle" ref="30" />
     <animation key="reload" ref="35" />
 	<animation key="reload" stance_key="prone" animation_key="reloading, ar1, prone" />	
-
-     <sound key="fire" fileref="blhx_ju_2_fire_1.wav" pitch_variety="0.05" volume="0.30" />
+	<animation state_key="next_in_chain_in" animation_key="switch fire mode" />
+     <sound key="fire" fileref="metaw_shefeeield_fire_2_1.wav" pitch_variety="0.05" volume="0.80" />
    
     <sound key="magazine_out" fileref="ju_re1.wav" volume="0.30"/>
    

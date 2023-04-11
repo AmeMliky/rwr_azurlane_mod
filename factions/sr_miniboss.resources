@@ -21,4 +21,6 @@
 	<call key="sr_goujianzhe.call" />
 	<call key="sr_hd.call" />
 	<call key="sr_jianpao2.call" />
+	<call key="qzyty_tank_1.call" />
+	
 </resources>

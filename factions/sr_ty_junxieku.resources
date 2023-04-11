@@ -116,7 +116,7 @@
 	
 	<call key="bujiche.call" />
 	<call key="qzyty_humvee.call" />
-	<call key="qzyty_tank.call" />
+	<call key="qzyty_tank_1.call" />
 	
 	<!--抽卡武器重生复活需载入/-->
 	<weapon key='metaw_elizabeth_1.weapon'  />

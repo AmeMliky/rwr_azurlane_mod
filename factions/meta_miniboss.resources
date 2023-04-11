@@ -15,4 +15,5 @@
 	<call key="meta_hd.call" />
 	<call key="meta_feilong.call" />
 	<call key="meta_jianpao2.call" />
+	<call key="qzyty_tank_2.call" />
 </resources>

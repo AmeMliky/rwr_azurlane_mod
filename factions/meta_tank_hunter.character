@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <character filename="default.character">
 
-	<sound key="death" fileref="death1.wav"  pitch_variety="0.01" volume="0.8" />
-	<sound key="death" fileref="death2.wav"  pitch_variety="0.01" volume="0.8" />
-	<sound key="death" fileref="death3.wav"  pitch_variety="0.01" volume="0.8" />
-	<sound key="death" fileref="death4.wav"  pitch_variety="0.01" volume="0.8" />
-	<sound key="death" fileref="death5.wav"  pitch_variety="0.01" volume="0.8" />
-	<sound key="death" fileref="death6.wav"  pitch_variety="0.01" volume="0.8" />
-	<sound key="death" fileref="death7.wav"  pitch_variety="0.01" volume="0.8" />
-	<sound key="death" fileref="death8.wav"  pitch_variety="0.01" volume="0.8" />
+	<sound key="death" fileref="meta_hunter_death.wav"  pitch_variety="0.00" volume="0.8" />
+	
 </character>

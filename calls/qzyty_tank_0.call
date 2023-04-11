@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<call name="call_tank" key="qzyty_tank_0.call"
+           initiation_comment1="I need armoured support!"
+           acknowledge_comment="Confirmed, tank is in the air."
+           launch_comment="Airdropping tank now."
+           notify_metagame="1"
+          >
+
+    <round instances="1"
+           instance_class="vehicle"
+           instance_key="tank.vehicle"  
+           instance_spread="0 0 0" 
+           common_spread="0 0 0" 
+           launch_time="3.0"
+           spawn_time="5.0"
+           horizontal_offset_at_spawn="0.0"
+           vertical_offset_at_spawn="50.0"
+           initial_speed_to_target="0.0"
+		   avoid_objects="1">
+        <effect class="launch" ref="ShadowAirplaneFlyby" shadow="1" />
+        <sound class="launch" fileref="plane_flyby.wav" />
+    </round>
+	
+	 <round instances="2"
+           instance_class="soldier"
+			instance_key="default"
+           instance_spread="2 15 2" 
+           common_spread="0 0 0" 
+           launch_time="5.0"
+           spawn_time="6.0">
+    </round>
+
+    <hud_icon filename="call_tank.png" />
+    <capacity value="0" source="rank" source_value="0.0" />
+    <capacity value="100" source="rank" source_value="0.5" />
+    <inventory encumbrance="0.0" price="4096.0" />
+</call>

@@ -14,5 +14,6 @@
 	
 	<call key='blhx_sb_1.call' />
 	<call key='jianpao_daji_1.call' />
+	<call key='qzyty_tank_0.call' />
 	
 </resources>

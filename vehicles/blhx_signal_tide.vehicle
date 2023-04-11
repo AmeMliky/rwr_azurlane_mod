@@ -19,7 +19,6 @@
 	jams_enemy_radio="0">
 	
     <tag name="metal_heavy" />
-	<!--tag name="tank" /-->
 	<tag name="heavy_combat" />
 	<tag name="any_tank" />
 	

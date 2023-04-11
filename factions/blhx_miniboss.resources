@@ -19,7 +19,7 @@
 	<call key="zhenhai.call" />
 	<call key="bf109.call" />
 	<call key="jianpao_daji_1.call" /> 
-   
+	<call key='blhx_signal_tide.call' />
 
 	<carry_item key='VH_boss_ai.carry_item' enabled="1" />			
 	

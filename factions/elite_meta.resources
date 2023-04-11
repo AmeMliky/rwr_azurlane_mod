@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_vehicles="1" clear_grenades="1" clear_carry_items="1" clear_calls="1">
+	
+	
+	<weapon key='metaw_hunter_dd.weapon' />
+	<weapon key='metaw_hunter_dd_2.weapon' />
+	
+	<weapon key='metaw_fortune_dd.weapon' />
+	<weapon key='metaw_fortune_dd_1.weapon' />
+	
+	<weapon key='metaw_shefeeield.weapon' />
+	<weapon key='metaw_shefeeield_1.weapon' />
+	
+	<weapon key='metaw_elizabeth.weapon' />
+	<weapon key='metaw_elizabeth_1.weapon' />
+	
+	<weapon key='metaw_rpg_2.weapon' />
+	<weapon key='metaw_rpg_1.weapon' />
+	<weapon key='ylb_1.weapon' />
+	
+	<carry_item key='elite_sr_ai.carry_item' />
+	<carry_item key='VH_boss_ai.carry_item' enabled="1" />
+	
+	<projectile key="blhxw_4_baozhu.projectile" />
+	<projectile key="blhxw_4_bzhayao.projectile" />
+	
+	
+	
+	<call key="meta_feilong.call" />
+	<call key="meta_jianpao2.call" />
+	<call key="blhx_sb_1.call" />
+	<call key="meta_center_bear.call" />
+	
+	
+</resources>

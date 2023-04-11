@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vehicle file="vehicle_base.vehicle" name="META-40 TANK HUNTER" key="apc_2.vehicle" respawn_time="60" time_to_live_unsteerable="30" map_view_atlas_index="1" minimum_fill_requirement="0.25">
+<vehicle file="vehicle_base.vehicle" name="META-40 TANK HUNTER" key="apc_2.vehicle" respawn_time="60" time_to_live_unsteerable="30" map_view_atlas_index="1" minimum_fill_requirement="1.0">
 	<tag name="metal_heavy" />
 	<tag name="apc" />
 

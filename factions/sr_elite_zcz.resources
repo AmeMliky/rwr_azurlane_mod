@@ -23,5 +23,7 @@
 	<call key='sr_zhihuijian.call' />
 	<call key='blhx_sb_1.call' />
 	<call key='sr_goujianzhe.call' />
+	<call key='jianpao_daji_1.call' />
+	<call key='siren_wire_control_level.call' />
 	
 </resources>

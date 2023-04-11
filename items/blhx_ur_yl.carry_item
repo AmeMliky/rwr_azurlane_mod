@@ -5,5 +5,5 @@
 	<hud_icon filename="blhx_ur_yl.png" />
     <model filename="blhx_ur_yl.xml" />
 
-    <commonness value="0.3" in_stock="0" />
+    <commonness value="0.05" in_stock="0" />
 </carry_item>

@@ -3,6 +3,6 @@
 <weapon key='sr_boss_siteliankusi.weapon' />
 <weapon key='sr_boss_siteliankusi_1.weapon' />
 <carry_item key="VH_boss_ai.carry_item" />
-<call key="zhenhai.call" />
+<call key="sr_hd.call" />
 
 </resources>

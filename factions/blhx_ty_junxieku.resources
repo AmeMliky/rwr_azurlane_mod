@@ -176,7 +176,7 @@
 	<call key="blhx_signal_tide.call" />
 	<call key="bujiche.call" />
 	<call key="qzyty_humvee.call" />
-	<call key="qzyty_tank.call" />
+	<call key="qzyty_tank_0.call" />
 	<!--抽卡武器重生复活需载入/-->
 	<weapon key='metaw_elizabeth_1.weapon'  />
 	<weapon key='metaw_elizabeth.weapon'  />
