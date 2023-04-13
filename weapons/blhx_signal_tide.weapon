@@ -64,7 +64,7 @@
 <weapon key="blhx_signal_tide_autogun.weapon">
     <specification 
     slot="2" 
-    retrigger_time="0.15" 
+    retrigger_time="0.135" 
     accuracy_factor="0.78" 
     sustained_fire_grow_step="0.8" 
     sustained_fire_diminish_rate="1.15" 
@@ -89,11 +89,11 @@
 
     <weak_hand_hold offset="0.4" />
      <projectile file="bullet.projectile">
-        <result class="hit"  kill_probability="1.7" kill_decay_start_time="0.8" kill_decay_end_time="1.6" />
+        <result class="hit"  kill_probability="1.72" kill_decay_start_time="0.5" kill_decay_end_time="1.1" />
     </projectile>
 </weapon>
 
-<!--塞壬坦克机枪 -->
+
 
 
 <weapon key="blhx_signal_tide_daodan.weapon">
@@ -148,8 +148,8 @@
     <projectile file="external_storage_dd.projectile">
     <result 
 	class="blast" 
-	radius="3.2" 
-	damage="2.01" 
+	radius="5" 
+	damage="3.01" 
 	push="1.2" 
 	decal="1" 
 	damage_origin_vehicle="0" character_state="death" faction_compare="not_equal" />

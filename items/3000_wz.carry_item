@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<carry_item file="base_one_wp.carry_item" name="3000 supplies" key="3000_wz.carry_item">
+<carry_item file="base_one_wp.carry_item" name="1000 supplies" key="3000_wz.carry_item">
  
     <inventory encumbrance="0.5" price="1000.0" />
 	<hud_icon filename="3000_wz.png" />

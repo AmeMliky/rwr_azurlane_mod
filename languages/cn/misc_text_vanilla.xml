@@ -17,7 +17,7 @@
 	<text key="Maintenance tools" text="维修工具（医疗包）" />
 	<text key="meta dragon The bombing" text="META 飞龙 航母轰炸" />
 	<text key="meta dragon" text="META 飞龙 斩舰刀" />
-	<text key="cooling water" text="冷却水" />
+	<text key="cooling water" text="冷却水（修甲）" />
 	<text key="Twin 100mm98 anti-aircraft gun" text="双联100mm98高射炮" />
 	<text key="B-13 Minsk" text="明斯克" />
 	<text key="B-13 Minsk An all-missile launch" text="明斯克 全弹发射" />
@@ -56,7 +56,7 @@
 	<text key="Bree's wrench" text="布里扳手 观察" />
 	<text key="Bree's wrench up" text="布里扳手 维修" />
 	<text key="Peter ray" text="彼得雷" />
-	<text key="Quadruple torpedo" text="四联磁性鱼雷" />
+	<text key="High throw anti vehicle weapon" text="高抛式反载具武器" />
 	<text key="QBU-10 12.7mm AMR [AP Mode] Schwarz" text="抚顺 穿甲 Schwarz" />
 	<text key="QBU-10 12.7mm AMR [HE Mode] Schwarz" text="抚顺 高爆 Schwarz" />
 	<text key="Aerial bomb attack" text="便携空袭引导" />
@@ -137,8 +137,8 @@
 	<text key="dj_4" text="高性能 舵机" />
 	<text key="dj_5" text="高性能 舵机" />
 	<text key="dj_6" text="高性能 舵机" />
-	<text key="800 supplies" text="800物资" />
-	<text key="3000 supplies" text="3000物资" />
+	<text key="300 supplies" text="三佰块" />
+	<text key="1000 supplies supplies" text="十佰块？！" />
 	<text key="Red diamonds" text="红尖尖" />
 	<text key="furniture COIN" text="家具币" />
 	<text key="oil" text="石油" />
@@ -318,52 +318,52 @@
 	<text key="hey ya!" text="嘿呀！" />
 	<text key="en him" text="嗯哼~" />
 	<text key="yei!" text="咦？" />
-	<text key="ahy!" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
-	<text key="" text="" />
+	<text key="ahy!" text="ahy" />
+	<text key="76 mm artillery" text="76毫米快速火炮舰装（冲锋近距离格斗）" />
+	<text key="76 mm artillery -The torpedo launch" text="76毫米快速火炮舰装 鱼雷发射" />
+	<text key="Single-mounted SKC28 150mm main gun" text="SKC28 150毫米舰装 （中距离精准支援射击）" />
+	<text key="The torpedo launch" text="鱼雷发射" />
+	<text key="Twin 128mmSKC41 high-ping dual-purpose gun" text="双联装128毫米高平两用舰装（近距离格斗）" />
+	<text key="Twin 128mmSKC41 high-ping dual-purpose gun -- volley" text="双联装128毫米高平两用舰装（爆发射击）" />
+	<text key="Twin TbtsKC36 150mm main gun" text="双联装TbtsKC36 150毫米主炮舰装 （中距离支援射击）" />
+	<text key="Twin TbtsKC36 150mm main gun-Long-range shooting" text="双联装TbtsKC36 150毫米主炮舰装 （消音射击）" />
+	<text key="The twin 203mmSKC main gun" text="双联装203毫米SKC主炮舰装 （高速射击）" />
+	<text key="The twin 381mm gun was changed" text="双联装381毫米主炮舰装（精准 远距离）" />
+	<text key="The twin 381mm main guns were converted to broadside " text="双联装381毫米主炮舰装（快反射击 火力压制）" />
+	<text key="Quadruple 380mm main gun Mle1935" text="四联380毫米主炮Mle1935 舰装（精准 远距离）" />
+	<text key="Quadruple 380mm main gun Mle1935 --Long-range shooting " text="四联380毫米主炮Mle1935 舰装（消音）" />
+	<text key="Twin 380mmSKC main gun" text="双380mmSKC主炮 舰装（快反射击 火力压制）" />
+	<text key="Twin 380mmSKC main gun -- Long-range shooting" text="双380mmSKC主炮 舰装（消音）" />
+	<text key="The prototype twin 457mm MkA main gun" text="457mm MkA双联主炮 舰装 （穿甲弹 反载具）" />
+	<text key="The prototype twin 457mm MkA main gun -- Barrage firing" text="457mm MkA双联主炮 舰装（防卫射击）" />
+	<text key="The prototype twin 406mmSKC main gun" text="406mmSKC主炮 舰装 （冲锋 精准射击）" />
+	<text key="The pilot twin 406mmSKC main gun was engaged on board " text="406mmSKC主炮 舰装 （冲锋 精准射击 近战）" />
+	<text key="1000 supplies" text="十佰块？！" />
+	<text key="meta ar1" text="meta 通用中距离支援舰装" />
+	<text key="meta smg1" text="meta 通用近距离冲锋舰装 高射速" />
+	<text key="meta smg2" text="meta 通用近距离冲锋舰装" />
+	<text key="meta smg elite" text="meta 通用近距离冲锋舰装 精英 双发" />
+	<text key="meta_elite_hj" text="meta 精英 护甲" />
+	<text key="The destroyer Production type" text="塞壬 通用突击舰装" />
+	<text key="Heavy cruiser production version" text="塞壬 巡洋棋子 通用舰装 （压制）" />
+	<text key="Battlecruiser Production type" text="塞壬 战巡棋子 通用舰装  （压制）" />
+	<text key="Battleship production version" text="塞壬 战列棋子 通用舰装 （压制）" />
+	<text key="wirecore" text="塞壬 线芯级 支援战车" />
+	<text key="HCT-50AT" text="HCT-50AT 特制炮台" />
+	<text key="HCT-50AT fort" text="HCT-50AT 特制堡垒" />
+	<text key="Twilight level border defense fortress" text="微光级 边境防御炮台" />
+	<text key="Rainbow Tower （Anti-aircraft gun）" text="彩虹塔（防空炮）" />
+	<text key="Heavy truck for conch transportation" text="港区 海螺级人员运输型装甲卡车" />
+	<text key="AzurLane Polar Storm Assault Vehicle" text="港区 极地风暴 突击车" />
+	<text key="Siren Nightmare silhouette Biship" text="塞壬 噩梦剪影 Biship" />
+	<text key="META Flame of Chasing Light" text="META 逐光之焰 步战车" />
+	<text key="Siren Nightmare silhouette Buster" text="塞壬 噩梦剪影 自爆船" />
+	<text key="AzurLane Icebreaker class submerge warships" text="港区 破冰级潜航舰" />
+	<text key="META Breaking the Torch of the Enemy" text="META 破敌之炬 战舰" />
+	<text key="Spatial dimension beacon" text="空间维度信标" />
+	<text key="Spatial dimension interference beacon" text="空间维度干扰信标" />
+	<text key="an array of stars Parade" text="繁星巡游 原型舰" />
+	<text key="Mysterious Black Box" text="神秘的黑色箱子" />
 	<text key="" text="" />
 	<text key="" text="" />
 	<text key="" text="" />

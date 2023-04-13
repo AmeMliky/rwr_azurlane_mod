@@ -4,15 +4,16 @@
     <specification 
   retrigger_time="0.10"
   accuracy_factor="1.0" 
-  sustained_fire_grow_step="0.2" 
-  sustained_fire_diminish_rate="2.5" 
+  sustained_fire_grow_step="0.42" 
+  sustained_fire_diminish_rate="2.2" 
   magazine_size="40"  
   can_shoot_standing="1" 
   suppressed="0" 
+  projectiles_per_shot="2"
   name="Twin TbtsKC36 150mm main gun" 
   sight_range_modifier="1.10" 
   class="0" 
-  projectile_speed="100.0" 
+  projectile_speed="125.0" 
   barrel_offset="0.4" />
  
   
@@ -40,7 +41,7 @@
 	
     <weak_hand_hold offset="0.0" />
     <projectile file="bullet.projectile">
-        <result class="hit"  kill_probability="1.85" kill_decay_start_time="0.4" kill_decay_end_time="0.65" />
+        <result class="hit"  kill_probability="1.85" kill_decay_start_time="0.36" kill_decay_end_time="0.80" />
     </projectile>
     <modifier class="speed" value="0.15" />
 </weapon>

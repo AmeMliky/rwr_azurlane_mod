@@ -10,7 +10,7 @@
   can_shoot_standing="1" 
   can_shoot_crouching="1" 
   suppressed="0" 
-  name="Quadruple torpedo" 
+  name="High throw anti vehicle weapon" 
   class="3" 
   barrel_offset="0.8"
   reload_one_at_a_time="0" 
@@ -40,7 +40,7 @@
      
 	<capacity value="5" source="rank" source_value="0.0" />
 
-    <hud_icon filename="rpg_2.png" />
+    <hud_icon filename="cs.png" />
     <commonness value="0.2" can_respawn_with="1" in_stock="1"/>
     <inventory encumbrance="5.0" price="30.0" />
 

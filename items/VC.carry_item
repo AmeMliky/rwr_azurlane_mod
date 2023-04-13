@@ -15,8 +15,8 @@
 	
     <capacity value="1" source="rank" source_value="0.0" />
 	
-    <modifier class="speed" value="-0.05" />
-    <modifier class="hit_success_probability" value="-0.85" />
+    <modifier class="speed" value="-0.18" />
+    <modifier class="hit_success_probability" value="-1.1" />
     <modifier class="detectability" value="+0.1" />
     <modifier class="night_detectability" value="-0.00" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -40,8 +40,8 @@
 	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
-    <modifier class="speed" value="-0.05" />
-    <modifier class="hit_success_probability" value="-0.85" />
+    <modifier class="speed" value="-0.18" />
+    <modifier class="hit_success_probability" value="-1.1" />
     <modifier class="detectability" value="+0.1" />
     <modifier class="night_detectability" value="-0.00" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -63,8 +63,8 @@
 	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
-    <modifier class="speed" value="-0.05" />
-    <modifier class="hit_success_probability" value="-0.85" />
+    <modifier class="speed" value="-0.18" />
+    <modifier class="hit_success_probability" value="-1.1" />
     <modifier class="detectability" value="+0.1" />
     <modifier class="night_detectability" value="-0.00" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -86,8 +86,8 @@
 	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
-    <modifier class="speed" value="-0.05" />
-    <modifier class="hit_success_probability" value="-0.85" />
+     <modifier class="speed" value="-0.18" />
+    <modifier class="hit_success_probability" value="-1.1" />
     <modifier class="detectability" value="+0.1" />
     <modifier class="night_detectability" value="-0.00" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -109,8 +109,8 @@
 	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
-    <modifier class="speed" value="-0.05" />
-    <modifier class="hit_success_probability" value="-0.85" />
+     <modifier class="speed" value="-0.18" />
+    <modifier class="hit_success_probability" value="-1.1" />
     <modifier class="detectability" value="+0.1" />
     <modifier class="night_detectability" value="-0.00" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
@@ -133,8 +133,8 @@
 	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
-    <modifier class="speed" value="-0.05" />
-    <modifier class="hit_success_probability" value="-0.85" />
+    <modifier class="speed" value="-0.18" />
+    <modifier class="hit_success_probability" value="-1.1" />
     <modifier class="detectability" value="+0.1" />
     <modifier class="night_detectability" value="-0.00" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
@@ -157,8 +157,8 @@
 	<commonness value="0.00" in_stock="0"  can_respawn_with="1"/>
     <inventory encumbrance="0.0" price="0.0" />
     <capacity value="1" source="rank" source_value="0.0" />
-    <modifier class="speed" value="-0.05" />
-    <modifier class="hit_success_probability" value="-0.85" />
+    <modifier class="speed" value="-0.18" />
+    <modifier class="hit_success_probability" value="-1.1" />
     <modifier class="detectability" value="+0.1" />
     <modifier class="night_detectability" value="-0.00" />	
 	<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />

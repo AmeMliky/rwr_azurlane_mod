@@ -39,6 +39,6 @@
     <hud_icon filename="meta_center_bear_call.png" />
     <capacity value="0" source="rank" source_value="0.0" />
     <capacity value="100" source="rank" source_value="0.4" />
-    <inventory encumbrance="0.0" price="996.0" />
+    <inventory encumbrance="0.0" price="2048.0" />
 
 </call>
