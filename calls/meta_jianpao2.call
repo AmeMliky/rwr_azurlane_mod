@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <call name="meta_call_3" key="meta_jianpao2.call"
 	initiation_comment1="Request battleship coverage"
-	initiation_comment2="META High-explosive bombs X 12 X 6"
+	initiation_comment2="META High-explosive bombs X 6 X 6"
 	acknowledge_comment="Roger, wait seven."
 	acknowledge_time="5.0"
 	launch_comment="Barrage under way."
@@ -11,7 +11,7 @@
 	<!-- bombardment of 3 guns x2 barrels each -->
 
 	<round 
-	instances="12"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
@@ -23,7 +23,7 @@
 	</round>
 
 	<round 
-	instances="12"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
@@ -34,7 +34,7 @@
 	</round>
 
 	<round 
-	instances="12"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
@@ -45,7 +45,7 @@
 	</round>
 	
 	<round 
-	instances="12"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
@@ -56,7 +56,7 @@
 	</round>
 
 	<round 
-	instances="12"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 
@@ -67,7 +67,7 @@
 	</round>
 
 	<round 
-	instances="12"
+	instances="6"
 	instance_class="grenade"
 	instance_key="jianpao_dt_2.projectile" 
 	instance_spread="25 25 25" 

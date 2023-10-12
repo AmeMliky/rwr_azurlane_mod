@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
- 	<vehicle key="jeep_1.vehicle" />
+ 	<vehicle key="siren_zibaochuan.vehicle" />
  	<vehicle key="siren_vehicles_wirecore.vehicle" />
  	<vehicle key="tank_1.vehicle" />
  	<vehicle key="transport_truck_1.vehicle" />  
 	<vehicle key="armored_truck.vehicle" />
 	<vehicle key="siren_wire_control_level.vehicle" />
+	
 </resources>

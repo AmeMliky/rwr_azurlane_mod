@@ -108,4 +108,8 @@
   <projectile file="metaw_elizabeth_dt.projectile" />
   <projectile file="metaw_sheffield_dt.projectile" />
   <projectile file="blhx_huajia_spawn.projectile" />
+  
+  <projectile file="Crazy_purple_flow_shadow_flare.projectile" />
+  <projectile file="zibaochuan_dt.projectile" />
+  <projectile file="zibaochuan_dt_1.projectile" />
 </projectiles>

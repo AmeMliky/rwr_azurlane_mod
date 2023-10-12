@@ -15,7 +15,7 @@
   <vehicle file="tow.vehicle" />
   <vehicle file="tow_2.vehicle" />  
   <vehicle file="cover1.vehicle" />
-  <vehicle file="humvee.vehicle" />
+  <!--vehicle file="humvee.vehicle" /-->
 
   <vehicle file="radar_tower.vehicle" />
   <!-- 信号塔 -->
@@ -108,4 +108,15 @@
 	<vehicle file="meta_center_bear.vehicle"/>
 	<vehicle file="blhx_signal_tide.vehicle"/>
 	<vehicle file="apc.vehicle" />
+	<!--2023/9/29-->
+	<vehicle file="Crazy_purple_flow_shadow.vehicle"/>
+	<vehicle file="Crazy_purple_flow_shadow_spawn.vehicle"/>
+	<vehicle file="meta_zibaochuan.vehicle"/>
+	<vehicle file="siren_zibaochuan.vehicle"/>
+	<vehicle file="deployable_mg_base.vehicle"/>
+	<vehicle file="deployable_mg.vehicle"/>
+	<vehicle file="mortar_base.vehicle"/>
+	<vehicle file="mortar.vehicle"/>
+	<vehicle file="blhx_humvee.vehicle"/>
+	
 </vehicles>

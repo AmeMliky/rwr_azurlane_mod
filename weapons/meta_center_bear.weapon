@@ -85,7 +85,7 @@
 	class="blast" 
 	radius="2.8" 
 	damage="2.9" 
-	push="0.8" 
+	push="0.0" 
 	decal="1" 
 	damage_origin_vehicle="0" character_state="death" faction_compare="not_equal" />
 	<trail probability="1.0" key="meta_jianpao1" /> 
@@ -139,7 +139,7 @@
 	class="blast" 
 	radius="3.2" 
 	damage="1.01" 
-	push="1.2" 
+	push="0" 
 	decal="1" 
 	damage_origin_vehicle="0" character_state="death" faction_compare="not_equal" />
     </projectile>

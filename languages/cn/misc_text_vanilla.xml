@@ -189,7 +189,7 @@
 	<text key="203 mm high-explosive bombs X 8 X 5" text="203毫米高爆弹 五轮" />
 	<text key="Roger, wait three" text="收到，舰炮飞行中" />
 	<text key="Request battleship coverage1" text="请求战列舰集群火力打击覆盖" />
-	<text key="406MM High-explosive bombs X 16 X 8" text="406毫米高爆弹 八轮" />
+	<text key="406MM High-explosive bombs X 4 X 8" text="406毫米高爆弹 八轮" />
 	<text key="Roger, wait five" text="收到 炮口调转中 等待五秒 " />
 	<text key="Dragon Air support" text="请求飞龙航弹打击" />
 	<text key="500LB bomb X 6 1800LB X 12 Naval gun X 24" text="500磅航弹 1800磅航弹 舰炮支援" />
@@ -198,7 +198,7 @@
 	<text key="Armor-piercing rocket X 8" text="穿甲火箭" />
 	<text key="Copy, target in sight" text="收到 舰载机即将到达" />
 	<text key="Request battleship coverage" text="呼叫战列舰山城火炮支援" />
-	<text key="META High-explosive bombs X 12 X 6" text="META 高爆弹 六轮" />
+	<text key="META High-explosive bombs X 6 X 6" text="META 高爆弹 六轮" />
 	<text key="Roger, wait seven." text="收到 山城持续炮击中" />
 	<text key="META Provide coordinate guidance" text="提供META支援坐标" />
 	<text key="META commanding ship  An all-missile launch" text="META指挥舰 全弹发射" />
@@ -211,7 +211,7 @@
 	<text key="rockets X 8" text="火箭弹" />
 	<text key="rockets out." text="火箭弹已发射" />
 	<text key="Request observer artillery support" text="请求观察者炮击支援" />
-	<text key="Observer High-explosive bombs X 12 X 6" text="观察者 舰炮打击 六轮" />
+	<text key="Observer High-explosive bombs X 6 X 6" text="观察者 舰炮打击 六轮" />
 	<text key="Roger, wait six." text="观察者摸鱼中" />
 	<text key="Barrage under way." text="炮弹飞行中" />
 	<text key="Provide coordinate guidance" text="提供作战坐标引导" />
@@ -364,6 +364,45 @@
 	<text key="Spatial dimension interference beacon" text="空间维度干扰信标" />
 	<text key="an array of stars Parade" text="繁星巡游 原型舰" />
 	<text key="Mysterious Black Box" text="神秘的黑色箱子" />
+	<text key="Mirror Sea Area Generator" text="镜面海域生成器" />
+	<text key="Particle Storm Machine Gun Tower" text="粒子风暴 机枪塔" />
+	<text key="Obstruction -43 semi-automatic machine gun tower" text="阻挠-43 半自动机枪塔" />
+	<text key="Poured Sword Blade Erect artillery" text="浇筑之锋 架设火炮" />
+	<text key="META DoomBringer" text="META 自爆船" />
+	<text key="Bulin #Crazy purple flow shadow#" text="布里 #狂紫流影# 攻击坦克" />
+	<text key="Particle Storm Machine Gun Tower Deployment package" text="粒子风暴 机枪塔 部署包" />
+	<text key="Asanagi" text="朝凪" />
+	<text key="Asanagi The calm wind at noon" text="朝凪 午间的风平浪静" />
+	<text key="Le Malin" text="恶毒" />
+	<text key="Le Malin Lazy white rabbit" text="恶毒 懒懒的白兔" />
+	<text key="Twilight level border defense fortress deploy" text="微光级 边境防御炮台 部署包" />
+	<text key="C_D_F_shadow_Drop" text="布里 #狂紫流影# 攻击坦克 空投信标" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
+	<text key="" text="" />
 	<text key="" text="" />
 	<text key="" text="" />
 	<text key="" text="" />
@@ -387,7 +426,7 @@
 	<text key="Jeep" text="吉普车" />
 	<text key="Spawn truck" text="重生车" />
 	<text key="Comms truck" text="通讯车" />
-	<text key="Rubber boat" text="橡皮艇" />
+	<text key="assault boat" text="突击艇" />
 	<text key="Humvee" text="悍马车" />
 	<text key="Buggy" text="沙漠巡逻车" />
 	<text key="Transport truck" text="运兵车" />

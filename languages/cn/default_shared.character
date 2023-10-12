@@ -90,14 +90,14 @@
   <comment key="Lone leader, open fire" text="" />
   <comment key="fire opened, weapon tag = sniper" text="有狙击！" />
   <comment key="fire opened, weapon tag = sniper" text="附近有狙击手！" />
-  <comment key="grenade alert, grenade tag = grenade" text="天哪，鱼雷！" />
-  <comment key="grenade alert, grenade tag = grenade" text="发现鱼雷！" />
-  <comment key="grenade alert, grenade tag = grenade" text="鱼雷！" />
+  <comment key="grenade alert, grenade tag = grenade" text="天哪，爆炸物！" />
+  <comment key="grenade alert, grenade tag = grenade" text="发现爆炸物！" />
+  <comment key="grenade alert, grenade tag = grenade" text="爆炸物！" />
   <comment key="grenade alert, grenade tag = flashbang" text="小心！" />
   <comment key="grenade alert, grenade tag = flashbang" text="闪光弹！" />
-  <comment key="grenade alert, grenade tag = rocket" text="天哪 鱼雷！" />
-  <comment key="grenade alert, grenade tag = rocket" text="鱼雷来袭！" />
-  <comment key="grenade alert, grenade tag = rocket" text="有鱼雷！" />
+  <comment key="grenade alert, grenade tag = rocket" text="天哪 爆炸物！" />
+  <comment key="grenade alert, grenade tag = rocket" text="爆炸物来袭！" />
+  <comment key="grenade alert, grenade tag = rocket" text="有爆炸物！" />
   <comment key="enemy not seen, area alerted" text="找掩护" />
   <comment key="enemy not seen, area alerted" text="保持警惕" />
   <comment key="Lone leader, enemy not seen, area alerted" text="我得谨慎行动" />
@@ -114,18 +114,18 @@
   <comment key="enemy seen" text="警报！" />
   <comment key="enemy seen" text="遇敌" />
   <comment key="enemy seen, vehicle tag = any_tank" text="前进！" />
-  <comment key="enemy seen, vehicle tag = any_tank" text="我们需要反坦克火箭筒！" />
+  <comment key="enemy seen, vehicle tag = any_tank" text="我们需要反载具武器！" />
   <comment key="enemy seen, vehicle tag = any_tank" text="坦..坦克！" />
   <comment key="enemy seen, vehicle tag = any_tank" text="我天，好大的家伙！" />
-  <comment key="enemy seen, vehicle tag = any_tank" text="发现敌军装甲车！" />
+  <comment key="enemy seen, vehicle tag = any_tank" text="发现敌军重型载具！" />
   <comment key="enemy seen, vehicle tag = any_tank" text="发现敌军坦克！" />
-  <comment key="enemy seen, vehicle tag = any_tank" text="大家伙来了！" />
+  <comment key="enemy seen, vehicle tag = any_tank" text="小心，大家伙来了！" />
   <comment key="enemy seen, vehicle tag = apc" text="前方有步战车！" />
   <comment key="enemy seen, vehicle tag = apc" text="前方有步战车！炸了它！" />
   <comment key="enemy seen, vehicle tag = apc" text="发现步战车！" />
   <comment key="enemy seen, vehicle tag = apc" text="发现步战车！" />
   <comment key="enemy seen, vehicle tag = apc" text="步战车！小心！" />
-  <comment key="enemy seen, vehicle tag = apc" text="步战车！士兵们打烂它！" />
+  <comment key="enemy seen, vehicle tag = apc" text="步战车！打烂它！" />
   <comment key="enemy seen, vehicle tag = truck" text="发现卡车！" />
   <comment key="enemy seen, vehicle tag = truck" text="前方发现敌军运输车！" />
   <comment key="enemy seen, vehicle tag = truck" text="发现运输卡车！" />
@@ -136,10 +136,10 @@
   <comment key="enemy not seen, taking suppressed fire" text="火力来袭" />
   <comment key="Waiting for reinforcements" text="等援军过来"/>
   <comment key="Waiting for reinforcements" text="我们在这等会吧" />
-  <comment key="Hold on!" text="挺住！" />
+  <comment key="Hold on!" text="真是不让人放心！" />
   <comment key="Hold on!" text="坚持住！" />
   <comment key="Hold on!" text="我马上就来！" />
-  <comment key="Hold on!" text="坚持下去！" />
+  <comment key="Hold on!" text="注意自身血量呀！" />
   <comment key="Move out" text="出发" />
   <comment key="Move out" text="我们走" />
   <comment key="Move out" text="跟我来" />
@@ -188,7 +188,7 @@
   <comment key="celebrating" text="我们终于做到了" />
   <comment key="celebrating" text="不敢相信我还活着" />
   <comment key="celebrating" text="我还活着！" />
-  <comment key="celebrating" text="该回去了！" />
+  <comment key="celebrating" text="听说指挥官有很多....原来这是不能说的话题吗？哈哈哈哈。。。。" />
   <comment key="celebrating" text=":p" />
   <comment key="celebrating" text=":D" />
   <comment key="celebrating" text="我们打得她们屁滚尿流！" />
@@ -542,7 +542,7 @@
   <dialogue key="vehicle dialogue 2 men tag=any_tank">
     <comment text="听说mod作者很会开载具" />
 	<comment text="是吗？但现在该我了！" />
-	<comment text="呃？小心鱼雷吧" />
+	<comment text="呃？小心爆炸物吧" />
   </dialogue>
   <dialogue key="vehicle dialogue 2 men tag=any_tank">
     <comment text="没有什么事是一炮解决不了的，如果有，那就两炮" />

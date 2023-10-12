@@ -8,7 +8,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-1.0" />
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="-0.43" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
@@ -29,7 +29,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-1.0" />
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="-0.43" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
@@ -50,7 +50,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-0.65" />
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="-0.43" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
@@ -71,7 +71,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-0.65" />
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="-0.43" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
@@ -92,7 +92,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-0.65" />
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="-0.43" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
@@ -113,7 +113,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-0.65" />
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="-0.43" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
@@ -134,7 +134,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-0.65"/>
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="-0.43" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="none" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
@@ -155,7 +155,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-0.8" />
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="-0.43" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="wound" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="none" />
@@ -177,7 +177,7 @@
 		
 		<modifier class="speed" value="0.15" />
         <modifier class="hit_success_probability" value="-0.8" />
-        <modifier class="detectability" value="-0.38" />
+        <modifier class="detectability" value="0" />
 
 		<modifier class="projectile_blast_result" input_character_state="death" output_character_state="death" />
         <modifier class="projectile_blast_result" input_character_state="wound" output_character_state="wound" consumes_item="0"/>

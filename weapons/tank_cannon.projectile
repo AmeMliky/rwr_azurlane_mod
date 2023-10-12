@@ -4,7 +4,7 @@
     <result class="blast" 
     radius="5.5" 
     damage="8.0" 
-    push="1.2" 
+    push="1.0" 
     decal="1"
     damage_origin_vehicle="0" faction_compare="not_equal"
     />
@@ -15,7 +15,7 @@
 
     <commonness value="0.0" />
 
-   <sound class="result" key="other" fileref="explosion4.wav" />
+	<sound class="result" key="other" fileref="explosion4.wav" />
 
     <sound class="result" key="vehicle" copy="other" />    
     <sound class="result" key="vehicle" tag="metal_heavy" fileref="blast_metal_hit_01.wav" pitch_variety="0.2" volume="0.8" />

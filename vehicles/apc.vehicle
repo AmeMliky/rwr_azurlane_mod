@@ -35,10 +35,10 @@
 	<turret offset="0 0 0" weapon_key="apc_hmg.weapon" weapon_offset="0 4 1.9" weapon_recoil="0.0" max_rotation_step="0.0001" />
 
 	<visual class="chassis" mesh_filename="blhx_apc.mesh" texture_filename="blhx_apc.png" />
-	<visual class="chassis" key="broken" mesh_filename="blhx_apc.mesh" texture_filename="blhx_apc.png" />
+	<visual class="chassis" key="broken" mesh_filename="blhx_apc.mesh" texture_filename="broken.png" />
 	<visual class="tire" mesh_filename="blhx_apc_wheel.mesh" texture_filename="blhx_apc_wheel.png" />
 	<visual class="turret" mesh_filename="blhx_apc_zhupao.mesh" texture_filename="blhx_apc_zhupao.png" />
-	<visual class="turret" key="broken" mesh_filename="blhx_apc_zhupao.mesh" texture_filename="blhx_apc_zhupao.png" />
+	<visual class="turret" key="broken" mesh_filename="blhx_apc_zhupao.mesh" texture_filename="broken.png" />
 
 	<character_slot type="driver" position="0.7 0.3 1.0" rotation="0" exit_rotation="1.57" hiding="1" />
 	<character_slot type="gunner" position="-0.7 0.3 1.0" rotation="0" exit_rotation="-1.57" hiding="1" />

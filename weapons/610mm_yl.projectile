@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <projectile class="grenade" name="610mm_yl" key="610mm_yl.projectile" pulldown_in_air="8" use_time_to_live="1" time_to_live="1.6" can_be_detected_by_footmen="0" slot="1">
     
-    <result class="blast" radius="6" push="0.3" decal="0" damage="3.0" character_state="stun" faction_compare="not_equal" make_vehicle_hit_sound="0" />
+    <result class="blast" radius="3.2" push="0.3" decal="0" damage="1.5" character_state="stun" faction_compare="not_equal" make_vehicle_hit_sound="0" />
 	
 	
     <trigger class="impact">

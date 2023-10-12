@@ -417,4 +417,20 @@
 		<requirement class="weapon" slot="0" key="blhxw_commander_2.weapon"/>
 	</model>
 	
+	<model filename="blhxm_asanagi_1.xml">
+		<requirement class="weapon" slot="0" key="blhxw_asanagi_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_asanagi_2.xml">
+		<requirement class="weapon" slot="0" key="blhxw_asanagi_2.weapon"/>
+	</model>
+	
+	<model filename="blhxm_edu_1.xml">
+		<requirement class="weapon" slot="0" key="blhxw_edu_1.weapon"/>
+	</model>
+	
+	<model filename="blhxm_edu_2.xml">
+		<requirement class="weapon" slot="0" key="blhxw_edu_2.weapon"/>
+	</model>
+	
 </models>

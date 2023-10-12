@@ -89,7 +89,7 @@
   
 	<vehicle key="icecream.vehicle" />
 	<vehicle key="darkcat.vehicle"/>
-	
+	<vehicle key="Crazy_purple_flow_shadow.vehicle" />
 	
 	
 	<projectile key="blhxw_4_baozhu.projectile" />
@@ -97,6 +97,8 @@
 	<projectile key="blhxw_4_tnt.projectile" />
 	<projectile key="blhxw_4_ywxk.projectile" />
 	<projectile key="blhxw_flare.projectile" />
+	
+	<projectile key="Crazy_purple_flow_shadow_flare.projectile" />
 	
 <!-- 全阵营通用航弹-->
 	<weapon key="qzy_ty_hd.weapon"/>
@@ -107,5 +109,7 @@
 	<weapon key="blhxw_kuailebang.weapon"/>
 	<weapon key="shovel_1.weapon"/>
 	<weapon key="shovel_sandbag_1.weapon"/>
+	<weapon key="mg_resource.weapon"/>
+	<weapon key="mortar_resource.weapon"/>
 	
 </resources>

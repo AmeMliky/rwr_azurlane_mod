@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle 
+	file="vehicle_base.vehicle" 
+	name="Bulin #Crazy purple flow shadow#" 
+	key="Crazy_purple_flow_shadow.vehicle" 
+	time_to_live_unsteerable="150" 
+	respawn_time="120" 
+	map_view_atlas_index="43" 
+	max_character_collision_speed="15" 
+	max_character_collision_speed_on_normal="5" 
+	reserves_spawn_point="1"  
+	minimum_fill_requirement="1" 
+	jams_enemy_radio="0">
+	
+    <tag name="metal_heavy" />
+	<tag name="heavy_combat" />
+	<tag name="any_tank" />
+	
+    <tire_set offset="3.1 0.05 4" radius="0.32" />
+    <tire_set offset="3.1 0.05 -4" radius="0.32" />
+    <modifier class="blast_damage" value="-0.2" />
+    <modifier class="blast_range" value="-0.0" />
+    <control 
+		max_speed="25.0"
+		acceleration="20.0"
+		max_reverse_speed="15.0"
+		max_limiter_speed="6.0"
+		max_rotation="0.0"
+		max_water_depth="2.5"
+		can_steer_in_water="0.65" 
+		steer_smoothening="0.98"
+		min_health_to_steer="4"
+		tracked="1"
+		gears="0"/>
+    <physics 
+		max_health="32"
+		mass="400.0"
+		TODO_blast_damage_threshold="0"
+		gravity="-80"
+		broken_mass="20"
+		remove_collision_threshold="0.2"
+    	blast_damage_threshold="0.25"
+		extent="6.8 0.0 11"
+		offset="0 0.0 0"
+		top_offset="0 6.5 0"
+        friction_offset="+0.0"
+        drag_offset="0.0"
+		collision_model_pos="0 1.2 0" 
+		collision_model_extent="6.8 3.5 11.4" 
+		visual_offset="0 1.1 0"/>
+   
+	
+    <sky_diving chute_offset="0 2.5 0.0" trigger_height="20.0" gravity="-10" mesh_filename="chute_large.mesh" texture_filename="chute.png" />
+	
+	<!--item_container class="armory" offset="0.4 0.6 -7.5" soldier_group="default"/-->
+	
+	<visual class="chassis" mesh_filename="Bulin_Crazy_purple_flow_shadow.mesh" texture_filename="Bulin_Crazy_purple_flow_shadow.png" max_tilt="0.06" offset="0 0 0" />
+	<visual class="chassis" key="broken" mesh_filename="Bulin_Crazy_purple_flow_shadow.mesh" texture_filename="broken.png" />
+	
+	
+	<visual class="turret" turret_index="0" mesh_filename="Bulin_Crazy_purple_flow_shadow_zhupao.mesh" texture_filename="Bulin_Crazy_purple_flow_shadow_zhupao.png" max_tilt="0.00" offset="0 0 1.9"/>
+	
+	<visual class="turret"  key="broken" turret_index="1" mesh_filename="Bulin_Crazy_purple_flow_shadow_paoguan.mesh" texture_filename="zj_broken_texture.png" max_tilt="0.00" offset="0 3.3 1.9"/>
+	<visual class="turret" turret_index="0" mesh_filename="Bulin_Crazy_purple_flow_shadow_zhupao.mesh" texture_filename="Bulin_Crazy_purple_flow_shadow_zhupao.png" max_tilt="0.00" offset="0 0 1.9"/>
+	
+	<visual class="turret"  key="broken" turret_index="1" mesh_filename="Bulin_Crazy_purple_flow_shadow_paoguan.mesh" texture_filename="zj_broken_texture.png" max_tilt="0.00" offset="0 3.3 1.9"/>
+	
+	
+    <turret offset="0 0 -1.9" weapon_key="Bulin_Crazy_purple_flow_shadow_zhupao.weapon" weapon_offset="0 4.1 1.4" weapon_recoil="0.15" max_rotation_step="0.00015" rotation_range="6.28"/>
+	
+	<!--副炮与机枪 -->
+	
+	<turret offset="0 0 -1.9" weapon_key="Bulin_Crazy_purple_flow_shadow_miaozhunwuqi.weapon" weapon_offset="0 0 0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00015" rotation="0" rotation_range="6.28" />
+	
+	<turret offset="0 0 -1.2" weapon_key="Bulin_Crazy_purple_flow_shadow_jipao.weapon" weapon_offset="-1.7 0 -0.0" weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00015" rotation="0" rotation_range="6.28" />
+	
+    <turret offset="0 0 -1.2" weapon_key="Bulin_Crazy_purple_flow_shadow_jipao_1.weapon" weapon_offset="1.7 0 -0.0"  weapon_recoil="0.0" physics_recoil="0.0" max_rotation_step="0.00015" rotation="0" rotation_range="6.28"/>
+	
+	<visual class="track" mesh_filename="Bulin_Crazy_purple_flow_shadow_trark1.mesh" offset="0 0.0 0.0" >
+		<part texture_filename="Bulin_Crazy_purple_flow_shadow_trark1.png" texture_animation="translate" tire_binding="0" />
+	</visual>
+
+	<visual class="track" mesh_filename="Bulin_Crazy_purple_flow_shadow_trark2.mesh" offset="0.0 0.0 0.0" >
+		<part texture_filename="Bulin_Crazy_purple_flow_shadow_trark2.png"  />
+	</visual>
+	
+    <character_slot type="driver" position="-2 0.5 -6" rotation="0" exit_rotation="3.14" hiding="1" animation_id="36" />
+	<character_slot type="gunner" position="2 0.7 -6" rotation="0" exit_rotation="3.14" hiding="1" animation_id="36">
+		<turret index="0" />
+		<turret index="1" />
+		<turret index="2" />
+		<turret index="3" />
+	</character_slot>
+	
+	
+	<!-- sound handling -->
+	<rev_sound filename="Bulin_Crazy_purple_flow_shadow_bgm.wav" low_pitch="0.2" high_pitch="1.0" low_rev="0.0" high_rev="1.0"  pitch_variety="0.0" volume="0.5" />
+	
+	
+	<sound key="ignition" filename="Bulin_Crazy_purple_flow_shadow_up.wav"  pitch_variety="0.01" volume="2" />
+	<sound key="hit" filename="car_hit1.wav" />
+	<sound key="hit" filename="car_hit2.wav" />
+	<sound key="destroy" filename="vehicle_explosion_1.wav" />   
+	<sound key="cleanup" filename="vehicle_explosion_1.wav" />    
+	<sound key="horn" filename="meta_center_bear_horn.wav" volume="0.8" /> 
+	<sound key="turret_rotation" filename="turret_rotation1.wav" volume="0.8" />
+	<sound key="turret_rotation" filename="turret_rotation2.wav" volume="0.8"/>
+  
+	<effect event_key="drive" type="splat_map" surface_tag="dirt" size="1.0" atlas_index="2" layer="1" />
+	<effect event_key="drive" type="particle" key="terrain" surface_tag="dirt" ref="Burst" use_surface_color="1" />
+  
+	<!--effect event_key="health" value="20.5" ref="SmallSmokeVehicle" offset="-0.7 2.4 -1.2" /-->
+	<!--effect event_key="health" value="20.5" ref="SmallSmokeVehicle" offset="+0.7 2.4 -2.2" /-->  
+	<effect event_key="health" value="14" ref="SmallSmokeVehicle" offset="-1.7 3.4 1.2" />
+	<effect event_key="health" value="14" ref="SmallSmokeVehicle" offset="+1.7 3.4 -2.2" />  
+	<effect event_key="health" value="6" ref="SmallSmokeVehicle" offset="-1.7 3.4 1.2" />
+	<effect event_key="health" value="6" ref="SmallSmokeVehicle" offset="+1.7 3.4 -2.2" />  
+	<effect event_key="health" value="6.0" ref="BrokenSparkle" post_processing="0" offset="-0.7 1.8 -1.2" />
+	<effect event_key="health" value="6.0" ref="BrokenSparkle" post_processing="0" offset="+0.7 1.8 -1.2" />  
+	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 2.4 -0.1" />
+	<effect event_key="destroyed" ref="SmallSmokeVehicle" offset="-0.8 2.5 -0.1" />  
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="0.0 3.2 1.5" />  
+	<effect event_key="destroyed" ref="MediumSmokeVehicle" offset="-0.6 3.0 1.2" />    
+	<effect event_key="destroyed" ref="SmallFireRepeat" offset="0.0 2.4 -2.1" />
+    <effect event_key="destroy" key="other" ref="woosh" post_processing="0" shadow="0" />   
+    <effect event_key="cleanup" key="other" ref="woosh" post_processing="0" shadow="0" />     
+   
+
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.1000" />
+	</event>
+
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="200.0" />
+	</event>
+
+	<event key="destroy_rp_reward">
+		<trigger class="destroy" />
+		<result class="reward" rp="1000.0" />
+	</event>
+</vehicle>

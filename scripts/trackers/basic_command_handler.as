@@ -175,12 +175,6 @@ class BasicCommandHandler : Tracker {
 			spawnInstanceNearPlayer(senderId, "god_amemliky.carry_item", "carry_item"); 
 		} else if (checkCommand(message, "hanma")) {
 			spawnInstanceNearPlayer(senderId, "humvee.vehicle", "vehicle", 0);
-		} else if (checkCommand(message, "tank_0")) {
-			spawnInstanceNearPlayer(senderId, "tank.vehicle", "vehicle", 0);
-		} else if (checkCommand(message, "tank_1")) {
-			spawnInstanceNearPlayer(senderId, "tank_1.vehicle", "vehicle", 0);
-		} else if (checkCommand(message, "tank_2")) {
-			spawnInstanceNearPlayer(senderId, "tank_2.vehicle", "vehicle", 0);
 		} else if (checkCommand(message, "friend")) {
 			spawnInstanceNearPlayer(senderId, "default", "soldier", 0);	
 		} else if (checkCommand(message, "eod")) {
@@ -189,8 +183,6 @@ class BasicCommandHandler : Tracker {
 		spawnInstanceNearPlayer(senderId, "meta_elite_sniper", "soldier", 0);
 		} else if (checkCommand(message, "s_blhx_sp")) {
 		spawnInstanceNearPlayer(senderId, "elite_support", "soldier", 0);
-		} else if (checkCommand(message, "s_at")) {
-		spawnInstanceNearPlayer(senderId, "tank_hunter", "soldier", 0);
 		} else if (checkCommand(message, "s_huajia")) {
 		spawnInstanceNearPlayer(senderId, "blhx_js_huajia", "soldier", 0);
 		} else if (checkCommand(message, "jiezhi1")) {
@@ -206,41 +198,13 @@ class BasicCommandHandler : Tracker {
 			spawnInstanceNearPlayer(senderId, "jiezhi2.carry_item", "carry_item", 0);
 			spawnInstanceNearPlayer(senderId, "jiezhi2.carry_item", "carry_item", 0);
 		}else  if(checkCommand(message, "ice")) {
-			spawnInstanceNearPlayer(senderId, "icecream.vehicle", "vehicle", 0); 
-		}else  if(checkCommand(message, "v_sirentank")) {
-			spawnInstanceNearPlayer(senderId, "siren_wire_control_level.vehicle", "vehicle", 0); 
-		}else  if(checkCommand(message, "v_blhxapc")) {
-		spawnInstanceNearPlayer(senderId, "apc.vehicle", "vehicle", 0);
-		}else  if(checkCommand(message, "v_metatank")) {
-			spawnInstanceNearPlayer(senderId, "meta_center_bear.vehicle", "vehicle", 0); 
-		}else  if(checkCommand(message, "v_blhxtank")) {
-			spawnInstanceNearPlayer(senderId, "blhx_signal_tide.vehicle", "vehicle", 0); 			
+			spawnInstanceNearPlayer(senderId, "icecream.vehicle", "vehicle", 0); 			
 		}else  if(checkCommand(message, "metae")) {
 			spawnInstanceNearPlayer(senderId, "meta_elite_hj.carry_item", "carry_item"); 	
         } else if (checkCommand(message, "lottery")) {
-			spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);
-		} else  if(checkCommand(message, "guntruck")) {
-			spawnInstanceNearPlayer(senderId, "guntruck_flare.projectile", "projectile");                                              
-		} else if (checkCommand(message, "quad")) {
-			spawnInstanceNearPlayer(senderId, "atv_armory.vehicle", "vehicle", 0); 
-		} else if (checkCommand(message, "armory")) {
-			spawnInstanceNearPlayer(senderId, "mobile_armory.vehicle", "vehicle", 0);		
-		} else if (checkCommand(message, "noxe")) {
-			spawnInstanceNearPlayer(senderId, "noxe.vehicle", "vehicle", 0); 
-		} else if (checkCommand(message, "legion")) {
-			spawnInstanceNearPlayer(senderId, "legion.vehicle", "vehicle", 0);  
-		} else if (checkCommand(message, "m528")) {
-			spawnInstanceNearPlayer(senderId, "m528.vehicle", "vehicle", 0); 
-		} else if (checkCommand(message, "croc")) {
-			spawnInstanceNearPlayer(senderId, "flamer_tank.vehicle", "vehicle", 0);
-		} else if (checkCommand(message, "sev90")) {
-			spawnInstanceNearPlayer(senderId, "sev90.vehicle", "vehicle", 0);                                                                        
-		} else if (checkCommand(message, "repair_crane")) {
-			spawnInstanceNearPlayer(senderId, "repair_crane.vehicle", "vehicle", 0);
-		} else if (checkCommand(message, "repair_tank")) {
-			spawnInstanceNearPlayer(senderId, "zjx19_flare.projectile", "projectile", 0);                                                                                                           
-		} else  if(checkCommand(message, "mg42")) {
-			spawnInstanceNearPlayer(senderId, "mg42.weapon", "weapon", 0);         
+			spawnInstanceNearPlayer(senderId, "lottery.carry_item", "carry_item", 0);		
+		} else if (checkCommand(message, "v_meta_zibao")) {
+			spawnInstanceNearPlayer(senderId, "meta_zibaochuan.vehicle", "vehicle", 0);
 		} else  if(checkCommand(message, "kill_rt")) {
 			destroyAllEnemyVehicles("radar_tower.vehicle");
 		} else  if(checkCommand(message, "kill_own_rt")) {
@@ -248,13 +212,49 @@ class BasicCommandHandler : Tracker {
 		} else  if(checkCommand(message, "kill_rj")) {
 			destroyAllEnemyVehicles("radio_jammer.vehicle");
 		} else  if(checkCommand(message, "mustela")) {
-			spawnInstanceNearPlayer(senderId, "wiesel_tow.vehicle", "vehicle", 0);        
-		} else  if(checkCommand(message, "mortar")) {
-			spawnInstanceNearPlayer(senderId, "mortar_resource.weapon", "weapon", 0);        
+			spawnInstanceNearPlayer(senderId, "wiesel_tow.vehicle", "vehicle", 0); 
 		} else  if(checkCommand(message, "humvee")) {
 			spawnInstanceNearPlayer(senderId, "humvee_gl.vehicle", "vehicle", 0, true);
-		} else  if(checkCommand(message, "javelin")) {
-			spawnInstanceNearPlayer(senderId, "javelin_ap.weapon", "weapon", 0);        
+		
+		} else if (checkCommand(message, "v_junxieku")) {
+			spawnInstanceNearPlayer(senderId, "mobile_armory.vehicle", "vehicle", 0);		
+		} else  if(checkCommand(message, "v_ts_csc")) {
+			spawnInstanceNearPlayer(senderId, "armored_truck.vehicle", "vehicle", 0);
+		} else  if(checkCommand(message, "v_tank1")) {
+			spawnInstanceNearPlayer(senderId, "tank.vehicle", "vehicle", 0);
+		} else  if(checkCommand(message, "v_tank2")) {
+			spawnInstanceNearPlayer(senderId, "tank_1.vehicle", "vehicle", 0);
+		} else  if(checkCommand(message, "v_tank3")) {
+			spawnInstanceNearPlayer(senderId, "tank_2.vehicle", "vehicle", 0);	
+		} else  if(checkCommand(message, "v_blhx_qz1")) {
+			spawnInstanceNearPlayer(senderId, "blhx_humvee.vehicle", "vehicle", 0);	
+		} else  if(checkCommand(message, "v_ts_xinhaota")) {
+			spawnInstanceNearPlayer(senderId, "radar_tower.vehicle", "vehicle", 0);	
+		} else  if(checkCommand(message, "v_apc1")) {
+			spawnInstanceNearPlayer(senderId, "apc.vehicle", "vehicle", 0);		
+		} else  if(checkCommand(message, "v_apc2")) {
+			spawnInstanceNearPlayer(senderId, "siren_vehicles_wirecore.vehicle", "vehicle", 0);	
+		} else  if(checkCommand(message, "v_apc3")) {
+			spawnInstanceNearPlayer(senderId, "apc_2.vehicle", "vehicle", 0);	
+		} else  if(checkCommand(message, "v_sirentank")) {
+			spawnInstanceNearPlayer(senderId, "siren_wire_control_level.vehicle", "vehicle", 0);	
+		} else  if(checkCommand(message, "v_siren_hm")) {
+			spawnInstanceNearPlayer(senderId, "siren_vehicles_external_storage.vehicle", "vehicle", 0);	
+		} else  if(checkCommand(message, "v_metatank")) {
+			spawnInstanceNearPlayer(senderId, "meta_center_bear.vehicle", "vehicle", 0);	
+		} else  if(checkCommand(message, "v_blhxtank")) {
+			spawnInstanceNearPlayer(senderId, "blhx_signal_tide.vehicle", "vehicle", 0);
+		} else  if(checkCommand(message, "v_bulitank")) {
+			spawnInstanceNearPlayer(senderId, "Crazy_purple_flow_shadow.vehicle", "vehicle", 0);
+		} else  if(checkCommand(message, "v_meta_zibao")) {
+			spawnInstanceNearPlayer(senderId, "meta_zibaochuan.vehicle", "vehicle", 0);
+		} else  if(checkCommand(message, "v_siren_zibao")) {
+			spawnInstanceNearPlayer(senderId, "siren_zibaochuan.vehicle", "vehicle", 0);
+		} else  if(checkCommand(message, "v_tujiting")) {
+			spawnInstanceNearPlayer(senderId, "rubber_boat.vehicle", "vehicle", 0);
+		} else  if(checkCommand(message, "v_aa")) {
+			spawnInstanceNearPlayer(senderId, "aa_emplacement.vehicle", "vehicle", 0);
+		
 		} else  if(checkCommand(message, "complete_campaign")) {
 			m_metagame.getComms().send("<command class='set_campaign_status' show_stats='1'/>");
 		} else if (checkCommand(message, "enable_gps")) {

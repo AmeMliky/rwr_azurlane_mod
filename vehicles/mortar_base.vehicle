@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle name="Twilight level border defense fortress" map_view_atlas_index="16" usable_for_cover="0" protectors="1" soldier_capacity_offset="1">
+	<tag name="target" />
+	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
+	<tire_set offset="1.0 0.0 -1.0" radius="0.65" />
+
+	<modifier class="blast_range" value="-4.0" />
+
+	<control max_speed="20.0" acceleration="6.7" max_reverse_speed="6.0" max_rotation="0.8" max_water_depth="1.9" />
+
+	<physics 
+	max_health="20.0" 
+	mass="19.5" 
+	extent="2.0 0.0 2.0" 
+	offset="0 0.0 0" 
+	top_offset="0 2 0" 
+	collision_model_pos="0.0 0.2 0.0" 
+	collision_model_extent="3 1.2 4" 
+	visual_offset="0 0.5 0" 
+	collision_response_factor="0.2" 
+	blast_push_threshold="10.0" 
+	vehicle_collision_damage_factor="2.0" />
+
+	<turret offset="0 0.0 0.0" weapon_key="mortar_zhupao.weapon" weapon_offset="0 2.0 0.0" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.00008" rotation="0" />
+	<turret offset="0 0.0 0.0" weapon_key="mortar_zhupao_dd.weapon" weapon_offset="0 2.0 0.0" weapon_recoil="0" physics_recoil="0.0" max_rotation_step="0.00008" rotation="0" />
+
+
+	<visual class="chassis" mesh_filename="vh_F_1.mesh" texture_filename="vh_F_1.png" offset="0 0 0"/>
+	<visual class="chassis" key="broken" mesh_filename="vh_F_1.mesh" texture_filename="zj_broken_texture.png" />
+	<visual class="turret" turret_index="0" mesh_filename="vh_F_1_zhupao.mesh" texture_filename="vh_F_1_zhupao.png" max_tilt="0.00" offset="0 0.1 0"/>
+	<visual class="turret" key="broken" turret_index="0" mesh_filename="vh_F_1_zhupao.mesh" texture_filename="zj_broken_texture.png" max_tilt="0.00" offset="0 0.1 0"/>
+	<character_slot type="gunner"  position="0 0.7 -2.4" rotation="0" exit_rotation="3.14" hiding="1" animation_id="37">
+		<turret index="0" />
+		<turret index="1" />
+	</character_slot>
+  
+	<sound key="turret_rotation" filename="mortar_rotation.wav" volume="0.6" />  
+ 
+  <effect event_key="destroyed" ref="SmallSmokeVehicle" offset="0.0 0.6 0.0" />
+
+	<event key="destroy_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.0090" />
+	</event>
+
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="20.0" />
+	</event>
+  
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_mortar1.visual_item" min_amount="1" max_amount="1" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" /> 
+  </event>
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_mortar2.visual_item" min_amount="1" max_amount="1" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" /> 
+  </event>  
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_mortar3.visual_item" min_amount="1" max_amount="1" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.1 0.2" /> 
+  </event>   
+  <event>
+		<trigger class="destroy" />		
+    <result class="spawn" instance_class="visual_item" instance_key="burning_piece_armor4.visual_item" min_amount="1" max_amount="1" offset="0 2.0 0" position_spread="1.5 1.5" direction_spread="0.05 0.2" /> 
+  </event>   
+  
+</vehicle>

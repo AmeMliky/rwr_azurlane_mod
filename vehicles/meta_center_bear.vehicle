@@ -41,7 +41,7 @@
 		broken_mass="10"
 		remove_collision_threshold="0.2"
     	blast_damage_threshold="0.25"
-		extent="11 0.0 24"
+		extent="8.8 4 14"
 		offset="0 0.0 0"
 		top_offset="0 6.5 0"
         friction_offset="+0.0"
@@ -54,10 +54,13 @@
     
 	<item_container class="armory" offset="0.4 0.6 -7.5" soldier_group="default"/>
 	<visual class="chassis" mesh_filename="meta_center_bear.mesh" texture_filename="meta_center_bear.png" max_tilt="0.00" offset="0 0 0" />
-	<visual class="chassis" key="broken" mesh_filename="meta_center_bear.mesh" texture_filename="meta_center_bear.png" />
+	<visual class="chassis" key="broken" mesh_filename="meta_center_bear.mesh" texture_filename="zj_broken_texture.png" />
 	<visual class="turret" turret_index="0" mesh_filename="meta_center_bear_zhupao.mesh" texture_filename="meta_center_bear_zhupao.png" max_tilt="0.00" offset="0 0 3"/>
 	<visual class="turret" turret_index="1" mesh_filename="meta_center_bear_fupao.mesh" texture_filename="meta_center_bear_fupao.png" max_tilt="0.00" offset="-0.55 0.8 -1" />
 	<visual class="turret" turret_index="2" mesh_filename="meta_center_bear_autogun.mesh" texture_filename="meta_center_bear_autogun.png" max_tilt="0.00" offset="0.75 0 -2.5" />
+	<visual class="turret"  key="broken" turret_index="0" mesh_filename="meta_center_bear_zhupao.mesh" texture_filename="zj_broken_texture.png" max_tilt="0.00" offset="0 0 3"/>
+	<visual class="turret"  key="broken" turret_index="1" mesh_filename="meta_center_bear_fupao.mesh" texture_filename="zj_broken_texture.png" max_tilt="0.00" offset="-0.55 0.8 -1" />
+	<visual class="turret"  key="broken" turret_index="2" mesh_filename="meta_center_bear_autogun.mesh" texture_filename="zj_broken_texture.png" max_tilt="0.00" offset="0.75 0 -2.5" />
 	
 	
     <turret offset="0 0 -3" weapon_key="meta_center_bear_zhupao.weapon" weapon_offset="0 0.0 0.0" weapon_recoil="0.0" max_rotation_step="0.00003" rotation_range="6.28"/>

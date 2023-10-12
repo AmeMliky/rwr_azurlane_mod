@@ -99,6 +99,11 @@
 	<weapon key="blhxw_z46.weapon"/>
 	<weapon key="blhxw_xiaoougen.weapon"/>
 	<weapon key="blhxw_pz_1_1.weapon"/>
+	<weapon key="blhxw_asanagi_1.weapon"/>
+	<weapon key="blhxw_asanagi_2.weapon"/>
+	<weapon key="blhxw_edu_1.weapon"/>
+	<weapon key="blhxw_edu_2.weapon"/>
+	
 	
 	
 	<projectile key="blhxw_4_baozhu.projectile" />

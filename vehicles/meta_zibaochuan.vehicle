@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle name="META DoomBringer" key="meta_zibaochuan.vehicle" map_view_atlas_index="4">
+	<tag name="metal_thin" />
+	<tag name="jeep" />
+	<tire_set offset="0.68 0.0 1.24" radius="0.32" />
+	<tire_set offset="0.68 0.0 -1.24" radius="0.32" />
+
+	<control max_speed="32.0" acceleration="12.0" max_reverse_speed="30.0" max_rotation="1.2" max_water_depth="4" can_steer_in_water="0" can_steer_on_ground="1" gears="1"  steer_smoothening="0.8"/>
+
+	<physics max_health="8.0" mass="10.0" extent="1.496 0.0 2.728" offset="0 0.16 0" collision_model_pos="0 0.4 0" collision_model_extent="3.5 2 6.0" visual_offset="0 0.3 -0.0" friction_offset="0.1" /> 
+
+	<sky_diving chute_offset="0 0.88 -0.3" trigger_height="20.0" gravity="-10" mesh_filename="chute_medium.mesh" texture_filename="chute.png" />
+
+	<visual class="chassis" mesh_filename="meta_zibaochuan.mesh" texture_filename="meta_zibaochuan.png" />
+	<visual class="chassis" key="broken" mesh_filename="meta_zibaochuan.mesh" texture_filename="zj_broken_texture.png" />
+	<visual class="turret" turret_index="0" mesh_filename="meta_zibaochuan_zhupao.mesh" texture_filename="meta_zibaochuan_zhupao.png" offset="0 0 -2.16" />
+	<visual class="turret" key="broken" mesh_filename="meta_zibaochuan_zhupao.mesh" texture_filename="zj_broken_texture.png" offset="0 0 -2.16" />
+	<visual class="turret" turret_index="1" mesh_filename="meta_zibaochuan_dt.mesh" texture_filename="meta_zibaochuan_dt.png"  offset="0.0 0 0" />
+	
+	<turret offset="0 0 2.16" weapon_key="meta_zibaochuan_zhupao.weapon" weapon_offset="0 2 1.0" weapon_recoil="0.1" max_rotation_step="0.001" />
+
+	<character_slot type="driver" position="1.8 0.3 1" rotation="0" exit_rotation="1.57" hiding="1"   />
+	<character_slot type="gunner" position="-1.8 0.3 1" rotation="0" exit_rotation="-1.57" hiding="1" >
+     		<turret index="0" />
+	</character_slot>
+	
+	<event key="receive_damage_xp_reward">
+		<trigger class="receive_damage" />
+		<result class="reward" xp="0.015" />
+	</event>
+  
+	<event key="spot_rp_reward">
+		<trigger class="spot" />
+		<result class="reward" rp="100.0" />
+	</event>
+
+	<event>
+		<trigger class="destroy" />
+		<result class="spawn" instance_class="projectile" instance_key="zibaochuan_dt.projectile" min_amount="1" max_amount="1" offset="0 2 0" position_spread="0 0" direction_spread="0 0.2" />
+	</event>
+	
+
+	<event>
+		<trigger class="cleanup" />		
+		<result class="spawn" instance_class="visual_item" instance_key="burning_piece_cleanup.visual_item" min_amount="2" max_amount="2" offset="0 4 0" position_spread="0 0" direction_spread="0 0" /> 
+	</event>    
+ 	<event>
+		<trigger class="cleanup" />
+		<result class="spawn" instance_class="projectile" instance_key="debri_stun" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0.0 0.0" direction_spread="0.0 0.0" />
+	</event>  
+	
+
+	<!-- sound handling -->
+	<rev_sound filename="jeep2_rev0.wav" low_pitch="0.8" high_pitch="1.0" low_rev="0.0" high_rev="0.15" volume="0.6" />
+	<rev_sound filename="jeep2_rev3.wav" low_pitch="0.6" high_pitch="1.7" low_rev="0.08" high_rev="1.0" volume="0.6" />
+	<sound key="ignition" filename="jeep2_ignition.wav" />
+	<sound key="hit" filename="rubber_boat_hit1.wav" /> 
+	<sound key="hit" filename="rubber_boat_hit2.wav" />  
+	<sound key="hit" filename="rubber_boat_hit3.wav" />  
+  
+
+</vehicle>

@@ -5,53 +5,7 @@
     <rotation class="motion" />
     <model mesh_filename="maozhua_dt.xml" />
 	<commonness value="0.0" />
-    <!--sound class="result" key="terrain" fileref="bow_ricochet_01.wav" volume="0.3" />
-    <sound class="result" key="terrain" fileref="ricochet2.wav" volume="1.0" />
-    <sound class="result" key="terrain" fileref="bow_ricochet_02.wav" volume="1.5" />
-    <sound class="result" key="terrain" fileref="bow_ricochet_03.wav" volume="0.3" />
-
-    <sound class="result" key="shield" fileref="ricochet5.wav" />
-    <sound class="result" key="shield" fileref="ricochet6.wav" />
-    <sound class="result" key="shield" fileref="bow_ricochet_04.wav" volume="0.7" />
     
-    <sound class="result" key="character" fileref="impact_body2.wav" pitch_variety="0.4" volume="0.7" />
-    <sound class="result" key="character" fileref="impact_body3.wav" pitch_variety="0.4" volume="0.7" />
-    <sound class="result" key="character" fileref="impact_body4.wav" pitch_variety="0.4" volume="0.7" />
-
-    <sound class="result" key="vehicle" copy="terrain" />
-
-    <sound class="result" key="vehicle" tag="metal_thin" file="bow_ricochet_metal_thin_01.wav" pitch_variety="0.3" volume="0.5" />
-    <sound class="result" key="vehicle" tag="metal_thin" file="bow_ricochet_metal_thin_02.wav" pitch_variety="0.3" volume="0.5" />
-    <sound class="result" key="vehicle" tag="metal_thin" file="bow_ricochet_metal_thin_03.wav" pitch_variety="0.3" volume="0.6" />
-    <sound class="result" key="vehicle" tag="metal_thin" file="bow_ricochet_metal_thin_04.wav" pitch_variety="0.3" volume="0.6" />
-    <sound class="result" key="vehicle" tag="metal_thin" file="bow_ricochet_metal_thin_05.wav" pitch_variety="0.3" volume="0.4" />
-    
-    <sound class="result" key="vehicle" tag="deco_car" file="bow_ricochet_metal_thin_06.wav" pitch_variety="0.3" volume="1.1" />    
-    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="0.6" />
-    <sound class="result" key="vehicle" tag="deco_car" file="bow_ricochet_metal_thin_06.wav" pitch_variety="0.3" volume="1.0" />    
-    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="0.8" />
-    <sound class="result" key="vehicle" tag="deco_car" file="bow_ricochet_metal_thin_06.wav" pitch_variety="0.3" volume="0.9" />    
-    <sound class="result" key="vehicle" tag="deco_car" file="metal_thin_07.wav" pitch_variety="0.3" volume="0.5" />   
-
-
-    <sound class="result" key="vehicle" tag="metal_heavy" file="bow_ricochet_metal_heavy_01.wav" pitch_variety="0.3" volume="1.3" />
-    <sound class="result" key="vehicle" tag="metal_heavy" file="bow_ricochet_metal_heavy_02.wav" pitch_variety="0.3" volume="0.5" />
-    <sound class="result" key="vehicle" tag="metal_heavy" file="bow_ricochet_metal_heavy_03.wav" pitch_variety="0.3" volume="0.5" />
-    
-    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_01.wav" pitch_variety="0.3" volume="0.8" />
-    <sound class="result" key="vehicle" tag="sandbag" file="barrier_bullet_02.wav" pitch_variety="0.3" volume="0.8" />
-    <sound class="result" key="vehicle" tag="sandbag" file="bow_ricochet_barrier_01.wav" pitch_variety="0.3" volume="1.5" /> 
-    
-    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_01.wav" pitch_variety="0.4" volume="0.6" />
-    <sound class="result" key="vehicle" tag="metal_dumpster" file="dumpster_bullet_01.wav" pitch_variety="0.4" volume="0.5" />
-    <sound class="result" key="vehicle" tag="metal_dumpster" file="bow_ricochet_dumpster_01.wav" pitch_variety="0.4" volume="1.0" />              
-
-    <sound class="result" key="static_object" copy="terrain" />
-    
-    <effect class="result" key="terrain" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="vehicle" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="static_object" ref="Burst" use_surface_color="1" />
-    <effect class="result" key="shield" ref="ShieldBurst" /-->
 	<sound class="result" key="other" fileref="blast_boom.wav" volume="0.6" />
 
     <sound class="result" key="terrain" copy="other" />

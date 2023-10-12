@@ -1,4 +1,5 @@
-<vehicle name="Anti-Air" key="aa_emplacement.vehicle" map_view_atlas_index="21" respawn_time="86400" existence="one_per_faction" reserves_spawn_point="1" protectors="3" soldier_capacity_offset="3">
+<?xml version="1.0" encoding="utf-8"?>
+<vehicle name="Rainbow Tower （Anti-aircraft gun）" key="aa_emplacement.vehicle" map_view_atlas_index="21" respawn_time="86400" existence="one_per_faction" reserves_spawn_point="1" protectors="3" soldier_capacity_offset="3">
 <!--  <tag name="metal heavy" /> -->
 	<tag name="target" />
 	<tire_set offset="1.0 0.0 1.0" radius="0.65" />
@@ -8,54 +9,46 @@
 
 	<physics max_health="15.0" mass="100000" extent="4 4.0 4" offset="0 0.0 0" top_offset="0 1 0" collision_model_pos="0 0.2 0" collision_model_extent="4 4.0 4" visual_offset="0 0.2 0" /> 
 
-	<visual class="chassis" mesh_filename="aa_emplacement.mesh" texture_filename="aa_emplacement.png" />
-	<visual class="chassis" key="broken" mesh_filename="aa_emplacement_broken.mesh" texture_filename="aa_emplacement_broken.png" />
+	<visual class="chassis" mesh_filename="aa_emplacement.mesh" texture_filename="aa_emplacement.png" offset="0 0 0" />
+	<visual class="chassis" key="broken" mesh_filename="aa_emplacement.mesh" texture_filename="broken.png" />
 
 	<event>
 		<trigger class="spawn" />
   		<result class="faction_resources" affect_enemies="1">
-			<call key="paratroopers1.call" enabled="0" />
-			<call key="paratroopers2.call" enabled="0" />
-            <call key="paratroopers_medic.call" enabled="0" />
-			<call key="cover_drop.call" enabled="0" />
-			<call key="rubber_boat.call" enabled="0" />
-			<call key="rubber_boat_alt.call" enabled="0" />
-			<call key="humvee.call" enabled="0" />
-			<call key="humvee_alt.call" enabled="0" />
-			<call key="vfs_alt.call" enabled="0" />
-			<call key="buggy.call" enabled="0" /> 
-			<call key="buggy_alt.call" enabled="0" /> 
-			<call key="supply_quad.call" enabled="0" />
-			<call key="supply_quad_alt.call" enabled="0" />
-			<call key="tank.call" enabled="0" />
-			<call key="tank_alt.call" enabled="0" />
-			<call key="a10_gun_run.call" enabled="0" />  
-			<call key="gunship_run.call" enabled="0" /> 
-			<call key="cluster_bomb.call" enabled="0" /> 
-		</result>
+			
+			<call key="bf109.call" enabled="0"/>
+			<call key="xiaojiajia.call" enabled="0" />
+			<call key="yingxianzuo.call" enabled="0"/>
+			<call key="jianpao_daji_2.call" enabled="0"/>
+			<call key="jianpao_daji_1.call" enabled="0" />
+			<call key="zhihuijian_0.call" enabled="0"/>
+			<call key="blhx_signal_tide.call" enabled="0"/>
+			<call key="bujiche.call" enabled="0"/>
+			<call key="qzyty_humvee.call" enabled="0"/>
+			<call key="qzyty_tank_0.call" enabled="0"/>
+			<call key="blhx_sb_1.call" enabled="0"/>
+			
+			
+	</result>
 	</event> 
 
 	<event>
 		<trigger class="destroy" />
   		<result class="faction_resources" affect_enemies="1">
-			<call key="paratroopers1.call" enabled="1" />
-			<call key="paratroopers2.call" enabled="1" />
-            <call key="paratroopers_medic.call" enabled="1" />            
-			<call key="cover_drop.call" enabled="1" />
-			<call key="rubber_boat.call" enabled="1" />
-			<call key="rubber_boat_alt.call" enabled="1" />
-			<call key="humvee.call" enabled="1" />
-			<call key="humvee_alt.call" enabled="1" />
-			<call key="vfs_alt.call" enabled="1" />	
-            <call key="buggy.call" enabled="1" />
-            <call key="buggy_alt.call" enabled="1" />
-            <call key="supply_quad.call" enabled="1" />
-            <call key="supply_quad_alt.call" enabled="1" />
-			<call key="tank.call" enabled="1" />
-			<call key="tank_alt.call" enabled="1" />
-			<call key="a10_gun_run.call" enabled="1" />   
-			<call key="gunship_run.call" enabled="1" />  
-			<call key="cluster_bomb.call" enabled="1" />                               
+			<call key="bf109.call" enabled="1"/>
+			<call key="xiaojiajia.call" enabled="1" />
+			<call key="yingxianzuo.call" enabled="1"/>
+			<call key="jianpao_daji_2.call" enabled="1"/>
+			<call key="jianpao_daji_1.call" enabled="1" />
+			<call key="zhihuijian_0.call" enabled="1"/>
+			<call key="blhx_signal_tide.call" enabled="1"/>
+			<call key="bujiche.call" enabled="1"/>
+			<call key="qzyty_humvee.call" enabled="1"/>
+			<call key="qzyty_tank_0.call" enabled="1"/>
+			<call key="blhx_sb_1.call" enabled="1"/>
+			 
+			
+			 
 		</result>
 	</event> 
 

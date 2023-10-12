@@ -38,7 +38,7 @@
 	
 	
 	<visual class="chassis" mesh_filename="siren_vehicles_wirecore.mesh" texture_filename="siren_vehicles_wirecore.png" />
-	<visual class="chassis" key="broken" mesh_filename="siren_vehicles_wirecore.mesh" texture_filename="siren_vehicles_wirecore.png" />
+	<visual class="chassis" key="broken" mesh_filename="siren_vehicles_wirecore.mesh" texture_filename="zj_broken_texture.png" />
 	<visual class="turret" turret_index="0" mesh_filename="" texture_filename="" />
 	<visual class="turret" turret_index="1" mesh_filename="" texture_filename="" />
 	<!--visual class="tire" mesh_filename="apc_wheel.mesh" texture_filename="apc_wheel.png" /-->

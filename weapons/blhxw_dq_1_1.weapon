@@ -11,11 +11,11 @@
 	magazine_size="61" 
 	can_shoot_standing="1" 
 	suppressed="1" 
-	sight_range_modifier="1."
+	sight_range_modifier="1.3"
 	name="Main cannon fire -- Four gods of the print" 
 	class="0" 
 	projectiles_per_shot="2"
-	projectile_speed="120.0"
+	projectile_speed="140.0"
 	barrel_offset="0.6"
 	/>
 	

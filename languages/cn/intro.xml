@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <intro>
     <text key="Hint" text="小心重型载具，为了同伴，对它使用反载具武器吧！"/>
-    <text key="Hint" text="敌军信号塔会干扰方圆100米以内的我方通讯信号"/> 
-    <text key="Hint" text="建筑物的耐久度很高，使用爆破物摧毁吧"/>
+    <text key="Hint" text="敌军空间维度信标会干扰方圆100米以内的我方通讯信号"/> 
+    <text key="Hint" text="建筑物的耐久度很高，使用便携式空袭摧毁它吧"/>
     <text key="Hint" text="如果你想更轻松的游玩，那么花费掉你的RP是一个不错的选择"/>
     <text key="Hint" text="当背包太重了会影响准度，此时购买精神支柱吧！"/> 
-    <text key="Hint" text="时刻寻找掩体，向前推进吧！"/>
-    <text key="Hint" text="飞扑躲开爆炸物可以救你一命"/>
-    <text key="Hint" text="近战攻击敌人可以得到更多经验"/> 
-    <text key="Hint" text="潜行占领敌军基地是一个事半功倍的好方法"/>
-    <text key="Hint" text="从侧面攻打敌军基地，可以吸引敌军的部署兵力，减轻前线压力"/>  
-    <text key="Hint" text="占领基地，需要处于地图上标识的虚线区域内"/>
-    <text key="Hint" text="占领基地需要在当前区域有三分之二的我方部队人数才会开始倒计时"/> 
-    <text key="Hint" text="当火力不够的时候，选择重武器吧！"/> 
+    <text key="Hint" text="时刻寻找掩体，向前推进吧！小心爆炸物。"/>
+    <text key="Hint" text="遇见敌方精英舰娘时，对她使用近战吧!"/>
+    <text key="Hint" text="近战攻击敌人可以得到更多经验，便携式可投掷医疗包在混乱的战场中莫名其妙的收益很高"/> 
+    <text key="Hint" text="潜行时小心敌方远距离作战舰娘，她们的火力往往很充足"/>
+    <text key="Hint" text="当火力不够的时候，你应该呼叫重型载具"/> 
     <text key="Hint" text="汽水瓶的作用半径很大但不会致死"/>
 	<text key="Hint" text="冷却水可以快速恢复生命值"/>
     <text key="Hint" text="虽然载具强大，但是破坏载具可以获得高额奖励"/>
     <text key="Hint" text="想使用其他阵营的武器？空投一个补给车吧！"/>
     <text key="Hint" text="心情不好的时候，就开着载具兜兜风吧~"/> 
-    <text key="Hint" text="如果玩得不开心，不妨加入QQ群747797095"/> 
-    <text key="Hint" text="正面突破还是潜入？请灵活选择方式攻占据点吧！"/> 
-    <text key="Hint" text="点射可以减小子弹散布？不，火力全开！"/> 
-    <text key="Hint" text="报告敌方车辆（指针移至车辆上）是一种获得RP的简单方法"/> 
-    <text key="Hint" text="去军械库卖掉战利品会不枉此行"/> 
-    <text key="Hint" text="请打开背景音乐与加载音乐鉴赏该MOD"/> 
+    <text key="Hint" text="黑暗商店里面会出售一些奇怪的东西"/> 
+    <text key="Hint" text="本模组正面突进的收益高于潜行，但潜行可以使友军更方便的推进"/> 
+    <text key="Hint" text="本模组你无需担心后坐力太大，因为你可以随时呼叫一辆车并从军械库更换武器。"/> 
+    <text key="Hint" text="积极的摧毁敌方载具，它们的收益很高"/> 
+    <text key="Hint" text="军械库可以出售战利品，获取高额的RP用于游玩本模组"/> 
+    <text key="Hint" text="你可以随时打开或关闭吵闹的背景音乐与加载音乐"/> 
     <text key="Hint" text="海军迷彩能让你很难被AI发现"/> 
     <text key="Hint" text="一些重型武器会降低你的移动速度"/>
     <text key="Hint" text="尽管指挥官下了攻击命令，你还是可以做你自己想做的事，因为你是一只NEKO~"/> 
     <text key="Hint" text="使用维修工具可以救起倒地的队友"/>
     <text key="Hint" text="如果你受伤了又得不到救助，你可以按住近战键重新部署"/>  
 	<text key="Hint" text="尽情搭配来适应不同的战场环境"/>	
+	<text key="Hint" text="选择黄橙色血量标记的护甲，可以助你更好的推进"/>
+	<text key="Hint" text="本MOD爆炸物居多，使用冷却水保持自己的血量健康"/>	
+	<text key="Hint" text="补给车往往可以购买敌方舰娘的武器，以敌制敌吧！"/>
 </intro>

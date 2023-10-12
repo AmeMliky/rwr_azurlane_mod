@@ -135,4 +135,17 @@
 	<weapon file="azur_lane_akashi.weapon"/>
 	<weapon file="suomi.weapon"/>
 	<weapon file="blhxw_commander.weapon"/>
+	
+	<!-- 2023.10.07-->
+	<weapon file="mobile_armory_zhupao.weapon"/>
+	<weapon file="meta_zibaochuan_zhupao.weapon"/>
+	<weapon file="deployable_mg.weapon"/>
+	<weapon file="blhx_mg_resource.weapon"/>
+	<weapon file="mortar_resource.weapon"/>
+	<weapon file="armored_truck.weapon"/>
+	<weapon file="humvee_w.weapon"/>
+	<weapon file="mortar.weapon"/>
+	
+	<weapon file="blhxw_asanagi.weapon"/>
+	<weapon file="blhxw_edu.weapon"/>
 </weapons>

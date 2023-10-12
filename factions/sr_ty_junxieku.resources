@@ -52,6 +52,9 @@
 	<weapon key="qzy_ty_hd.weapon"/>
 	<!-- 全阵营通用航弹-->
 	
+	<weapon key="qzy_ty_hd.weapon"/>
+	<weapon key="qzy_ty_hd.weapon"/>
+	
     
 	<carry_item key="XHL.carry_item" />
 	<carry_item key="GLGL.carry_item" />

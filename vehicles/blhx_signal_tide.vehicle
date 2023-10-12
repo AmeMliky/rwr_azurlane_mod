@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vehicle 
 	file="vehicle_base.vehicle" 
-	name="Signal Tide :3" 
+	name="azur_lane Signal Tide :3" 
 	key="blhx_signal_tide.vehicle" 
 	time_to_live_unsteerable="300" 
 	respawn_time="180" 
@@ -58,7 +58,7 @@
     
 	<item_container class="armory" offset="0.4 0.6 -7.5" soldier_group="default"/>
 	<visual class="chassis" mesh_filename="blhx_signal_tide.mesh" texture_filename="blhx_signal_tide.png" max_tilt="0.05" offset="0 0 0" />
-	<visual class="chassis" key="broken" mesh_filename="blhx_signal_tide.mesh" texture_filename="blhx_signal_tide.png" />
+	<visual class="chassis" key="broken" mesh_filename="blhx_signal_tide.mesh" texture_filename="broken.png" />
 	<visual class="turret" turret_index="0" mesh_filename="blhx_signal_tide_zhupao.mesh" texture_filename="blhx_signal_tide_zhupao.png" max_tilt="0.00" offset="0 0 3"/>
 	<visual class="turret" turret_index="1" mesh_filename="blhx_signal_tide_daodan.mesh" texture_filename="blhx_signal_tide_daodan.png" max_tilt="0.00" offset="-1.55 0 -2.82" />
 	<visual class="turret" turret_index="2" mesh_filename="blhx_signal_tide_autogun.mesh" texture_filename="blhx_signal_tide_autogun.png" max_tilt="0.00" offset="+1.81 0 -2.5" />

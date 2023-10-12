@@ -23,7 +23,7 @@
 	top_hit_tracking_time="0.6" />  
 
 	<visual class="chassis" mesh_filename="atv_armory_body.mesh" texture_filename="atv.png" max_tilt="0.04" />
-	<visual class="chassis" key="broken" mesh_filename="atv_body_broken.mesh" texture_filename="atv_broken.png" />
+	<visual class="chassis" key="broken" mesh_filename="atv_body_broken.mesh" texture_filename="broken.png" />
  	<visual class="front_tire" mesh_filename="atv_wheel_front.mesh" texture_filename="atv_wheel_front.png" />
 	<visual class="rear_tire" mesh_filename="atv_wheel_back.mesh" texture_filename="atv_wheel_back.png" />
 

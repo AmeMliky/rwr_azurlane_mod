@@ -46,7 +46,7 @@
    
     <capacity value="3" source="rank" source_value="0.0" />
 
-    <hud_icon filename="cs.png" />
+    <hud_icon filename="qzy_ty_hd_1.png" />
     <commonness value="0.0" can_respawn_with="1" in_stock="1" />
     <inventory encumbrance="2.0" price="52.0" />
 

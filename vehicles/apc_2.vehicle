@@ -40,9 +40,9 @@
 	<modifier class="blast_damage" value="-0.3" />
 	<visual class="chassis" mesh_filename="meta_hunter_base.mesh" texture_filename="meta_hunter_base.png" />
 	<!--visual class="chassis" mesh_filename="apc_body_2.mesh" texture_filename="apc_2.png" /-->
-	<visual class="chassis" key="broken" mesh_filename="meta_hunter_base.mesh" texture_filename="apc_2_broken.png" />
+	<visual class="chassis" key="broken" mesh_filename="meta_hunter_base.mesh" texture_filename="broken.png" />
 	<visual class="turret" mesh_filename="meta_hunter_zhupao.mesh" texture_filename="meta_hunter_zhupao.png" />
-	<visual class="turret" key="broken" mesh_filename="meta_hunter_zhupao.mesh" texture_filename="apc_turret_2_broken.png" />
+	<visual class="turret" key="broken" mesh_filename="meta_hunter_zhupao.mesh" texture_filename="broken.png" />
 	
 	<turret offset="0 2.80 -3" weapon_key="meta_tankhunter.weapon" weapon_offset="0 1.0 7.0" weapon_recoil="0.05" max_rotation_step="0.0001" />
 	<turret offset="0 2.80 -3" weapon_key="apc_hmg_2.weapon" weapon_offset="0 1.0 7.0" weapon_recoil="0.05" max_rotation_step="0.0001" />

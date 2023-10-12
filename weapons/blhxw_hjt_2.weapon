@@ -45,7 +45,7 @@
     <projectile file="blhxw_hjt_2.projectile" />
     <weak_hand_hold offset="0.4" />
 
-    <hud_icon filename="AzurLane_lafei.png" />
+    <hud_icon filename="AzurLane_lafei_g.png" />
     <commonness value="0.0001" can_respawn_with="1" in_stock="1"/>
     <inventory encumbrance="10.0" price="650.0" />
 
